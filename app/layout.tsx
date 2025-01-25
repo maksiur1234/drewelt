@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="pl">
       <head />
       <body
         className={clsx(
@@ -54,8 +54,8 @@ export default function RootLayout({
                 href="https://heroui.com?utm_source=next-app-template"
                 title="heroui.com homepage"
               >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">HeroUI</p>
+                <span className="text-default-600">Wszystkie prawa zastrzeżone</span>
+                <p className="text-primary">Maksymilian Robak</p>
               </Link>
             </footer>
           </div>

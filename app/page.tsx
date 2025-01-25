@@ -7,13 +7,15 @@ import {Card, CardHeader, CardBody, CardFooter} from "@heroui/card";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import HomePage from "./glowna/HomePage";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-xl text-center justify-center">
+    <div>
+    <section className="flex flex-col items-center justify-center gap-4 py-8 ">
+      <div className="inline-block text-center justify-center">
         <span className={title()}>Dobierz&nbsp;</span>
-        <span className={title({ color: "violet" })}>najlepsze&nbsp;</span>
+        <span className={title({ color: "green" })}>najlepsze&nbsp;</span>
         <br />
         <span className={title()}>
           zadaszenia oraz tarasy
@@ -22,6 +24,12 @@ export default function Home() {
           Nowczosene, piękne oraz solidne konstrukcje
         </div>
       </div>
+      <div className="flex gap-3">
+        <HomePage />
+      </div>
+      
     </section>
+    
+   </div>
   );
 }

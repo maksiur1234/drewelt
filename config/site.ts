@@ -22,7 +22,7 @@ export const siteConfig = {
     },
     {
       label: "O nas",
-      href: "/o-nas",
+      href: "/oNas",
     }
   ],
   links: {

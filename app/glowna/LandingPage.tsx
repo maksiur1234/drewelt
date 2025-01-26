@@ -1,25 +1,33 @@
 import React from "react";
 import { Button } from "@heroui/button";
+import {Card, CardHeader, CardBody, CardFooter} from "@heroui/card";
+import { Image } from "@heroui/image";
 
 const LandingPageImage = () => {
   return (
-    <div className="relative w-full h-[60vh] overflow-hidden">
-      <img
-        src="https://stimeo-domki.pl/themes/default-bootstrap/dynamite/LP/zadaszenia-tarasow-1.JPEG"
-        alt="Zadaszenie strona główna"
-        className="w-full h-full object-cover"
-      />
-
-      <div className="absolute inset-0 flex flex-col justify-center items-end bg-black bg-opacity-50 p-4 pr-20">
-        <h2 className="text-lg font-bold mb-4 pr-36 text-green-800">najlepiej dobrane</h2>
-        <p className="text-2xl mb-6 pr-20 text-green-800">Zadaszenia i tarasy</p>
-        <div className="pr-44">
-          <Button color="warning" variant="ghost">
-            Zobacz ofertę
-          </Button>
-        </div>
+    <div className="">
+    <Card isFooterBlurred className="border-none" radius="lg">
+            <Image
+              alt="Woman listing to music"
+              className="object-cover"
+              height={600}
+              src="https://stimeo-domki.pl/themes/default-bootstrap/dynamite/LP/zadaszenia-tarasow-1.JPEG"
+              width={1920}
+            />
+            <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+              <p className="text-tiny text-white/80">Najelpsze tarasy i zadaszenia</p>
+              <Button
+                className="text-tiny text-white bg-black/20"
+                color="default"
+                radius="lg"
+                size="sm"
+                variant="flat"
+              >
+                Zobacz więcej
+              </Button>
+            </CardFooter>
+          </Card>
       </div>
-    </div>
   );
 };
 

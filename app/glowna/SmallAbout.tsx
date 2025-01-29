@@ -1,4 +1,5 @@
 import { Button } from "@heroui/button"
+import { Link } from "@heroui/link";
 
 const SmallAbout = () => {
     return (
@@ -7,7 +8,7 @@ const SmallAbout = () => {
                 <p className="text-xl font-bold mb-4">O nas</p>
                 <p className="text-gray-700 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil. Quod debitis eaque soluta repellat expedita quaerat iusto repudiandae quia cumque, autem, harum fuga maiores animi dolores molestiae. Repellat, quae.</p>
 
-                <Button color="success" className="px-6 py-2">Zobacz więcej</Button>
+                <Button color="success" className="px-6 py-2" as={Link} href="/oNas">Zobacz więcej</Button>
             </div>
             <div className="w-1/2 flex justify-end">
                 <img 

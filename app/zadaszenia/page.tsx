@@ -8,31 +8,29 @@ import { useEffect, useRef, useState } from "react";
 
 export default function RoofPage() {
   const cities = [
-    { name: "Poznań", description: "Poznań to jedno z najstarszych miast Polski, znane z pięknej starówki i Targów Poznańskich." },
-    { name: "Leszno", description: "Leszno to miasto sportu, znane z zawodów żużlowych i pięknych terenów rekreacyjnych." },
-    { name: "Lubin", description: "Lubin to serce polskiego przemysłu miedziowego, położone w Dolnym Śląsku." },
-    { name: "Wrocław", description: "Wrocław to jedno z najpiękniejszych miast Polski, pełne mostów i krasnali." },
-    { name: "Konin", description: "Konin to miasto położone nad Wartą, znane z przemysłu i pięknych krajobrazów." },
-    { name: "Gorzów Wielkopolski", description: "Gorzów Wlkp. to miasto nad Wartą z bogatą historią i pięknymi parkami." },
-    { name: "Zielona Góra", description: "Zielona Góra to miasto znane z winnic i corocznego festiwalu wina." }
+    { name: "Poznań", description: "Poznań opis." },
+    { name: "Leszno", description: "Leszno opis." },
+    { name: "Lubin", description: "Lubin opis." },
+    { name: "Wrocław", description: "Wrocławopis." },
+    { name: "Konin", description: "Konin opis." },
+    { name: "Gorzów Wielkopolski", description: "Gorzów Wlkp. opis." },
+    { name: "Zielona Góra", description: "Zielona Góra opis." }
   ]
   
   const [visibleCities, setVisibleCities] = useState<number[]>([])
-  let index = useRef(0)
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
-    function showNextCity() {
-      setVisibleCities(prev => [...prev, index.current])
-      index.current++
+    if (currentIndex < cities.length) {
+      const timer = setTimeout(() => {
+        setVisibleCities(prev => [...prev, currentIndex]);
+        setCurrentIndex(prev => prev + 1);
+      }, 10); 
 
-      if (index.current < cities.length) {
-        setTimeout(showNextCity)
-      }
+      return () => clearTimeout(timer); 
     }
+  }, [currentIndex]);
 
-    showNextCity()
-
-  }, []);
   return (
     <div className="max-w-6xl mx-auto p-6">
       <h1 className="text-3xl font-bold text-gray-800 mb-4 text-center">
@@ -44,20 +42,21 @@ export default function RoofPage() {
         <CardHeader className="text-xl justify-center font-semibold text-gray-800 text-center">
           Działamy na terenie miast
         </CardHeader>
-        
+
         <CardBody className="flex flex-row items-center justify-start gap-4 overflow-x-auto w-full px-4">
-        
           {cities.map((city, index) => (
             <div key={index}>
-              <div className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
+              <div
+                className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
                 style={{
                   opacity: visibleCities.includes(index) ? 1 : 0,
                   transform: visibleCities.includes(index) 
                     ? 'translateY(0)' 
                     : `translateY(${index % 2 === 0 ? '10px' : '-10px'})`,
                   transitionDelay: `${index * 0.3}s`
-                }}>
-                <BlurModal name={city.name} description={city.description} label={city.name}/>
+                }}
+              >
+                <BlurModal name={city.name} description={city.description} label={city.name} />
               </div>
             </div>
           ))}

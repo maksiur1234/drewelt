@@ -10,7 +10,7 @@ export const Logo: React.FC<{ size?: number; width?: number; height?: number }> 
 }) => {
   return (
     <img
-      src="https://d32z7op07v8pur.cloudfront.net/images/5/3/152734553.jpg"
+      src="/logo.png"
       alt="Logo"
       width={width || size}
       height={height || size}

@@ -1,4 +1,5 @@
 import { Button } from "@heroui/button";
+import { Link } from "@heroui/link";
 
 const Realizations = () => {
     return (
@@ -12,7 +13,7 @@ const Realizations = () => {
                 <p className="text-xl font-bold mb-4">Potrzebujesz inspiracji?</p>
                 <p className="text-gray-700 mb-6">Zobacz nasze realizacje kliknij w przycisk, aby przenieść się do galerii naszych prac</p>
 
-                <Button color="success" className="px-6 py-2">Zobacz więcej</Button>
+                <Button color="success" className="px-6 py-2" as={Link} href="/galeria">Zobacz więcej</Button>
             </div>
         </div>
     );

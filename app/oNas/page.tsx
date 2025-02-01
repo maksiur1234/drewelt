@@ -7,7 +7,7 @@ import { Link } from "@heroui/link";
 export default function AboutPage() {
   return (
     <div className="flex flex-col items-start justify-start py-12 px-6 ">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4">Życie toczy się wokół drewna</h2>
+      <h1 className="text-4xl font-bold text-gray-800 text-center mb-6 text-center">Życie toczy się wokół drewna</h1>
       <Divider className="mb-6" />
 
       <div className="flex flex-col md:flex-row items-center gap-6 mb-6">

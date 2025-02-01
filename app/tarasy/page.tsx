@@ -1,21 +1,22 @@
 'use client'
 
-import { Card, CardHeader, CardBody } from "@heroui/card";
-import { Button } from "@heroui/button";
-import { Divider } from "@heroui/divider";
+import { Card, CardHeader, CardBody } from "@heroui/card"
+import { Divider } from "@heroui/divider"
+import DoughnutChart from "@/components/chart"
+import { Image } from "@heroui/image";
 
 export default function RoofPage() {
   const deckingBoards = [
     {
       name: "Deska kompozytowa WPC 3m",
-      description: "Wood plastics composit dwustronnie ryflowana o długości 3 metrów.",
+      description: "Wood plastics composit dwustronnie ryflowana o długościach 3 metrów. Deska do wykonywania tarasów ogrodowych, obudowy basenów, mola, ścieżki piesze.",
       dimensions: "13,5 cm szer. / 25 mm wys. / 3 m dł.",
       price: "32,00 zł/mb",
       image: "https://drewelt.pl/images/galerie/32/taras-deska-1.webp",
     },
     {
       name: "Deska kompozytowa WPC 4m",
-      description: "Wood plastics composit dwustronnie ryflowana o długości 4 metrów.",
+      description: "Wood plastics composit dwustronnie ryflowana o długościach 4 metrów. Deska do wykonywania tarasów ogrodowych, obudowy basenów, mola, ścieżki piesze.",
       dimensions: "13,5 cm szer. / 25 mm wys. / 4 m dł.",
       price: "32,00 zł/mb",
       image: "https://drewelt.pl/images/galerie/35/taras-deska-4.webp",
@@ -32,38 +33,58 @@ export default function RoofPage() {
   const accessories = [
     {
       name: "Klips plastikowy + wkręt ze stali nierdzewnej",
-      description: "Klipsy plastikowe wraz z wkrętem ze stali nierdzewnej do mocowania desek.",
+      description: "Klipsy plastikowe wraz z wkrętem ze stali nierdzewnej do wykonywania połączeń desek. Połączenie nie ingerujące w deskę (nie trzeba wiercić), co oznacza, że można po pewnym czasie odwrócić deskę na inne ryflowanie.",
       price: "1,50 zł/szt",
       image: "https://drewelt.pl/images/design/klips.webp",
     },
     {
       name: "Listwa kątowa",
-      description: "Montowana na obrzeżu tarasu lub schodach.",
+      description: "Listwa kątowa montowana na obrzeżu tarasu lub wykończeń schodów.",
       dimensions: "53 mm wys. / 41 mm gr. / 3 m dł.",
       price: "13,30 zł/mb",
       image: "https://drewelt.pl/images/design/listwa.webp",
     },
     {
       name: "Deska cokołowa",
-      description: "Deska cokołowa montowana obwodowo na widocznej części tarasu.",
+      description: "Deska cokołowa montowana obwodowo na widocznej części tarasu. W pełni zakrywa legar i deskę.",
       dimensions: "60 mm wys. / 12 mm gr. / 3 m dł.",
       price: "13,30 zł/mb",
       image: "https://drewelt.pl/images/design/cokol.webp",
     },
     {
       name: "Zaślepka plastikowa",
-      description: "Służy do zaślepienia widocznych końców deski.",
+      description: "Zaślepka plastikowa służy do zaślepienia widocznych końców deski jako alternatywa dla listwy cokołowej.",
       price: "2,00 zł",
       image: "https://drewelt.pl/images/design/zaslepka.webp",
     },
   ];
 
   const deckColors = [
-    { name: "Szary", color: "#A0A0A0" },
-    { name: "Ciemny Szary", color: "#666666" },
-    { name: "Jasny Brąz", color: "#C19A6B" },
-    { name: "Średni Brąz", color: "#8B5A2B" },
-    { name: "Ciemny Brąz", color: "#5D3A1A" },
+    {
+      name: "Ciemny szary",
+      color: "#7a7b78",
+      image: "https://drewelt.pl/images/galerie/31/ciemny-szary.webp",
+    },
+    {
+      name: "Grafit",
+      color: "#41424C",
+      image: "https://drewelt.pl/images/galerie/31/grafit.webp",
+    },
+    {
+      name: "Jasny Brąz",
+      color: "#C19A6B",
+      image: "https://drewelt.pl/images/galerie/31/jasny-brz.webp",
+    },
+    {
+      name: "Średni Brąz",
+      color: "#948379",
+      image: "https://drewelt.pl/images/galerie/31/redni-brz.webp",
+    },
+    {
+      name: "Ciemny Brąz",
+      color: "#676055",
+      image: "https://drewelt.pl/images/galerie/31/ciemny-brz.webp",
+    },
   ];
 
   return (
@@ -90,19 +111,29 @@ export default function RoofPage() {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-6">Dostępne kolory desek</h2>
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-6">
           {deckColors.map((color, index) => (
             <div key={index} className="flex flex-col items-center">
               <div
                 className="w-16 h-16 rounded-lg shadow-lg"
                 style={{ backgroundColor: color.color }}
               ></div>
+
               <p className="text-gray-700 mt-2 font-medium">{color.name}</p>
+
+              <Image
+                src={color.image}
+                alt={`Deska kompozytowa ${color.name}`}
+                className="w-48 h-32 object-cover rounded-lg shadow-lg mt-2"
+              />
             </div>
           ))}
         </div>
       </section>
 
+
+      <DoughnutChart />
+      
       <Divider className="my-8" />
 
       <section>
@@ -158,6 +189,7 @@ export default function RoofPage() {
       </section>
 
       <Divider className="my-8" />
+
     </div>
   );
 }

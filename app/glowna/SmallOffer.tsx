@@ -4,7 +4,7 @@ import { Image } from "@heroui/image";
 
 const SmallOffer = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50 mt-12">
+    <div className="flex items-center justify-center min-h-screen mt-12">
       <div className="w-full gap-6 grid grid-cols-12 grid-rows-2 px-6">
         <Card isFooterBlurred className="w-full h-[400px] col-span-12 md:col-span-7">
           <CardHeader className="absolute z-10 top-1 flex-col items-start">

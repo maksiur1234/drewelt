@@ -38,7 +38,7 @@ export default function RoofPage() {
         
       </h1>
       <Divider className="mb-6" />
-      <Card className="mb-12 flex flex-col items-center p-6 shadow-lg bg-gray-50 w-full">
+      <Card className="mb-12 flex flex-col items-center p-6 shadow-lg  w-full">
         <CardHeader className="text-xl justify-center font-semibold text-gray-800 text-center">
           Działamy na terenie miast
         </CardHeader>

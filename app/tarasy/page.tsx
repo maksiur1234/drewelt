@@ -73,7 +73,7 @@ export default function RoofPage() {
       </h1>
       <Divider className="mb-8" />
 
-      <section className="bg-gray-50 p-6 rounded-lg shadow-lg">
+      <section className="p-6 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Oferujemy deski kompozytowe</h2>
         <p className="text-gray-700">
           Robimy wycenę, do której potrzebujemy zdjęcia danego miejsca. Na życzenie wykonujemy także obudowy basenów lub ścieżek.  
@@ -108,12 +108,12 @@ export default function RoofPage() {
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Zalety desek kompozytowych</h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <li className="bg-gray-100 p-4 rounded-lg shadow">✅ Odporność na wilgoć, temperaturę i promieniowanie UV</li>
-          <li className="bg-gray-100 p-4 rounded-lg shadow">✅ Długa żywotność i wytrzymałość na obciążenia</li>
-          <li className="bg-gray-100 p-4 rounded-lg shadow">✅ Brak konieczności malowania i impregnacji</li>
-          <li className="bg-gray-100 p-4 rounded-lg shadow">✅ Bezpieczeństwo dzięki odporności na zapalenie</li>
-          <li className="bg-gray-100 p-4 rounded-lg shadow">✅ 100% utylizacja i ekologia</li>
-          <li className="bg-gray-100 p-4 rounded-lg shadow">✅ Brak drzazg i zadarć</li>
+          <li className="p-4 rounded-lg shadow">✅ Odporność na wilgoć, temperaturę i promieniowanie UV</li>
+          <li className="p-4 rounded-lg shadow">✅ Długa żywotność i wytrzymałość na obciążenia</li>
+          <li className="p-4 rounded-lg shadow">✅ Brak konieczności malowania i impregnacji</li>
+          <li className="p-4 rounded-lg shadow">✅ Bezpieczeństwo dzięki odporności na zapalenie</li>
+          <li className="p-4 rounded-lg shadow">✅ 100% utylizacja i ekologia</li>
+          <li className="p-4 rounded-lg shadow">✅ Brak drzazg i zadarć</li>
         </ul>
       </section>
 

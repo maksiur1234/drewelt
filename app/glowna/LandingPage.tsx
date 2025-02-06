@@ -58,7 +58,7 @@ const LandingPageImage = () => {
             <p className="text-xs border border-[#e9a749] text-[#e9a749] px-4 py-0.5 inline-block mb-2 w-full">
               Sztuka drewna
             </p>
-            <p className="text-xl font-bold text-white mb-4">
+            <p className="text-xl font-bold text-black mb-4">
               Najlepsze tarasy i zadaszenia
             </p>
             <Button

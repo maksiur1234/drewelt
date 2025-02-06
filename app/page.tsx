@@ -11,8 +11,8 @@ import HomePage from "./glowna/HomePage";
 
 export default function Home() {
   return (
-    <div>
-    <section className="flex flex-col items-center justify-center gap-4 py-8 ">
+    <div className="bg-[#f8f8f8]">
+    <section className="flex flex-col items-center justify-center gap-4 py-8 bg-[#f8f8f8]">
       <div className="inline-block text-center justify-center">
         <span className={title()}>Dobierz&nbsp;</span>
         <span className={title({ color: "primary" })}>najlepsze&nbsp;</span>

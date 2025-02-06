@@ -1,108 +1,104 @@
-'use client'
+"use client";
 
-import BlurModal from "@/components/modal";
-import { Card, CardBody, CardHeader } from "@heroui/card";
+import { Card } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
-import { useEffect, useRef, useState } from "react";
+import { Link } from "@heroui/link";
 
 export default function RoofPage() {
-  const cities = [
-    { name: "Poznań", description: "Poznań opis." },
-    { name: "Leszno", description: "Leszno opis." },
-    { name: "Lubin", description: "Lubin opis." },
-    { name: "Wrocław", description: "Wrocławopis." },
-    { name: "Konin", description: "Konin opis." },
-    { name: "Gorzów Wielkopolski", description: "Gorzów Wlkp. opis." },
-    { name: "Zielona Góra", description: "Zielona Góra opis." }
-  ]
-  
-  const [visibleCities, setVisibleCities] = useState<number[]>([])
-  const [currentIndex, setCurrentIndex] = useState(0)
-
-  useEffect(() => {
-    if (currentIndex < cities.length) {
-      const timer = setTimeout(() => {
-        setVisibleCities(prev => [...prev, currentIndex]);
-        setCurrentIndex(prev => prev + 1);
-      }, 10); 
-
-      return () => clearTimeout(timer); 
-    }
-  }, [currentIndex]);
-
   return (
-    <div className="max-w-6xl mx-auto p-6">
+    <div className="max-w-7xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold text-gray-800 text-center mb-6">
-        Zadaszenia altan, garaży i tarasów
-        
+        Nowoczesne zadaszenia
       </h1>
-      <Divider className="mb-6" />
-      <Card className="mb-12 flex flex-col items-center p-6 shadow-lg  w-full">
-        <CardHeader className="text-xl justify-center font-semibold text-gray-800 text-center">
-          Działamy na terenie miast
-        </CardHeader>
-
-        <CardBody className="flex flex-row items-center justify-start gap-4 overflow-x-auto w-full px-4">
-          {cities.map((city, index) => (
-            <div key={index}>
-              <div
-                className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
-                style={{
-                  opacity: visibleCities.includes(index) ? 1 : 0,
-                  transform: visibleCities.includes(index) 
-                    ? 'translateY(0)' 
-                    : `translateY(${index % 2 === 0 ? '10px' : '-10px'})`,
-                  transitionDelay: `${index * 0.3}s`
-                }}
-              >
-                <BlurModal name={city.name} description={city.description} label={city.name} />
-              </div>
-            </div>
-          ))}
-        </CardBody>
-      </Card>
-      <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
-        <div className="md:w-1/2 text-gray-700 text-lg leading-relaxed">
-          <p>
-            Zajmujemy się produkcją drewnianych konstrukcji zadaszeń tarasowych, garażowych oraz altanowych. Wykonujemy je z klejonego warstwowo drewna świerkowego – BSH o wilgotności 12-18%. Jest ono szczególnym rodzajem certyfikowanego drewna konstrukcyjnego, które jest alternatywą dla budowli stalowych i żelbetowych.
+      <Divider className="mb-8" />
+      <section
+        className="relative h-[500px] md:h-[700px] flex items-center justify-center bg-cover bg-center rounded-lg shadow-xl"
+        style={{
+          backgroundImage:
+            "url('https://drewelt.pl/images/design/zadaszenie-gniezno.webp')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+        <div className="relative z-10 text-center text-white px-4">
+          <h1 className="text-3xl md:text-5xl font-bold">
+            Zadaszenia Altan, Garaży i Tarasów
+          </h1>
+          <p className="mt-4 text-lg md:text-xl">
+            Innowacyjne rozwiązania łączące tradycję z nowoczesnością
           </p>
-          <ul className="mt-4 list-disc list-inside">
-            <li>Wytrzymałość i oporność na zmiany temperatury</li>
-            <li>Duża wytrzymałość ogniowa</li>
-            <li>Ekonomiczny zakup, transport i konserwacja</li>
-            <li>Duża estetyka wykonania i stałość wymiarowa</li>
-          </ul>
         </div>
-        <div className="md:w-1/2">
-          <Image
-            src="https://drewelt.pl/images/design/zadaszenie-gniezno.webp"
-            alt="Drewniana konstrukcja zadaszenia"
-            className="rounded-lg shadow-lg w-full"
-          />
-        </div>
-      </div>
+      </section>
 
-      <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-        <div className="md:w-1/2 text-gray-700 text-lg leading-relaxed">
-          <p>
-            Na postawionych profilach drewnianych montujemy poliwęglan komorowy o grubości 10 mm. Można wybrać jego kolor: bezbarwny, mleczny lub dymiony. Poliwęglan komorowy jest tworzywem sztucznym stosowanym do zadaszeń różnych obiektów.
-          </p>
-          <ul className="mt-4 list-disc list-inside">
-            <li>Duża trwałość i twardość</li>
-            <li>Niewielka waga</li>
-            <li>Odpowiednie właściwości termoizolacyjne</li>
-            <li>Ochrona przed UV z jednoczesną przepuszczalnością światła</li>
-          </ul>
-        </div>
-        <div className="md:w-1/2">
+      <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
           <Image
             src="https://drewelt.pl/images/design/zadaszenie-tarasu-wroclaw-6.webp"
-            alt="Poliwęglanowe pokrycie konstrukcji"
-            className="rounded-lg shadow-lg w-full"
+            alt="Poliwęglanowe zadaszenie"
+            className="rounded-lg shadow-xl object-cover w-full"
           />
         </div>
-      </div>
+        <div className="text-gray-700">
+          <h2 className="text-2xl font-bold mb-4">O naszej ofercie</h2>
+          <p className="mb-4 text-lg leading-relaxed">
+            Zajmujemy się produkcją i montażem zadaszeń tarasowych, garażowych
+            oraz altanowych. Wykorzystujemy najwyższej jakości materiały, aby
+            zapewnić trwałość i estetykę każdej konstrukcji.
+          </p>
+          <ul className="list-disc list-inside text-lg">
+            <li>Nowoczesne technologie montażu</li>
+            <li>Wysoka jakość materiałów</li>
+            <li>Indywidualne podejście do klienta</li>
+          </ul>
+        </div>
+      </section>
+
+      <Divider className="my-12" />
+
+      <section className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <Image
+            src="https://via.placeholder.com/150"
+            alt="Jakość"
+            className="mx-auto rounded-lg mb-4"
+          />
+          <h3 className="text-xl font-bold text-gray-800 mb-2">Jakość</h3>
+          <p className="text-gray-600">
+            Najwyższa jakość materiałów gwarantuje trwałość i bezpieczeństwo.
+          </p>
+        </div>
+        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <Image
+            src="https://via.placeholder.com/150"
+            alt="Realizacja"
+            className="mx-auto rounded-lg mb-4"
+          />
+          <h3 className="text-xl font-bold text-gray-800 mb-2">Realizacja</h3>
+          <p className="text-gray-600">
+            Szybkie i profesjonalne wykonanie każdego projektu.
+          </p>
+        </div>
+        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <Image
+            src="https://via.placeholder.com/150"
+            alt="Design"
+            className="mx-auto rounded-lg mb-4"
+          />
+          <h3 className="text-xl font-bold text-gray-800 mb-2">Design</h3>
+          <p className="text-gray-600">
+            Innowacyjny design, który nadaje nowoczesny wygląd Twojemu domowi.
+          </p>
+        </div>
+      </section>
+
+      <section className="mt-12 text-center">
+        <Link
+          href="/kontakt"
+          className="inline-block bg-[#e9a749] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-colors"
+        >
+          Skontaktuj się z nami
+        </Link>
+      </section>
     </div>
   );
 }

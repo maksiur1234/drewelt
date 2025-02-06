@@ -1,17 +1,44 @@
-import { title } from "@/components/primitives";
-import { Card } from "@heroui/card";
+'use client'
+
+import BlurModal from "@/components/modal";
+import { Card, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
+import { useEffect, useState } from "react";
 
 export default function AboutPage() {
+  const cities = [
+    { name: "Poznań", description: "Poznań opis." },
+    { name: "Leszno", description: "Leszno opis." },
+    { name: "Lubin", description: "Lubin opis." },
+    { name: "Wrocław", description: "Wrocławopis." },
+    { name: "Konin", description: "Konin opis." },
+    { name: "Gorzów Wielkopolski", description: "Gorzów Wlkp. opis." },
+    { name: "Zielona Góra", description: "Zielona Góra opis." }
+  ]
+  
+  const [visibleCities, setVisibleCities] = useState<number[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  useEffect(() => {
+    if (currentIndex < cities.length) {
+      const timer = setTimeout(() => {
+        setVisibleCities(prev => [...prev, currentIndex]);
+        setCurrentIndex(prev => prev + 1);
+      }, 10); 
+
+      return () => clearTimeout(timer); 
+    }
+  }, [currentIndex]);
+
   return (
     <div className="container mx-auto px-6 py-12">
       <header className="mb-12 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+        <h1 className="text-4xl font-bold text-gray-800 text-center mb-6">
           Życie toczy się wokół drewna
         </h1>
-        <Divider className="mx-auto w-24" />
+        <Divider className="mb-8" />
       </header>
 
       <section className="flex flex-col md:flex-row items-center gap-8 mb-12">
@@ -46,8 +73,26 @@ export default function AboutPage() {
       <section className="mb-12">
         <Card className="p-6 shadow-2xl rounded-lg">
           <p className="text-gray-600 text-lg mb-4">
-            Od wielu lat realizujemy zlecenia z zakresu produkcji konstrukcji oraz pokryć dachowych. Wykorzystujemy sprawdzone materiały, na które udzielamy 2-letniej gwarancji. Nasza siedziba mieści się w Murowanej Goślinie, zaledwie 15 km od Poznania, co pozwala nam szybko reagować na potrzeby klientów.
+            Od wielu lat realizujemy zlecenia z zakresu produkcji konstrukcji oraz pokryć dachowych. Wykorzystujemy sprawdzone materiały, na które udzielamy 2-letniej gwarancji. Nasza siedziba mieści się w Rakowni, zaledwie 15 km od Poznania, co pozwala nam szybko reagować na potrzeby klientów.
           </p>
+          <CardBody className="flex flex-row items-center justify-center space-x-8">
+          {cities.map((city, index) => (
+            <div key={index}>
+              <div
+                className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
+                style={{
+                  opacity: visibleCities.includes(index) ? 1 : 0,
+                  transform: visibleCities.includes(index) 
+                    ? 'translateY(0)' 
+                    : `translateY(${index % 2 === 0 ? '10px' : '-10px'})`,
+                  transitionDelay: `${index * 0.3}s`
+                }}
+              >
+                <BlurModal name={city.name} description={city.description} label={city.name} />
+              </div>
+            </div>
+          ))}
+          </CardBody>
         </Card>
       </section>
 

@@ -10,13 +10,16 @@ const HomePage = () => {
   return (
     <div className="container mx-auto px-4">
         <LandingPageImage />
+        
+        <SmallAbout />
+        
+        <WoodenBoard />
+        
         <SmallOffer />
 
         <Divider className="my-12" />
 
         <Realizations />
-        <SmallAbout />
-        <WoodenBoard />
     </div>
   );
 };

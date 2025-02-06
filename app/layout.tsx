@@ -47,16 +47,20 @@ export default function RootLayout({
             <main className="w-full max-w-none px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://heroui.com?utm_source=next-app-template"
-                title="heroui.com homepage"
-              >
-                <span className="text-default-600">Wszystkie prawa zastrzeżone</span>
-                <p className="text-primary">Maksymilian Robak</p>
-              </Link>
+              <footer className="w-full flex items-center justify-center py-4 bg-[#262420]">
+                <Link
+                  isExternal
+                  href="https://heroui.com?utm_source=next-app-template"
+                  title="heroui.com homepage"
+                  className="flex items-center gap-2"
+                >
+                  <span className="text-sm font-medium text-[#e9a749]">
+                    Wszystkie prawa zastrzeżone
+                  </span>
+                  <span className="text-sm font-bold text-[#e9a749]">
+                    Maksymilian Robak
+                  </span>
+                </Link>
             </footer>
           </div>
         </Providers>

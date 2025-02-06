@@ -1,22 +1,58 @@
+'use client'
+
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
+import { Card } from "@heroui/card";
 
 const WoodenBoard = () => {
-    return (
-        <div className="flex items-center gap-8 mt-12">
-            <img 
-                src="https://faktypilskie.pl/news_foto/2022/0907/157732.jpg"
-                alt="Drewniane deski"
-                className="w-1/2 h-auto object-cover rounded-lg shadow-md"
-            />
-            <div className="w-1/2 flex flex-col justify-center items-center text-center">
-                <p className="text-xl font-bold mb-4">Wybierz kolor desek</p>
-                <p className="text-gray-700 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil. Quod debitis eaque soluta repellat expedita quaerat iusto repudiandae quia cumque, autem, harum fuga maiores animi dolores molestiae. Repellat, quae.</p>
+  return (
+    <div className="flex flex-col items-center px-4 py-8">
+      <h1 className="text-4xl font-bold mb-4">Produkty</h1>
+      <h2 className="text-2xl font-semibold mb-2">
+        Jakościowe deski kompozytowe
+      </h2>
+      <p className="text-center text-gray-600 mb-8 max-w-xl">
+        Nasze deski kompozytowe wyróżniają się najwyższą jakością wykonania oraz
+        unikalnym designem, który nadaje charakter każdemu wnętrzu.
+      </p>
 
-                <Button color="success" className="px-6 py-2" as={Link} href="/tarasy">Zobacz więcej</Button>
-            </div>
-        </div>
-    );
+      <div className="flex flex-col md:flex-row gap-12 mb-8">
+        <Card className="w-80 p-4">
+          <img 
+            src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
+            alt="Produkt 1"
+            className="object-cover w-full h-48 rounded-md mb-2"
+          />
+          <p className="text-center font-medium">Projektowanie</p>
+        </Card>
+        <Card className="w-80 p-4">
+          <img 
+            src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
+            alt="Produkt 2"
+            className="object-cover w-full h-48 rounded-md mb-2"
+          />
+          <p className="text-center font-medium">Tarasy</p>
+        </Card>
+        <Card className="w-80 p-4">
+          <img 
+            src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
+            alt="Produkt 3"
+            className="object-cover w-full h-48 rounded-md mb-2"
+          />
+          <p className="text-center font-medium">Zadaszenia</p>
+        </Card>
+      </div>
+
+      <Button
+        as={Link}
+        href="/produkty"
+        color="warning"
+        className="px-8 py-3"
+      >
+        Zobacz produkty
+      </Button>
+    </div>
+  );
 }
 
 export default WoodenBoard;

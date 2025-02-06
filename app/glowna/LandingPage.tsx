@@ -8,7 +8,6 @@ import { FaGem, FaRocket, FaGift, FaUserTie } from "react-icons/fa";
 import { Link } from "@heroui/link";
 import { useWindowWidth } from "../hooks/useWindowWidth";
 
-
 const images = [
   "https://stimeo-domki.pl/themes/default-bootstrap/dynamite/LP/zadaszenia-tarasow-1.JPEG",
   "https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg",
@@ -16,11 +15,16 @@ const images = [
 ];
 
 const LandingPageImage = () => {
+  const [mounted, setMounted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(false);
   const windowWidth = useWindowWidth();
-  const isMobile = windowWidth < 768;
 
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const isMobile = windowWidth < 768;
   const imageHeight = isMobile ? 300 : 600;
 
   useEffect(() => {
@@ -30,17 +34,20 @@ const LandingPageImage = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFade(false);
       }, 1000);
-    }, 4000);
-
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
+
+  if (!mounted) {
+    return <div className="relative w-full mx-auto min-h-[600px]" />;
+  }
 
   if (isMobile) {
     return (
       <div className="w-full mx-auto p-4">
         <Card isFooterBlurred className="border-none" radius="lg">
           <div
-            className="relative w-full overflow-hidden"
+            className="relative w-full overflow-hidden rounded-t-lg"
             style={{ height: `${imageHeight}px` }}
           >
             <Image
@@ -53,8 +60,7 @@ const LandingPageImage = () => {
               width={1920}
             />
           </div>
-
-          <CardBody className="relative p-4 text-center">
+          <CardBody className="p-4 text-center">
             <p className="text-xs border border-[#e9a749] text-[#e9a749] px-4 py-0.5 inline-block mb-2 w-full">
               Sztuka drewna
             </p>
@@ -72,8 +78,7 @@ const LandingPageImage = () => {
               Zobacz więcej
             </Button>
           </CardBody>
-
-          <CardFooter className="bg-[#262420] py-4">
+          <CardFooter className="bg-[#262420] py-4 rounded-b-lg">
             <div className="max-w-6xl mx-auto px-4">
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="flex flex-col items-center">

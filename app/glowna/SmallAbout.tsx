@@ -12,7 +12,7 @@ const SmallAbout = () => {
   });
 
   return (
-    <div className="flex flex-col md:flex-row gap-8 bg-white shadow-lg rounded-lg overflow-hidden mt-12 px-8 py-8">
+    <div className="flex flex-col md:flex-row gap-8 bg-white shadow-lg rounded-lg overflow-hidden mt-16 px-8 py-8">
       <div className="md:w-1/2 flex flex-col items-start space-y-6">
         <Button
           color="warning"

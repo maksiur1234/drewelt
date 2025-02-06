@@ -6,48 +6,69 @@ import { Link } from "@heroui/link";
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col items-start justify-start py-12 px-6 ">
-      <h1 className="text-4xl font-bold text-gray-800 text-center mb-6 text-center">Życie toczy się wokół drewna</h1>
-      <Divider className="mb-6" />
+    <div className="container mx-auto px-6 py-12">
+      <header className="mb-12 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          Życie toczy się wokół drewna
+        </h1>
+        <Divider className="mx-auto w-24" />
+      </header>
 
-      <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
-        <Image
-          src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
-          alt="O nas"
-          className="rounded-lg shadow-md object-cover w-full md:w-1/2 max-h-[900px]"
-        />
-        <p className="text-gray-600 md:w-1/2">
-        Firma Drewelt świadczy usługi produkcyjne i montażowe drewnianych konstrukcji tarasowych oraz wiat już od 2014 roku. Jej właścicielem jest Piotr Wiśniewski. Realizujemy zlecenia na terenie całego kraju, ze szczególnym uwzględnieniem Poznania i województwa wielkopolskiego. Zapewniamy uczciwą i przejrzystą współpracę. Jesteśmy elastyczni, dlatego bez obaw możesz nam powierzyć każdy projekt z zakresu naszej działalności. Posiadamy w sprzedaży bardzo dobrej jakości deski tarasowe kompozytowe w pięciu kolorach wraz z całym osprzętem koniecznym do montażu. Zaufaj doświadczonym specjalistom!
-        </p>
-      </div>
-
-      <div className="mb-12 mt-12">
-        <p className="text-gray-600">
-        Od wielu lat realizujemy zlecenia z zakresu produkcji konstrukcji oraz pokryć dachowych. Wykorzystujemy sprawdzone materiały, na które dajemy 2-letnią gwarancję. Nasza siedziba znajduje się w Murowanej Goślinie w Wielkopolsce, zaledwie 15 km od Poznania.
-        </p>
-      </div>
-
-      <div className="flex flex-col md:flex-row items-center gap-6 mt-12">
-        <div className="flex flex-col md:w-1/2">
-          <p className="text-gray-600">
-            Nasze konstrukcje są impregnowane i dwukrotnie malowane na wybrany kolor.
+      <section className="flex flex-col md:flex-row items-center gap-8 mb-12">
+        <div className="md:w-1/2">
+          <Image
+            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
+            alt="O nas"
+            className="rounded-lg shadow-xl object-cover w-full h-full"
+          />
+        </div>
+        <div className="md:w-1/2 text-gray-600 text-lg">
+          <p className="mb-4">
+            Firma Drewelt świadczy usługi produkcyjne i montażowe drewnianych konstrukcji tarasowych oraz wiat już od 2014 roku. Jej właścicielem jest Piotr Wiśniewski. Realizujemy zlecenia na terenie całego kraju, ze szczególnym uwzględnieniem Poznania i województwa wielkopolskiego.
+          </p>
+          <p className="mb-4">
+            Zapewniamy uczciwą i przejrzystą współpracę. Jesteśmy elastyczni, dlatego bez obaw możesz nam powierzyć każdy projekt z zakresu naszej działalności. W sprzedaży posiadamy również deski tarasowe kompozytowe w pięciu kolorach wraz z całym osprzętem montażowym.
+          </p>
+          <p className="mb-4">
+            Zaufaj doświadczonym specjalistom, którzy łączą nowoczesność z tradycją oraz dbają o detale na każdym etapie realizacji.
           </p>
           <Link
             isExternal
             href="https://drewelt.pl/images/design/warunki-gwarancji-drewelt.pdf"
             underline="always"
-            className="mt-4 text-blue-600 hover:underline justify-center"
+            className="text-blue-600 hover:underline inline-block mt-2"
           >
-            Gwarancja
+            Poznaj warunki gwarancji
           </Link>
         </div>
-        <Image
-          src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
-          alt="O nas"
-          className="rounded-lg shadow-md object-cover w-full md:w-1/2 max-h-[650px] ml-auto"
-        />
-      </div>
+      </section>
 
+      <section className="mb-12">
+        <Card className="p-6 shadow-2xl rounded-lg">
+          <p className="text-gray-600 text-lg mb-4">
+            Od wielu lat realizujemy zlecenia z zakresu produkcji konstrukcji oraz pokryć dachowych. Wykorzystujemy sprawdzone materiały, na które udzielamy 2-letniej gwarancji. Nasza siedziba mieści się w Murowanej Goślinie, zaledwie 15 km od Poznania, co pozwala nam szybko reagować na potrzeby klientów.
+          </p>
+        </Card>
+      </section>
+
+      <section className="flex flex-col md:flex-row items-center gap-8">
+        <div className="md:w-1/2 text-gray-600 text-lg">
+          <p className="mb-4">
+            Nasze konstrukcje są impregnowane i dwukrotnie malowane na wybrany kolor, co gwarantuje ich trwałość oraz estetykę. Każdy projekt traktujemy indywidualnie, dbając o unikalny design i funkcjonalność.
+          </p>
+          <p className="mb-4">
+            Naszym celem jest tworzenie przestrzeni, które łączą nowoczesność z tradycyjnym rzemiosłem, dzięki czemu Twoje wnętrze nabiera wyjątkowego charakteru.
+          </p>
+        </div>
+        <div className="md:w-1/2">
+          <Image
+            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
+            alt="Nasze realizacje"
+            className="rounded-lg shadow-xl object-cover w-full"
+            style={{ maxHeight: "650px" }}
+          />
+        </div>
+      </section>
     </div>
   );
 }

@@ -6,6 +6,7 @@ import { Card, CardBody, CardFooter } from "@heroui/card";
 import { Image } from "@heroui/image";
 import { FaGem, FaRocket, FaGift, FaUserTie } from "react-icons/fa";
 import { Link } from "@heroui/link";
+
 import { useWindowWidth } from "../hooks/useWindowWidth";
 
 const images = [
@@ -35,6 +36,7 @@ const LandingPageImage = () => {
         setFade(false);
       }, 1000);
     }, 5000);
+
     return () => clearInterval(interval);
   }, []);
 
@@ -68,12 +70,12 @@ const LandingPageImage = () => {
               Najlepsze tarasy i zadaszenia
             </p>
             <Button
+              as={Link}
               className="text-base px-4 py-2 w-full"
               color="warning"
+              href="/tarasy"
               radius="lg"
               size="sm"
-              as={Link}
-              href="/tarasy"
             >
               Zobacz więcej
             </Button>
@@ -147,12 +149,12 @@ const LandingPageImage = () => {
             Najlepsze tarasy i zadaszenia
           </p>
           <Button
+            as={Link}
             className="text-base px-4 py-2 w-1/6"
             color="warning"
+            href="/tarasy"
             radius="lg"
             size="sm"
-            as={Link}
-            href="/tarasy"
           >
             Zobacz więcej
           </Button>

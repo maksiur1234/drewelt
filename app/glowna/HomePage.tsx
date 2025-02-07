@@ -1,7 +1,8 @@
 import React from "react";
+import { Divider } from "@heroui/divider";
+
 import LandingPageImage from "./LandingPage";
 import SmallOffer from "./SmallOffer";
-import { Divider } from "@heroui/divider";
 import WoodenBoard from "./WoodenBoard";
 import SmallAbout from "./SmallAbout";
 import Realizations from "./Realizations";

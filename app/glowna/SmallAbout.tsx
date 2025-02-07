@@ -15,10 +15,10 @@ const SmallAbout = () => {
     <div className="flex flex-col md:flex-row gap-8 bg-white shadow-lg rounded-lg overflow-hidden mt-16 px-8 py-8">
       <div className="md:w-1/2 flex flex-col items-start space-y-6">
         <Button
-          color="warning"
           as={Link}
-          href="/oNas"
           className=""
+          color="warning"
+          href="/oNas"
           variant="ghost"
         >
           O nas
@@ -27,17 +27,17 @@ const SmallAbout = () => {
           Najlepsi w swoim fachu
         </h2>
         <img
-          src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
           alt="Drewniane deski"
           className="w-full h-80 object-cover rounded-lg shadow-md"
+          src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
         />
       </div>
 
       <div className="md:w-1/2 flex flex-col items-end space-y-6">
         <img
-          src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
           alt="Drewniane deski"
           className="w-full h-40 object-cover rounded-lg shadow-md"
+          src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
         />
         <p className="text-lg text-gray-700 text-right">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
@@ -48,13 +48,13 @@ const SmallAbout = () => {
         <div ref={ref} className="w-full flex justify-end gap-8">
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
-              {inView ? <CountUp start={0} end={20} duration={2} /> : 0}
+              {inView ? <CountUp duration={2} end={20} start={0} /> : 0}
             </div>
             <div className="text-sm text-gray-600">lat w branży</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
-              {inView ? <CountUp start={0} end={500} duration={2} /> : 0}
+              {inView ? <CountUp duration={2} end={500} start={0} /> : 0}
             </div>
             <div className="text-sm text-gray-600">wykonanych projektów</div>
           </div>

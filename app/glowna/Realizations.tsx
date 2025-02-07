@@ -6,9 +6,9 @@ const Realizations = () => {
   return (
     <div className="flex flex-col md:flex-row items-center gap-8 p-8">
       <img
-        src="https://drewelt.pl/images/galerie/38/11BIOCLIMATIC.webp"
         alt="Nasze realizacje"
         className="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-md"
+        src="https://drewelt.pl/images/galerie/38/11BIOCLIMATIC.webp"
       />
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-center">
         <p className="text-2xl font-bold mb-4">

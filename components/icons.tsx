@@ -9,10 +9,10 @@ export const Logo: React.FC<{
 }> = ({ size = 148, width, height, ...props }) => {
   return (
     <img
-      src="/logo.png"
       alt="Logo"
-      width={width || size}
       height={height || size}
+      src="/logo.png"
+      width={width || size}
       {...props}
     />
   );

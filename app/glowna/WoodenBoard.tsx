@@ -19,31 +19,31 @@ const WoodenBoard = () => {
       <div className="flex flex-col md:flex-row gap-12 mb-8">
         <Card className="w-80 p-4">
           <img
-            src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
             alt="Produkt 1"
             className="object-cover w-full h-48 rounded-md mb-2"
+            src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
           />
           <p className="text-center font-medium">Projektowanie</p>
         </Card>
         <Card className="w-80 p-4">
           <img
-            src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
             alt="Produkt 2"
             className="object-cover w-full h-48 rounded-md mb-2"
+            src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
           />
           <p className="text-center font-medium">Tarasy</p>
         </Card>
         <Card className="w-80 p-4">
           <img
-            src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
             alt="Produkt 3"
             className="object-cover w-full h-48 rounded-md mb-2"
+            src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
           />
           <p className="text-center font-medium">Zadaszenia</p>
         </Card>
       </div>
 
-      <Button as={Link} href="/produkty" color="warning" className="px-8 py-3">
+      <Button as={Link} className="px-8 py-3" color="warning" href="/produkty">
         Zobacz produkty
       </Button>
     </div>

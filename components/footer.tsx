@@ -17,30 +17,30 @@ export const Footer = () => {
               <h2 className="text-lg font-bold mb-2">Nawigacja</h2>
               <ul className="space-y-1">
                 <li>
-                  <Link href="/" className="text-sm hover:underline text-white">
+                  <Link className="text-sm hover:underline text-white" href="/">
                     Strona główna
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/oNas"
                     className="text-sm hover:underline text-white"
+                    href="/oNas"
                   >
                     O nas
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/tarasy"
                     className="text-sm hover:underline text-white"
+                    href="/tarasy"
                   >
                     Usługi
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/kontakt"
                     className="text-sm hover:underline text-white"
+                    href="/kontakt"
                   >
                     Kontakt
                   </Link>
@@ -52,20 +52,20 @@ export const Footer = () => {
               <ul className="space-y-1">
                 <li>
                   <Link
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-sm hover:underline text-white"
+                    href="https://facebook.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     Facebook
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="https://instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-sm hover:underline text-white"
+                    href="https://instagram.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     Instagram
                   </Link>

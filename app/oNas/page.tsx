@@ -1,11 +1,12 @@
 "use client";
 
-import BlurModal from "@/components/modal";
 import { Card, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
 import { useEffect, useState } from "react";
+
+import BlurModal from "@/components/modal";
 
 export default function AboutPage() {
   const cities = [
@@ -44,9 +45,9 @@ export default function AboutPage() {
       <section className="flex flex-col md:flex-row items-center gap-8 mb-12">
         <div className="md:w-1/2">
           <Image
-            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
             alt="O nas"
             className="rounded-lg shadow-xl object-cover w-full h-full"
+            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
           />
         </div>
         <div className="md:w-1/2 text-gray-600 text-lg">
@@ -69,9 +70,9 @@ export default function AboutPage() {
           </p>
           <Link
             isExternal
+            className="text-blue-600 hover:underline inline-block mt-2"
             href="https://drewelt.pl/images/design/warunki-gwarancji-drewelt.pdf"
             underline="always"
-            className="text-blue-600 hover:underline inline-block mt-2"
           >
             Poznaj warunki gwarancji
           </Link>
@@ -101,9 +102,9 @@ export default function AboutPage() {
                   }}
                 >
                   <BlurModal
-                    name={city.name}
                     description={city.description}
                     label={city.name}
+                    name={city.name}
                   />
                 </div>
               </div>
@@ -127,9 +128,9 @@ export default function AboutPage() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
             alt="Nasze realizacje"
             className="rounded-lg shadow-xl object-cover w-full"
+            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
             style={{ maxHeight: "650px" }}
           />
         </div>

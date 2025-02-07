@@ -1,7 +1,6 @@
 "use client";
 
-import { Button } from "@heroui/button";
-import { Card, CardFooter, CardHeader } from "@heroui/card";
+import { Card, CardHeader } from "@heroui/card";
 import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
 
@@ -9,7 +8,7 @@ const SmallOffer = () => {
   return (
     <div className="flex items-center justify-center min-h-screen mt-12">
       <div className="w-full gap-6 grid grid-cols-12 grid-rows-2 px-6">
-        <Link href="/galeria" className="col-span-12 md:col-span-7 block">
+        <Link className="col-span-12 md:col-span-7 block" href="/galeria">
           <Card isFooterBlurred className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col items-start">
               <p className="text-tiny text-white/60 uppercase font-bold">
@@ -29,7 +28,7 @@ const SmallOffer = () => {
           </Card>
         </Link>
 
-        <Link href="/galeria" className="col-span-12 md:col-span-5 block">
+        <Link className="col-span-12 md:col-span-5 block" href="/galeria">
           <Card className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col !items-start">
               <p className="text-tiny text-gray-800 uppercase font-bold">
@@ -49,7 +48,7 @@ const SmallOffer = () => {
           </Card>
         </Link>
 
-        <Link href="/galeria" className="col-span-12 md:col-span-5 block">
+        <Link className="col-span-12 md:col-span-5 block" href="/galeria">
           <Card className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col !items-start">
               <p className="text-tiny text-white/60 uppercase font-bold">
@@ -70,8 +69,8 @@ const SmallOffer = () => {
         </Link>
 
         <Link
-          href="/galeria"
           className="col-span-12 md:col-span-7 row-span-2 block"
+          href="/galeria"
         >
           <Card isFooterBlurred className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col items-start">

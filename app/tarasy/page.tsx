@@ -2,8 +2,9 @@
 
 import { Card, CardHeader, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
-import DoughnutChart from "@/components/chart";
 import { Image } from "@heroui/image";
+
+import DoughnutChart from "@/components/chart";
 
 export default function RoofPage() {
   const deckingBoards = [
@@ -129,14 +130,14 @@ export default function RoofPage() {
               <div
                 className="w-16 h-16 rounded-lg shadow-lg"
                 style={{ backgroundColor: color.color }}
-              ></div>
+              />
 
               <p className="text-gray-700 mt-2 font-medium">{color.name}</p>
 
               <Image
-                src={color.image}
                 alt={`Deska kompozytowa ${color.name}`}
                 className="w-48 h-32 object-cover rounded-lg shadow-lg mt-2"
+                src={color.image}
               />
             </div>
           ))}
@@ -181,9 +182,9 @@ export default function RoofPage() {
           {deckingBoards.map((product, index) => (
             <Card key={index} className="shadow-lg">
               <img
-                src={product.image}
                 alt={product.name}
                 className="w-full h-40 object-cover rounded-t-lg"
+                src={product.image}
               />
               <CardHeader className="text-lg font-semibold text-gray-800">
                 {product.name}
@@ -214,9 +215,9 @@ export default function RoofPage() {
           {accessories.map((product, index) => (
             <Card key={index} className="shadow-lg">
               <img
-                src={product.image}
                 alt={product.name}
                 className="w-full h-40 object-cover rounded-t-lg"
+                src={product.image}
               />
               <CardHeader className="text-lg font-semibold text-gray-800">
                 {product.name}

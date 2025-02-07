@@ -11,6 +11,7 @@ import {
 } from "@heroui/modal";
 import { Button } from "@heroui/button";
 import { Divider } from "@heroui/divider";
+import { Image } from "@heroui/image";
 
 export default function GaleriaPage() {
   const gallerySections = [
@@ -91,6 +92,7 @@ export default function GaleriaPage() {
     };
 
     window.addEventListener("keydown", handleKeyDown);
+
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isOpen, currentImage]);
 
@@ -113,10 +115,10 @@ export default function GaleriaPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {section.images.slice(0, 5).map((image, index) => (
               <div key={index} className="cursor-pointer">
-                <img
-                  src={image}
+                <Image
                   alt={section.title}
                   className="w-full h-40 object-cover rounded-lg shadow-lg transition-transform transform hover:scale-105"
+                  src={image}
                   onClick={() =>
                     openGallery(section.images, index, section.title)
                   }
@@ -127,8 +129,8 @@ export default function GaleriaPage() {
 
           <div className="text-center mt-4">
             <Button
-              onPress={() => openGallery(section.images, 0, section.title)}
               color="success"
+              onPress={() => openGallery(section.images, 0, section.title)}
             >
               Zobacz więcej
             </Button>
@@ -136,7 +138,7 @@ export default function GaleriaPage() {
         </section>
       ))}
 
-      <Modal isOpen={isOpen} onClose={onClose} size="full">
+      <Modal isOpen={isOpen} size="full" onClose={onClose}>
         <ModalContent>
           {() => (
             <>
@@ -145,29 +147,29 @@ export default function GaleriaPage() {
               </ModalHeader>
 
               <ModalBody className="flex items-center justify-center relative">
-                <button
-                  onClick={prevImage}
+                <Button
                   className="absolute left-4 md:left-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"
+                  onClick={prevImage}
                 >
                   ←
-                </button>
+                </Button>
 
-                <img
-                  src={selectedImages[currentImage]}
+                <Image
                   alt="Galeria"
                   className="max-w-3xl w-full rounded-lg shadow-lg"
+                  src={selectedImages[currentImage]}
                 />
 
-                <button
-                  onClick={nextImage}
+                <Button
                   className="absolute right-4 md:right-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"
+                  onClick={nextImage}
                 >
                   →
-                </button>
+                </Button>
               </ModalBody>
 
               <ModalFooter className="flex justify-center">
-                <Button onPress={onClose} color="danger">
+                <Button color="danger" onPress={onClose}>
                   Zamknij
                 </Button>
               </ModalFooter>

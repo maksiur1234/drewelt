@@ -1,6 +1,5 @@
 "use client";
 
-import { Card } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
@@ -19,7 +18,7 @@ export default function RoofPage() {
             "url('https://drewelt.pl/images/design/zadaszenie-gniezno.webp')",
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+        <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-3xl md:text-5xl font-bold">
             Zadaszenia Altan, Garaży i Tarasów
@@ -33,9 +32,9 @@ export default function RoofPage() {
       <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <Image
-            src="https://drewelt.pl/images/design/zadaszenie-tarasu-wroclaw-6.webp"
             alt="Poliwęglanowe zadaszenie"
             className="rounded-lg shadow-xl object-cover w-full"
+            src="https://drewelt.pl/images/design/zadaszenie-tarasu-wroclaw-6.webp"
           />
         </div>
         <div className="text-gray-700">
@@ -58,9 +57,9 @@ export default function RoofPage() {
       <section className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white rounded-lg shadow-lg p-6 text-center">
           <Image
-            src="https://via.placeholder.com/150"
             alt="Jakość"
             className="mx-auto rounded-lg mb-4"
+            src="https://via.placeholder.com/150"
           />
           <h3 className="text-xl font-bold text-gray-800 mb-2">Jakość</h3>
           <p className="text-gray-600">
@@ -69,9 +68,9 @@ export default function RoofPage() {
         </div>
         <div className="bg-white rounded-lg shadow-lg p-6 text-center">
           <Image
-            src="https://via.placeholder.com/150"
             alt="Realizacja"
             className="mx-auto rounded-lg mb-4"
+            src="https://via.placeholder.com/150"
           />
           <h3 className="text-xl font-bold text-gray-800 mb-2">Realizacja</h3>
           <p className="text-gray-600">
@@ -80,9 +79,9 @@ export default function RoofPage() {
         </div>
         <div className="bg-white rounded-lg shadow-lg p-6 text-center">
           <Image
-            src="https://via.placeholder.com/150"
             alt="Design"
             className="mx-auto rounded-lg mb-4"
+            src="https://via.placeholder.com/150"
           />
           <h3 className="text-xl font-bold text-gray-800 mb-2">Design</h3>
           <p className="text-gray-600">
@@ -93,8 +92,8 @@ export default function RoofPage() {
 
       <section className="mt-12 text-center">
         <Link
-          href="/kontakt"
           className="inline-block bg-[#e9a749] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-colors"
+          href="/kontakt"
         >
           Skontaktuj się z nami
         </Link>

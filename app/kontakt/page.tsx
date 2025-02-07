@@ -71,19 +71,19 @@ export default function ContactPage() {
               />
 
               <Textarea
+                disableAnimation
+                disableAutosize
                 isRequired
+                classNames={{
+                  base: "max-w-full",
+                  input: "resize-y min-h-[40px]",
+                }}
                 errorMessage="Podaj treść wiadomości"
                 label="Wiadomość"
                 labelPlacement="outside"
                 name="message"
                 placeholder="Treść wiadomości"
                 type="text"
-                disableAnimation
-                disableAutosize
-                classNames={{
-                  base: "max-w-full",
-                  input: "resize-y min-h-[40px]",
-                }}
               />
 
               <Input
@@ -118,14 +118,14 @@ export default function ContactPage() {
           <p className="text-gray-600">Ul. Długa 7, 62-095 Murowana Goślina</p>
         </div>
 
-        <div className="h-10 border-l mx-6"></div>
+        <div className="h-10 border-l mx-6" />
 
         <div className="flex-1">
           <p className="font-semibold">Telefon</p>
           <p className="text-gray-600">+48 123 456 789</p>
         </div>
 
-        <div className="h-10 border-l mx-6"></div>
+        <div className="h-10 border-l mx-6" />
 
         <div className="flex-1">
           <p className="font-semibold">Email</p>

@@ -23,7 +23,7 @@ export const siteConfig = {
     {
       label: "O nas",
       href: "/oNas",
-    }
+    },
   ],
   links: {
     twitter: "https://twitter.com/hero_ui",

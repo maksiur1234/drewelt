@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Link } from "@heroui/link";
 
@@ -22,17 +22,26 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/oNas" className="text-sm hover:underline text-white">
+                  <Link
+                    href="/oNas"
+                    className="text-sm hover:underline text-white"
+                  >
                     O nas
                   </Link>
                 </li>
                 <li>
-                  <Link href="/tarasy" className="text-sm hover:underline text-white">
+                  <Link
+                    href="/tarasy"
+                    className="text-sm hover:underline text-white"
+                  >
                     Usługi
                   </Link>
                 </li>
                 <li>
-                  <Link href="/kontakt" className="text-sm hover:underline text-white">
+                  <Link
+                    href="/kontakt"
+                    className="text-sm hover:underline text-white"
+                  >
                     Kontakt
                   </Link>
                 </li>
@@ -67,7 +76,8 @@ export const Footer = () => {
         </div>
         <hr className="my-6 border-t border-[#e9a749]" />
         <div className="text-center text-xs">
-          © {new Date().getFullYear()} Stworzone przez Maksymilian Robak. Wszystkie prawa zastrzeżone.
+          © {new Date().getFullYear()} Stworzone przez Maksymilian Robak.
+          Wszystkie prawa zastrzeżone.
         </div>
       </div>
     </footer>

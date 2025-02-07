@@ -2,12 +2,11 @@ import * as React from "react";
 
 import { IconSvgProps } from "@/types";
 
-export const Logo: React.FC<{ size?: number; width?: number; height?: number }> = ({
-  size = 148,
-  width,
-  height,
-  ...props
-}) => {
+export const Logo: React.FC<{
+  size?: number;
+  width?: number;
+  height?: number;
+}> = ({ size = 148, width, height, ...props }) => {
   return (
     <img
       src="/logo.png"
@@ -18,7 +17,6 @@ export const Logo: React.FC<{ size?: number; width?: number; height?: number }> 
     />
   );
 };
-
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({
   size = 24,

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Button } from "@heroui/button";
 import { Card, CardFooter, CardHeader } from "@heroui/card";
@@ -69,7 +69,10 @@ const SmallOffer = () => {
           </Card>
         </Link>
 
-        <Link href="/galeria" className="col-span-12 md:col-span-7 row-span-2 block">
+        <Link
+          href="/galeria"
+          className="col-span-12 md:col-span-7 row-span-2 block"
+        >
           <Card isFooterBlurred className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col items-start">
               <p className="text-tiny text-white/60 uppercase font-bold">

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
@@ -32,7 +32,7 @@ const SmallAbout = () => {
           className="w-full h-80 object-cover rounded-lg shadow-md"
         />
       </div>
-      
+
       <div className="md:w-1/2 flex flex-col items-end space-y-6">
         <img
           src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
@@ -40,28 +40,21 @@ const SmallAbout = () => {
           className="w-full h-40 object-cover rounded-lg shadow-md"
         />
         <p className="text-lg text-gray-700 text-right">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil.
-          Quod debitis eaque soluta repellat expedita quaerat iusto repudiandae
-          quia cumque, autem, harum fuga maiores animi dolores molestiae.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+          nihil. Quod debitis eaque soluta repellat expedita quaerat iusto
+          repudiandae quia cumque, autem, harum fuga maiores animi dolores
+          molestiae.
         </p>
         <div ref={ref} className="w-full flex justify-end gap-8">
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
-              {inView ? (
-                <CountUp start={0} end={20} duration={2} />
-              ) : (
-                0
-              )}
+              {inView ? <CountUp start={0} end={20} duration={2} /> : 0}
             </div>
             <div className="text-sm text-gray-600">lat w branży</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
-              {inView ? (
-                <CountUp start={0} end={500} duration={2} />
-              ) : (
-                0
-              )}
+              {inView ? <CountUp start={0} end={500} duration={2} /> : 0}
             </div>
             <div className="text-sm text-gray-600">wykonanych projektów</div>
           </div>

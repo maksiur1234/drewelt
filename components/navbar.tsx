@@ -31,7 +31,7 @@ export const Navbar = () => {
                 className={clsx(
                   "hover:text-[#e9a749] transition-colors duration-200",
                   "text-foreground",
-                  "data-[active=true]:text-[#e9a749] data-[active=true]:font-medium"
+                  "data-[active=true]:text-[#e9a749] data-[active=true]:font-medium",
                 )}
               >
                 {item.label}
@@ -44,8 +44,7 @@ export const Navbar = () => {
       <NavbarContent
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
-      >
-      </NavbarContent>
+      ></NavbarContent>
     </HeroUINavbar>
   );
 };

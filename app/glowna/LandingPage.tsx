@@ -169,7 +169,9 @@ const LandingPageImage = () => {
               </div>
               <div className="flex flex-col items-center">
                 <FaRocket className="w-8 h-8 text-[#e9a749] mb-2" />
-                <div className="text-[#e9a749] font-semibold">SZYBKA REALIZACJA</div>
+                <div className="text-[#e9a749] font-semibold">
+                  SZYBKA REALIZACJA
+                </div>
                 <div className="text-xs text-[#e9a749] mt-1">
                   Ekspresowy montaż
                 </div>
@@ -183,7 +185,9 @@ const LandingPageImage = () => {
               </div>
               <div className="flex flex-col items-center">
                 <FaUserTie className="w-8 h-8 text-[#e9a749] mb-2" />
-                <div className="text-[#e9a749] font-semibold">TOPOWA OBSŁUGA</div>
+                <div className="text-[#e9a749] font-semibold">
+                  TOPOWA OBSŁUGA
+                </div>
                 <div className="text-xs text-[#e9a749] mt-1">
                   Profesjonalne podejście
                 </div>

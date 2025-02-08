@@ -4,17 +4,48 @@ import { Button } from "@heroui/button";
 import { Card, CardBody } from "@heroui/card";
 import { Form } from "@heroui/form";
 import { Input, Textarea } from "@heroui/input";
-import React from "react";
+import React, { useState } from "react";
+import { sendContactForm } from "../lib/api";
 
 export default function ContactPage() {
-  const [action, setAction] = React.useState<string | null>(null);
+  const [action, setAction] = useState<string | null>(null);
+
+  const initValues = {
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  };
+  const initState = { values: initValues };
+
+  const [state, setState] = useState(initState);
+  const { values } = state;
+
+  const handleChange = ({
+    target,
+  }: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setState((prev) => ({
+      ...prev,
+      values: {
+        ...prev.values,
+        [target.name]: target.value,
+      },
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    setAction("✅ Formularz wysłano poprawnie!");
+    await sendContactForm(values);
+  };
 
   return (
     <div className="flex flex-col items-start space-y-6 p-6">
       <div className="flex w-full justify-between">
         <div className="pr-12">
-          <p className="text-xl font-bold">Skontaktuj się z nami, </p>pomożemy
-          Ci dobrać najlepszą opcję!
+          <p className="text-xl font-bold">Skontaktuj się z nami, </p>
+          pomożemy Ci dobrać najlepszą opcję!
         </div>
         <div className="max-w-lg text-gray-700">
           <span>
@@ -23,7 +54,7 @@ export default function ContactPage() {
             naszych produktów, chętnie Ci pomożemy.
           </span>
           <br />
-          <span> Zadzwoń lub napisz!</span>
+          <span>Zadzwoń lub napisz!</span>
         </div>
       </div>
 
@@ -33,21 +64,18 @@ export default function ContactPage() {
             <Form
               validationBehavior="native"
               onReset={() => setAction("✔️ Zresetowano formularz")}
-              onSubmit={(e) => {
-                e.preventDefault();
-                let data = Object.fromEntries(new FormData(e.currentTarget));
-
-                setAction("✅ Formularz wysłano poprawnie!");
-              }}
+              onSubmit={handleSubmit}
             >
               <Input
                 isRequired
                 errorMessage="Podaj imię i nazwisko"
                 label="Imię i nazwisko"
                 labelPlacement="outside"
-                name="username"
+                name="name"
                 placeholder="Imię i nazwisko"
                 type="text"
+                value={values.name}
+                onChange={handleChange}
               />
 
               <Input
@@ -58,6 +86,8 @@ export default function ContactPage() {
                 name="email"
                 placeholder="Email"
                 type="email"
+                value={values.email}
+                onChange={handleChange}
               />
 
               <Input
@@ -68,6 +98,8 @@ export default function ContactPage() {
                 name="phone"
                 placeholder="Numer telefonu"
                 type="text"
+                value={values.phone}
+                onChange={handleChange}
               />
 
               <Textarea
@@ -84,6 +116,8 @@ export default function ContactPage() {
                 name="message"
                 placeholder="Treść wiadomości"
                 type="text"
+                value={values.message}
+                onChange={handleChange}
               />
 
               <Input

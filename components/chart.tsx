@@ -24,6 +24,7 @@ export default function PieChart() {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         position: "bottom" as const,
@@ -32,7 +33,7 @@ export default function PieChart() {
   };
 
   return (
-    <div className="mx-auto w-1/2 p-6">
+    <div className="mx-auto w-full md:w-1/2 p-6" style={{ height: "300px" }}>
       <h2 className="text-center text-xl font-bold mb-4">
         Skład desek kompozytowych
       </h2>

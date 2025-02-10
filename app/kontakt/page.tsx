@@ -35,23 +35,21 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     setAction("✅ Formularz wysłano poprawnie!");
     await sendContactForm(values);
   };
 
   return (
     <div className="flex flex-col items-start space-y-6 p-6">
-      <div className="flex w-full justify-between">
-        <div className="pr-12">
-          <p className="text-xl font-bold">Skontaktuj się z nami, </p>
-          pomożemy Ci dobrać najlepszą opcję!
+      <div className="flex flex-col md:flex-row w-full justify-between">
+        <div className="pr-0 md:pr-12 mb-4 md:mb-0">
+          <p className="text-xl font-bold">Skontaktuj się z nami,</p>
+          <p>pomożemy Ci dobrać najlepszą opcję!</p>
         </div>
         <div className="max-w-lg text-gray-700">
           <span>
-            Cześć, jesteśmy tu, żeby pomóc Tobie w doborze najlepszego tarasu
-            lub zadaszenia. Jeśli masz jakieś pytania lub wątpliwości dotyczące
-            naszych produktów, chętnie Ci pomożemy.
+            Cześć, jesteśmy tu, żeby pomóc Tobie w doborze najlepszego tarasu lub zadaszenia.
+            Jeśli masz jakieś pytania lub wątpliwości dotyczące naszych produktów, chętnie Ci pomożemy.
           </span>
           <br />
           <span>Zadzwoń lub napisz!</span>
@@ -128,7 +126,7 @@ export default function ContactPage() {
                 type="file"
               />
 
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-4">
                 <Button color="success" type="submit">
                   Wyślij
                 </Button>
@@ -137,7 +135,7 @@ export default function ContactPage() {
                 </Button>
               </div>
               {action && (
-                <div className="text-small text-default-500">
+                <div className="text-small text-default-500 mt-4">
                   <code>{action}</code>
                 </div>
               )}
@@ -146,20 +144,20 @@ export default function ContactPage() {
         </Card>
       </div>
 
-      <div className="flex w-full justify-between items-center border-t pt-4 text-center">
-        <div className="flex-1">
+      <div className="flex flex-col md:flex-row w-full justify-between items-center border-t pt-4 text-center">
+        <div className="flex-1 mb-4 md:mb-0">
           <p className="font-semibold">Siedziba</p>
           <p className="text-gray-600">Ul. Długa 7, 62-095 Murowana Goślina</p>
         </div>
 
-        <div className="h-10 border-l mx-6" />
+        <div className="h-0.5 md:h-10 bg-gray-300 md:bg-transparent md:border-l mx-0 md:mx-6 mb-4 md:mb-0" />
 
-        <div className="flex-1">
+        <div className="flex-1 mb-4 md:mb-0">
           <p className="font-semibold">Telefon</p>
           <p className="text-gray-600">+48 123 456 789</p>
         </div>
 
-        <div className="h-10 border-l mx-6" />
+        <div className="h-0.5 md:h-10 bg-gray-300 md:bg-transparent md:border-l mx-0 md:mx-6 mb-4 md:mb-0" />
 
         <div className="flex-1">
           <p className="font-semibold">Email</p>

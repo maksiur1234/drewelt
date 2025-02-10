@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import {
@@ -19,7 +19,7 @@ export const Navbar = () => {
 
   return (
     <HeroUINavbar
-      className="bg-white dark:bg-[#262420] shadow-md transition-colors duration-300 relative"
+      className="bg-white dark:bg-[#262420] shadow-md transition-colors duration-300 sticky top-0 z-50"
       maxWidth="xl"
       position="sticky"
     >
@@ -66,7 +66,6 @@ export const Navbar = () => {
             {siteConfig.navItems.map((item) => (
               <li key={item.href}>
                 <NextLink
-                  // Po kliknięciu zamykamy mobilne menu
                   onClick={() => setMobileMenuOpen(false)}
                   className="block hover:text-[#e9a749] transition-colors duration-200 text-foreground"
                   href={item.href}

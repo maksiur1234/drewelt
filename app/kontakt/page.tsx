@@ -48,8 +48,9 @@ export default function ContactPage() {
         </div>
         <div className="max-w-lg text-gray-700">
           <span>
-            Cześć, jesteśmy tu, żeby pomóc Tobie w doborze najlepszego tarasu lub zadaszenia.
-            Jeśli masz jakieś pytania lub wątpliwości dotyczące naszych produktów, chętnie Ci pomożemy.
+            Cześć, jesteśmy tu, żeby pomóc Tobie w doborze najlepszego tarasu
+            lub zadaszenia. Jeśli masz jakieś pytania lub wątpliwości dotyczące
+            naszych produktów, chętnie Ci pomożemy.
           </span>
           <br />
           <span>Zadzwoń lub napisz!</span>

@@ -107,8 +107,8 @@ export default function RoofPage() {
           Oferujemy deski kompozytowe
         </h2>
         <p className="text-gray-700 text-sm sm:text-base">
-          Robimy wycenę, do której potrzebujemy zdjęcia danego miejsca. Na życzenie
-          wykonujemy także obudowy basenów lub ścieżek.{" "}
+          Robimy wycenę, do której potrzebujemy zdjęcia danego miejsca. Na
+          życzenie wykonujemy także obudowy basenów lub ścieżek.{" "}
           <strong>Do przygotowania projektu i kosztorysu</strong> potrzebujemy:
         </p>
         <ul className="list-disc list-inside mt-3 text-gray-700 text-sm sm:text-base">
@@ -180,69 +180,69 @@ export default function RoofPage() {
 
       <Divider className="my-6" />
 
-<section>
-  <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-    Deski kompozytowe WPC
-  </h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {deckingBoards.map((product, index) => (
-      <Card key={index} className="shadow-lg">
-        <img
-          alt={product.name}
-          className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
-          src={product.image}
-        />
-        <CardHeader className="text-lg font-semibold text-gray-800 p-3">
-          {product.name}
-        </CardHeader>
-        <CardBody className="p-3">
-          <p className="text-gray-700 text-sm">{product.description}</p>
-          {product.dimensions && (
-            <p className="text-xs text-gray-500 mt-1">
-              📏 {product.dimensions}
-            </p>
-          )}
-          <p className="text-lg font-semibold text-gray-800 mt-2">
-            💰 {product.price}
-          </p>
-        </CardBody>
-      </Card>
-    ))}
-  </div>
-</section>
+      <section>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          Deski kompozytowe WPC
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {deckingBoards.map((product, index) => (
+            <Card key={index} className="shadow-lg">
+              <img
+                alt={product.name}
+                className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
+                src={product.image}
+              />
+              <CardHeader className="text-lg font-semibold text-gray-800 p-3">
+                {product.name}
+              </CardHeader>
+              <CardBody className="p-3">
+                <p className="text-gray-700 text-sm">{product.description}</p>
+                {product.dimensions && (
+                  <p className="text-xs text-gray-500 mt-1">
+                    📏 {product.dimensions}
+                  </p>
+                )}
+                <p className="text-lg font-semibold text-gray-800 mt-2">
+                  💰 {product.price}
+                </p>
+              </CardBody>
+            </Card>
+          ))}
+        </div>
+      </section>
 
-<Divider className="my-6" />
+      <Divider className="my-6" />
 
-<section>
-  <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-    Akcesoria montażowe
-  </h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {accessories.map((product, index) => (
-      <Card key={index} className="shadow-lg">
-        <img
-          alt={product.name}
-          className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
-          src={product.image}
-        />
-        <CardHeader className="text-lg font-semibold text-gray-800 p-3">
-          {product.name}
-        </CardHeader>
-        <CardBody className="p-3">
-          <p className="text-gray-700 text-sm">{product.description}</p>
-          {product.dimensions && (
-            <p className="text-xs text-gray-500 mt-1">
-              📏 {product.dimensions}
-            </p>
-          )}
-          <p className="text-lg font-semibold text-gray-800 mt-2">
-            💰 {product.price}
-          </p>
-        </CardBody>
-      </Card>
-    ))}
-  </div>
-</section>
+      <section>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          Akcesoria montażowe
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {accessories.map((product, index) => (
+            <Card key={index} className="shadow-lg">
+              <img
+                alt={product.name}
+                className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
+                src={product.image}
+              />
+              <CardHeader className="text-lg font-semibold text-gray-800 p-3">
+                {product.name}
+              </CardHeader>
+              <CardBody className="p-3">
+                <p className="text-gray-700 text-sm">{product.description}</p>
+                {product.dimensions && (
+                  <p className="text-xs text-gray-500 mt-1">
+                    📏 {product.dimensions}
+                  </p>
+                )}
+                <p className="text-lg font-semibold text-gray-800 mt-2">
+                  💰 {product.price}
+                </p>
+              </CardBody>
+            </Card>
+          ))}
+        </div>
+      </section>
 
       <Divider className="my-6" />
     </div>

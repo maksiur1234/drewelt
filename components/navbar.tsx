@@ -36,7 +36,7 @@ export const Navbar = () => {
                 className={clsx(
                   "hover:text-[#e9a749] transition-colors duration-200",
                   "text-foreground",
-                  "data-[active=true]:text-[#e9a749] data-[active=true]:font-medium"
+                  "data-[active=true]:text-[#e9a749] data-[active=true]:font-medium",
                 )}
                 href={item.href}
               >
@@ -47,7 +47,10 @@ export const Navbar = () => {
         </ul>
       </NavbarContent>
 
-      <NavbarContent className="flex lg:hidden basis-1/5 sm:basis-full" justify="end">
+      <NavbarContent
+        className="flex lg:hidden basis-1/5 sm:basis-full"
+        justify="end"
+      >
         <button
           onClick={() => setMobileMenuOpen((prev) => !prev)}
           className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#e9a749]"

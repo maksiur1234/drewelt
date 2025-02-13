@@ -1,19 +1,19 @@
-import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(request) {
   try {
     const data = await request.json();
 
-    const ip = 
-      request.headers.get('x-forwarded-for')?.split(',')[0] ||
-      request.headers.get('x-real-ip') ||
-      'IP unknown';
+    const ip =
+      request.headers.get("x-forwarded-for")?.split(",")[0] ||
+      request.headers.get("x-real-ip") ||
+      "IP unknown";
 
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST, 
+      host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT) || 587,
-      secure: false, 
+      secure: false,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
@@ -45,16 +45,19 @@ export async function POST(request) {
     await transporter.sendMail({
       from: `"${data.name}" <${data.email}>`,
       to: process.env.EMAIL_RECEIVER,
-      subject: 'Nowa wiadomość z formularza kontaktowego',
+      subject: "Nowa wiadomość z formularza kontaktowego",
       html: htmlTemplate,
     });
 
-    return NextResponse.json({ success: true, message: "Wiadomość została wysłana!" });
+    return NextResponse.json({
+      success: true,
+      message: "Wiadomość została wysłana!",
+    });
   } catch (error) {
     console.error("Błąd przy wysyłce maila:", error);
     return NextResponse.json(
       { success: false, error: error.message },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

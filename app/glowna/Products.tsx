@@ -19,7 +19,8 @@ const Products = () => {
       </p>
 
       <div className="flex flex-col md:flex-row gap-12 mb-8">
-        <FlipCard className="w-80 h-[400px]"
+        <FlipCard
+          className="w-80 h-[400px]"
           frontContent={
             <Card className="w-full h-full p-4">
               <img
@@ -39,7 +40,8 @@ const Products = () => {
           }
         />
 
-        <FlipCard className="w-80 h-[400px]"
+        <FlipCard
+          className="w-80 h-[400px]"
           frontContent={
             <Card className="w-full h-full p-4">
               <img
@@ -59,7 +61,8 @@ const Products = () => {
           }
         />
 
-        <FlipCard className="w-80 h-[400px]"
+        <FlipCard
+          className="w-80 h-[400px]"
           frontContent={
             <Card className="w-full h-full p-4">
               <img

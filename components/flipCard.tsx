@@ -1,13 +1,22 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { FC, ReactNode, useState, useEffect } from "react";
 
-const FlipCard = ({ frontContent, backContent, className = "" }) => {
-  const [flipped, setFlipped] = useState(false);
-  const [isTouch, setIsTouch] = useState(false);
+interface FlipCardProps {
+  frontContent: ReactNode;
+  backContent: ReactNode;
+  className?: string;
+}
+
+const FlipCard: FC<FlipCardProps> = ({
+  frontContent,
+  backContent,
+  className = "",
+}) => {
+  const [flipped, setFlipped] = useState<boolean>(false);
+  const [isTouch, setIsTouch] = useState<boolean>(false);
 
   useEffect(() => {
-    // Jeśli urządzenie nie wspiera hover, to najprawdopodobniej jest dotykowe
     if (window.matchMedia("(hover: none)").matches) {
       setIsTouch(true);
     }

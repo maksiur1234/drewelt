@@ -3,9 +3,10 @@ import { Divider } from "@heroui/divider";
 
 import LandingPageImage from "./LandingPage";
 import SmallOffer from "./SmallOffer";
-import WoodenBoard from "./WoodenBoard";
+import Products from "./Products";
 import SmallAbout from "./SmallAbout";
 import Realizations from "./Realizations";
+import GoogleMaps from "@/components/googleMaps";
 
 const HomePage = () => {
   return (
@@ -14,13 +15,15 @@ const HomePage = () => {
 
       <SmallAbout />
 
-      <WoodenBoard />
+      <Products />
 
       <SmallOffer />
 
       <Divider className="my-12" />
 
       <Realizations />
+
+      <GoogleMaps />
     </div>
   );
 };

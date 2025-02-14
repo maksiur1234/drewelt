@@ -37,6 +37,8 @@ const Products = () => {
                 alt="Produkt 1"
                 className="object-cover w-full h-48 rounded-md mb-2"
                 src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
+                width={600}
+                height={600}
               />
               <p className="text-center font-medium">Projektowanie</p>
             </Card>
@@ -58,6 +60,8 @@ const Products = () => {
                 alt="Produkt 2"
                 className="object-cover w-full h-48 rounded-md mb-2"
                 src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
+                width={600}
+        height={600}
               />
               <p className="text-center font-medium">Tarasy</p>
             </Card>
@@ -79,6 +83,8 @@ const Products = () => {
                 alt="Produkt 3"
                 className="object-cover w-full h-48 rounded-md mb-2"
                 src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
+                width={600}
+                height={600}
               />
               <p className="text-center font-medium">Zadaszenia</p>
             </Card>

@@ -10,6 +10,8 @@ const Realizations = () => {
         alt="Nasze realizacje"
         className="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-md"
         src="https://drewelt.pl/images/galerie/38/11BIOCLIMATIC.webp"
+        width={600}
+        height={600}
       />
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-center">
         <p className="text-2xl font-bold mb-4">

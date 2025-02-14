@@ -31,6 +31,8 @@ const SmallAbout = () => {
           alt="Drewniane deski"
           className="w-full h-80 object-cover rounded-lg shadow-md"
           src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
+          width={600}
+          height={600}
         />
       </div>
 
@@ -39,6 +41,8 @@ const SmallAbout = () => {
           alt="Drewniane deski"
           className="w-full h-40 object-cover rounded-lg shadow-md"
           src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
+          width={600}
+          height={600}
         />
         <p className="text-lg text-gray-700 text-right">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,

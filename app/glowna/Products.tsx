@@ -3,7 +3,10 @@
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
 import { Card } from "@heroui/card";
+import Image from "next/image";
+
 import FlipCard from "@/components/flipCard";
+
 import "./flipCard.css";
 
 const Products = () => {
@@ -20,17 +23,6 @@ const Products = () => {
 
       <div className="flex flex-col md:flex-row gap-12 mb-8">
         <FlipCard
-          className="w-80 h-[400px]"
-          frontContent={
-            <Card className="w-full h-full p-4">
-              <img
-                alt="Produkt 1"
-                className="object-cover w-full h-48 rounded-md mb-2"
-                src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
-              />
-              <p className="text-center font-medium">Projektowanie</p>
-            </Card>
-          }
           backContent={
             <Card className="w-full h-full p-4 flex items-center justify-center bg-gray-200">
               <p className="text-center font-medium">
@@ -38,20 +30,20 @@ const Products = () => {
               </p>
             </Card>
           }
-        />
-
-        <FlipCard
           className="w-80 h-[400px]"
           frontContent={
             <Card className="w-full h-full p-4">
-              <img
-                alt="Produkt 2"
+              <Image
+                alt="Produkt 1"
                 className="object-cover w-full h-48 rounded-md mb-2"
-                src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
+                src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
               />
-              <p className="text-center font-medium">Tarasy</p>
+              <p className="text-center font-medium">Projektowanie</p>
             </Card>
           }
+        />
+
+        <FlipCard
           backContent={
             <Card className="w-full h-full p-4 flex items-center justify-center bg-gray-200">
               <p className="text-center font-medium">
@@ -59,25 +51,36 @@ const Products = () => {
               </p>
             </Card>
           }
-        />
-
-        <FlipCard
           className="w-80 h-[400px]"
           frontContent={
             <Card className="w-full h-full p-4">
-              <img
-                alt="Produkt 3"
+              <Image
+                alt="Produkt 2"
                 className="object-cover w-full h-48 rounded-md mb-2"
-                src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
+                src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
               />
-              <p className="text-center font-medium">Zadaszenia</p>
+              <p className="text-center font-medium">Tarasy</p>
             </Card>
           }
+        />
+
+        <FlipCard
           backContent={
             <Card className="w-full h-full p-4 flex items-center justify-center bg-gray-200">
               <p className="text-center font-medium">
                 Szczegóły: Informacje o zadaszeniach.
               </p>
+            </Card>
+          }
+          className="w-80 h-[400px]"
+          frontContent={
+            <Card className="w-full h-full p-4">
+              <Image
+                alt="Produkt 3"
+                className="object-cover w-full h-48 rounded-md mb-2"
+                src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
+              />
+              <p className="text-center font-medium">Zadaszenia</p>
             </Card>
           }
         />

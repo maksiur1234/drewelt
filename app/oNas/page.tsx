@@ -28,6 +28,7 @@ export default function AboutPage() {
         setVisibleCities((prev) => [...prev, currentIndex]);
         setCurrentIndex((prev) => prev + 1);
       }, 10);
+
       return () => clearTimeout(timer);
     }
   }, [currentIndex]);

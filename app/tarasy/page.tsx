@@ -187,7 +187,7 @@ export default function RoofPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {deckingBoards.map((product, index) => (
             <Card key={index} className="shadow-lg">
-              <img
+              <Image
                 alt={product.name}
                 className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
                 src={product.image}
@@ -220,7 +220,7 @@ export default function RoofPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {accessories.map((product, index) => (
             <Card key={index} className="shadow-lg">
-              <img
+              <Image
                 alt={product.name}
                 className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
                 src={product.image}

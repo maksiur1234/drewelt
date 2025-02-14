@@ -29,12 +29,16 @@ const FlipCard: FC<FlipCardProps> = ({
   };
 
   return (
-    <div onClick={handleClick} className={`flip-card ${className}`}>
+    <button
+      className={`flip-card ${className}`}
+      type="button"
+      onClick={handleClick}
+    >
       <div className={`flip-card-inner ${flipped ? "flipped" : ""}`}>
         <div className="flip-card-front">{frontContent}</div>
         <div className="flip-card-back">{backContent}</div>
       </div>
-    </div>
+    </button>
   );
 };
 

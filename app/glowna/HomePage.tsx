@@ -6,6 +6,7 @@ import SmallOffer from "./SmallOffer";
 import Products from "./Products";
 import SmallAbout from "./SmallAbout";
 import Realizations from "./Realizations";
+
 import GoogleMaps from "@/components/googleMaps";
 
 const HomePage = () => {

@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 
 import { IconSvgProps } from "@/types";
 
@@ -8,7 +9,7 @@ export const Logo: React.FC<{
   height?: number;
 }> = ({ size = 148, width, height, ...props }) => {
   return (
-    <img
+    <Image
       alt="Logo"
       height={height || size}
       src="/logo.png"

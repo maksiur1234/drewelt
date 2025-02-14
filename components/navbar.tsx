@@ -52,8 +52,8 @@ export const Navbar = () => {
         justify="end"
       >
         <button
-          onClick={() => setMobileMenuOpen((prev) => !prev)}
           className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#e9a749]"
+          onClick={() => setMobileMenuOpen((prev) => !prev)}
         >
           {mobileMenuOpen ? (
             <HiX className="w-6 h-6 text-foreground" />
@@ -69,9 +69,9 @@ export const Navbar = () => {
             {siteConfig.navItems.map((item) => (
               <li key={item.href}>
                 <NextLink
-                  onClick={() => setMobileMenuOpen(false)}
                   className="block hover:text-[#e9a749] transition-colors duration-200 text-foreground"
                   href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.label}
                 </NextLink>

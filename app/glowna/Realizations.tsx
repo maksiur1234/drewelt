@@ -1,11 +1,12 @@
 "use client";
 
 import { Accordion, AccordionItem } from "@heroui/accordion";
+import Image from "next/image";
 
 const Realizations = () => {
   return (
     <div className="flex flex-col md:flex-row items-center gap-8 p-8">
-      <img
+      <Image
         alt="Nasze realizacje"
         className="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-md"
         src="https://drewelt.pl/images/galerie/38/11BIOCLIMATIC.webp"

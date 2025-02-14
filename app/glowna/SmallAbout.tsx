@@ -2,6 +2,7 @@
 
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
+import Image from "next/image";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
@@ -26,7 +27,7 @@ const SmallAbout = () => {
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
           Najlepsi w swoim fachu
         </h2>
-        <img
+        <Image
           alt="Drewniane deski"
           className="w-full h-80 object-cover rounded-lg shadow-md"
           src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"
@@ -34,7 +35,7 @@ const SmallAbout = () => {
       </div>
 
       <div className="md:w-1/2 flex flex-col items-end space-y-6">
-        <img
+        <Image
           alt="Drewniane deski"
           className="w-full h-40 object-cover rounded-lg shadow-md"
           src="https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg"

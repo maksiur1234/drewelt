@@ -20,6 +20,7 @@ const LandingPageImage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(false);
   const windowWidth = useWindowWidth();
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
     setMounted(true);
@@ -29,6 +30,8 @@ const LandingPageImage = () => {
   const imageHeight = isMobile ? 300 : 600;
 
   useEffect(() => {
+    if (images.length === 0) return 
+  
     const interval = setInterval(() => {
       setFade(true);
       setTimeout(() => {
@@ -38,7 +41,14 @@ const LandingPageImage = () => {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images]);
+
+  useEffect(() => {
+    fetch('api/images')
+      .then((res) => res.json())
+      .then((data) => setImages(data))
+      .catch((error) => console.error(error))
+  }, [])
 
   if (!mounted) {
     return <div className="relative w-full mx-auto min-h-[600px]" />;
@@ -142,10 +152,10 @@ const LandingPageImage = () => {
           />
         </div>
         <CardBody className="absolute left-12 top-1/2 transform -translate-y-1/2 p-2 z-10">
-          <p className="text-xs border border-[#e9a749] text-[#e9a749] px-6 py-0.5 inline-block mb-2 w-1/6 text-center">
+          <p className="text-xs border border-[#e9a749] text-[#e9a749] px-6 py-0.5 inline-block mb-2 w-1/6 text-center bg-[#262420] bg-opacity-60">
             Sztuka drewna
           </p>
-          <p className="text-2xl font-bold text-white mb-4">
+          <p className="text-2xl font-bold text-white mb-4 drop-shadow-lg">
             Najlepsze tarasy i zadaszenia
           </p>
           <Button

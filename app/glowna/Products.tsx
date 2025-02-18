@@ -11,28 +11,32 @@ import "./flipCard.css";
 
 const Products = () => {
   return (
-    <div className="flex flex-col items-center px-4 py-8">
-      <h1 className="text-4xl font-bold mb-4">Produkty</h1>
-      <h2 className="text-2xl font-semibold mb-2">
+    <div className="flex flex-col items-center px-6 py-16 bg-gradient-to-b from-gray-50 to-gray-100">
+      <h1 className="text-5xl font-extrabold text-gray-900 mb-6 text-center">
+        <span className="text-[#e9a749]">Nasze</span> Produkty
+      </h1>
+      <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
         Jakościowe deski kompozytowe
       </h2>
-      <p className="text-center text-gray-600 mb-8 max-w-xl">
-        Nasze deski kompozytowe wyróżniają się najwyższą jakością wykonania oraz
-        unikalnym designem, który nadaje charakter każdemu wnętrzu.
+      <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+        Nasze deski kompozytowe wyróżniają się najwyższą jakością wykonania oraz unikalnym designem, który nadaje charakter każdemu wnętrzu. 
+        Wybierz spośród naszych produktów, które łączą elegancję z funkcjonalnością. 
+        Oferujemy rozwiązania idealne zarówno do ogrodów, tarasów, jak i przestrzeni komercyjnych.
       </p>
 
-      <div className="flex flex-col md:flex-row gap-12 mb-8">
+      <div className="flex flex-col md:flex-row gap-12 mb-12 justify-center items-center">
         <FlipCard
           backContent={
-            <Card className="w-full h-full p-4 flex items-center justify-center bg-gray-200">
+            <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                Szczegóły: Lorem ipsum dolor sit amet.
+              <strong>Szczegóły:</strong> Nasze usługi projektowe to gwarancja, że Twój taras będzie idealnie dopasowany do Twoich potrzeb. 
+              Przedstawiamy wyjątkowe projekty, które łączą estetykę i funkcjonalność.
               </p>
             </Card>
           }
-          className="w-80 h-[400px]"
+          className="w-80 h-[400px] transition-all hover:scale-105"
           frontContent={
-            <Card className="w-full h-full p-4">
+            <Card className="w-full h-full p-4 border-2 border-[#e9a749] rounded-lg shadow-xl">
               <Image
                 alt="Produkt 1"
                 className="object-cover w-full h-48 rounded-md mb-2"
@@ -40,45 +44,45 @@ const Products = () => {
                 width={600}
                 height={600}
               />
-              <p className="text-center font-medium">Projektowanie</p>
+              <p className="text-center font-medium text-gray-900">Projektowanie</p>
             </Card>
           }
         />
 
         <FlipCard
           backContent={
-            <Card className="w-full h-full p-4 flex items-center justify-center bg-gray-200">
+            <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                Szczegóły: Krótki opis tarasów.
+                <strong>Szczegóły:</strong> Nasze tarasy to idealne połączenie estetyki z trwałością. Wykonujemy tarasy, które zmieniają przestrzeń w miejsce relaksu.
               </p>
             </Card>
           }
-          className="w-80 h-[400px]"
+          className="w-80 h-[400px] transition-all hover:scale-105"
           frontContent={
-            <Card className="w-full h-full p-4">
+            <Card className="w-full h-full p-4 border-2 border-[#e9a749] rounded-lg shadow-xl">
               <Image
                 alt="Produkt 2"
                 className="object-cover w-full h-48 rounded-md mb-2"
                 src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
                 width={600}
-        height={600}
+                height={600}
               />
-              <p className="text-center font-medium">Tarasy</p>
+              <p className="text-center font-medium text-gray-900">Tarasy</p>
             </Card>
           }
         />
 
         <FlipCard
           backContent={
-            <Card className="w-full h-full p-4 flex items-center justify-center bg-gray-200">
+            <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                Szczegóły: Informacje o zadaszeniach.
+              <strong>Szczegóły:</strong> Zadaszenia chronią Twój taras przed warunkami atmosferycznymi. Gwarantują komfort przez cały rok, niezależnie od pogody.
               </p>
             </Card>
           }
-          className="w-80 h-[400px]"
+          className="w-80 h-[400px] transition-all hover:scale-105"
           frontContent={
-            <Card className="w-full h-full p-4">
+            <Card className="w-full h-full p-4 border-2 border-[#e9a749] rounded-lg shadow-xl">
               <Image
                 alt="Produkt 3"
                 className="object-cover w-full h-48 rounded-md mb-2"
@@ -86,14 +90,17 @@ const Products = () => {
                 width={600}
                 height={600}
               />
-              <p className="text-center font-medium">Zadaszenia</p>
+              <p className="text-center font-medium text-gray-900">Zadaszenia</p>
             </Card>
           }
         />
       </div>
 
-      <Button as={Link} className="px-8 py-3" color="warning" href="/produkty">
-        Zobacz produkty
+      <Button 
+        as={Link} 
+        className="px-8 py-3 bg-[#e9a749] text-white font-semibold text-lg rounded-md shadow-md hover:bg-[#d79e41]" 
+        href="/produkty">
+        Zobacz wszystkie produkty
       </Button>
     </div>
   );

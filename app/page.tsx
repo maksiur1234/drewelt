@@ -8,7 +8,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center gap-4 py-8 bg-[#f8f8f8]">
         <div className="inline-block text-center justify-center">
           <span className={title()}>Dobierz&nbsp;</span>
-          <span className={title({ color: "primary" })}>najlepsze&nbsp;</span>
+          <span className={title({ color: "green" })}>najlepsze&nbsp;</span>
           <br />
           <span className={title()}>zadaszenia oraz tarasy</span>
           <div className={subtitle({ class: "mt-4" })}>

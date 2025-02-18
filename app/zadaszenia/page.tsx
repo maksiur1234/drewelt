@@ -15,7 +15,7 @@ export default function RoofPage() {
         className="relative h-[500px] md:h-[700px] flex items-center justify-center bg-cover bg-center rounded-lg shadow-xl"
         style={{
           backgroundImage:
-            "url('https://drewelt.pl/images/design/zadaszenie-gniezno.webp')",
+            "url(/zadaszenia_na_lukach/InkedIMG_20200117_135409_LI.jpg)",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
@@ -34,7 +34,7 @@ export default function RoofPage() {
           <Image
             alt="Poliwęglanowe zadaszenie"
             className="rounded-lg shadow-xl object-cover w-full"
-            src="https://drewelt.pl/images/design/zadaszenie-tarasu-wroclaw-6.webp"
+            src="/zadaszenia_na_lukach/20221129_122737.jpg"
           />
         </div>
         <div className="text-gray-700">

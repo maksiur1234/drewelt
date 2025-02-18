@@ -1,70 +1,22 @@
-"use client";
-
+"use client"
 import { useEffect, useState } from "react";
-import {
-  Modal,
-  ModalBody,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  useDisclosure,
-} from "@heroui/modal";
 import { Button } from "@heroui/button";
-import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
+import { Divider } from "@heroui/divider";
+import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter } from "@heroui/modal";
+import { useDisclosure } from "@heroui/modal";
+
+interface GallerySection {
+  title: string;
+  images: string[];
+}
 
 export default function GaleriaPage() {
-  const gallerySections = [
-    {
-      title: "Zadaszenia na łukach",
-      images: [
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-2.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-4.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-5.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-6.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-7.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-8.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-9.webp",
-        "https://drewelt.pl/images/galerie/36/zadaszenia-na-lukach-10.webp",
-      ],
-    },
-    {
-      title: "Zadaszenie z prostym spadkiem",
-      images: [
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-2.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-3.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-4.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-5.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-6.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-7.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-8.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-9.webp",
-        "https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-10.webp",
-      ],
-    },
-    {
-      title: "Tarasy deska kompozytowa",
-      images: [
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa2.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa3.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa4.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa5.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa6.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa7.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa8.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa9.webp",
-        "https://drewelt.pl/images/galerie/22/tarasy-deska-kompozytowa10.webp",
-      ],
-    },
-  ];
-
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [gallerySections, setGallerySections] = useState<GallerySection[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);
-  const [currentImage, setCurrentImage] = useState<number>(0);
-  const [currentTitle, setCurrentTitle] = useState<string>("");
+  const [currentImage, setCurrentImage] = useState(0);
+  const [currentTitle, setCurrentTitle] = useState("");
 
   const openGallery = (images: string[], index: number, title: string) => {
     setSelectedImages(images);
@@ -73,28 +25,23 @@ export default function GaleriaPage() {
     onOpen();
   };
 
-  const prevImage = () =>
-    setCurrentImage((prev) =>
-      prev > 0 ? prev - 1 : selectedImages.length - 1,
-    );
-  const nextImage = () =>
-    setCurrentImage((prev) =>
-      prev < selectedImages.length - 1 ? prev + 1 : 0,
-    );
-
   useEffect(() => {
-    if (!isOpen) return;
-
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "ArrowLeft") prevImage();
-      if (event.key === "ArrowRight") nextImage();
-      if (event.key === "Escape") onClose();
+    // Fetch data from API
+    const fetchGalleryData = async () => {
+      try {
+        const response = await fetch("/api/gallery");
+        const data = await response.json();
+        setGallerySections(data);
+      } catch (error) {
+        console.error("Błąd podczas ładowania galerii", error);
+      }
     };
 
-    window.addEventListener("keydown", handleKeyDown);
+    fetchGalleryData();
+  }, []);
 
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, currentImage]);
+  const prevImage = () => setCurrentImage((prev) => (prev > 0 ? prev - 1 : selectedImages.length - 1));
+  const nextImage = () => setCurrentImage((prev) => (prev < selectedImages.length - 1 ? prev + 1 : 0));
 
   return (
     <div className="max-w-7xl mx-auto p-6">
@@ -118,20 +65,15 @@ export default function GaleriaPage() {
                 <Image
                   alt={section.title}
                   className="w-full h-40 object-cover rounded-lg shadow-lg transition-transform transform hover:scale-105"
-                  src={image}
-                  onClick={() =>
-                    openGallery(section.images, index, section.title)
-                  }
+                  src={image} 
+                  onClick={() => openGallery(section.images, index, section.title)}
                 />
               </div>
             ))}
           </div>
 
           <div className="text-center mt-4">
-            <Button
-              color="success"
-              onPress={() => openGallery(section.images, 0, section.title)}
-            >
+            <Button color="success" onPress={() => openGallery(section.images, 0, section.title)}>
               Zobacz więcej
             </Button>
           </div>
@@ -140,41 +82,33 @@ export default function GaleriaPage() {
 
       <Modal isOpen={isOpen} size="full" onClose={onClose}>
         <ModalContent>
-          {() => (
-            <>
-              <ModalHeader className="text-center justify-center text-2xl font-semibold">
-                {currentTitle}
-              </ModalHeader>
+          <ModalHeader className="text-center justify-center text-2xl font-semibold">
+            {currentTitle}
+          </ModalHeader>
 
-              <ModalBody className="flex items-center justify-center relative">
-                <Button
-                  className="absolute left-4 md:left-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"
-                  onClick={prevImage}
-                >
-                  ←
-                </Button>
+          <ModalBody className="flex items-center justify-center relative">
+            <Button
+              className="absolute left-4 md:left-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"
+              onClick={prevImage}
+            >
+              ←
+            </Button>
 
-                <Image
-                  alt="Galeria"
-                  className="max-w-3xl w-full rounded-lg shadow-lg"
-                  src={selectedImages[currentImage]}
-                />
+            <Image alt="Galeria" className="max-w-3xl w-full rounded-lg shadow-lg" src={selectedImages[currentImage]} />
 
-                <Button
-                  className="absolute right-4 md:right-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"
-                  onClick={nextImage}
-                >
-                  →
-                </Button>
-              </ModalBody>
+            <Button
+              className="absolute right-4 md:right-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"
+              onClick={nextImage}
+            >
+              →
+            </Button>
+          </ModalBody>
 
-              <ModalFooter className="flex justify-center">
-                <Button color="danger" onPress={onClose}>
-                  Zamknij
-                </Button>
-              </ModalFooter>
-            </>
-          )}
+          <ModalFooter className="flex justify-center">
+            <Button color="danger" onPress={onClose}>
+              Zamknij
+            </Button>
+          </ModalFooter>
         </ModalContent>
       </Modal>
     </div>

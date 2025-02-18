@@ -23,7 +23,7 @@ const SmallOffer = () => {
               removeWrapper
               alt="Pergole aluminiowe"
               className="z-0 w-full h-full object-cover"
-              src="https://drewelt.pl/images/galerie/38/1BIOCLIMATIC.webp"
+              src="/obrazki/Poznań1.jpg"
             />
           </Card>
         </Link>
@@ -43,7 +43,7 @@ const SmallOffer = () => {
               removeWrapper
               alt="Taras drewniany"
               className="z-0 w-full h-full object-cover"
-              src="https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-8.webp"
+              src="/obrazki/20230413_161433.jpg"
             />
           </Card>
         </Link>
@@ -63,7 +63,7 @@ const SmallOffer = () => {
               removeWrapper
               alt="Zadaszenia drewniane"
               className="z-0 w-full h-full object-cover"
-              src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje8.webp"
+              src="/obrazki/IMG-20230928-WA0003.jpg"
             />
           </Card>
         </Link>
@@ -86,7 +86,7 @@ const SmallOffer = () => {
               removeWrapper
               alt="Zadaszenia aluminiowe"
               className="z-0 w-full h-full object-cover"
-              src="https://drewelt.pl/images/galerie/37/zadaszenie-z-prostym-spadkiem-17.webp"
+              src="/obrazki/20240926_130525.jpg"
             />
           </Card>
         </Link>

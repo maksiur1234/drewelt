@@ -1,9 +1,15 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 import { Button } from "@heroui/button";
 import { Image } from "@heroui/image";
 import { Divider } from "@heroui/divider";
-import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter } from "@heroui/modal";
+import {
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+} from "@heroui/modal";
 import { useDisclosure } from "@heroui/modal";
 
 interface GallerySection {
@@ -40,8 +46,14 @@ export default function GaleriaPage() {
     fetchGalleryData();
   }, []);
 
-  const prevImage = () => setCurrentImage((prev) => (prev > 0 ? prev - 1 : selectedImages.length - 1));
-  const nextImage = () => setCurrentImage((prev) => (prev < selectedImages.length - 1 ? prev + 1 : 0));
+  const prevImage = () =>
+    setCurrentImage((prev) =>
+      prev > 0 ? prev - 1 : selectedImages.length - 1,
+    );
+  const nextImage = () =>
+    setCurrentImage((prev) =>
+      prev < selectedImages.length - 1 ? prev + 1 : 0,
+    );
 
   return (
     <div className="max-w-7xl mx-auto p-6">
@@ -65,15 +77,20 @@ export default function GaleriaPage() {
                 <Image
                   alt={section.title}
                   className="w-full h-40 object-cover rounded-lg shadow-lg transition-transform transform hover:scale-105"
-                  src={image} 
-                  onClick={() => openGallery(section.images, index, section.title)}
+                  src={image}
+                  onClick={() =>
+                    openGallery(section.images, index, section.title)
+                  }
                 />
               </div>
             ))}
           </div>
 
           <div className="text-center mt-4">
-            <Button color="success" onPress={() => openGallery(section.images, 0, section.title)}>
+            <Button
+              color="success"
+              onPress={() => openGallery(section.images, 0, section.title)}
+            >
               Zobacz więcej
             </Button>
           </div>
@@ -94,7 +111,11 @@ export default function GaleriaPage() {
               ←
             </Button>
 
-            <Image alt="Galeria" className="max-w-3xl w-full rounded-lg shadow-lg" src={selectedImages[currentImage]} />
+            <Image
+              alt="Galeria"
+              className="max-w-3xl w-full rounded-lg shadow-lg"
+              src={selectedImages[currentImage]}
+            />
 
             <Button
               className="absolute right-4 md:right-10 bg-black/50 text-white p-3 rounded-full shadow-lg hover:bg-black/70 transition"

@@ -30,8 +30,8 @@ const LandingPageImage = () => {
   const imageHeight = isMobile ? 300 : 600;
 
   useEffect(() => {
-    if (images.length === 0) return 
-  
+    if (images.length === 0) return;
+
     const interval = setInterval(() => {
       setFade(true);
       setTimeout(() => {
@@ -44,11 +44,11 @@ const LandingPageImage = () => {
   }, [images]);
 
   useEffect(() => {
-    fetch('api/images')
+    fetch("api/images")
       .then((res) => res.json())
       .then((data) => setImages(data))
-      .catch((error) => console.error(error))
-  }, [])
+      .catch((error) => console.error(error));
+  }, []);
 
   if (!mounted) {
     return <div className="relative w-full mx-auto min-h-[600px]" />;

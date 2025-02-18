@@ -25,7 +25,9 @@ const SmallAbout = () => {
           O nas
         </Button>
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
-          <span className="text-[#e9a749]">Tworzymy przestrzenie, które inspirują.</span>
+          <span className="text-[#e9a749]">
+            Tworzymy przestrzenie, które inspirują.
+          </span>
         </h2>
         <Image
           alt="Drewniane deski"
@@ -45,21 +47,33 @@ const SmallAbout = () => {
           height={600}
         />
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
-          Jesteśmy firmą specjalizującą się w projektowaniu i budowie eleganckich, 
-          <span className="font-semibold text-[#e9a749]"> funkcjonalnych tarasów </span> 
-          oraz zadaszeń drewnianych, które dopełniają każde otoczenie. Z pasją łączymy 
-          tradycyjne rzemiosło z nowoczesnym designem, tworząc rozwiązania idealne do 
-          Twojego ogrodu, tarasu czy przestrzeni komercyjnej.
+          Jesteśmy firmą specjalizującą się w projektowaniu i budowie
+          eleganckich,
+          <span className="font-semibold text-[#e9a749]">
+            {" "}
+            funkcjonalnych tarasów{" "}
+          </span>
+          oraz zadaszeń drewnianych, które dopełniają każde otoczenie. Z pasją
+          łączymy tradycyjne rzemiosło z nowoczesnym designem, tworząc
+          rozwiązania idealne do Twojego ogrodu, tarasu czy przestrzeni
+          komercyjnej.
         </p>
 
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
-          Z ponad <span className="font-semibold text-[#e9a749]">20-letnim doświadczeniem</span> w branży, nasz zespół ekspertów dba o każdy detal, 
-          oferując najwyższą jakość drewna, precyzyjne wykonanie oraz indywidualne podejście do klienta. Dzięki naszym produktom, 
-          możesz cieszyć się przestrzenią, która łączy estetykę z trwałością – na lata.
+          Z ponad{" "}
+          <span className="font-semibold text-[#e9a749]">
+            20-letnim doświadczeniem
+          </span>{" "}
+          w branży, nasz zespół ekspertów dba o każdy detal, oferując najwyższą
+          jakość drewna, precyzyjne wykonanie oraz indywidualne podejście do
+          klienta. Dzięki naszym produktom, możesz cieszyć się przestrzenią,
+          która łączy estetykę z trwałością – na lata.
         </p>
 
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
-          Zaufaj profesjonalistom, którzy tworzą <span className="font-semibold text-[#e9a749]">naturalne piękno</span> w Twoim otoczeniu.
+          Zaufaj profesjonalistom, którzy tworzą{" "}
+          <span className="font-semibold text-[#e9a749]">naturalne piękno</span>{" "}
+          w Twoim otoczeniu.
         </p>
         <div ref={ref} className="w-full flex justify-end gap-8">
           <div className="flex flex-col items-center">

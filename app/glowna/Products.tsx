@@ -19,9 +19,11 @@ const Products = () => {
         Jakościowe deski kompozytowe
       </h2>
       <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-        Nasze deski kompozytowe wyróżniają się najwyższą jakością wykonania oraz unikalnym designem, który nadaje charakter każdemu wnętrzu. 
-        Wybierz spośród naszych produktów, które łączą elegancję z funkcjonalnością. 
-        Oferujemy rozwiązania idealne zarówno do ogrodów, tarasów, jak i przestrzeni komercyjnych.
+        Nasze deski kompozytowe wyróżniają się najwyższą jakością wykonania oraz
+        unikalnym designem, który nadaje charakter każdemu wnętrzu. Wybierz
+        spośród naszych produktów, które łączą elegancję z funkcjonalnością.
+        Oferujemy rozwiązania idealne zarówno do ogrodów, tarasów, jak i
+        przestrzeni komercyjnych.
       </p>
 
       <div className="flex flex-col md:flex-row gap-12 mb-12 justify-center items-center">
@@ -29,8 +31,10 @@ const Products = () => {
           backContent={
             <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-              <strong>Szczegóły:</strong> Nasze usługi projektowe to gwarancja, że Twój taras będzie idealnie dopasowany do Twoich potrzeb. 
-              Przedstawiamy wyjątkowe projekty, które łączą estetykę i funkcjonalność.
+                <strong>Szczegóły:</strong> Nasze usługi projektowe to
+                gwarancja, że Twój taras będzie idealnie dopasowany do Twoich
+                potrzeb. Przedstawiamy wyjątkowe projekty, które łączą estetykę
+                i funkcjonalność.
               </p>
             </Card>
           }
@@ -44,7 +48,9 @@ const Products = () => {
                 width={600}
                 height={600}
               />
-              <p className="text-center font-medium text-gray-900">Projektowanie</p>
+              <p className="text-center font-medium text-gray-900">
+                Projektowanie
+              </p>
             </Card>
           }
         />
@@ -53,7 +59,9 @@ const Products = () => {
           backContent={
             <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                <strong>Szczegóły:</strong> Nasze tarasy to idealne połączenie estetyki z trwałością. Wykonujemy tarasy, które zmieniają przestrzeń w miejsce relaksu.
+                <strong>Szczegóły:</strong> Nasze tarasy to idealne połączenie
+                estetyki z trwałością. Wykonujemy tarasy, które zmieniają
+                przestrzeń w miejsce relaksu.
               </p>
             </Card>
           }
@@ -76,7 +84,9 @@ const Products = () => {
           backContent={
             <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-              <strong>Szczegóły:</strong> Zadaszenia chronią Twój taras przed warunkami atmosferycznymi. Gwarantują komfort przez cały rok, niezależnie od pogody.
+                <strong>Szczegóły:</strong> Zadaszenia chronią Twój taras przed
+                warunkami atmosferycznymi. Gwarantują komfort przez cały rok,
+                niezależnie od pogody.
               </p>
             </Card>
           }
@@ -90,16 +100,19 @@ const Products = () => {
                 width={600}
                 height={600}
               />
-              <p className="text-center font-medium text-gray-900">Zadaszenia</p>
+              <p className="text-center font-medium text-gray-900">
+                Zadaszenia
+              </p>
             </Card>
           }
         />
       </div>
 
-      <Button 
-        as={Link} 
-        className="px-8 py-3 bg-[#e9a749] text-white font-semibold text-lg rounded-md shadow-md hover:bg-[#d79e41]" 
-        href="/produkty">
+      <Button
+        as={Link}
+        className="px-8 py-3 bg-[#e9a749] text-white font-semibold text-lg rounded-md shadow-md hover:bg-[#d79e41]"
+        href="/produkty"
+      >
         Zobacz wszystkie produkty
       </Button>
     </div>

@@ -51,23 +51,20 @@ const SmallAbout = () => {
           eleganckich,
           <span className="font-semibold text-[#e9a749]">
             {" "}
-            funkcjonalnych tarasów{" "}
+            zadaszeń oraz tarasów{" "}
           </span>
-          oraz zadaszeń drewnianych, które dopełniają każde otoczenie. Z pasją
+          które dopełniają każde otoczenie. Z pasją
           łączymy tradycyjne rzemiosło z nowoczesnym designem, tworząc
           rozwiązania idealne do Twojego ogrodu, tarasu czy przestrzeni
-          komercyjnej.
+          komercyjnej. Nasze konstrukcje wykonane są z drewna klejonego BSH - jest to najwyższej jakości suchy świerk klejony warstwowo, pokrycie jakie stosujemy to w naszej opinii  najlepszy i najtrwalszy poliwęglan na rynku.
         </p>
 
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
           Z ponad{" "}
           <span className="font-semibold text-[#e9a749]">
-            20-letnim doświadczeniem
+            10-letnim doświadczeniem w branży, 
           </span>{" "}
-          w branży, nasz zespół ekspertów dba o każdy detal, oferując najwyższą
-          jakość drewna, precyzyjne wykonanie oraz indywidualne podejście do
-          klienta. Dzięki naszym produktom, możesz cieszyć się przestrzenią,
-          która łączy estetykę z trwałością – na lata.
+          nasz zespół dba o każdy detal, precyzyjne wykonanie oraz indywidualne podejście do klienta. Dzięki naszym produktom, możesz cieszyć się przestrzenią, która łączy estetykę z trwałością – na lata.
         </p>
 
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
@@ -78,13 +75,13 @@ const SmallAbout = () => {
         <div ref={ref} className="w-full flex justify-end gap-8">
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
-              {inView ? <CountUp duration={2} end={20} start={0} /> : 0}
+              {inView ? <CountUp duration={5} end={10} start={0} /> : 0}
             </div>
             <div className="text-sm text-gray-600">lat w branży</div>
           </div>
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
-              {inView ? <CountUp duration={2} end={500} start={0} /> : 0}
+              {inView ? <CountUp duration={3} end={800} start={0} /> : 0}
             </div>
             <div className="text-sm text-gray-600">wykonanych projektów</div>
           </div>

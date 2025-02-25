@@ -10,9 +10,9 @@ export default function Home() {
           <span className={title()}>Dobierz&nbsp;</span>
           <span className={title({ color: "green" })}>najlepsze&nbsp;</span>
           <br />
-          <span className={title()}>zadaszenia oraz tarasy</span>
+          <span className={title()}>Nowczosene, piękne oraz solidne</span>
           <div className={subtitle({ class: "mt-4" })}>
-            Nowczosene, piękne oraz solidne konstrukcje
+            Zadaszenia i Tarasy
           </div>
         </div>
         <div className="flex gap-3">

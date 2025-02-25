@@ -76,8 +76,18 @@ export const Footer = () => {
         </div>
         <hr className="my-6 border-t border-[#e9a749]" />
         <div className="text-center text-xs">
+          <Link
+            isExternal
+            className="text-gray-500 hover:underline"
+            href="https://drewelt.pl/images/design/warunki-gwarancji-drewelt.pdf"
+            underline="always"
+          >
+            Poznaj warunki gwarancji
+          </Link>
+          <div className="mt-2">
           © {new Date().getFullYear()} Stworzone przez Maksymilian Robak.
           Wszystkie prawa zastrzeżone.
+          </div>
         </div>
       </div>
     </footer>

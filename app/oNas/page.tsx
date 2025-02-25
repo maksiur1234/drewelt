@@ -53,10 +53,7 @@ export default function AboutPage() {
         <div className="md:w-1/2 text-gray-600 text-base md:text-lg">
           <p className="mb-4">
             Firma Drewelt świadczy usługi produkcyjne i montażowe drewnianych
-            konstrukcji tarasowych oraz wiat już od 2014 roku. Jej właścicielem
-            jest Piotr Wiśniewski. Realizujemy zlecenia na terenie całego kraju,
-            ze szczególnym uwzględnieniem Poznania i województwa
-            wielkopolskiego.
+            konstrukcji tarasowych oraz wiat już od 2014 roku. <strong>Realizujemy zlecenia na terenie całego kraju!</strong>
           </p>
           <p className="mb-4">
             Zapewniamy uczciwą i przejrzystą współpracę. Jesteśmy elastyczni,
@@ -68,14 +65,6 @@ export default function AboutPage() {
             Zaufaj doświadczonym specjalistom, którzy łączą nowoczesność z
             tradycją oraz dbają o detale na każdym etapie realizacji.
           </p>
-          <Link
-            isExternal
-            className="text-blue-600 hover:underline inline-block mt-2"
-            href="https://drewelt.pl/images/design/warunki-gwarancji-drewelt.pdf"
-            underline="always"
-          >
-            Poznaj warunki gwarancji
-          </Link>
         </div>
       </section>
 

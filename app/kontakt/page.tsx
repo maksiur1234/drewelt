@@ -48,10 +48,11 @@ export default function ContactPage() {
           <p>pomożemy Ci dobrać najlepszą opcję!</p>
         </div>
         <div className="max-w-lg text-gray-700">
-          <span>
-            Cześć, jesteśmy tu, żeby pomóc Tobie w doborze najlepszego tarasu
-            lub zadaszenia. Jeśli masz jakieś pytania lub wątpliwości dotyczące
-            naszych produktów, chętnie Ci pomożemy.
+        <span>
+            <strong>WAŻNE!!!</strong><br />
+            W celu wyceny proszę wysłać zdjęcia miejsca i lokalizację oraz wymiary: <br />
+            <em>Ile cm wzdłuż ściany jaka szerokość( głębokość).</em><br />
+            W ciągu kilku dni przygotujemy wycenę.
           </span>
           <br />
           <span>Zadzwoń lub napisz!</span>
@@ -149,14 +150,14 @@ export default function ContactPage() {
       <div className="flex flex-col md:flex-row w-full justify-between items-center border-t pt-4 text-center">
         <div className="flex-1 mb-4 md:mb-0">
           <p className="font-semibold">Siedziba</p>
-          <p className="text-gray-600">Ul. Długa 7, 62-095 Murowana Goślina</p>
+          <p className="text-gray-600">62-095 Rakownia ul.Pliszki 18</p>
         </div>
 
         <div className="h-0.5 md:h-10 bg-gray-300 md:bg-transparent md:border-l mx-0 md:mx-6 mb-4 md:mb-0" />
 
         <div className="flex-1 mb-4 md:mb-0">
           <p className="font-semibold">Telefon</p>
-          <p className="text-gray-600">+48 123 456 789</p>
+          <p className="text-gray-600">+48 887 400 824</p>
         </div>
 
         <div className="h-0.5 md:h-10 bg-gray-300 md:bg-transparent md:border-l mx-0 md:mx-6 mb-4 md:mb-0" />

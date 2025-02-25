@@ -24,30 +24,23 @@ const Realizations = () => {
         </p>
         <Accordion variant="bordered">
           <AccordionItem
-            aria-label="Jak dobrać drewno?"
-            title="Jak dobrać drewno?"
+            aria-label="Jak wybrać drewno?"
+            title="Jak wybrać drewno?"
           >
-            Wybór odpowiedniego gatunku drewna to klucz do trwałości i estetyki
-            Twojego projektu. Doradzamy, które rodzaje drewna najlepiej sprawdzą
-            się w konkretnych warunkach, zarówno wewnątrz, jak i na zewnątrz.
+             Nie musisz sobie zaprzątać głowy tym pytaniem , ponieważ stosujemy tylko najwyżej jakości drewno BSH , które się nie skręca i nie rozsycha tak jak drewno lite.
           </AccordionItem>
           <AccordionItem
             aria-label="Ile trwa wykonanie projektu?"
             title="Ile trwa wykonanie projektu?"
           >
-            Nasze projekty są realizowane w różnych ramach czasowych – od kilku
-            tygodni dla mniejszych zleceń, do kilku miesięcy przy kompleksowych
-            przedsięwzięciach. Każdy etap jest dokładnie planowany, aby sprostać
-            oczekiwaniom naszych klientów.
+            Standardowe przydomowe inwestycje wykonujemy w okresie 4-6 tygodni od dnia wpłaty zaliczki, inne większe zlecenia w zależności od sezonu czasem muszą poczekać trochę dłużej.
           </AccordionItem>
           <AccordionItem
-            aria-label="Czy wykonujemy prace dodatkowe?"
-            title="Czy wykonujemy prace dodatkowe?"
+            aria-label="Jak wygląda montaż?"
+            title="Jak wygląda montaż?"
           >
-            Tak, oferujemy szeroki zakres usług dodatkowych, takich jak
-            projektowanie wnętrz, montaż mebli czy doradztwo w zakresie
-            utrzymania drewna. Dzięki temu możesz liczyć na kompleksową obsługę
-            od koncepcji po finalne wykończenie.
+            Montaż zadaszenia trwa przeważnie jeden dzień , jedynie przy większych odległościach i znacznych rozmiarach może się przedłużyć.
+            Kilka dni przed kontaktujemy się w celu ustalenia dokładnej daty, dzień przed potwierdzamy przyjazd. Jeżeli wszystko jest ustalone obecność klienta nie jest konieczna.
           </AccordionItem>
         </Accordion>
       </div>

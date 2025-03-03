@@ -119,7 +119,7 @@ export default function AboutPage() {
           <Image
             alt="Nasze realizacje"
             className="rounded-lg shadow-xl object-cover w-full"
-            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
+            src="/zadaszenia_na_lukach/IMG_20160518_161532.jpg"
             style={{ maxHeight: "650px" }}
           />
         </div>

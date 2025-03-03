@@ -71,7 +71,7 @@ const Products = () => {
               <Image
                 alt="Produkt 2"
                 className="object-cover w-full h-48 rounded-md mb-2"
-                src="https://domszytynamiare.pl/upload/images/domszytynamiare_pl%201.jpg"
+                src="/deska_kompozytowa/IMG_20210616_135727.jpg"
                 width={600}
                 height={600}
               />
@@ -96,7 +96,7 @@ const Products = () => {
               <Image
                 alt="Produkt 3"
                 className="object-cover w-full h-48 rounded-md mb-2"
-                src="https://zogrodemnaty.pl/wp-content/uploads/2024/06/stale-zadaszenie-tarasu-2.jpeg"
+                src="/obrazki/zadaszenie Szczecin.jpg"
                 width={600}
                 height={600}
               />

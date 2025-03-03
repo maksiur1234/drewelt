@@ -20,12 +20,12 @@ export async function GET() {
     path.join(process.cwd(), "public", "zadaszenia_na_lukach"),
   );
   const deskaImages = getImagesFromDirectory(
-    path.join(process.cwd(), "public", "deska_kompozytowa"),
+    path.join(process.cwd(), "public", "zadaszenia_prosty_spadek"),
   );
   const rodzajeDesekImages = getImagesFromDirectory(
     path.join(process.cwd(), "public", "kolory_desek"),
   );
-  const pozostaleImages = getImagesFromDirectory(
+  const zadaszeniaProstySpadekImages = getImagesFromDirectory(
     path.join(process.cwd(), "public", "obrazki"),
   );
 
@@ -35,17 +35,14 @@ export async function GET() {
       images: zadaszeniaImages,
     },
     {
-      title: "Deska kompozytowa",
-      images: deskaImages,
+      title: "Zadaszenia z prostym spadkiem",
+      images: zadaszeniaProstySpadekImages,
     },
     {
       title: "Rodzaje desek",
       images: rodzajeDesekImages,
     },
-    {
-      title: "Pozostałe",
-      images: pozostaleImages,
-    },
+    
   ];
 
   return new Response(JSON.stringify(gallery), {

@@ -32,7 +32,6 @@ export default function GaleriaPage() {
   };
 
   useEffect(() => {
-    // Fetch data from API
     const fetchGalleryData = async () => {
       try {
         const response = await fetch("/api/gallery");

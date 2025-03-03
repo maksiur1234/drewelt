@@ -3,24 +3,24 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "@heroui/button";
 import { Card, CardBody, CardFooter } from "@heroui/card";
-import { Image } from "@heroui/image";
+import Image from "next/image";
 import { FaGem, FaRocket, FaGift, FaUserTie } from "react-icons/fa";
 import { Link } from "@heroui/link";
 
 import { useWindowWidth } from "../hooks/useWindowWidth";
-
-const images = [
-  "https://stimeo-domki.pl/themes/default-bootstrap/dynamite/LP/zadaszenia-tarasow-1.JPEG",
-  "https://maszyny-stolarskie.com.pl/wp-content/uploads/2019/07/gfghhhhg.jpg",
-  "https://drewelt.pl/images/galerie/38/1BIOCLIMATIC.webp",
-];
 
 const LandingPageImage = () => {
   const [mounted, setMounted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(false);
   const windowWidth = useWindowWidth();
-  const [images, setImages] = useState([]);
+
+  const obrazki = [
+    "/obrazki/20230628_193255.jpg",
+    "/obrazki/Poznań1.jpg",
+    "/zadaszenia_na_lukach/20221129_122712.jpg",
+    "/obrazki/20221104_100135.jpg",
+  ];
 
   useEffect(() => {
     setMounted(true);
@@ -30,25 +30,18 @@ const LandingPageImage = () => {
   const imageHeight = isMobile ? 300 : 600;
 
   useEffect(() => {
-    if (images.length === 0) return;
+    if (obrazki.length === 0) return;
 
     const interval = setInterval(() => {
       setFade(true);
       setTimeout(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % obrazki.length);
         setFade(false);
       }, 1000);
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [images]);
-
-  useEffect(() => {
-    fetch("api/images")
-      .then((res) => res.json())
-      .then((data) => setImages(data))
-      .catch((error) => console.error(error));
-  }, []);
+  }, [obrazki]);
 
   if (!mounted) {
     return <div className="relative w-full mx-auto min-h-[600px]" />;
@@ -62,15 +55,18 @@ const LandingPageImage = () => {
             className="relative w-full overflow-hidden rounded-t-lg"
             style={{ height: `${imageHeight}px` }}
           >
-            <Image
-              alt={`Slide ${currentIndex + 1}`}
-              className={`absolute top-0 left-0 w-full h-full object-cover transition-all duration-1000 ${
-                fade ? "opacity-0 scale-95" : "opacity-100 scale-100"
-              }`}
-              height={imageHeight}
-              src={images[currentIndex]}
-              width={1920}
-            />
+            {obrazki.map((src, index) => (
+              <Image
+              key={index}
+                alt={`Slide ${index + 1}`}
+                className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out ${
+                  index === currentIndex ? "opacity-100 scale-100" : "opacity-0 scale-95"
+                }`}
+                height={imageHeight}
+                src={src}
+                width={1920}
+              />
+           ))}
           </div>
           <CardBody className="p-4 text-center">
             <p className="text-xs border border-[#e9a749] text-[#e9a749] px-4 py-0.5 inline-block mb-2 w-full">
@@ -140,16 +136,20 @@ const LandingPageImage = () => {
   return (
     <div className="relative w-full mx-auto">
       <Card isFooterBlurred className="border-none" radius="lg">
-        <div className="relative w-full h-[600px] overflow-hidden">
-          <Image
-            alt={`Slide ${currentIndex + 1}`}
-            className={`absolute top-0 left-0 w-full h-full object-cover transition-all duration-1000 ${
-              fade ? "opacity-0 scale-95" : "opacity-100 scale-100"
-            }`}
-            height={600}
-            src={images[currentIndex]}
-            width={1920}
-          />
+        <div className="relative w-full h-screen overflow-hidden">
+          {obrazki.map((src, index) => (
+            <Image
+              key={index}
+              alt={`Obrazek ${index + 1}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-in-out ${
+                index === currentIndex ? "opacity-100 scale-100" : "opacity-0 scale-95"
+              }`}
+              src={src}
+              priority
+              width={1920}
+              height={1000}
+            />
+          ))}
         </div>
         <CardBody className="absolute left-12 top-1/2 transform -translate-y-1/2 p-2 z-10">
           <p className="text-xs border border-[#e9a749] text-[#e9a749] px-6 py-0.5 inline-block mb-2 w-1/6 text-center bg-[#262420] bg-opacity-60">
@@ -169,6 +169,7 @@ const LandingPageImage = () => {
             Zobacz więcej
           </Button>
         </CardBody>
+
         <CardFooter className="bg-[#262420] py-6">
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">

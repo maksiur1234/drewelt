@@ -84,11 +84,6 @@ export default function RoofPage() {
       image: "https://drewelt.pl/images/galerie/31/jasny-brz.webp",
     },
     {
-      name: "Średni Brąz",
-      color: "#948379",
-      image: "https://drewelt.pl/images/galerie/31/redni-brz.webp",
-    },
-    {
       name: "Ciemny Brąz",
       color: "#676055",
       image: "https://drewelt.pl/images/galerie/31/ciemny-brz.webp",
@@ -145,7 +140,7 @@ export default function RoofPage() {
       </section>
 
       <section className="my-6">
-        <div className="w-full sm:w-3/4 lg:w-1/2 mx-auto">
+        <div className="w-full sm:w-3/4 lg:w-1/2 mx-auto mb-12">
           <DoughnutChart />
         </div>
       </section>
@@ -202,9 +197,6 @@ export default function RoofPage() {
                     📏 {product.dimensions}
                   </p>
                 )}
-                <p className="text-lg font-semibold text-gray-800 mt-2">
-                  💰 {product.price}
-                </p>
               </CardBody>
             </Card>
           ))}
@@ -235,9 +227,6 @@ export default function RoofPage() {
                     📏 {product.dimensions}
                   </p>
                 )}
-                <p className="text-lg font-semibold text-gray-800 mt-2">
-                  💰 {product.price}
-                </p>
               </CardBody>
             </Card>
           ))}

@@ -29,22 +29,26 @@ const SmallAbout = () => {
             Tworzymy przestrzenie, które inspirują.
           </span>
         </h2>
-        <Image
-          alt="Drewniane deski"
-          className="w-full h-80 object-cover rounded-lg shadow-md"
-          src="/obrazki/20230628_193255.jpg"
-          width={600}
-          height={600}
-        />
+        <div className="h-24">
+          <Image
+            alt="Drewniane deski"
+            className="object-contain w-full h-auto rounded-lg shadow-md"
+            src="/obrazki/20230628_193255.jpg"
+            width={1920}
+            height={1080}
+          />
+        </div>
       </div>
-
       <div className="md:w-1/2 flex flex-col items-end space-y-6">
         <Image
           alt="Drewniane deski"
-          className="w-full h-64 object-cover rounded-lg shadow-md"
-          src="/zadaszenia_na_lukach/wiata-garazowa.jpg"
-          width={600}
-          height={600}
+          className="w-full h-96 object-cover rounded-lg shadow-md"
+          src="/obrazki/palisnder.jpg"
+          width={1920}
+          height={1080}
+          style={{
+            objectPosition: "50% 30%",
+          }}
         />
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
           Jesteśmy firmą specjalizującą się w projektowaniu i budowie

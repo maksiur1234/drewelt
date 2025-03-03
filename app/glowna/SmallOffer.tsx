@@ -11,8 +11,8 @@ const SmallOffer = () => {
         <Link className="col-span-12 md:col-span-7 block" href="/galeria">
           <Card isFooterBlurred className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col items-start">
-              <p className="text-tiny text-white/60 uppercase font-bold">
-                Pergole aluminiowe
+              <p className="text-tiny text-black/60 uppercase font-bold">
+                Zadaszenia z prostym spadkiem
               </p>
               <h4 className="text-white/90 font-medium text-xl">
                 Nowoczesne zadaszenie
@@ -21,7 +21,7 @@ const SmallOffer = () => {
             <Image
               isZoomed
               removeWrapper
-              alt="Pergole aluminiowe"
+              alt="Zadaszenia z prostym spadkiem"
               className="z-0 w-full h-full object-cover"
               src="/obrazki/Poznań1.jpg"
             />
@@ -31,11 +31,11 @@ const SmallOffer = () => {
         <Link className="col-span-12 md:col-span-5 block" href="/galeria">
           <Card className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-              <p className="text-tiny text-gray-800 uppercase font-bold">
-                Taras drewniany
+              <p className="text-tiny text-black-600 uppercase font-bold">
+                Drewniane zadaszenie
               </p>
-              <h4 className="text-gray-600 font-medium text-large">
-                Deski kompozytowe
+              <h4 className="text-white font-medium text-large">
+                Klasyczny wygląd
               </h4>
             </CardHeader>
             <Image
@@ -43,7 +43,7 @@ const SmallOffer = () => {
               removeWrapper
               alt="Taras drewniany"
               className="z-0 w-full h-full object-cover"
-              src="/obrazki/20230413_161433.jpg"
+              src="/obrazki/20230628_193255.jpg"
             />
           </Card>
         </Link>
@@ -51,8 +51,8 @@ const SmallOffer = () => {
         <Link className="col-span-12 md:col-span-5 block" href="/galeria">
           <Card className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-              <p className="text-tiny text-white/60 uppercase font-bold">
-                Zadaszenia drewniane
+              <p className="text-tiny text-gray-500 uppercase font-bold">
+                Zadaszenia na łukach
               </p>
               <h4 className="text-white font-medium text-large">
                 Nowoczesne rozwiązania
@@ -61,9 +61,9 @@ const SmallOffer = () => {
             <Image
               isZoomed
               removeWrapper
-              alt="Zadaszenia drewniane"
+              alt="Zadaszenia na łukach"
               className="z-0 w-full h-full object-cover"
-              src="/obrazki/IMG-20230928-WA0003.jpg"
+              src="/zadaszenia_na_lukach/IMG_20190313_112655.jpg"
             />
           </Card>
         </Link>
@@ -74,10 +74,10 @@ const SmallOffer = () => {
         >
           <Card isFooterBlurred className="w-full h-[400px]">
             <CardHeader className="absolute z-10 top-1 flex-col items-start">
-              <p className="text-tiny text-white/60 uppercase font-bold">
-                Zadaszenia aluminiowe
+              <p className="text-tiny text-black/60 uppercase font-bold">
+                Drewniany taras
               </p>
-              <h4 className="text-black font-medium text-2xl">
+              <h4 className="text-white font-medium text-2xl">
                 Innowacyjny design
               </h4>
             </CardHeader>
@@ -86,7 +86,10 @@ const SmallOffer = () => {
               removeWrapper
               alt="Zadaszenia aluminiowe"
               className="z-0 w-full h-full object-cover"
-              src="/obrazki/20240926_130525.jpg"
+              src="/obrazki/IMG-20220213-WA0030.jpg"
+              style={{
+                objectPosition: "50% 5%",
+              }}
             />
           </Card>
         </Link>

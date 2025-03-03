@@ -31,7 +31,7 @@ const Products = () => {
           backContent={
             <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                <strong>Szczegóły:</strong> Nasze usługi projektowe to
+                Nasze usługi projektowe to
                 gwarancja, że Twój taras będzie idealnie dopasowany do Twoich
                 potrzeb. Przedstawiamy wyjątkowe projekty, które łączą estetykę
                 i funkcjonalność.
@@ -59,7 +59,7 @@ const Products = () => {
           backContent={
             <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                <strong>Szczegóły:</strong> Nasze tarasy to idealne połączenie
+                Nasze tarasy to idealne połączenie
                 estetyki z trwałością. Wykonujemy tarasy, które zmieniają
                 przestrzeń w miejsce relaksu.
               </p>
@@ -84,7 +84,7 @@ const Products = () => {
           backContent={
             <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
               <p className="text-center font-medium">
-                <strong>Szczegóły:</strong> Zadaszenia chronią Twój taras przed
+                Zadaszenia chronią Twój taras przed
                 warunkami atmosferycznymi. Gwarantują komfort przez cały rok,
                 niezależnie od pogody.
               </p>

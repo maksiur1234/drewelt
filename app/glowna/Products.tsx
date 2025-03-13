@@ -111,7 +111,7 @@ const Products = () => {
       <Button
         as={Link}
         className="px-8 py-3 bg-[#e9a749] text-white font-semibold text-lg rounded-md shadow-md hover:bg-[#d79e41]"
-        href="/produkty"
+        href="/tarasy"
       >
         Zobacz wszystkie produkty
       </Button>

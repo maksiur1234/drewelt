@@ -24,7 +24,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     className="text-sm hover:underline text-white"
-                    href="/oNas"
+                    href="/o-nas"
                   >
                     O nas
                   </Link>

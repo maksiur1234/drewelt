@@ -19,7 +19,7 @@ const SmallAbout = () => {
           as={Link}
           className=""
           color="warning"
-          href="/oNas"
+          href="/o-nas"
           variant="ghost"
         >
           O nas

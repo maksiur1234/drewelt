@@ -8,6 +8,7 @@ import {
   useDisclosure,
 } from "@heroui/modal";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 type Backdrop = "opaque" | "blur";
 
@@ -22,6 +23,7 @@ export default function BlurModal({
 }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [backdrop, setBackdrop] = React.useState<Backdrop>("opaque");
+  const router = useRouter();
 
   const backdrops: Backdrop[] = ["blur"];
 
@@ -29,6 +31,17 @@ export default function BlurModal({
     setBackdrop(backdrop);
     onOpen();
   };
+
+  const handleDetailsClick = () => {
+    const formattedName = name
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+  
+    router.push(`/zadaszenia/zadaszenie-tarasu-${formattedName}`);
+  };
+  
 
   return (
     <>
@@ -57,7 +70,7 @@ export default function BlurModal({
                 <Button color="danger" variant="light" onPress={onClose}>
                   Zamknij
                 </Button>
-                <Button color="primary" onPress={onClose}>
+                <Button color="success" onPress={handleDetailsClick}>
                   Szczegóły
                 </Button>
               </ModalFooter>

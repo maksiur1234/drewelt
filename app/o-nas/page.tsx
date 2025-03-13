@@ -9,29 +9,6 @@ import { useEffect, useState } from "react";
 import BlurModal from "@/components/modal";
 
 export default function AboutPage() {
-  const cities = [
-    { name: "Poznań", description: "Poznań opis." },
-    { name: "Leszno", description: "Leszno opis." },
-    { name: "Lubin", description: "Lubin opis." },
-    { name: "Wrocław", description: "Wrocław opis." },
-    { name: "Konin", description: "Konin opis." },
-    { name: "Gorzów Wielkopolski", description: "Gorzów Wlkp. opis." },
-    { name: "Zielona Góra", description: "Zielona Góra opis." },
-  ];
-
-  const [visibleCities, setVisibleCities] = useState<number[]>([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    if (currentIndex < cities.length) {
-      const timer = setTimeout(() => {
-        setVisibleCities((prev) => [...prev, currentIndex]);
-        setCurrentIndex((prev) => prev + 1);
-      }, 10);
-
-      return () => clearTimeout(timer);
-    }
-  }, [currentIndex]);
 
   return (
     <div className="container mx-auto px-6 py-12">
@@ -77,28 +54,7 @@ export default function AboutPage() {
             zaledwie 15 km od Poznania, co pozwala nam szybko reagować na
             potrzeby klientów.
           </p>
-          <CardBody className="flex flex-col md:flex-row items-center justify-center gap-4">
-            {cities.map((city, index) => (
-              <div key={index}>
-                <div
-                  className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
-                  style={{
-                    opacity: visibleCities.includes(index) ? 1 : 0,
-                    transform: visibleCities.includes(index)
-                      ? "translateY(0)"
-                      : `translateY(${index % 2 === 0 ? "10px" : "-10px"})`,
-                    transitionDelay: `${index * 0.3}s`,
-                  }}
-                >
-                  <BlurModal
-                    description={city.description}
-                    label={city.name}
-                    name={city.name}
-                  />
-                </div>
-              </div>
-            ))}
-          </CardBody>
+          <CardBody className="flex flex-col md:flex-row items-center justify-center gap-4"></CardBody>
         </Card>
       </section>
 

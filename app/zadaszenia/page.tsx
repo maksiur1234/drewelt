@@ -8,14 +8,14 @@ import BlurModal from "@/components/modal";
 
 export default function RoofPage() {
   const cities = [
-    { name: "Poznań", description: "Poznań opis." },
-    { name: "Leszno", description: "Leszno opis." },
-    { name: "Lubin", description: "Lubin opis." },
-    { name: "Wrocław", description: "Wrocław opis." },
-    { name: "Konin", description: "Konin opis." },
-    { name: "Gorzów Wielkopolski", description: "Gorzów Wlkp. opis." },
-    { name: "Zielona Góra", description: "Zielona Góra opis." },
-  ];
+    { name: "Poznań", description: "Zadaszenia tarasów i garaży w Poznaniu, oferujące nowoczesne rozwiązania dostosowane do potrzeb każdego klienta." },
+    { name: "Leszno", description: "Profesjonalne zadaszenia w Lesznie, gwarantujące trwałość i estetykę na lata." },
+    { name: "Lubin", description: "Nowoczesne zadaszenia dla domów w Lubinie, które łączą funkcjonalność z eleganckim wyglądem." },
+    { name: "Wrocław", description: "Zadaszenia tarasowe i altanowe we Wrocławiu, zapewniające komfort i ochronę przez cały rok." },
+    { name: "Konin", description: "Zadaszenia w Koninie – trwałe, estetyczne rozwiązania, które doskonale wpasują się w każdy krajobraz." },
+    { name: "Gorzów Wielkopolski", description: "Solidne zadaszenia w Gorzowie Wielkopolskim, które łączą nowoczesność z tradycją." },
+    { name: "Zielona Góra", description: "Zadaszenia tarasów i garaży w Zielonej Górze, oferujące szeroki wybór materiałów i wzorów." },
+  ];  
 
   const [visibleCities, setVisibleCities] = useState<number[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);

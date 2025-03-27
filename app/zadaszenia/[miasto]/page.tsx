@@ -1,18 +1,50 @@
+'use client'
+
+import React, { useEffect, useState } from "react";
+
+const cityMapping: Record<string, string> = {
+  wroclaw: "Wrocław",
+  poznan: "Poznań",
+  krakow: "Kraków",
+  warszawa: "Warszawa",
+  gdansk: "Gdańsk",
+  leszno: "Leszno",
+  lubin: "Lubin",
+  gorzow: "Gorzów Wielkopolski",
+  zielona_gora: "Zielona Góra",
+};
+
 export default function MiastoPage({ params }: { params: any }) {
-  const { miasto } = params;
+  const [decodedMiasto, setDecodedMiasto] = useState<string | null>(null);
+
+  useEffect(() => {
+    const getParams = async () => {
+      const resolvedParams = await params;
+      const miasto = resolvedParams.miasto;
+
+      const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
+      setDecodedMiasto(decoded);
+    };
+
+    getParams();
+  }, [params]);
+
+  if (!decodedMiasto) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold text-gray-800 capitalize mb-6">
-        {miasto.replace(/-/g, " ")}
+        {decodedMiasto.replace(/-/g, " ")}
       </h1>
       
       <div className="bg-gray-50 p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">
-          Zadaszenie Tarasu w {miasto.replace(/-/g, " ")}
+          Zadaszenie Tarasu w {decodedMiasto}
         </h2>
         <p className="text-lg leading-relaxed text-gray-600 mb-6">
-          Zadaszenia tarasu w {miasto.replace(/-/g, " ")} stanowią nie tylko
+          Zadaszenia tarasu w {decodedMiasto.replace(/-/g, " ")} stanowią nie tylko
           praktyczne rozwiązanie chroniące przed warunkami atmosferycznymi, ale
           również istotny element architektoniczny, który wpływa na estetykę i
           charakter przestrzeni zewnętrznej. Są one kluczowym komponentem w
@@ -28,7 +60,7 @@ export default function MiastoPage({ params }: { params: any }) {
             Dlaczego warto zainwestować w zadaszenie tarasu?
           </h3>
           <p className="text-lg text-gray-600 mb-4">
-            Inwestycja w zadaszenie tarasu w {miasto.replace(/-/g, " ")} przynosi
+            Inwestycja w zadaszenie tarasu w {decodedMiasto.replace(/-/g, " ")} przynosi
             szereg korzyści, które znacząco wpływają na komfort i funkcjonalność
             życia codziennego. Przede wszystkim, zadaszenie to skuteczna ochrona
             przed zmiennymi warunkami pogodowymi – zarówno intensywnym słońcem
@@ -40,7 +72,7 @@ export default function MiastoPage({ params }: { params: any }) {
             samej nieruchomości, co może być istotne w perspektywie długoterminowej.
             Zadaszenie zapewnia także dodatkową izolację termiczną i ochronę przed
             promieniowaniem UV, co przekłada się na zwiększenie komfortu użytkowania
-            przestrzeni tarasu. Zadaszenie w {miasto.replace(/-/g, " ")} jest również
+            przestrzeni tarasu. Zadaszenie w {decodedMiasto.replace(/-/g, " ")} jest również
             praktycznym rozwiązaniem dla osób ceniących sobie prywatność, gdyż
             pełni funkcję bariery chroniącej przed wzrokiem sąsiadów.
           </p>

@@ -1,4 +1,4 @@
-export default function MiastoPage({ params }: { params: { miasto: string } }) {
+export default function MiastoPage({ params }: { params: any }) {
   const { miasto } = params;
 
   return (

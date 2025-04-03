@@ -1,44 +1,34 @@
 "use client";
 
-import { FC, ReactNode, useState, useEffect } from "react";
+import { FC, ReactNode } from "react";
 
 interface FlipCardProps {
   frontContent: ReactNode;
   backContent: ReactNode;
-  className?: string;
+  isActive: boolean;
 }
 
-const FlipCard: FC<FlipCardProps> = ({
-  frontContent,
-  backContent,
-  className = "",
-}) => {
-  const [flipped, setFlipped] = useState<boolean>(false);
-  const [isTouch, setIsTouch] = useState<boolean>(false);
-
-  useEffect(() => {
-    if (window.matchMedia("(hover: none)").matches) {
-      setIsTouch(true);
-    }
-  }, []);
-
-  const handleClick = () => {
-    if (isTouch) {
-      setFlipped((prev) => !prev);
-    }
-  };
-
+const FlipCard: FC<FlipCardProps> = ({ frontContent, backContent, isActive }) => {
   return (
-    <button
-      className={`flip-card ${className}`}
-      type="button"
-      onClick={handleClick}
+    <div
+      className={`flip-card transition-all duration-500 ${
+        isActive ? "active-card" : "opacity-80 scale-95"
+      }`}
     >
-      <div className={`flip-card-inner ${flipped ? "flipped" : ""}`}>
-        <div className="flip-card-front">{frontContent}</div>
-        <div className="flip-card-back">{backContent}</div>
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <div className="flip-card-front-content">
+            {frontContent}
+          </div>
+        </div>
+
+        <div className="flip-card-back">
+          <div className="flip-card-back-content">
+            {backContent}
+          </div>
+        </div>
       </div>
-    </button>
+    </div>
   );
 };
 

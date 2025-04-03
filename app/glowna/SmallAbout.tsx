@@ -30,26 +30,28 @@ const SmallAbout = () => {
           </span>
         </h2>
         <div className="h-24">
-          <Image
-            alt="Drewniane deski"
-            className="object-contain w-full h-auto rounded-lg shadow-md"
-            src="/obrazki/20230628_193255.jpg"
-            width={1920}
-            height={1080}
-          />
-        </div>
-      </div>
-      <div className="md:w-1/2 flex flex-col items-end space-y-6">
         <Image
           alt="Drewniane deski"
-          className="w-full h-96 object-cover rounded-lg shadow-md"
+          className="object-contain w-full h-auto rounded-lg shadow-md"
           src="/obrazki/palisnder.jpg"
           width={1920}
           height={1080}
-          style={{
-            objectPosition: "50% 30%",
-          }}
+          
         />
+         
+        </div>
+      </div>
+      <div className="md:w-1/2 flex flex-col items-end space-y-6">
+      <Image
+            alt="Drewniane deski"
+            className="w-full h-96 object-cover rounded-lg shadow-md"
+            src="/obrazki/20230628_193255.jpg"
+            width={1920}
+            height={1080}
+            style={{
+              objectPosition: "50% 30%",
+            }}
+          />
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
           Jesteśmy firmą specjalizującą się w projektowaniu i budowie
           eleganckich,
@@ -60,7 +62,7 @@ const SmallAbout = () => {
           które dopełniają każde otoczenie. Z pasją
           łączymy tradycyjne rzemiosło z nowoczesnym designem, tworząc
           rozwiązania idealne do Twojego ogrodu, tarasu czy przestrzeni
-          komercyjnej. Nasze konstrukcje wykonane są z drewna klejonego BSH - jest to najwyższej jakości suchy świerk klejony warstwowo, pokrycie jakie stosujemy to w naszej opinii  najlepszy i najtrwalszy poliwęglan na rynku.
+          komercyjnej. Nasze konstrukcje wykonane są z drewna klejonego BSH - jest to najwyższej jakości suchy świerk klejony warstwowo, pokrycie jakie stosujemy to w naszej opinii  najlepszy i najtrwalszy poliwęglan na rynku o grubości 10 mm w trzech kolorach (przezroczysty, mleczny, przydymiony).
         </p>
 
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">

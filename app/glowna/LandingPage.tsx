@@ -16,9 +16,9 @@ const LandingPageImage = () => {
   const windowWidth = useWindowWidth();
 
   const obrazki = [
-    "/obrazki/20230628_193255.jpg",
+    // "/obrazki/20230628_193255.jpg",
     "/obrazki/Poznań1.jpg",
-    "/zadaszenia_na_lukach/20221129_122712.jpg",
+    // "/zadaszenia_na_lukach/20221129_122712.jpg",
     "/obrazki/20221104_100135.jpg",
   ];
 

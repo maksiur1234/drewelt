@@ -41,13 +41,14 @@ export default function RoofPage() {
         className="relative h-[500px] md:h-[700px] flex items-center justify-center bg-cover bg-center rounded-lg shadow-xl"
         style={{
           backgroundImage:
-            "url(/zadaszenia_na_lukach/InkedIMG_20200117_135409_LI.jpg)",
+            "url(/zadaszenia_na_lukach/IMG_20211103_131301.jpg)",
         }}
       >
+        {/* obrazki 131301 oraz 161352 */}
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-3xl md:text-5xl font-bold">
-            Zadaszenia Altan, Garaży i Tarasów
+            Zadaszenia Tarasów, Wiaty Samochodowe, Altany Ogrodowe
           </h1>
           <p className="mt-4 text-lg md:text-xl">
             Innowacyjne rozwiązania łączące tradycję z nowoczesnością
@@ -63,23 +64,38 @@ export default function RoofPage() {
             src="/zadaszenia_na_lukach/20221129_122737.jpg"
           />
         </div>
-        <div className="text-gray-700">
-          <h2 className="text-2xl font-bold mb-4">O naszej ofercie</h2>
+        <div className="text-gray-700 dark:text-gray-300">
+          <h2 className="text-2xl font-bold mb-4">Jak zamówić</h2>
           <p className="mb-4 text-lg leading-relaxed">
-            Zajmujemy się produkcją i montażem zadaszeń tarasowych, garażowych
-            oraz altanowych. Wykorzystujemy najwyższej jakości materiały, aby
-            zapewnić trwałość i estetykę każdej konstrukcji.
+            Pragniemy zwrócić uwagę na najbardziej ekonomiczne wymiary naszych konstrukcji, ze względu na brak odpadów. Najkorzystniejsze cenowo wymiary:
           </p>
-          <ul className="list-disc list-inside text-lg">
-            <li>Nowoczesne technologie montażu</li>
-            <li>Wysoka jakość materiałów</li>
-            <li>Indywidualne podejście do klienta</li>
+
+          <ul className="space-y-3 text-lg">
+            <li className="flex items-center gap-3 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
+              <span className="text-xl">📏</span>
+              <span className="font-semibold">Długość (po ścianie):</span>
+              <span className="text-primary font-medium">422 / 530 / 634 / 740 / 846 cm</span>
+            </li>
+            <li className="flex items-center gap-3 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
+              <span className="text-xl">📏</span>
+              <span className="font-semibold">Szerokość/głębokość:</span>
+              <span className="text-primary font-medium">290 / 340 / 450 / 500 / 600 cm</span>
+            </li>
+            <li className="flex items-center gap-3 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
+              <span className="text-xl">🤝</span>
+              <span className="font-semibold">Indywidualne podejście do klienta</span>
+            </li>
           </ul>
         </div>
       </section>
 
       <Divider className="my-12" />
-      <h1 className="font-weight-700">Działamy na terenie miast</h1>
+      <h1 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-2">
+        Działamy na terenie całej Polski
+      </h1>
+      <h1 className="text-xl font-semibold text-center text-gray-700 dark:text-gray-300 mt-2 mb-2">
+        Najwięcej inwestycji w miastach:
+      </h1>
       <div className="flex flex-col md:flex-row items-center justify-center gap-4">
         
         {cities.map((city, index) => (
@@ -105,7 +121,7 @@ export default function RoofPage() {
       </div>
      
 
-      <section className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* <section className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white rounded-lg shadow-lg p-6 text-center">
           <Image
             alt="Jakość"
@@ -139,7 +155,7 @@ export default function RoofPage() {
             Innowacyjny design, który nadaje nowoczesny wygląd Twojemu domowi.
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section className="mt-12 text-center">
         <Link

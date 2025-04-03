@@ -1,120 +1,122 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
-import { Card } from "@heroui/card";
 import Image from "next/image";
-
 import FlipCard from "@/components/flipCard";
 
 import "./flipCard.css";
 
 const Products = () => {
+  const [activeIndex, setActiveIndex] = useState(1);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % 3);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="flex flex-col items-center px-6 py-16 bg-gradient-to-b from-gray-50 to-gray-100">
-      <h1 className="text-5xl font-extrabold text-gray-900 mb-6 text-center">
-        <span className="text-[#e9a749]">Nasze</span> Produkty
-      </h1>
-      <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
-        Jakościowe deski kompozytowe
-      </h2>
-      <p className="text-lg text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-        Nasze deski kompozytowe wyróżniają się najwyższą jakością wykonania oraz
-        unikalnym designem, który nadaje charakter każdemu wnętrzu. Wybierz
-        spośród naszych produktów, które łączą elegancję z funkcjonalnością.
-        Oferujemy rozwiązania idealne zarówno do ogrodów, tarasów, jak i
-        przestrzeni komercyjnych.
+      <div className="flex pb-8">
+        <Button
+          as={Link}
+          className="px-16 py-10 text-xl font-semibold"
+          color="warning"
+          href="/o-nas"
+          variant="ghost"
+        >
+          O nas
+        </Button>
+      </div>
+      <p className="text-2xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+        Oferujemy najwyższej jakości deski kompozytowe i akcesoria do montażu.
+        Twój wymarzony taras w najlepszej cenie!
       </p>
 
-      <div className="flex flex-col md:flex-row gap-12 mb-12 justify-center items-center">
-        <FlipCard
-          backContent={
-            <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
-              <p className="text-center font-medium">
-                Nasze usługi projektowe to
-                gwarancja, że Twój taras będzie idealnie dopasowany do Twoich
-                potrzeb. Przedstawiamy wyjątkowe projekty, które łączą estetykę
-                i funkcjonalność.
-              </p>
-            </Card>
-          }
-          className="w-80 h-[400px] transition-all hover:scale-105"
-          frontContent={
-            <Card className="w-full h-full p-4 border-2 border-[#e9a749] rounded-lg shadow-xl">
-              <Image
-                alt="Produkt 1"
-                className="object-cover w-full h-48 rounded-md mb-2"
-                src="https://blog.stabrawa.pl/wp-content/uploads/2017/08/projektowanie-wn%C4%99trz-nauka-do%C5%9Bwiadczenie-umiej%C4%99tno%C5%9Bci-3-1024x682-2560x1920.jpg"
-                width={600}
-                height={600}
-              />
-              <p className="text-center font-medium text-gray-900">
-                Projektowanie
-              </p>
-            </Card>
-          }
-        />
+      <div className="flex flex-col md:flex-row items-center justify-center w-full px-6 py-2 gap-y-6 lg:gap-x-8">
 
+    <div className="w-full md:w-1/2 flex justify-center">
+      <div className="flex gap-6 bg-white p-6 rounded-lg shadow-lg max-w-[90%] md:max-w-full">
         <FlipCard
-          backContent={
-            <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
-              <p className="text-center font-medium">
-                Nasze tarasy to idealne połączenie
-                estetyki z trwałością. Wykonujemy tarasy, które zmieniają
-                przestrzeń w miejsce relaksu.
-              </p>
-            </Card>
-          }
-          className="w-80 h-[400px] transition-all hover:scale-105"
           frontContent={
-            <Card className="w-full h-full p-4 border-2 border-[#e9a749] rounded-lg shadow-xl">
-              <Image
-                alt="Produkt 2"
-                className="object-cover w-full h-48 rounded-md mb-2"
-                src="/deska_kompozytowa/IMG_20210616_135727.jpg"
-                width={600}
-                height={600}
-              />
-              <p className="text-center font-medium text-gray-900">Tarasy</p>
-            </Card>
+            <Image
+              alt="Produkt 1"
+              className="object-cover w-full h-48 rounded-md mb-2"
+              src="/kolory_desek/jasny brąz.jpg"
+              width={900}
+              height={900}
+            />
           }
+          backContent={
+            <Image
+              alt="Produkt 1"
+              className="object-cover w-full h-48 rounded-md mb-2"
+              src="/kolory_desek/ciemny szary 7016.jpg"
+              width={900}
+              height={900}
+            />
+          }
+          isActive={activeIndex === 0}
         />
-
         <FlipCard
-          backContent={
-            <Card className="w-full h-full p-6 flex items-center justify-center bg-[#e9a749] text-white">
-              <p className="text-center font-medium">
-                Zadaszenia chronią Twój taras przed
-                warunkami atmosferycznymi. Gwarantują komfort przez cały rok,
-                niezależnie od pogody.
-              </p>
-            </Card>
-          }
-          className="w-80 h-[400px] transition-all hover:scale-105"
           frontContent={
-            <Card className="w-full h-full p-4 border-2 border-[#e9a749] rounded-lg shadow-xl">
-              <Image
-                alt="Produkt 3"
-                className="object-cover w-full h-48 rounded-md mb-2"
-                src="/obrazki/zadaszenie Szczecin.jpg"
-                width={600}
-                height={600}
-              />
-              <p className="text-center font-medium text-gray-900">
-                Zadaszenia
-              </p>
-            </Card>
+            <Image
+              alt="Taras"
+              className="object-cover w-full h-48 rounded-md mb-2"
+              src="/deska_kompozytowa/20240326_110308.png"
+              width={600}
+              height={600}
+            />
           }
+          backContent={
+            <Image
+              alt="Taras"
+              className="object-cover w-full h-48 rounded-md mb-2"
+              src="/deska_kompozytowa/IMG-20230711-WA0002.jpg"
+              width={300}
+              height={300}
+            />
+          }
+          isActive={activeIndex === 1}
+        />
+        <FlipCard
+          frontContent={
+            <Image
+              alt="Deska kompozytowa"
+              className="object-cover w-full h-48 rounded-md mb-2"
+              src="/deska_kompozytowa/deska-8.jpg"
+              width={600}
+              height={600}
+            />
+          }
+          backContent={
+            <Image
+              alt="Deska kompozytowa"
+              className="object-cover w-full h-48 rounded-md mb-2"
+              src="/deska_kompozytowa/belgravia-9-.800x600.jpg"
+              width={600}
+              height={600}
+            />
+          }
+          isActive={activeIndex === 2}
         />
       </div>
+    </div>
 
-      <Button
-        as={Link}
-        className="px-8 py-3 bg-[#e9a749] text-white font-semibold text-lg rounded-md shadow-md hover:bg-[#d79e41]"
-        href="/tarasy"
-      >
-        Zobacz wszystkie produkty
-      </Button>
+    <div className="w-full md:w-1/2 flex justify-center">
+      <Image
+        alt="Deska kompozytowa"
+        className="object-cover rounded-lg shadow-md max-w-full md:max-w-[80%]"
+        src="/obrazki/zadaszenie z poliwęglanu.jpg"
+        width={900}
+        height={800}
+      />
+    </div>
+  </div>
+
     </div>
   );
 };

@@ -35,8 +35,8 @@ export const Navbar = () => {
               <NextLink
                 className={clsx(
                   "hover:text-[#e9a749] transition-colors duration-200",
-                  "text-foreground",
-                  "data-[active=true]:text-[#e9a749] data-[active=true]:font-medium",
+                  "text-foreground text-lg font-semibold",
+                  "data-[active=true]:text-[#e9a749] data-[active=true]:font-bold"
                 )}
                 href={item.href}
               >
@@ -56,9 +56,9 @@ export const Navbar = () => {
           onClick={() => setMobileMenuOpen((prev) => !prev)}
         >
           {mobileMenuOpen ? (
-            <HiX className="w-6 h-6 text-foreground" />
+            <HiX className="w-8 h-8 text-foreground" />
           ) : (
-            <HiMenu className="w-6 h-6 text-foreground" />
+            <HiMenu className="w-8 h-8 text-foreground" />
           )}
         </button>
       </NavbarContent>
@@ -69,7 +69,7 @@ export const Navbar = () => {
             {siteConfig.navItems.map((item) => (
               <li key={item.href}>
                 <NextLink
-                  className="block hover:text-[#e9a749] transition-colors duration-200 text-foreground"
+                  className="block hover:text-[#e9a749] transition-colors duration-200 text-foreground text-lg font-semibold"
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
                 >

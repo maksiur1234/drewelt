@@ -7,7 +7,7 @@ export const Logo: React.FC<{
   size?: number;
   width?: number;
   height?: number;
-}> = ({ size = 148, width, height, ...props }) => {
+}> = ({ size = 230, width, height, ...props }) => {
   return (
     <Image
       alt="Logo"

@@ -31,18 +31,21 @@ export async function GET() {
 
   const gallery = [
     {
-      title: "Zadaszenia na łukach",
+      title: "Zadaszenia wolnostojące na łukach",
       images: zadaszeniaImages,
     },
     {
-      title: "Zadaszenia z prostym spadkiem",
+      title: "Zadaszenia przyścienne na łukach",
+      images: zadaszeniaImages,
+    },
+    {
+      title: "Zadaszenia przyścienne z prostym spadkiem",
       images: zadaszeniaProstySpadekImages,
     },
     {
-      title: "Rodzaje desek",
-      images: rodzajeDesekImages,
+      title: "Zadaszenia z prostym spadkiem na belce",
+      images: zadaszeniaProstySpadekImages,
     },
-    
   ];
 
   return new Response(JSON.stringify(gallery), {

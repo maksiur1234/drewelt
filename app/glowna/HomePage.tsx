@@ -18,7 +18,7 @@ const HomePage = () => {
 
       <Products />
 
-      <SmallOffer />
+      {/* <SmallOffer /> */}
 
       <Divider className="my-12" />
 

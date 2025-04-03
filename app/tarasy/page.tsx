@@ -184,7 +184,7 @@ export default function RoofPage() {
             <Card key={index} className="shadow-lg">
               <Image
                 alt={product.name}
-                className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
+                className="w-full h-32 sm:h-40 object-cover rounded-t-lg flex"
                 src={product.image}
               />
               <CardHeader className="text-lg font-semibold text-gray-800 p-3">

@@ -7,6 +7,7 @@ import { Input, Textarea } from "@heroui/input";
 import React, { useState } from "react";
 
 import { sendContactForm } from "../lib/api";
+import GoogleMaps from "@/components/googleMaps";
 
 export default function ContactPage() {
   const [action, setAction] = useState<string | null>(null);
@@ -48,14 +49,23 @@ export default function ContactPage() {
           <p>pomożemy Ci dobrać najlepszą opcję!</p>
         </div>
         <div className="max-w-lg text-gray-700">
-        <span>
-            <strong>WAŻNE!!!</strong><br />
-            W celu wyceny proszę wysłać zdjęcia miejsca i lokalizację oraz wymiary: <br />
-            <em>Ile cm wzdłuż ściany jaka szerokość( głębokość).</em><br />
-            W ciągu kilku dni przygotujemy wycenę.
-          </span>
-          <br />
-          <span>Zadzwoń lub napisz!</span>
+          <p className="mb-2 text-xl font-bold text-red-600">WAŻNE!!!</p>
+
+          <p className="mb-4 text-lg">
+            W celu wyceny proszę wysłać{" "}
+            <span className="font-semibold text-red-600">zdjęcia miejsca</span>,{" "}
+            <span className="font-semibold text-red-600">lokalizację</span>,{" "}
+            <span className="font-semibold text-red-600">wymiary zadaszenia</span> (ile cm wzdłuż ściany i jaka szerokość/głębokość),{" "}
+            <span className="font-semibold">dane kontaktowe</span>, oraz informację czy zadaszenie ma być{" "}
+            <span className="font-semibold">przyścienne, wolnostojące, na łuku</span> czy{" "}
+            <span className="font-semibold">z prostym spadkiem</span>.
+          </p>
+
+          <p className="mb-2 text-lg font-medium">
+            W ciągu <span className="text-red-600 font-bold">kilku dni</span> przygotujemy wycenę.
+          </p>
+
+          <p className="text-xl font-bold text-red-600">Zadzwoń lub napisz!</p>
         </div>
       </div>
 
@@ -147,6 +157,10 @@ export default function ContactPage() {
         </Card>
       </div>
 
+      <div className="flex">
+              <GoogleMaps />
+      </div>
+
       <div className="flex flex-col md:flex-row w-full justify-between items-center border-t pt-4 text-center">
         <div className="flex-1 mb-4 md:mb-0">
           <p className="font-semibold">Siedziba</p>
@@ -164,7 +178,7 @@ export default function ContactPage() {
 
         <div className="flex-1">
           <p className="font-semibold">Email</p>
-          <p className="text-gray-600">drewelt@gmail.com</p>
+          <p className="text-gray-600">drewelt@drewelt.com</p>
         </div>
       </div>
     </div>

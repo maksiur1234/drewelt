@@ -35,7 +35,7 @@ export async function GET() {
       images: zadaszeniaImages,
     },
     {
-      title: "Zadaszenia przyścienne",
+      title: "Zadaszenia przyścienne z prostym spadkiem",
       images: zadaszeniaProstySpadekImages,
     },
     // {

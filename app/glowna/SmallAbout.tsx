@@ -33,7 +33,7 @@ const SmallAbout = () => {
         <Image
           alt="Drewniane deski"
           className="object-contain w-full h-auto rounded-lg shadow-md"
-          src="/obrazki/palisnder.jpg"
+          src="/zadaszenia_prosty_spadek/palisnder.jpg"
           width={1920}
           height={1080}
           
@@ -45,7 +45,7 @@ const SmallAbout = () => {
       <Image
             alt="Drewniane deski"
             className="w-full h-96 object-cover rounded-lg shadow-md"
-            src="/obrazki/20230628_193255.jpg"
+            src="/zadaszenia_prosty_spadek_na_belce/20230628_193255.jpg"
             width={1920}
             height={1080}
             style={{

@@ -9,7 +9,7 @@ const Realizations = () => {
       <Image
         alt="Nasze realizacje"
         className="w-full md:w-1/2 h-auto object-cover rounded-lg shadow-md"
-        src="/obrazki/zadaszenie na belce.jpg"
+        src="/zadaszenia_prosty_spadek_na_belce/zadaszenie na belce.jpg"
         width={1920}
         height={100}
       />

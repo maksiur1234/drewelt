@@ -30,7 +30,7 @@ export default function MiastoPage({ params }: { params: any }) {
   }, [params]);
 
   if (!decodedMiasto) {
-    return <p>Loading...</p>;
+    return <p>Ładowanie...</p>;
   }
 
   return (

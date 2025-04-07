@@ -16,10 +16,12 @@ export default function BlurModal({
   name,
   description,
   label,
+  path,
 }: {
   name: string;
   description: string;
   label: string;
+  path: string;
 }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [backdrop, setBackdrop] = React.useState<Backdrop>("opaque");
@@ -39,7 +41,8 @@ export default function BlurModal({
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "");
   
-    router.push(`/zadaszenia/zadaszenie-tarasu-${formattedName}`);
+    const finalPath = path.replace("{name}", formattedName);
+    router.push(finalPath);
   };
   
 

@@ -110,7 +110,7 @@ const Products = () => {
       <Image
         alt="Deska kompozytowa"
         className="object-cover rounded-lg shadow-md max-w-full md:max-w-[80%]"
-        src="/obrazki/zadaszenie z poliwęglanu.jpg"
+        src="/zadaszenia_prosty_spadek_na_belce/zadaszenie z poliwęglanu.jpg"
         width={900}
         height={800}
       />

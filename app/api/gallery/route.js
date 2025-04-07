@@ -22,11 +22,11 @@ export async function GET() {
   const deskaImages = getImagesFromDirectory(
     path.join(process.cwd(), "public", "zadaszenia_prosty_spadek"),
   );
-  const rodzajeDesekImages = getImagesFromDirectory(
-    path.join(process.cwd(), "public", "kolory_desek"),
+  const zadaszeniaNaBelce = getImagesFromDirectory(
+    path.join(process.cwd(), "public", "zadaszenia_prosty_spadek_na_belce"),
   );
   const zadaszeniaProstySpadekImages = getImagesFromDirectory(
-    path.join(process.cwd(), "public", "obrazki"),
+    path.join(process.cwd(), "public", "zadaszenia_prosty_spadek"),
   );
 
   const gallery = [
@@ -36,15 +36,15 @@ export async function GET() {
     },
     {
       title: "Zadaszenia przyścienne na łukach",
-      images: zadaszeniaImages,
-    },
-    {
-      title: "Zadaszenia przyścienne z prostym spadkiem",
       images: zadaszeniaProstySpadekImages,
     },
+    // {
+    //   title: "Zadaszenia przyścienne z prostym spadkiem",
+    //   images: zadaszeniaProstySpadekImages,
+    // },
     {
       title: "Zadaszenia z prostym spadkiem na belce",
-      images: zadaszeniaProstySpadekImages,
+      images: zadaszeniaNaBelce,
     },
   ];
 

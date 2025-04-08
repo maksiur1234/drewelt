@@ -25,10 +25,10 @@ const Products = () => {
           as={Link}
           className="px-16 py-10 text-xl font-semibold"
           color="warning"
-          href="/o-nas"
+          href="/tarasy"
           variant="ghost"
         >
-          O nas
+          Zobacz więcej
         </Button>
       </div>
       <p className="text-2xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
@@ -110,7 +110,7 @@ const Products = () => {
       <Image
         alt="Deska kompozytowa"
         className="object-cover rounded-lg shadow-md max-w-full md:max-w-[80%]"
-        src="/zadaszenia_prosty_spadek_na_belce/zadaszenie z poliwęglanu.jpg"
+        src="/zadaszenia_prosty_spadek/zadaszenie z poliwęglanu.jpg"
         width={900}
         height={800}
       />

@@ -11,7 +11,7 @@ import GoogleMaps from "@/components/googleMaps";
 
 const HomePage = () => {
   return (
-    <div className="w-full">
+    <div className="">
       <LandingPageImage />
 
       <SmallAbout />

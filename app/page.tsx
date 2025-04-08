@@ -10,7 +10,7 @@ export default function Home() {
           <span className={title()}>Wybierz&nbsp;</span>
           <span className={title({ color: "green" })}>najlepsze&nbsp;</span>
           <br />
-          <span className={title()}>Nowczosene, piękne oraz solidne</span>
+          <span className={title()}>nowczosene, piękne oraz solidne</span>
           <div className={subtitle({ class: "mt-4" })}>
             Zadaszenia i Tarasy
           </div>

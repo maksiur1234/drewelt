@@ -41,7 +41,7 @@ export default function RoofPage() {
         className="relative h-[500px] md:h-[700px] flex items-center justify-center bg-cover bg-center rounded-lg shadow-xl"
         style={{
           backgroundImage:
-            "url(/zadaszenia_na_lukach/IMG_20211103_131301.jpg)",
+            "url(/zadaszenia_przyscienne_na_lukach/samochod.jpg)",
         }}
       >
         {/* obrazki 131301 oraz 161352 */}
@@ -61,7 +61,7 @@ export default function RoofPage() {
           <Image
             alt="Poliwęglanowe zadaszenie"
             className="rounded-lg shadow-xl object-cover w-full"
-            src="/zadaszenia_na_lukach/20221129_122737.jpg"
+            src="/zadaszenia_przyscienne_na_lukach/lubon.jpg"
           />
         </div>
         <div className="text-gray-700 dark:text-gray-300">

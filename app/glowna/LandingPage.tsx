@@ -17,7 +17,9 @@ const LandingPageImage = () => {
 
   const obrazki = [
     // "/obrazki/20230628_193255.jpg",
+    "/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg",
     "/zadaszenia_prosty_spadek_na_belce/Poznań1.jpg",
+    "/zadaszenia_przyscienne_na_lukach/Zadaszenie Murowana Goślina.jpg",
     // "/zadaszenia_na_lukach/20221129_122712.jpg",
     "/zadaszenia_prosty_spadek/20221104_100135.jpg",
   ];
@@ -38,7 +40,7 @@ const LandingPageImage = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % obrazki.length);
         setFade(false);
       }, 1000);
-    }, 5000);
+    }, 2250);
 
     return () => clearInterval(interval);
   }, [obrazki]);

@@ -7,7 +7,6 @@ import { Input, Textarea } from "@heroui/input";
 import React, { useState } from "react";
 
 import { sendContactForm } from "../lib/api";
-import GoogleMaps from "@/components/googleMaps";
 
 export default function ContactPage() {
   const [action, setAction] = useState<string | null>(null);
@@ -46,7 +45,7 @@ export default function ContactPage() {
       <div className="flex flex-col md:flex-row w-full justify-between">
         <div className="pr-0 md:pr-12 mb-4 md:mb-0">
           <p className="text-xl font-bold">Skontaktuj się z nami,</p>
-          <p>pomożemy Ci dobrać najlepszą opcję!</p>
+          <p>pomożemy Ci wybrać najlepszą opcję!</p>
         </div>
         <div className="max-w-lg text-gray-700">
           <p className="mb-2 text-xl font-bold text-red-600">WAŻNE!!!</p>
@@ -155,10 +154,6 @@ export default function ContactPage() {
             </Form>
           </CardBody>
         </Card>
-      </div>
-
-      <div className="flex">
-              <GoogleMaps />
       </div>
 
       <div className="flex flex-col md:flex-row w-full justify-between items-center border-t pt-4 text-center">

@@ -43,5 +43,9 @@ export const siteConfig = {
         { media: "(prefers-color-scheme: dark)", color: "black" },
       ],
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
   },
 };

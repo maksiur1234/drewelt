@@ -1,3 +1,15 @@
+import { Metadata } from "next";
+
+export const generateMetadata = (): Metadata => {
+  return {
+    title: "Strona Główna | Drewelt Piotr Wiśniewski",
+    description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
+    alternates: {
+      canonical: "https://drewelt.vercel.app/kontakt",
+    },
+  };
+};
+
 export default function ContactLayout({
   children,
 }: {

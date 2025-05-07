@@ -9,8 +9,13 @@ export async function generateMetadata({ params }: MiastoProps) {
   const { miasto } = await params;
   const content = seoContentList.find((item) => item.url === miasto);
 
+  const baseUrl = "https://drewelt.vercel.app";
+
   return {
     title: content?.metaTitle || `Deska kompozytowa ${miasto} | Testowa strona`,
+    alternates: {
+      canonical: `${baseUrl}/${miasto}`,
+    },
   };
 }
 

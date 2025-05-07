@@ -166,14 +166,18 @@ export default function ContactPage() {
 
         <div className="flex-1 mb-4 md:mb-0">
           <p className="font-semibold">Telefon</p>
-          <p className="text-gray-600">+48 887 400 824</p>
+          <a href="tel:+48887400824" className="text-gray-600 hover:underline">
+            +48 887 400 824
+          </a>
         </div>
 
         <div className="h-0.5 md:h-10 bg-gray-300 md:bg-transparent md:border-l mx-0 md:mx-6 mb-4 md:mb-0" />
 
         <div className="flex-1">
           <p className="font-semibold">Email</p>
-          <p className="text-gray-600">drewelt@drewelt.com</p>
+          <a href="mailto:drewelt@drewelt.com" className="text-gray-600 hover:underline" target="_blank">
+            drewelt@drewelt.com
+          </a>
         </div>
       </div>
     </div>

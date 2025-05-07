@@ -6,6 +6,11 @@ export const siteConfig = {
     {
       label: "Zadaszenia",
       href: "/zadaszenia",
+      children: [
+        { label: "Poznań", href: "/zadaszenia/tarasowe" },
+        { label: "Wrocław", href: "/zadaszenia/samochodowe" },
+        { label: "Gorzów wielkopolski", href: "/zadaszenia/pergole" },
+      ],
     },
     {
       label: "Tarasy",

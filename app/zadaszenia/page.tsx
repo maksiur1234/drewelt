@@ -5,6 +5,7 @@ import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
 import { useEffect, useState } from "react";
 import BlurModal from "@/components/modal";
+import { seoContentList } from "../lib/seoContent";
 
 export default function RoofPage() {
   const cities = [
@@ -15,7 +16,7 @@ export default function RoofPage() {
     { name: "Konin", slug: "konin", description: "Zadaszenia w Koninie – trwałe, estetyczne rozwiązania, które doskonale wpasują się w każdy krajobraz." },
     { name: "Gorzów wielkopolski", slug: "gorzow-wlkp", description: "Solidne zadaszenia w Gorzowie Wielkopolskim, które łączą nowoczesność z tradycją." },
     { name: "Zielona góra", slug: "zielona-gora", description: "Zadaszenia tarasów i garaży w Zielonej Górze, oferujące szeroki wybór materiałów i wzorów." },
-  ];  
+  ];
 
   const [visibleCities, setVisibleCities] = useState<number[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,7 +27,6 @@ export default function RoofPage() {
         setVisibleCities((prev) => [...prev, currentIndex]);
         setCurrentIndex((prev) => prev + 1);
       }, 10);
-
       return () => clearTimeout(timer);
     }
   }, [currentIndex]);
@@ -40,11 +40,9 @@ export default function RoofPage() {
       <section
         className="relative h-[500px] md:h-[700px] flex items-center justify-center bg-cover bg-center rounded-lg shadow-xl"
         style={{
-          backgroundImage:
-            "url(/zadaszenia_przyscienne_na_lukach/samochod.jpg)",
+          backgroundImage: "url(/zadaszenia_przyscienne_na_lukach/samochod.jpg)",
         }}
       >
-        {/* obrazki 131301 oraz 161352 */}
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-3xl md:text-5xl font-bold">
@@ -69,7 +67,6 @@ export default function RoofPage() {
           <p className="mb-4 text-lg leading-relaxed">
             Pragniemy zwrócić uwagę na najbardziej ekonomiczne wymiary naszych konstrukcji, ze względu na brak odpadów. Najkorzystniejsze cenowo wymiary:
           </p>
-
           <ul className="space-y-3 text-lg">
             <li className="flex items-center gap-3 bg-gray-100 dark:bg-gray-800 p-3 rounded-lg">
               <span className="text-xl">📏</span>
@@ -96,67 +93,37 @@ export default function RoofPage() {
       <h1 className="text-xl font-semibold text-center text-gray-700 dark:text-gray-300 mt-2 mb-2">
         Najwięcej inwestycji w miastach:
       </h1>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-        
-        {cities.map((city, index) => (
-              <div key={index}>
-                <div
-                  className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
-                  style={{
-                    opacity: visibleCities.includes(index) ? 1 : 0,
-                    transform: visibleCities.includes(index)
-                      ? "translateY(0)"
-                      : `translateY(${index % 2 === 0 ? "10px" : "-10px"})`,
-                    transitionDelay: `${index * 0.3}s`,
-                  }}
-                >
-                  <BlurModal
-                    description={city.description}
-                    label={city.name}
-                    name={city.name}
-                    path={`zadaszenia/zadaszenia-tarasu-${city.slug}`}
-                  />
-                </div>
-              </div>
-            ))}
-      </div>
-     
 
-      {/* <section className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-          <Image
-            alt="Jakość"
-            className="mx-auto rounded-lg mb-4"
-            src="https://via.placeholder.com/150"
-          />
-          <h3 className="text-xl font-bold text-gray-800 mb-2">Jakość</h3>
-          <p className="text-gray-600">
-            Najwyższa jakość materiałów gwarantuje trwałość i bezpieczeństwo.
-          </p>
-        </div>
-        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-          <Image
-            alt="Realizacja"
-            className="mx-auto rounded-lg mb-4"
-            src="https://via.placeholder.com/150"
-          />
-          <h3 className="text-xl font-bold text-gray-800 mb-2">Realizacja</h3>
-          <p className="text-gray-600">
-            Szybkie i profesjonalne wykonanie każdego projektu.
-          </p>
-        </div>
-        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-          <Image
-            alt="Design"
-            className="mx-auto rounded-lg mb-4"
-            src="https://via.placeholder.com/150"
-          />
-          <h3 className="text-xl font-bold text-gray-800 mb-2">Design</h3>
-          <p className="text-gray-600">
-            Innowacyjny design, który nadaje nowoczesny wygląd Twojemu domowi.
-          </p>
-        </div>
-      </section> */}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+        {cities.map((city, index) => {
+          const seo = seoContentList.find((item) => item.url.includes(city.slug));
+          const path = seo
+            ? `zadaszenia/${seo.url}`
+            : `zadaszenie/zadaszenie-tarasu-${city.slug}`;
+
+          return (
+            <div key={index}>
+              <div
+                className="px-4 py-2 rounded-lg font-medium transition-all duration-500 ease-in-out whitespace-nowrap"
+                style={{
+                  opacity: visibleCities.includes(index) ? 1 : 0,
+                  transform: visibleCities.includes(index)
+                    ? "translateY(0)"
+                    : `translateY(${index % 2 === 0 ? "10px" : "-10px"})`,
+                  transitionDelay: `${index * 0.3}s`,
+                }}
+              >
+                <BlurModal
+                  description={city.description}
+                  label={city.name}
+                  name={city.name}
+                  path={path}
+                />
+              </div>
+            </div>
+          );
+        })}
+      </div>
 
       <section className="mt-12 text-center">
         <Link

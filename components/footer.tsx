@@ -97,89 +97,86 @@ export const Footer = () => {
         </div>
         <div className="w-full max-w-7xl mx-auto px-12 py-4 bg-[#262420] rounded-lg">
           <div className="grid grid-cols-5 gap-6 items-start text-center md:text-left">
-            {/* Dwie kolumny Zadaszenia */}
             <div className="col-span-2 space-y-2">
               <h2 className="text-xl font-bold text-[#e9a749] text-center">Zadaszenia</h2>
               <ul className="space-y-1 text-white text-center md:text-center">
                 <li>
-                  <a href="/zadaszenia/tarasowe" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenia-tarasu-poznan" className="hover:underline">
                     Zadaszenie tarasu Poznań
                   </a>
                 </li>
                 <li>
-                  <a href="/zadaszenia/samochodowe" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenie-tarasu-gorzow-wlkp" className="hover:underline">
                     Zadaszenie tarasu Gorzów Wielkopolski
                   </a>
                 </li>
                 <li>
-                  <a href="/zadaszenia/wejscia" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenie-tarasu-lubin" className="hover:underline">
                     Zadaszenie tarasu Lubin
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/zadaszenia/altany" className="hover:underline">
                     Zadaszenie tarasu Leszno
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="/zadaszenia/altany" className="hover:underline">
                     Zadaszenie tarasu Września
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="/zadaszenia/altany" className="hover:underline">
                     Zadaszenie tarasu Gniezno
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="/zadaszenia/altany" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenie-tarasu-glogow" className="hover:underline">
                     Zadaszenie tarasu Głogów
                   </a>
                 </li>
                 <li>
-                  <a href="/zadaszenia/altany" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenie-tarasu-zielona-gora" className="hover:underline">
                     Zadaszenie tarasu Zielona Góra
                   </a>
                 </li>
                 <li>
-                  <a href="/zadaszenia/altany" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenie-tarasu-konin" className="hover:underline">
                     Zadaszenie tarasu Konin
                   </a>
                 </li>
                 <li>
-                  <a href="/zadaszenia/altany" className="hover:underline">
+                  <a href="/zadaszenia/zadaszenie-tarasu-wroclaw" className="hover:underline">
                     Zadaszenie tarasu Wrocław
                   </a>
                 </li>
               </ul>
             </div>
 
-            {/* Separator */}
             <div className="flex justify-center items-start">
               <div className="w-px h-80 bg-[#e9a749]" />
             </div>
 
-            {/* Dwie kolumny Tarasy */}
             <div className="col-span-2 space-y-2">
               <h2 className="text-xl font-bold text-[#e9a749] text-center">Tarasy</h2>
               <ul className="space-y-1 text-white text-center md:text-center">
                 <li>
-                  <a href="/tarasy/drewniane" className="hover:underline">
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-poznan" className="hover:underline">
                     Deska tarasowa, kompozytowa Poznań
                   </a>
                 </li>
                 <li>
-                  <a href="/tarasy/kompozytowe" className="hover:underline">
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-leszno" className="hover:underline">
                     Deska tarasowa, kompozytowa Leszno
                   </a>
                 </li>
                 <li>
-                  <a href="/tarasy/egzotyczne" className="hover:underline">
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-wrzesnia" className="hover:underline">
                     Deska tarasowa, kompozytowa Września
                   </a>
                 </li>
                 <li>
-                  <a href="/tarasy/schody-balustrady" className="hover:underline">
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-gniezno" className="hover:underline">
                     Deska tarasowa, kompozytowa Gniezno
                   </a>
                 </li>

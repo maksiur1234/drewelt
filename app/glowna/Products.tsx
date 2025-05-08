@@ -37,7 +37,6 @@ const Products = () => {
       <div className="flex flex-col md:flex-row items-center justify-center w-full px-6 py-2 gap-y-6 lg:gap-x-8">
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="flex gap-6 bg-white p-6 rounded-lg shadow-lg max-w-[90%] md:max-w-full">
-            {/* Pokazujemy obrazy zamiast FlipCard na mobile */}
             <div className="w-full h-48">
               <Image
                 alt="Produkt 1"

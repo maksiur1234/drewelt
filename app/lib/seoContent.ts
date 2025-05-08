@@ -47,7 +47,7 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "zadaszenie-tarasu-glogow",
-    metaTitle: "Deska kompozytowa Głogów | Oferta tarasowa",
+    metaTitle: "Zadaszenie Tarasu Głogów | Drewelt Piotr Wiśniewski",
     h1: "Zadaszenie tarasu Głogów",
     content: `
      <p><strong>Zadaszenie tarasu w Głogowie</strong> to rozwiązanie, dzięki któremu mogą Państwo stworzyć praktyczną i przytulną przestrzeń, w której przebywanie stanie się niebywałą przyjemnością.</p>
@@ -102,7 +102,7 @@ export const seoContentList: SeoContent[] = [
   {
     url: "zadaszenie-tarasu-konin",
     metaTitle: "Zadaszenie Tarasu Konin | Drewelt Piotr Wiśniewski",
-    h1: "Deska tarasowa, deska kompozytowa Konin",
+    h1: "Zadaszenie Tarasu Konin",
     content: `
       <div>
         <h1>Zadaszenia tarasu w Koninie - nowoczesne i funkcjonalne rozwiązanie</h1>

@@ -24,7 +24,7 @@ export default function AboutPage() {
           <Image
             alt="O nas"
             className="rounded-lg shadow-xl object-cover w-full h-full"
-            src="https://drewelt.pl/images/galerie/21/najnowsze-realizacje7.webp"
+            src="/zadaszenia_przyscienne_na_lukach/onas.jpg"
           />
         </div>
         <div className="md:w-1/2 text-gray-600 text-base md:text-lg">

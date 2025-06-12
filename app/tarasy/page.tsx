@@ -14,7 +14,7 @@ export default function RoofPage() {
         "Wood plastics composit dwustronnie ryflowana o długościach 3 metrów. Deska do wykonywania tarasów ogrodowych, obudowy basenów, mola, ścieżki piesze.",
       dimensions: "13,5 cm szer. / 25 mm wys. / 3 m dł.",
       price: "32,00 zł/mb",
-      image: "https://drewelt.pl/images/galerie/32/taras-deska-1.webp",
+      image: "./",
     },
     {
       name: "Deska kompozytowa WPC 4m",
@@ -30,7 +30,7 @@ export default function RoofPage() {
         "Legar kompozytowy WPC do wykonywania konstrukcji podtarasowej.",
       dimensions: "30 mm wys. / 40 mm szer. / 4 m dł.",
       price: "18 zł/mb",
-      image: "https://drewelt.pl/images/design/legar.webp",
+      image: "./produkty/legar.jpg",
     },
   ];
 
@@ -40,7 +40,7 @@ export default function RoofPage() {
       description:
         "Klipsy plastikowe wraz z wkrętem ze stali nierdzewnej do wykonywania połączeń desek. Połączenie nie ingerujące w deskę (nie trzeba wiercić), co oznacza, że można po pewnym czasie odwrócić deskę na inne ryflowanie.",
       price: "1,50 zł/szt",
-      image: "https://drewelt.pl/images/design/klips.webp",
+      image: "/produkty/klips.jpg",
     },
     {
       name: "Listwa kątowa",
@@ -48,7 +48,7 @@ export default function RoofPage() {
         "Listwa kątowa montowana na obrzeżu tarasu lub wykończeń schodów.",
       dimensions: "53 mm wys. / 41 mm gr. / 3 m dł.",
       price: "13,30 zł/mb",
-      image: "https://drewelt.pl/images/design/listwa.webp",
+      image: "/kolory_desek/ciemny brąz.jpg",
     },
     {
       name: "Deska cokołowa",
@@ -56,14 +56,14 @@ export default function RoofPage() {
         "Deska cokołowa montowana obwodowo na widocznej części tarasu. W pełni zakrywa legar i deskę.",
       dimensions: "60 mm wys. / 12 mm gr. / 3 m dł.",
       price: "13,30 zł/mb",
-      image: "https://drewelt.pl/images/design/cokol.webp",
+      image: "/produkty/cat.jpg",
     },
     {
       name: "Zaślepka plastikowa",
       description:
         "Zaślepka plastikowa służy do zaślepienia widocznych końców deski jako alternatywa dla listwy cokołowej.",
       price: "2,00 zł",
-      image: "https://drewelt.pl/images/design/zaslepka.webp",
+      image: "/produkty/zaslepka.jpg",
     },
   ];
 

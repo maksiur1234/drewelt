@@ -10,11 +10,11 @@ export default function Home() {
           <span className={title()}>Wybierz&nbsp;</span>
           <span className={title({ color: "green" })}>najlepsze&nbsp;</span>
           <br />
-          <span className={title()}>nowczosene, piękne oraz solidne</span>
+          <span className={title()}>nowoczesne, piękne oraz solidne</span>
           <div className={subtitle({ class: "mt-4" })}>
             Zadaszenia i Tarasy
           </div>
-          <div className="mt-2 text-1xl font-bold text-black uppercase">
+          <div className="mt-2 text-2xl font-bold text-black uppercase">
             Dzwoń: <a href="tel:+48887400824" className="text-green-600">+48 887 400 824</a>
           </div>
         </div>

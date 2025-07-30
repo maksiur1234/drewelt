@@ -16,20 +16,21 @@ export default function ContactPage() {
     email: "",
     phone: "",
     message: "",
+    attachment: null,
   };
   const initState = { values: initValues };
 
   const [state, setState] = useState(initState);
   const { values } = state;
 
-  const handleChange = ({
-    target,
-  }: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: any) => {
+    const { name, value, files } = e.target;
+
     setState((prev) => ({
       ...prev,
       values: {
         ...prev.values,
-        [target.name]: target.value,
+        [name]: files ? files[0] : value,
       },
     }));
   };
@@ -136,6 +137,7 @@ export default function ContactPage() {
                 name="attachment"
                 placeholder="Załącznik"
                 type="file"
+                onChange={handleChange}
               />
 
               <div className="flex gap-2 mt-4">

@@ -1,5 +1,6 @@
 'use client'
 
+import { seoContentList } from "@/app/lib/seoContent";
 import React, { useEffect, useState } from "react";
 
 const cityMapping: Record<string, string> = {
@@ -7,7 +8,41 @@ const cityMapping: Record<string, string> = {
   leszno: "Leszno",
   wrzesnia: "Września",
   gniezno: "Gniezno",
+  wroclaw: "Wrocław",
 };
+
+export async function generateMetadata({ params }: { params: any }) {
+  const [decodedMiasto, setDecodedMiasto] = useState<string | null>(null);
+  const [content, setContent] = useState();
+
+  useEffect(() => {
+    const getParams = async () => {
+      const resolvedParams = await params;
+      const miasto = resolvedParams.miasto;
+
+      const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
+      setDecodedMiasto(decoded);
+      setContent(seoContentList.find((item) => item.url === decodedMiasto))
+    };
+
+    getParams();
+  }, [params]);
+
+  useEffect(() => {
+    switch (decodedMiasto) {
+      case "poznan":
+      case "wroclaw":
+      case "konin":
+        return {
+          title: content?.metaTitle || ``,
+          description: content?.description || ``,
+          alternates: {
+            canonical: `https://www.drewelt.pl/tarasy/${content?.url}`,
+          },
+        };
+    }
+  }, [decodedMiasto])
+}
 
 export default function MiastoPage({ params }: { params: any }) {
   const [decodedMiasto, setDecodedMiasto] = useState<string | null>(null);

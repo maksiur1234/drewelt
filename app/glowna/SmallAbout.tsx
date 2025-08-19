@@ -26,7 +26,7 @@ const SmallAbout = () => {
         </Button>
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
           <span className="text-[#e9a749]">
-            Tworzymy przestrzenie, które inspirują.
+            Producent zadaszeń tarasowych Drewelt – tworzymy przestrzenie, które inspirują
           </span>
         </h2>
         <div className="h-24">
@@ -52,32 +52,13 @@ const SmallAbout = () => {
               objectPosition: "50% 30%",
             }}
           />
+        <p className="text-lg text-gray-700 text-right mb-2 leading-relaxed">
+          Jesteśmy firmą specjalizującą się w projektowaniu oraz budowie eleganckich tarasów oraz zadaszeń, które harmonijnie dopełniają każde otoczenie – od ogrodu, po przestrzeń komercyjną. Jako doświadczony <span className="font-semibold text-[#e9a749]">producent zadaszeń tarasowych</span> łączymy tradycyjne rzemiosło z nowoczesnym designem, tworząc konstrukcje trwałe, estetyczne i funkcjonalne. Nasze realizacje opierają się na drewnie klejonym warstwowo BSH – suchym świerku o wysokiej wytrzymałości mechanicznej i odporności na zmienne warunki atmosferyczne. Dodatkowo w ofercie mamy również <a href="/tarasy"><span className="font-semibold text-[#e9a749]">deski</span> tarasowe <span className="font-semibold text-[#e9a749]">z tworzywa sztucznego</span></a> WPC. Pokrycie zadaszeń wykonujemy natomiast z poliwęglanu komorowego o grubości 10 mm, dostępnego w trzech wariantach kolorystycznych: przezroczystym, mlecznym i przydymionym.
+        </p>
         <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
-          Jesteśmy firmą specjalizującą się w projektowaniu i budowie
-          eleganckich,
-          <span className="font-semibold text-[#e9a749]">
-            {" "}
-            zadaszeń oraz tarasów{" "}
-          </span>
-          które dopełniają każde otoczenie. Z pasją
-          łączymy tradycyjne rzemiosło z nowoczesnym designem, tworząc
-          rozwiązania idealne do Twojego ogrodu, tarasu czy przestrzeni
-          komercyjnej. Nasze konstrukcje wykonane są z drewna klejonego BSH - jest to najwyższej jakości suchy świerk klejony warstwowo, pokrycie jakie stosujemy to w naszej opinii  najlepszy i najtrwalszy poliwęglan na rynku o grubości 10 mm w trzech kolorach (przezroczysty, mleczny, przydymiony).
+          Zainwestuj w przestrzeń, która będzie cieszyć oko i służyć przez lata. <a href="/kontakt">Skontaktuj się z nami</a>, aby omówić swój <span className="font-semibold text-[#e9a749]">projekt zadaszenia tarasu drewnianego</span>.
         </p>
 
-        <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
-          Z ponad{" "}
-          <span className="font-semibold text-[#e9a749]">
-            10-letnim doświadczeniem w branży, 
-          </span>{" "}
-          nasz zespół dba o każdy detal, precyzyjne wykonanie oraz indywidualne podejście do klienta. Dzięki naszym produktom, możesz cieszyć się przestrzenią, która łączy estetykę z trwałością – na lata.
-        </p>
-
-        <p className="text-lg text-gray-700 text-right mb-8 leading-relaxed">
-          Zaufaj profesjonalistom, którzy tworzą{" "}
-          <span className="font-semibold text-[#e9a749]">naturalne piękno</span>{" "}
-          w Twoim otoczeniu.
-        </p>
         <div ref={ref} className="w-full flex justify-end gap-8">
           <div className="flex flex-col items-center">
             <div className="text-5xl font-bold text-gray-900">
@@ -92,6 +73,23 @@ const SmallAbout = () => {
             <div className="text-sm text-gray-600">wykonanych projektów</div>
           </div>
         </div>
+      </div>
+      <div className="w-full flex flex-col space-y-6">
+        <h2>Producent zadaszeń tarasowych z doświadczeniem – realizacje w całej Polsce</h2>
+        <p className="text-lg text-gray-700 text-justify leading-relaxed">
+          Drewelt to <span className="font-semibold text-[#e9a749]">producent zadaszeń tarasowych</span> z ponad 10-letnim doświadczeniem. Nasze realizacje można zobaczyć w wielu miastach, m.in. Gorzowie Wielkopolskim, <a href="/tarasy/deska-tarasowa-kompozytowa-poznan">Poznaniu</a>, Lublinie, Wrocławiu czy <a href="/tarasy/deska-tarasowa-kompozytowa-konin">Koninie</a>. Każda konstrukcja to połączenie solidności, estetyki i nowoczesnych technologii. Co więcej, każdy <span className="font-semibold text-[#e9a749]">projekt zadaszenia tarasu drewnianego</span> traktujemy indywidualnie – od koncepcji po montaż. Oferujemy kompleksową obsługę, uwzględniającą potrzeby Klienta, warunki techniczne oraz estetykę otoczenia. Współpracując z nami, zyskujesz:
+        </p>
+        <ul className="text-lg text-gray-700 text-justify my-4 leading-relaxed list-disc list-inside">
+          <li><span className="font-semibold text-[#e9a749]">Projekt zadaszenia tarasu drewnianego</span> dopasowany do Twojej przestrzeni.</li>
+          <li>Dwukrotną impregnację i malowanie konstrukcji.</li>
+          <li>Transparentną wycenę inwestycji.</li>
+          <li>Fachowe doradztwo w zakresie odpowiedzi na pytanie, <span className="font-semibold text-[#e9a749]">jaki gruby poliwęglan na zadaszenie tarasu</span> będzie najlepszy (i wiele innych).</li>
+          <li>Montaż struktury ogrodowej przez doświadczony zespół.</li>
+          <li>Dwuletnią gwarancję na wykonanie.</li>
+        </ul>
+        <p className="text-lg text-gray-700 text-justify mb-8 leading-relaxed">
+          Zaufaj sprawdzonemu <span className="font-semibold text-[#e9a749]">producentowi zadaszeń tarasowych</span> – zobacz naszą galerię realizacji i umów się na konsultację.
+        </p>
       </div>
     </div>
   );

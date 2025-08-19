@@ -14,7 +14,7 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-8">
           <div className="pl-8 border-l border-[#e9a749]">
-            <h2 className="text-lg font-bold mb-2">Konakt</h2>
+            <h2 className="text-lg font-bold mb-2">Kontakt</h2>
               <ul className="space-y-1">
                 <li>
                   <a
@@ -161,6 +161,11 @@ export const Footer = () => {
               <h2 className="text-xl font-bold text-[#e9a749] text-center">Tarasy</h2>
               <ul className="space-y-1 text-white text-center md:text-center">
                 <li>
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-konin" className="hover:underline">
+                    Deska tarasowa, kompozytowa Konin
+                  </a>
+                </li>
+                <li>
                   <a href="/tarasy/deska-tarasowa-kompozytowa-poznan" className="hover:underline">
                     Deska tarasowa, kompozytowa Poznań
                   </a>
@@ -168,6 +173,11 @@ export const Footer = () => {
                 <li>
                   <a href="/tarasy/deska-tarasowa-kompozytowa-leszno" className="hover:underline">
                     Deska tarasowa, kompozytowa Leszno
+                  </a>
+                </li>
+                <li>
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-wroclaw" className="hover:underline">
+                    Deska tarasowa, kompozytowa Wrocław
                   </a>
                 </li>
                 <li>

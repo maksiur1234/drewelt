@@ -6,8 +6,10 @@ export const sendContactForm = async (data) => {
   formData.append("phone", data.phone);
   formData.append("message", data.message);
 
-  if (data.attachment) {
-    formData.append("attachment", data.attachment);
+  if (data.attachment && data.attachment.length > 0) {
+    data.attachment.forEach((file) => {
+      formData.append("attachment", file);
+    });
   }
 
   const response = await fetch("/api/contact", {

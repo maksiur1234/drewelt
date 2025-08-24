@@ -16,7 +16,7 @@ export default function ContactPage() {
     email: "",
     phone: "",
     message: "",
-    attachment: null,
+    attachment: [],
   };
   const initState = { values: initValues };
 
@@ -24,13 +24,15 @@ export default function ContactPage() {
   const { values } = state;
 
   const handleChange = (e: any) => {
-    const { name, value, files } = e.target;
+  const { name, value, files } = e.target;
 
-    setState((prev) => ({
+  setState((prev) => ({
       ...prev,
       values: {
         ...prev.values,
-        [name]: files ? files[0] : value,
+        [name]: files
+           ? [...((prev.values as any)[name] || []), ...Array.from(files)]
+          : value,
       },
     }));
   };
@@ -131,15 +133,16 @@ export default function ContactPage() {
                 onChange={handleChange}
               />
 
-              <Input
-                label="Załącznik"
-                labelPlacement="outside"
+              <input
+                // label="Załącznik"
+                // labelPlacement="outside"
                 name="attachment"
                 placeholder="Załącznik"
                 type="file"
+                multiple
                 onChange={handleChange}
               />
-
+              
               <div className="flex gap-2 mt-4">
                 <Button color="success" type="submit">
                   Wyślij
@@ -156,6 +159,17 @@ export default function ContactPage() {
             </Form>
           </CardBody>
         </Card>
+
+        {values.attachment && values.attachment.length > 0 && (
+          <div className="mt-2 text-gray-700">
+            <p>Wybrane załączniki:</p>
+            <ul className="list-disc list-inside">
+              {values.attachment.map((file: File, index: number) => (
+                <li key={index}>{file.name}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <div className="flex flex-col md:flex-row w-full justify-between items-center border-t pt-4 text-center">

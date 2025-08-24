@@ -48,7 +48,7 @@ export async function POST(req) {
     console.log("Pliki:", data.files);
 
     const { name, email, phone, message } = data.fields;
-    const file = data.files.attachment?.[0];
+    const files = data.files.attachment || [];
 
     const ip =
       req.headers.get("x-forwarded-for")?.split(",")[0] ||
@@ -65,14 +65,12 @@ export async function POST(req) {
       },
     });
 
-    const attachments = (file && file.filepath)
-      ? [
-          {
-            filename: file.originalFilename || "plik",
-            content: await fs.readFile(file.filepath),
-          },
-        ]
-      : [];
+    const attachments = await Promise.all(
+      files.map(async (file) => ({
+        filename: file.originalFilename || "plik",
+        content: await fs.readFile(file.filepath),
+      }))
+    );
 
     const htmlTemplate = `
       <div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">

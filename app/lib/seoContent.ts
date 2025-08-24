@@ -241,7 +241,7 @@ export const seoContentList: SeoContent[] = [
     url: "deska-tarasowa-kompozytowa-poznan",
     metaTitle: "Solidne deski kompozytowe tarasowe  Poznań – Drewelt",
     h1: "Deski kompozytowe dla Klientów z Poznania – Drewelt",
-    description: "Deski kompozytowe na taras w Poznaniu. Indywidualne podejście, kompleksowa realizacja, satysfakcja z rezultatu. Sprawdź ofertę Drewelt!"
+    description: "Deski kompozytowe na taras w Poznaniu. Indywidualne podejście, kompleksowa realizacja, satysfakcja z rezultatu. Sprawdź ofertę Drewelt!",
     content: `
 <div>
   <p>
@@ -302,7 +302,7 @@ export const seoContentList: SeoContent[] = [
     url: "deska-tarasowa-kompozytowa-wroclaw",
     metaTitle: "Deski tarasowe kompozytowe – Wrocław i okolice – Drewelt",
     h1: "Deski tarasowe kompozytowe WPC – trwałość i styl we Wrocławiu",
-    description: "Deski tarasowe kompozytowe WPC we Wrocławiu – trwałe, estetyczne i bezobsługowe rozwiązanie. Projekt, montaż i akcesoria w ofercie Drewelt."
+    description: "Deski tarasowe kompozytowe WPC we Wrocławiu – trwałe, estetyczne i bezobsługowe rozwiązanie. Projekt, montaż i akcesoria w ofercie Drewelt.",
     content: `
 <div>
   <p>
@@ -386,7 +386,7 @@ export const seoContentList: SeoContent[] = [
     url: "deska-tarasowa-kompozytowa-konin",
     metaTitle: "Deski tarasowe z kompozytu – Konin – Drewelt",
     h1: "Deski tarasowe Konin – połączenie trwałości i estetyki",
-    description: "Drewelt – sprzedaż i montaż desek tarasowych w Koninie. Ponad 10 lat doświadczenia. Najwyższa jakość, transparentne kosztorysy i indywidualne podejście. Zadzwoń!"
+    description: "Drewelt – sprzedaż i montaż desek tarasowych w Koninie. Ponad 10 lat doświadczenia. Najwyższa jakość, transparentne kosztorysy i indywidualne podejście. Zadzwoń!",
     content: `
 <div>
   <p>

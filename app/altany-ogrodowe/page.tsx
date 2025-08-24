@@ -25,7 +25,7 @@ export default function RoofPage() {
 
       <div className="w-full flex gap-3 flex-col md:flex-row">
         <div className="w-full md:w-2/5">
-          <img src="/altany_ogrodowe/drewelt-altany-2.jpg" decoding="async" className="object-cover rounded-lg shadow-md w-full" alt="Drewniana altana w ogrodzie zapewnia zacienioną strefę relaksu.">
+          <img src="/altany_ogrodowe/drewelt-altany-2.jpg" decoding="async" className="object-cover rounded-lg shadow-md w-full" alt="Drewniana altana w ogrodzie zapewnia zacienioną strefę relaksu." />
         </div>
         <div className="w-full md:w-3/5">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -59,28 +59,39 @@ export default function RoofPage() {
             <li>Realizacja – wykonujemy solidną strukturę <strong>altany, nowoczesnej</strong> konstrukcji <strong>ogrodowej</strong> z drewna klejonego BSH, a następnie montujemy pokrycie dachowe z trwałego poliwęglanu, który skutecznie chroni przed deszczem i słońcem.</li>
           </ol>
 
-          <script type="application/ld+json">
-          {
-            "@context": "https://schema.org/", 
-            "@type": "HowTo", 
-            "name": "Chcesz mieć w ogrodzie altanę ogrodową, ale nie wiesz, od czego zacząć?",
-            "description": "Z Drewelt proces budowy takiej przestrzeni jest prosty i kompleksowy – od stworzenia projektu, aż po profesjonalny montaż gotowej konstrukcji. Jak wygląda współpraca z naszą firmą w tym zakresie? Altanę ogrodową budujemy w kilku następujących etapach:",
-            "step": [{
-              "@type": "HowToStep",
-              "text": "Analiza i planowanie – zaczynamy od dokładnego poznania Twoich potrzeb oraz specyfiki działki. Analizujemy warunki i ustalamy, jakie rozwiązanie będzie najlepsze."
-            },{
-              "@type": "HowToStep",
-              "text": "Projektowanie – na tym etapie dobieramy odpowiednie wymiary altany drewnianej nowoczesnej lub klasycznej, które idealnie wpasują się w Twoją przestrzeń, np. kompaktowe 422 × 290 cm lub przestronne 740 × 600 cm."
-            },{
-              "@type": "HowToStep",
-              "text": "Realizacja – wykonujemy solidną strukturę altany, nowoczesnej konstrukcji ogrodowej z drewna klejonego BSH, a następnie montujemy pokrycie dachowe z trwałego poliwęglanu, który skutecznie chroni przed deszczem i słońcem."
-            }]    
-          }
-          </script>
+         <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org/",
+                "@type": "HowTo",
+                "name": "Chcesz mieć w ogrodzie altanę ogrodową, ale nie wiesz, od czego zacząć?",
+                "description":
+                  "Z Drewelt proces budowy takiej przestrzeni jest prosty i kompleksowy – od stworzenia projektu, aż po profesjonalny montaż gotowej konstrukcji. Jak wygląda współpraca z naszą firmą w tym zakresie? Altanę ogrodową budujemy w kilku następujących etapach:",
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "text":
+                      "Analiza i planowanie – zaczynamy od dokładnego poznania Twoich potrzeb oraz specyfiki działki. Analizujemy warunki i ustalamy, jakie rozwiązanie będzie najlepsze."
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "text":
+                      "Projektowanie – na tym etapie dobieramy odpowiednie wymiary altany drewnianej nowoczesnej lub klasycznej, które idealnie wpasują się w Twoją przestrzeń, np. kompaktowe 422 × 290 cm lub przestronne 740 × 600 cm."
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "text":
+                      "Realizacja – wykonujemy solidną strukturę altany, nowoczesnej konstrukcji ogrodowej z drewna klejonego BSH, a następnie montujemy pokrycie dachowe z trwałego poliwęglanu, który skutecznie chroni przed deszczem i słońcem."
+                  }
+                ]
+              }),
+            }}
+        />
 
         </div>
         <div className="w-full md:w-2/5">
-          <img src="/altany_ogrodowe/drewelt-altany-4.jpeg" decoding="async" className="object-cover rounded-lg shadow-md w-full" alt="Nowoczesna altana do ogrodu wykonana z drewna.">
+          <img src="/altany_ogrodowe/drewelt-altany-4.jpeg" decoding="async" className="object-cover rounded-lg shadow-md w-full" alt="Nowoczesna altana do ogrodu wykonana z drewna." />
         </div>
       </div>
 
@@ -100,28 +111,40 @@ export default function RoofPage() {
           <li>Ciesz się efektem – w ciągu kilku dni po montażu możesz już relaksować się w swojej nowej, w pełni gotowej <strong>altanie, nowoczesnej</strong> przestrzeni <strong>przy</strong> swoim <strong>domu</strong>.</li>
         </ol>
 
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/", 
-          "@type": "HowTo", 
-          "name": "Jak zamówić altanę drewnianą nowoczesną w Drewelt?",
-          "description": "Zrealizowanie marzenia o własnej altanie – nowoczesnej konstrukcji przy domu – jest wyjątkowo proste.",
-          "step": [{
-            "@type": "HowToStep",
-            "text": "Wybierz styl – zdecyduj, czy preferujesz klasyczną, czy może bardziej nowoczesną altanę drewnianą."
-          },{
-            "@type": "HowToStep",
-            "text": "Skonsultuj się z nami – skontaktuj się z naszymi ekspertami, którzy doradzą Ci na każdym etapie."
-          },{
-            "@type": "HowToStep",
-            "text": "Otrzymaj wycenę – na podstawie przesłanych zdjęć, danych lokalizacyjnych oraz kontaktowych, a także preferencji dot. rodzaju zadaszenia, przygotujemy dla Ciebie szczegółowy projekt wraz z kosztorysem, dopasowany do Twoich wymagań."
-          },{
-            "@type": "HowToStep",
-            "text": "Ciesz się efektem – w ciągu kilku dni po montażu możesz już relaksować się w swojej nowej, w pełni gotowej altanie, nowoczesnej przestrzeni przy swoim domu."
-          }]    
-        }
-        </script>
-
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "HowTo",
+              "name": "Jak zamówić altanę drewnianą nowoczesną w Drewelt?",
+              "description":
+                "Zrealizowanie marzenia o własnej altanie – nowoczesnej konstrukcji przy domu – jest wyjątkowo proste.",
+              "step": [
+                {
+                  "@type": "HowToStep",
+                  "text":
+                    "Wybierz styl – zdecyduj, czy preferujesz klasyczną, czy może bardziej nowoczesną altanę drewnianą."
+                },
+                {
+                  "@type": "HowToStep",
+                  "text":
+                    "Skonsultuj się z nami – skontaktuj się z naszymi ekspertami, którzy doradzą Ci na każdym etapie."
+                },
+                {
+                  "@type": "HowToStep",
+                  "text":
+                    "Otrzymaj wycenę – na podstawie przesłanych zdjęć, danych lokalizacyjnych oraz kontaktowych, a także preferencji dot. rodzaju zadaszenia, przygotujemy dla Ciebie szczegółowy projekt wraz z kosztorysem, dopasowany do Twoich wymagań."
+                },
+                {
+                  "@type": "HowToStep",
+                  "text":
+                    "Ciesz się efektem – w ciągu kilku dni po montażu możesz już relaksować się w swojej nowej, w pełni gotowej altanie, nowoczesnej przestrzeni przy swoim domu."
+                }
+              ]
+            }),
+          }}
+        />
         <p className="mb-2.5 text-gray-700 text-sm sm:text-base text-justify">
           Chcesz mieć w ogrodzie <strong>altanę ogrodową</strong>, ale nie wiesz, od czego zacząć? Z Drewelt proces <strong>budowy</strong> takiej przestrzeni jest prosty i kompleksowy – od stworzenia projektu, aż po profesjonalny montaż gotowej konstrukcji. Jak wygląda współpraca z naszą firmą w tym zakresie? <strong>Altanę ogrodową budujemy</strong> w kilku następujących etapach:
         </p>
@@ -136,7 +159,7 @@ export default function RoofPage() {
       </div>
 
       <div className="w-full">
-        <img src="/altany_ogrodowe/drewelt-altany.jpg" decoding="async" className="object-cover rounded-lg shadow-md w-full h-96" alt="Nowoczesna altana pomalowana na kolor czarny.">
+        <img src="/altany_ogrodowe/drewelt-altany.jpg" decoding="async" className="object-cover rounded-lg shadow-md w-full h-96" alt="Nowoczesna altana pomalowana na kolor czarny." />
       </div>
 
       <div className="w-full">
@@ -164,5 +187,6 @@ export default function RoofPage() {
         </p>
       </div>
       <div className="flex w-full justify-end"><a className="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span className="text-white text-base normal-case font-light">Wycenimy Twoją altanę!</span></a></div>
+      </div>
   );
 }

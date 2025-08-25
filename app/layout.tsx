@@ -9,6 +9,9 @@ import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 
+import HomepageCanonical from "./glowna/HomeCanonical";
+import Home from "./page";
+
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -48,7 +51,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-N7QN5LSP');
           `}
         </Script>
-        {window.location.pathname === "/" ? '<link rel="canonical" href="https://drewelt.pl/" />' : ""}
+        <HomepageCanonical />
       </head>
       <body
         className={clsx(

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://drewelt.vercel.app</loc><lastmod>2025-08-24T08:58:09.606Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://drewelt.vercel.app/altany-ogrodowe</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://drewelt.vercel.app/galeria</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://drewelt.vercel.app/kontakt</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://drewelt.vercel.app/o-nas</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://drewelt.vercel.app/tarasy</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://drewelt.vercel.app/zadaszenia</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl</loc><lastmod>2025-08-24T08:58:09.606Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl/altany-ogrodowe</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl/galeria</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl/kontakt</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl/o-nas</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl/tarasy</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://drewelt.pl/zadaszenia</loc><lastmod>2025-08-24T08:58:09.607Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

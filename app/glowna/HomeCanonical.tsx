@@ -10,7 +10,7 @@ export default function HomepageCanonical() {
     return (
     <>
         {isHomePage && (
-        <link rel="canonical" href="https://drewelt.pl/" />
+        <link rel="canonical" href="https://drewelt.pl" />
         )}
     </>
     );

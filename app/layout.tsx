@@ -48,6 +48,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-N7QN5LSP');
           `}
         </Script>
+        {window.location.pathname === "/" ? '<link rel="canonical" href="https://drewelt.pl/" />' : ""}
       </head>
       <body
         className={clsx(

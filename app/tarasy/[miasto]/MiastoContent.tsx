@@ -22,7 +22,7 @@ export default function MiastoContent({ params }: { params: any }) {
       const miasto = resolvedParams.miasto;
       const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
       setDecodedMiasto(decoded);
-      const tmpContent = seoContentList.find((item) => item.url === decoded);
+      const tmpContent = seoContentList.find((item) => item.url === miasto);
       setContent(tmpContent);
     }
     

@@ -22,7 +22,7 @@ export default function RoofPage() {
         "Wood plastics composit dwustronnie ryflowana o długościach 4 metrów. Deska do wykonywania tarasów ogrodowych, obudowy basenów, mola, ścieżki piesze.",
       dimensions: "13,5 cm szer. / 25 mm wys. / 4 m dł.",
       price: "32,00 zł/mb",
-      image: "https://drewelt.pl/images/galerie/35/taras-deska-4.webp",
+      image: "https://www.drewelt.pl/images/galerie/35/taras-deska-4.webp",
     },
     {
       name: "Legar kompozytowy WPC",
@@ -71,22 +71,22 @@ export default function RoofPage() {
     {
       name: "Ciemny szary",
       color: "#7a7b78",
-      image: "https://drewelt.pl/images/galerie/31/ciemny-szary.webp",
+      image: "https://www.drewelt.pl/images/galerie/31/ciemny-szary.webp",
     },
     {
       name: "Grafit",
       color: "#41424C",
-      image: "https://drewelt.pl/images/galerie/31/grafit.webp",
+      image: "https://www.drewelt.pl/images/galerie/31/grafit.webp",
     },
     {
       name: "Jasny Brąz",
       color: "#C19A6B",
-      image: "https://drewelt.pl/images/galerie/31/jasny-brz.webp",
+      image: "https://www.drewelt.pl/images/galerie/31/jasny-brz.webp",
     },
     {
       name: "Ciemny Brąz",
       color: "#676055",
-      image: "https://drewelt.pl/images/galerie/31/ciemny-brz.webp",
+      image: "https://www.drewelt.pl/images/galerie/31/ciemny-brz.webp",
     },
   ];
 

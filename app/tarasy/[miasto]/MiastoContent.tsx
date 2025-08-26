@@ -14,9 +14,14 @@ export default function MiastoContent({ params }: { params: any }) {
   const [decodedMiasto, setDecodedMiasto] = useState<string | null>(null);
 
   useEffect(() => {
-    const miasto = params.miasto;
-    const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
-    setDecodedMiasto(decoded);
+    const getParams = async () => {
+      const resolvedParams = await params;
+      const miasto = resolvedParams.miasto;
+      const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
+      setDecodedMiasto(decoded);
+    }
+    
+    getParams();
   }, [params]);
 
   if (!decodedMiasto) {

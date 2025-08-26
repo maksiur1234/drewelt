@@ -6,4 +6,4 @@ Allow: /
 Host: https://drewelt.vercel.app/
 
 # Sitemaps
-Sitemap: https://drewelt.pl/sitemap.xml
+Sitemap: https://www.drewelt.pl/sitemap.xml

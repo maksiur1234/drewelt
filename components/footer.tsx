@@ -199,7 +199,7 @@ export const Footer = () => {
           <Link
             isExternal
             className="text-gray-500 hover:underline"
-            href="https://drewelt.pl/images/design/warunki-gwarancji-drewelt.pdf"
+            href="https://www.drewelt.pl/images/design/warunki-gwarancji-drewelt.pdf"
             underline="always"
           >
             Poznaj warunki gwarancji

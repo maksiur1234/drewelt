@@ -7,6 +7,7 @@ const cityMapping: Record<string, string> = {
   wrzesnia: "Września",
   gniezno: "Gniezno",
   wroclaw: "Wrocław",
+  konin: "Konin",
 };
 
 export async function generateMetadata({ params }: { params: any }) {

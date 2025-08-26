@@ -46,7 +46,7 @@ const Realizations = () => {
           </Accordion>
         </div>
       </div>
-      <div className="w-full flex flex-col mt-8">
+      <div className="w-full flex flex-col mt-8 px-8 mb-4">
         <h2 className="text-2xl font-bold mb-4">
           Jakie drewno i belki są najlepsze na zadaszenie tarasu?
         </h2>

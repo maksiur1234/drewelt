@@ -34,8 +34,6 @@ export default function MiastoContent({ params }: { params: any }) {
   }
 
   if (decodedMiasto === "deska tarasowa kompozytowa poznan" || decodedMiasto === "deska tarasowa kompozytowa wroclaw" || decodedMiasto === "deska tarasowa kompozytowa konin") {
-    console.log("HTML content.content:", content?.content);
-    console.log("HTML content:", content);
     return (
       <div dangerouslySetInnerHTML={{ __html: content?.content || "Nie znaleziono treści."}} />
     );

@@ -243,7 +243,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Deski kompozytowe dla Klientów z Poznania – Drewelt",
     description: "Deski kompozytowe na taras w Poznaniu. Indywidualne podejście, kompleksowa realizacja, satysfakcja z rezultatu. Sprawdź ofertę Drewelt!",
     content: `
-<div>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
     Drewelt, producent drewnianych konstrukcji ogrodowych, a także wiat z Rakowni, specjalizuje się w dystrybucji <strong>desek kompozytowych Poznania</strong> oraz całej Polski. Nasze produkty typu WPC (Wood Plastic Composite) łączą mączkę drzewną, włókna bambusowe oraz polimery termoplastyczne. Dzięki temu oferowane <strong>deski tarasowe kompozytowe</strong> są odporne na wilgoć, promieniowanie UV, skrajne temperatury i czynniki biologiczne, takie jak pleśń czy grzyby. Zainwestuj w rozwiązanie, które przetrwa lata – skontaktuj się z Drewelt i poznaj pełną ofertę <strong>desek tarasowych</strong>.
   </p>
@@ -304,7 +304,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Deski tarasowe kompozytowe WPC – trwałość i styl we Wrocławiu",
     description: "Deski tarasowe kompozytowe WPC we Wrocławiu – trwałe, estetyczne i bezobsługowe rozwiązanie. Projekt, montaż i akcesoria w ofercie Drewelt.",
     content: `
-<div>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
     Drewelt oferuje Klientom z <strong>Wrocławia</strong> oraz okolic szeroką gamę wysokiej jakości <strong>desek tarasowych kompozytowych</strong> WPC. Dostępne są w 4 modnych kolorach, takich jak:
   </p>
@@ -388,7 +388,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Deski tarasowe Konin – połączenie trwałości i estetyki",
     description: "Drewelt – sprzedaż i montaż desek tarasowych w Koninie. Ponad 10 lat doświadczenia. Najwyższa jakość, transparentne kosztorysy i indywidualne podejście. Zadzwoń!",
     content: `
-<div>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
     Drewelt dostarcza wysokiej jakości <strong>deski tarasowe</strong> kompozytowe WPC, które stanowią idealny fundament dla każdego tarasu w <strong>Koninie</strong> i okolicach. To doskonałe rozwiązanie dla tych, którzy cenią sobie nowoczesny wygląd, wyjątkową trwałość oraz minimalny nakład pracy przy konserwacji. Co wyróżnia nasze <a href="/tarasy"><strong>deski tarasowe</strong></a>?
   </p>

@@ -22,7 +22,8 @@ export default function MiastoContent({ params }: { params: any }) {
       const miasto = resolvedParams.miasto;
       const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
       setDecodedMiasto(decoded);
-      setContent(seoContentList.find((item) => item.url === decoded));
+      const tmpContent = seoContentList.find((item) => item.url === decoded);
+      setContent(tmpContent);
     }
     
     getParams();
@@ -33,7 +34,9 @@ export default function MiastoContent({ params }: { params: any }) {
   }
 
   if (decodedMiasto === "deska tarasowa kompozytowa poznan" || decodedMiasto === "deska tarasowa kompozytowa wroclaw" || decodedMiasto === "deska tarasowa kompozytowa konin") {
-    return content.content;
+    return (
+      <div dangerouslySetInnerHTML={{ __html: content?.content }} />
+    );
   }
   else {
     return (

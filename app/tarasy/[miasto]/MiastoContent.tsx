@@ -32,7 +32,7 @@ export default function MiastoContent({ params }: { params: any }) {
     return <p className="text-center text-gray-600 py-10">Ładowanie...</p>;
   }
 
-  if (decodedMiasto === "poznan" || decodedMiasto === "Poznań" || decodedMiasto === "wroclaw" || decodedMiasto === "Wrocław" || decodedMiasto === "konin" || decodedMiasto === "Konin") {
+  if (decodedMiasto === "deska tarasowa kompozytowa poznan" || decodedMiasto === "deska tarasowa kompozytowa wroclaw" || decodedMiasto === "deska tarasowa kompozytowa konin") {
     return content.content;
   }
   else {

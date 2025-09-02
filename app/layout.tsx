@@ -51,6 +51,21 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-N7QN5LSP');
           `}
         </Script>
+        
+        <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=G-LH21F3ETF6`}
+        strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LH21F3ETF6', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
         <HomepageCanonical />
       </head>
       <body

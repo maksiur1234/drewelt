@@ -19,7 +19,9 @@ export async function generateMetadata({ params }: { params: any }) {
     title: content?.metaTitle || `Deska tarasowa ${decoded}`,
     description: content?.description || ``,
     alternates: {
-      canonical: `https://www.drewelt.pl/tarasy/${content?.url}`,
+      canonical: content?.url
+        ? `https://www.drewelt.pl/tarasy/${content.url}`
+        : `https://www.drewelt.pl/tarasy/${miasto}`,
     },
   };
 }

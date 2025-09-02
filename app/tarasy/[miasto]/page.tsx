@@ -13,7 +13,7 @@ const cityMapping: Record<string, string> = {
 export async function generateMetadata({ params }: { params: any }) {
   const miasto = params.miasto;
   const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
-  const content = seoContentList.find((item) => item.url === decoded);
+  const content = seoContentList.find((item) => item.url === miasto);
 
   return {
     title: content?.metaTitle || `Deska tarasowa ${decoded}`,

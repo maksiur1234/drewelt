@@ -32,13 +32,11 @@ const SmallAbout = () => {
         <div className="h-24">
         <Image
           alt="Drewniane deski"
-          className="object-contain w-full h-auto rounded-lg shadow-md"
+          className="hidden md:block object-contain w-full h-auto rounded-lg shadow-md"
           src="/zadaszenia_przyscienne_na_lukach/Zadaszenie Murowana Goślina.jpg"
           width={1920}
           height={1080}
-          
         />
-         
         </div>
       </div>
       <div className="md:w-1/2 flex flex-col items-end space-y-6">

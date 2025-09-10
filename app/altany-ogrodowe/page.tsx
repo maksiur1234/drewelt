@@ -1,12 +1,8 @@
 "use client";
 
-import { Card, CardHeader, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
-import { Image } from "@heroui/image";
 
-import DoughnutChart from "@/components/chart";
-
-export default function RoofPage() {
+export default function Page() {
 
   return (
     <div className="max-w-6xl mx-auto p-4 sm:p-6">

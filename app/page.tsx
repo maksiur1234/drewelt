@@ -2,7 +2,7 @@ import HomePage from "./glowna/HomePage";
 
 import { title, subtitle } from "@/components/primitives";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="bg-[#f8f8f8]">
       <section className="flex flex-col items-center justify-center gap-4 py-8 bg-[#f8f8f8]">

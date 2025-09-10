@@ -8,7 +8,7 @@ import React, { useState } from "react";
 
 import { sendContactForm } from "../lib/api";
 
-export default function ContactPage() {
+export default function Page() {
   const [action, setAction] = useState<string | null>(null);
 
   const initValues = {
@@ -44,7 +44,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="flex flex-col items-start space-y-6 p-6">
+    <div className="flex flex-col items-start space-y-6">
       <div className="flex flex-col md:flex-row w-full justify-between">
         <div className="pr-0 md:pr-12 mb-4 md:mb-0">
           <p className="text-xl font-bold">Skontaktuj się z nami,</p>
@@ -72,7 +72,7 @@ export default function ContactPage() {
       </div>
 
       <div className="mx-auto flex flex-col items-center w-full max-w-4xl px-4">
-        <Card fullWidth className="w-full max-w-3xl shadow-lg p-6">
+        <Card fullWidth className="w-full max-w-3xl shadow-lg">
           <CardBody>
             <Form
               validationBehavior="native"

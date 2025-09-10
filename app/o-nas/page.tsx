@@ -3,12 +3,8 @@
 import { Card, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
-import { Link } from "@heroui/link";
-import { useEffect, useState } from "react";
 
-import BlurModal from "@/components/modal";
-
-export default function AboutPage() {
+export default function Page() {
 
   return (
     <div className="container mx-auto px-6 py-12">

@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import BlurModal from "@/components/modal";
 import { seoContentList } from "../lib/seoContent";
 
-export default function RoofPage() {
+export default function Page() {
   const cities = [
     { name: "Poznań", slug: "poznan", description: "Zadaszenia tarasów i garaży w Poznaniu, oferujące nowoczesne rozwiązania dostosowane do potrzeb każdego klienta." },
     { name: "Leszno", slug: "leszno", description: "Profesjonalne zadaszenia w Lesznie, gwarantujące trwałość i estetykę na lata." },

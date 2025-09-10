@@ -2,7 +2,6 @@ import React from "react";
 import { Divider } from "@heroui/divider";
 
 import LandingPageImage from "./LandingPage";
-import SmallOffer from "./SmallOffer";
 import Products from "./Products";
 import SmallAbout from "./SmallAbout";
 import Realizations from "./Realizations";
@@ -28,8 +27,6 @@ const HomePage = () => {
       <SmallAbout />
 
       <Products />
-
-      {/* <SmallOffer /> */}
 
       <Divider className="my-12" />
 

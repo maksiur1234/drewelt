@@ -17,7 +17,7 @@ interface GallerySection {
   images: string[];
 }
 
-export default function GaleriaPage() {
+export default function Page() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [gallerySections, setGallerySections] = useState<GallerySection[]>([]);
   const [selectedImages, setSelectedImages] = useState<string[]>([]);

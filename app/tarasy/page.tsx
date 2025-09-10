@@ -6,87 +6,50 @@ import { Image } from "@heroui/image";
 
 import DoughnutChart from "@/components/chart";
 
-export default function RoofPage() {
-  const deckingBoards = [
-    {
-      name: "Deska kompozytowa WPC 3m",
-      description:
-        "Wood plastics composit dwustronnie ryflowana o długościach 3 metrów. Deska do wykonywania tarasów ogrodowych, obudowy basenów, mola, ścieżki piesze.",
-      dimensions: "13,5 cm szer. / 25 mm wys. / 3 m dł.",
-      price: "32,00 zł/mb",
-      image: "./",
-    },
-    {
-      name: "Deska kompozytowa WPC 4m",
-      description:
-        "Wood plastics composit dwustronnie ryflowana o długościach 4 metrów. Deska do wykonywania tarasów ogrodowych, obudowy basenów, mola, ścieżki piesze.",
-      dimensions: "13,5 cm szer. / 25 mm wys. / 4 m dł.",
-      price: "32,00 zł/mb",
-      image: "https://www.drewelt.pl/images/galerie/35/taras-deska-4.webp",
-    },
-    {
-      name: "Legar kompozytowy WPC",
-      description:
-        "Legar kompozytowy WPC do wykonywania konstrukcji podtarasowej.",
-      dimensions: "30 mm wys. / 40 mm szer. / 4 m dł.",
-      price: "18 zł/mb",
-      image: "./produkty/legar.jpg",
-    },
-  ];
-
+export default function Page() {
   const accessories = [
     {
       name: "Klips plastikowy + wkręt ze stali nierdzewnej",
-      description:
-        "Klipsy plastikowe wraz z wkrętem ze stali nierdzewnej do wykonywania połączeń desek. Połączenie nie ingerujące w deskę (nie trzeba wiercić), co oznacza, że można po pewnym czasie odwrócić deskę na inne ryflowanie.",
-      price: "1,50 zł/szt",
+      description: "Klipsy plastikowe wraz z wkrętem ze stali nierdzewnej do wykonywania połączeń desek. Połączenie nie ingerujące w deskę (nie trzeba wiercić), co oznacza, że można po pewnym czasie odwrócić deskę na inne ryflowanie.",
       image: "/produkty/klips.jpg",
     },
     {
       name: "Listwa kątowa",
-      description:
-        "Listwa kątowa montowana na obrzeżu tarasu lub wykończeń schodów.",
-      dimensions: "53 mm wys. / 41 mm gr. / 3 m dł.",
-      price: "13,30 zł/mb",
-      image: "/kolory_desek/ciemny brąz.jpg",
+      description: "Listwa kątowa montowana na obrzeżu tarasu lub wykończeń schodów.",
+      image: "/produkty/listwa.jpg",
     },
     {
       name: "Deska cokołowa",
-      description:
-        "Deska cokołowa montowana obwodowo na widocznej części tarasu. W pełni zakrywa legar i deskę.",
-      dimensions: "60 mm wys. / 12 mm gr. / 3 m dł.",
-      price: "13,30 zł/mb",
+      description: "Deska cokołowa montowana obwodowo na widocznej części tarasu. W pełni zakrywa legar i deskę.",
       image: "/produkty/cat.jpg",
     },
     {
       name: "Zaślepka plastikowa",
-      description:
-        "Zaślepka plastikowa służy do zaślepienia widocznych końców deski jako alternatywa dla listwy cokołowej.",
-      price: "2,00 zł",
+      description: "Zaślepka plastikowa służy do zaślepienia widocznych końców deski jako alternatywa dla listwy cokołowej.",
       image: "/produkty/zaslepka.jpg",
+    },
+    {
+      name: "Legar kompozytowy WPC",
+      description: "Legar kompozytowy WPC do wykonywania konstrukcji podtarasowej.",
+      image: "/produkty/legar.jpg",
     },
   ];
 
   const deckColors = [
     {
       name: "Ciemny szary",
-      color: "#7a7b78",
-      image: "https://www.drewelt.pl/images/galerie/31/ciemny-szary.webp",
-    },
-    {
-      name: "Grafit",
-      color: "#41424C",
-      image: "https://www.drewelt.pl/images/galerie/31/grafit.webp",
+      color: "#4f4f4f",
+      image: "/kolory-desek/ciemny-szary.jpg",
     },
     {
       name: "Jasny Brąz",
-      color: "#C19A6B",
-      image: "https://www.drewelt.pl/images/galerie/31/jasny-brz.webp",
+      color: "#caa882",
+      image: "/kolory-desek/jasny-braz.jpg",
     },
     {
       name: "Ciemny Brąz",
-      color: "#676055",
-      image: "https://www.drewelt.pl/images/galerie/31/ciemny-brz.webp",
+      color: "#524330",
+      image: "/kolory-desek/ciemny-braz.jpg",
     },
   ];
 
@@ -119,7 +82,7 @@ export default function RoofPage() {
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
           Dostępne kolory desek
         </h2>
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-16">
           {deckColors.map((color, index) => (
             <div key={index} className="flex flex-col items-center mb-4">
               <div
@@ -140,7 +103,7 @@ export default function RoofPage() {
       </section>
 
       <section className="my-6">
-        <div className="w-full sm:w-3/4 lg:w-1/2 mx-auto mb-12">
+        <div className="w-full mx-auto mb-12">
           <DoughnutChart />
         </div>
       </section>
@@ -177,26 +140,21 @@ export default function RoofPage() {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Deski kompozytowe WPC
+          Akcesoria montażowe
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {deckingBoards.map((product, index) => (
-            <Card key={index} className="shadow-lg">
+          {accessories.map((product, index) => (
+            <Card key={index} className="shadow-lg flex flex-col items-center">
               <Image
                 alt={product.name}
-                className="w-full h-32 sm:h-40 object-cover rounded-t-lg flex"
+                className="w-full h-32 sm:h-40 object-cover object-center rounded-t-lg"
                 src={product.image}
               />
-              <CardHeader className="text-lg font-semibold text-gray-800 p-3">
+              <CardHeader className="flex justify-center text-lg font-semibold text-gray-800 p-3">
                 {product.name}
               </CardHeader>
-              <CardBody className="p-3">
+              <CardBody className="p-3 text-center">
                 <p className="text-gray-700 text-sm">{product.description}</p>
-                {product.dimensions && (
-                  <p className="text-xs text-gray-500 mt-1">
-                    📏 {product.dimensions}
-                  </p>
-                )}
               </CardBody>
             </Card>
           ))}
@@ -207,33 +165,48 @@ export default function RoofPage() {
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Akcesoria montażowe
+          Zobacz część naszych realizacji
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {accessories.map((product, index) => (
-            <Card key={index} className="shadow-lg">
-              <Image
-                alt={product.name}
-                className="w-full h-32 sm:h-40 object-cover rounded-t-lg"
-                src={product.image}
-              />
-              <CardHeader className="text-lg font-semibold text-gray-800 p-3">
-                {product.name}
-              </CardHeader>
-              <CardBody className="p-3">
-                <p className="text-gray-700 text-sm">{product.description}</p>
-                {product.dimensions && (
-                  <p className="text-xs text-gray-500 mt-1">
-                    📏 {product.dimensions}
-                  </p>
-                )}
-              </CardBody>
-            </Card>
-          ))}
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <Image
+              alt="Taras z desek"
+              src="/tarasy/belgravia.jpg"
+              width={600}
+              height={500}
+              className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+          <div className="overflow-hidden rounded-lg shadow-lg ">
+            <Image
+              alt="Taras z desek"
+              src="/tarasy/taras.jpg"
+              width={600}
+              height={500}
+              className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <Image
+              alt="Taras z desek"
+              src="/tarasy/taras-2.jpg"
+              width={600}
+              height={500}
+              className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <Image
+              alt="Taras z desek"
+              src="/tarasy/taras-schody.jpg"
+              width={600}
+              height={500}
+              className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
         </div>
       </section>
-
-      <Divider className="my-6" />
     </div>
   );
 }

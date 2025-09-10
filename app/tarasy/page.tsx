@@ -33,6 +33,11 @@ export default function Page() {
       description: "Legar kompozytowy WPC do wykonywania konstrukcji podtarasowej.",
       image: "/produkty/legar.jpg",
     },
+    {
+      name: "Deska kompozytowa",
+      description: "Deska kompozytowa.",
+      image: "/produkty/deska-kompozyt.png",
+    },
   ];
 
   const deckColors = [

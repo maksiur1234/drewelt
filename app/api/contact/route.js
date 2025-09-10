@@ -45,8 +45,6 @@ export async function POST(req) {
   try {
     const data = await parseForm(req);
 
-    console.log("Pliki:", data.files);
-
     const { name, email, phone, message } = data.fields;
     const files = data.files.attachment || [];
 
@@ -100,6 +98,7 @@ export async function POST(req) {
       subject: "Nowa wiadomość z formularza kontaktowego",
       html: htmlTemplate,
       attachments,
+      replyTo: email,
     });
 
     return new Response(

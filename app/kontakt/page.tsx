@@ -45,6 +45,10 @@ export default function Page() {
 
   return (
     <div className="flex flex-col items-start space-y-6">
+      <p className="flex flex-col sm:flex-row justify-center items-center w-full text-center sm:text-left">
+        <span className="font-semibold">Numer konta:&nbsp;</span>
+        <span className="text-gray-600">81 1140 2004 0000 3402 7666 2109</span>
+      </p>
       <div className="flex flex-col md:flex-row w-full justify-between">
         <div className="pr-0 md:pr-12 mb-4 md:mb-0">
           <p className="text-xl font-bold">Skontaktuj się z nami,</p>
@@ -196,6 +200,10 @@ export default function Page() {
           </a>
         </div>
       </div>
+      <p className="flex flex-col sm:flex-row justify-center items-center w-full text-center sm:text-left">
+        <span className="font-semibold">Numer konta:&nbsp;</span>
+        <span className="text-gray-600">81 1140 2004 0000 3402 7666 2109</span>
+      </p>
     </div>
   );
 }

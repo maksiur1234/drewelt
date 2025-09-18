@@ -45,7 +45,8 @@ export default function Page() {
 
   return (
     <div className="flex flex-col items-start space-y-6">
-      <div className="flex flex-col justify-center items-center w-full text-center">
+      <div className="flex flex-col justify-center items-center w-full text-center border-b-1 pb-6">
+        <p className="mb-2 sm:mb-4 font-semibold">Dane do przelewu</p>
         <p className="mb-2 sm:mb-4 font-semibold">Drewelt Piotr Wisniewski 62-095 Rakownia ul.Pliszki 18</p>
         <div className="flex flex-col sm:flex-row justify-center items-center">
           <span className="font-semibold">Numer konta:&nbsp;</span>
@@ -204,6 +205,7 @@ export default function Page() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center w-full text-center">
+        <p className="mb-2 sm:mb-4 font-semibold border-t-1 w-full pt-6">Dane do przelewu</p>
         <p className="mb-2 sm:mb-4 font-semibold">Drewelt Piotr Wisniewski 62-095 Rakownia ul.Pliszki 18</p>
         <div className="flex flex-col sm:flex-row justify-center items-center">
           <span className="font-semibold">Numer konta:&nbsp;</span>

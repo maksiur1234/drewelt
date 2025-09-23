@@ -8,9 +8,9 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <div className="flex-1 mb-6 md:mb-0">
-            <h1 className="text-2xl md:text-3xl font-bold">
+            <h2 className="text-2xl md:text-3xl font-bold">
               Pomagamy ludziom tworzyć nowoczesne rozwiązania
-            </h1>
+            </h2>
           </div>
           <div className="flex flex-col sm:flex-row gap-8">
           <div className="pl-8 border-l border-[#e9a749]">

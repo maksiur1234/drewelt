@@ -24,11 +24,11 @@ const SmallAbout = () => {
         >
           O nas
         </Button>
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
           <span className="text-[#e9a749]">
             Producent zadaszeń tarasowych Drewelt – tworzymy przestrzenie, które inspirują
           </span>
-        </h2>
+        </h1>
         <div className="h-24">
         <Image
           alt="Drewniane deski"

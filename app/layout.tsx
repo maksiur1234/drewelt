@@ -67,7 +67,7 @@ export default function RootLayout({
           `}
         </Script>
         <HomepageCanonical />
-        <link rel="apple-touch-icon" href="drewelt-apple-touch.png"></link>
+        <link rel="apple-touch-icon" href="https://www.drewelt.pl/drewelt-apple-touch.png"></link>
         <Script id="local-schema" strategy="afterInteractive">
           {`
             "@context": "https://schema.org",

@@ -68,31 +68,34 @@ export default function RootLayout({
         </Script>
         <HomepageCanonical />
         <link rel="apple-touch-icon" href="https://www.drewelt.pl/drewelt-apple-touch.png"></link>
-        <Script id="local-schema" strategy="afterInteractive">
-          {`
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Drewelt",
-            "image": "https://www.drewelt.pl/zadaszenia_prosty_spadek_na_belce/Pozna%C5%841.jpg",
-            "@id": "",
-            "url": "https://www.drewelt.pl/",
-            "telephone": "+48 887 400 824",
-            "email": "drewelt@drewelt.com",
-            "logo": "https://www.drewelt.pl/logo.png",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Pliszki 18",
-              "addressLocality": "Rakownia",
-              "postalCode": "62-095",
-              "addressCountry": "PL"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 52.5568827,
-              "longitude": 17.0383064
-            }`
-          }
-        </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Drewelt",
+              "image": "https://www.drewelt.pl/zadaszenia_prosty_spadek_na_belce/Pozna%C5%841.jpg",
+              "@id": "",
+              "url": "https://www.drewelt.pl/",
+              "telephone": "+48 887 400 824",
+              "email": "drewelt@drewelt.com",
+              "logo": "https://www.drewelt.pl/logo.png",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Pliszki 18",
+                "addressLocality": "Rakownia",
+                "postalCode": "62-095",
+                "addressCountry": "PL"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 52.5568827,
+                "longitude": 17.0383064
+              }
+            }),
+          }}
+        />
       </head>
       <body
         className={clsx(

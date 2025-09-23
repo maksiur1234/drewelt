@@ -12,9 +12,10 @@ export async function generateMetadata({ params }: MiastoProps) {
   const baseUrl = "https://www.drewelt.pl";
 
   return {
-    title: content?.metaTitle || `Deska kompozytowa ${miasto} | Testowa strona`,
+    title: content?.metaTitle || `Deska kompozytowa ${miasto} - drewelt.pl`,
+    description: content?.description || ``,
     alternates: {
-      canonical: `${baseUrl}/${miasto}`,
+      canonical: `${baseUrl}/zadaszenia/${miasto}`,
     },
   };
 }

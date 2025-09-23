@@ -9,95 +9,168 @@ export type SeoContent = {
 export const seoContentList: SeoContent[] = [
   {
     url: "zadaszenia-tarasu-poznan",
-    metaTitle: "Zadaszenie Tarasu z Poliwęglanu Poznań. Eleganckie Zadaszenia Tarasowe | Drewelt Piotr Wiśniewski",
-    h1: "Zadaszenie tarasu z poliwęglanu Poznań - Zadaszenia tarasowe w Twoim stylu!",
+    metaTitle: "Eleganckie zadaszenie z poliwęglanu Poznań - drewelt.pl",
+    h1: "Zadaszenie tarasu z poliwęglanu – Poznań",
+    description: "Wysokiej jakości zadaszenia z poliwęglanu i drewna w Poznaniu. Zapraszamy do kontaktu w celu stworzenia eleganckiego zadaszenia tarasu.",
     content: `
-<div>
-  <h1>Zadaszenie tarasu z poliwęglanu – Poznań</h1>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
-    Wiosną i latem bardzo często korzystamy z tarasów. Mogą one pełnić funkcję strefy relaksu i wypoczynku. Doskonale sprawdzają się również podczas spotkań z rodziną i przyjaciółmi. Tarasy są także istotnymi elementami architektury, które ozdabiają dom i ogród. Jednak zdarza się, że warunki atmosferyczne nie pozwalają nam w pełni wykorzystywać ich potencjału. Na szczęście istnieje możliwość zadaszenia z poliwęglanu w Poznaniu. Skontaktuj się z nami jeżeli zależy Ci, aby mieć najlepsze zadaszenie tarasu. Poznań to miasto, w którym wykonujemy wysokiej jakości zadaszenia tarasu z klejonego warstwowo drewna świerkowego i poliwęglanu.
+    Wiosną i latem bardzo często korzystamy z tarasów. Mogą one pełnić funkcję strefy relaksu i wypoczynku. Doskonale sprawdzają się również podczas spotkań z rodziną i przyjaciółmi. Są one także istotnymi elementami architektury, które ozdabiają dom i ogród. Jednak zdarza się, że warunki atmosferyczne nie pozwalają nam w pełni wykorzystywać ich potencjału. Na szczęście istnieje możliwość wykonania <strong>zadaszenia z poliwęglanu w Poznaniu</strong>. Jeżeli zależy Państwu na najlepszym zadaszenie tarasu, Drewelt będzie odpowiednim wyborem – w naszej ofercie znajdą Państwo wysokiej jakości <strong>daszki z poliwęglanu</strong> i drewna.
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Jak zrobić zadaszenie tarasu – z drewna, czy z poliwęglanu?</h2>
+      <p>
+        Zarówno drewniane, jak i <strong>poliwęglanowe zadaszenie tarasu</strong> mają swoje zalety. Pierwsze z nich wprowadza do ogrodu naturalny klimat i świetnie współgra z zielonym ogrodem. Dodatkowo ten typ <strong>zabudowy tarasu</strong> można dowolnie przemalowywać, dzięki czemu zachowuje świeży wygląd na długie lata. Z kolei <strong>poliwęglan</strong> to <strong>zadaszenie</strong> o minimalistycznym wyglądzie. Sprawdzi się dla miłośników nowoczesnego designu oraz doświetlonych przestrzeni. Wszystkie modele z naszej oferty charakteryzują się długą trwałością i solidnością konstrukcji. Mieszkańcy <strong>Poznania</strong> mogą mieć wysokiej jakości <strong>zadaszenia tarasowe</strong> na wyciągnięcie ręki.
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Zadaszenie tarasu z poliwęglanu.">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Jak zrobić zadaszenie tarasu z poliwęglanu – dostępne formy</h2>
+  <p>
+    Zapraszamy do zapoznania się ze szczegółami naszej oferty. <strong>Zadaszenie tarasu z poliwęglanu</strong> to usługa realizowana w <strong>Poznaniu</strong> z uwzględnieniem indywidualnych oczekiwań klienta. W naszej ofercie znajduje się zarówno klasyczna, jednospadowa <strong>zabudowa tarasu</strong>, jak i <strong>łukowe zadaszenia z poliwęglanu</strong>. Materiał ten ma dużo zastosowań, dlatego zachęcamy do tworzenia własnych, indywidualnych aranżacji. <strong>Poliwęglan na taras</strong> może przybrać również formę klimatycznej pergoli czy zadaszenia wolnostojącego. Działamy zarówno na terenie <strong>Poznania</strong>, jak i okolicznych miejscowości.
+  </p>
+  <h2 class="text-2xl">Zadaszenia tarasu Poznań – wysokie korzyści</h2>
+  <p>
+    Szukają Państwo sposobów na relaks w swoim ogrodzie w <strong>Poznaniu</strong>? <strong>Poliwęglan na zadaszenie</strong> to świetna opcja na przedłużenie sezonu tarasowego. Dzięki wysokiej jakości materiałom spędzanie czasu w swoim ulubionym miejscu jest możliwe bez względu na warunki atmosferyczne. <strong>Zadaszenia tarasów</strong> to przede wszystkim ochrona przed deszczem i promieniami UV. Stosowane przez nas materiały skutecznie blokują ostre słońce, dzięki czemu można cieszyć się ciepłem bez obaw. W naszej ofercie znajdą Państwo modele <strong>zadaszeń z poliwęglanu</strong>, które skutecznie chronią prywatność domowników. Dzięki temu mieszkańcy <strong>Poznania</strong> mogą zrelaksować się w domowym zaciszu.  
+  </p>
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240327_141215.jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu.">
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Zabudowa tarasu poliwęglanem w Poznaniu – konstrukcja i materiały</h2>
+      <p>
+       Nasza firma wykonuje zadaszenia tarasów w Poznaniu. Dobieramy starannie odpowiednią wielkość przekrojową słupów i łuków, w zależności od szerokości obiektu. Do <strong>zadaszenia tarasów</strong> wykorzystujemy przede wszystkim poliwęglan komorowy, który cechuje się elastycznością i trwałością. Klienci mogą samodzielnie wybrać jego kolor. Dostępny jest on w odcieniu mlecznym, dymionym i bezbarwnym. Dzięki temu dobranie typu <strong>zabudowy tarasów</strong> w pełni zależy od indywidualnej wizji. Jeżeli mieszkają Państwo w <strong>Poznaniu</strong>, możesz liczyć na szeroką ofertę, która w pełni sprosta Twoim oczekiwaniom.
+      </p>
+      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+    </div>
+  </div>
+
+  <h2 class="text-2xl">Zadaszenie z poliwęglanu Poznań – dlaczego warto?</h2>
+  <p>
+    Dlaczego warto zainwestować w oferowane przez nas <strong>zadaszenia tarasowe z poliwęglanu</strong>? Są one wykonywane z wysokiej jakości materiału, dzięki czemu cechują się wyjątkową wytrzymałością i odpornością na zmiany temperatury, a także pęknięcia i uszkodzenia mechaniczne. Ponadto ta forma <strong>zabudowy tarasów</strong> może być z łatwością dostosowana do osobistych potrzeb przy niskich kosztach. <strong>Poliwęglan na zadaszenie</strong> ma odpowiednie właściwości termoizolacyjne i pozostaje odporny na niekorzystne warunki atmosferyczne. Oferowana przez nas usługa <strong>zadaszenia tarasowego</strong> z poliwęglanu w <strong>Poznaniu</strong> to gwarancja solidności i terminowości.  
+  </p>
+  <h2 class="text-2xl">Zadaszenie tarasu z poliwęglanu – Poznań – kontakt</h2>
+  <p>
+    Działamy na rynku niemal 10 lat i jesteśmy przekonani, że nasze <strong>zadaszenia tarasowe z poliwęglanu i drewna</strong> spełnią wszelkie oczekiwania! Najlepsza zabudowa w Poznaniu czeka właśnie na Państwa, a zespół naszych fachowców gwarantuje najwyższą jakość wykonania, co potwierdzają opinie setek zadowolonych klientów. <strong>Poliwęglan na zadaszenie</strong> to rozwiązanie dla każdego miłośnika relaksu na tarasie. W przypadku jakichkolwiek pytań co do usługi <strong>zadaszenia tarasu w Poznaniu</strong> serdecznie zapraszamy do kontaktu.  
   </p>
 
-  <h2>Zadaszenie tarasu z poliwęglanu – Poznań</h2>
-  <p>
-    Zapraszamy do zapoznania się ze szczegółami naszej oferty. Zadaszenie tarasowe w Poznaniu to usługa realizowana z uwzględnieniem indywidualnych oczekiwań klienta. Działamy zarówno na terenie Poznania, jak i okolicznych miejscowości.
-  </p>
-
-  <h2>Zadaszenie tarasu Poznań - wysoka jakość</h2>
-  <p>
-    Szukasz firmy wykonującej zadaszenia tarasów w Poznaniu? Specjalizujemy się w produkcji drewnianych konstrukcji zadaszeń tarasowych w Poznaniu z klejonego warstwowo drewna świerkowego BSH o wilgotności 12% – 18%. Jest to szczególny, certyfikowany rodzaj drewna konstrukcyjnego, które stanowi alternatywę dla konstrukcji żelbetowych i stalowych, świetnie nadając się do zadaszenia tarasu w Poznaniu. Powstaje ono poprzez łączenie lameli, czyli pojedynczych desek suszonych komorowo. Lamele są ze sobą łączone przy pomocy mikrowczepów, a następnie sklejane specjalnym klejem spełniającym normę EN-301. Na końcu deski są poddawane struganiu.
-  </p>
-
-  <h2>Zadaszenia tarasowe – Poznań – wykorzystywane podzespoły konstrukcyjne</h2>
-  <p>
-    Nasza firma wykonuje zadaszenia tarasów w Poznaniu. Dobieramy starannie odpowiednią wielkość przekrojową słupów i łuków, w zależności od szerokości tarasu. Zazwyczaj wykorzystujemy słupy o gabarytach: 120 mm / 120 mm lub 140 mm / 140 mm i łuki główne: 56 mm / 140 mm lub 56 mm / 160 mm. Na postawie z profili drewnianych montujemy poliwęglan komorowy o grubości 10 mm. Klienci mogą samodzielnie wybrać jego kolor. Dostępny jest on w odcieniu mlecznym, dymionym i bezbarwnym. Poliwęglan komorowy to bardzo popularne tworzywo sztuczne, wykorzystywane do zadaszeń tarasów w Poznaniu.
-  </p>
-
-  <h2>Zadaszenie z poliwęglanu Poznań – dlaczego warto?</h2>
-  <p>
-    Zastanawiasz się, dlaczego warto zainwestować w oferowane przez nas zadaszenie z poliwęglanu Poznań? Są one wykonywane z wysokiej jakości drewna BSH i poliwęglanu komorowego. Klejone warstwowo drewno świerkowe BSH cechuje się wyjątkową wytrzymałością i wysoką odpornością na zmiany temperatury, a także pęknięcia i uszkodzenia mechaniczne. Ponadto prezentuje się ono estetycznie i jest niedrogie. Poliwęglan również ma sporo zalet. Przede wszystkim jest trwały, twardy i lekki. Dodatkowo posiada odpowiednie właściwości termoizolacyjne i pozostaje odporny na uderzenia oraz niekorzystne warunki atmosferyczne. Oferowana przez nas usługa zadaszenia tarasowego w Poznaniu to gwarancja solidności i terminowości.
-  </p>
-
-  <h2>Zadaszenie tarasu z poliwęglanu – Poznań – kontakt</h2>
-  <p>
-    Działamy na rynku niemal 10 lat i jesteśmy przekonani, że nasze zadaszenia spełnią Twoje oczekiwania! Najlepsze zadaszenia z poliwęglanu w Poznaniu czekają właśnie na Ciebie - nie zwlekaj i przekonaj się sam! Zespół naszych fachowców gwarantuje najwyższą jakość wykonania. Dodatkowo oferujemy usługi związane z deskami tarasowymi w Poznaniu. Wysoką jakość naszych realizacji potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań co do usługi zadaszenia tarasu w Poznaniu, serdecznie zapraszamy do kontaktu.
-  </p>
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
     `,
   },
   {
     url: "zadaszenie-tarasu-glogow",
-    metaTitle: "Zadaszenie Tarasu Głogów | Drewelt Piotr Wiśniewski",
-    h1: "Zadaszenie tarasu Głogów",
+    metaTitle: "Zadaszenia tarasu i pergoli Głogów - drewelt.pl",
+    h1: "Zadaszenie tarasu – pergola w Głogowie na wyciągnięcie ręki",
+    description: "Zadaszenia tarasu na terenie Głogowa i okolic. Oferujemy nowoczesne pergole z poliwęglanu. Zapraszamy do zapoznania się z naszą ofertą.",
     content: `
-     <p><strong>Zadaszenie tarasu w Głogowie</strong> to rozwiązanie, dzięki któremu mogą Państwo stworzyć praktyczną i przytulną przestrzeń, w której przebywanie stanie się niebywałą przyjemnością.</p>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <p>
+    <strong>Pergola nad tarasem</strong> w Głogowie to rozwiązanie, dzięki któremu mogą Państwo stworzyć praktyczną i przytulną przestrzeń, w której przebywanie stanie się niebywałą przyjemnością. Sprawdzi się ono zarówno dla miłośników letnich obiadów w plenerze, jak i osób ceniących sobie relaks przy książce w atmosferze padającego deszczu.
+  </p>
+  <p>
+    Taras stanowi jedno z coraz częściej wybieranych rozwiązań. Wpływ na to ma szereg związanych z nim korzyści. Często pełni on funkcję strefy relaksu, jadalni na świeżym powietrzu czy kącika dla dzieci. Jednak, aby spędzanie czasu na świeżym powietrzu stało się możliwe bez względu na zmieniające się warunki atmosferyczne, niezwykle istotne jest zadbanie o odpowiednie <strong>zadaszenie – pergola</strong> w pełni odpowie na Państwa potrzeby.
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
 
-    <p>Taras stanowi jedno z coraz częściej wybieranych rozwiązań. Wpływ na to ma szereg związanych z nim korzyści. Jednak, aby spędzanie czasu na świeżym powietrzu stało się możliwe bez względu na zmieniające się warunki atmosferyczne, niezwykle istotne jest zadbanie o jego odpowiednie zadaszenie.</p>
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
 
-    <h2>Dlaczego warto postawić na zadaszenie tarasu w Głogowie?</h2>
+      <h2 class="text-2xl">Pergole czy zadaszenia tarasu – którą opcję w Głogowie wybrać?</h2>
+      <p>
+        Istnieje zasadnicza różnica pomiędzy zwyczajnym <strong>zadaszeniem pergoli</strong> i tarasu. Drugie z nich ogranicza się jedynie do zamontowania dachu do elewacji budynku czy istniejących słupów. <strong>Pergole</strong> to <strong>zadaszenia</strong>, które nie tylko chronią przed niekorzystnymi warunkami atmosferycznymi, ale również wyznaczają całą przestrzeń. Stanowią one zatem większą konstrukcję, która może pełnić wiele różnorodnych funkcji. Jeżeli wahają się Państwo pomiędzy klasycznym zadaszeniem a <strong>pergolami tarasowymi</strong> – doradzimy, <strong>jak zrobić</strong> miejsce, które stanie się dla Państwa komfortową strefą odpoczynku.
+      </p>
+    </div>
 
-    <p>Jesteśmy firmą z bogatym doświadczeniem, oferującą wysokiej klasy rozwiązania, zwiększające przyjemność z przebywania na tarasie. Dzięki nim mogą Państwo zyskać estetyczną przestrzeń, spędzając czas z rodziną bądź przyjaciółmi zarówno w sezonie letnim, jak i poza nim.</p>
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu z drewnianą konstrukcją i poliwęglanowym daszkiem.">
+    </div>
 
-    <p>Nasza oferta skierowana jest do wszystkich właścicieli domów jednorodzinnych lub szeregowców, którym zależy na zabezpieczeniu nieruchomości nie tylko przed nadmiernym nasłonecznieniem czy silnym wiatrem, ale również zabrudzeniem przez spadające z drzew liście, gałązki, a nawet owoce.</p>
+  </div>
 
-    <h2>Taras - zadaszenie w Głogowie</h2>
+  <h2 class="text-2xl mt-4">Dlaczego warto postawić na zadaszenie tarasu w Głogowie?</h2>
+  <p>
+    Jesteśmy firmą z bogatym doświadczeniem, oferującą wysokiej klasy rozwiązania, zwiększające przyjemność z przebywania na tarasie. Dzięki nim mogą Państwo zyskać estetyczną przestrzeń, spędzając czas z rodziną bądź przyjaciółmi zarówno w sezonie letnim, jak i poza nim. Dzięki niemal 10-letniemu doświadczeniu w wykonaniu <strong>zadaszenia tarasu</strong> wiemy, <strong>jak zrobić</strong> konstrukcję, która w pełni odpowie na Państwa potrzeby.
+  </p>
+  <p>
+    Nasza oferta skierowana jest do wszystkich właścicieli domów jednorodzinnych lub szeregowców w <strong>Głogowie</strong>, którym zależy na zabezpieczeniu nieruchomości nie tylko przed nadmiernym nasłonecznieniem czy silnym wiatrem, ale również zabrudzeniem przez spadające z drzew liście, gałązki, a nawet owoce. Oferowana przez nas <strong>pergola</strong> to <strong>zadaszenie</strong>, które łączy klasyczny minimalizm z praktyczną ochroną.
+  </p>
+  <h2 class="text-2xl">Zadaszenie tarasu – jaki materiał wykorzystujemy w Głogowie?</h2>
+  <p>
+    W swojej pracy wykorzystujemy trwałe, wytrzymałe i odporne na działanie wilgoci oraz niekorzystnych czynników zewnętrznych materiały, co przekłada się na wydłużenie żywotności zadaszenia tarasu. Zapewniamy kompleksową obsługę na najwyższym poziomie, dbając o najdrobniejsze detale i efektywność przeprowadzanych czynności. Stosujemy wytrzymałe materiały poddawane precyzyjnej obróbce, dlatego jesteśmy częstym wyborem wśród mieszkańców <strong>Głogowa</strong> szukających profesjonalnych, solidnych rozwiązań dla domu. 
+  </p>
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" alt="Zadaszenie tarasu z dachem z poliwęglanu.">
+    </div>
 
-    <p>Dobrze wykonane zadaszenie tarasu w Głogowie pozwoli uzyskać miejsce, gdzie możliwy stanie się codzienny relaks po czasie spędzonym na wykonywaniu codziennych obowiązków. To komfortowa przestrzeń, chroniona przed działaniem niesprzyjających warunków pogodowych.</p>
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Taras, zadaszenie – stwórz miejsce do relaksu w Głogowie</h2>
+      <p>
+       Taras z zadaszeniem w Głogowie jest fantastyczną opcją, a w szczególności, gdy wykończono go posadzką z drewna. To pozwala na jej ochronę przed działaniem wilgoci oraz wody. To znakomite miejsce do hodowania roślin czy ustawienia mebli ogrodowych, a także wszelkich akcesoriów oraz sprzętów. Jeżeli marzą Państwo o stworzeniu przyjemnego miejsca z <strong>zadaszeniami pergoli tarasowej z poliwęglanu</strong> lub drewna – zapraszamy do kontaktu.
+      </p>
+      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+    </div>
+  </div>
 
-    <p>W swojej pracy wykorzystujemy trwałe, wytrzymałe i odporne na działanie wilgoci oraz niekorzystnych czynników zewnętrznych materiały. A to przekłada się na wydłużenie żywotności zadaszenia tarasu. Głogów jest jednym z miast, z których zgłaszają się do nas klienci poszukujący profesjonalnych, solidnych rozwiązań dla domu.</p>
-
-    <p>Zapewniamy kompleksową obsługę na najwyższym poziomie, dbając o najdrobniejsze detale i efektywność przeprowadzanych czynności. Stosujemy wytrzymałe materiały, takie jak poliwęglan lub drewno BHS, poddawane precyzyjnej obróbce.</p>
-
-    <p>W swoich działaniach kierujemy się dobrem klienta, podchodząc do każdego w indywidualny sposób i oferując terminowe wykonanie zamówienia. Co więcej, zadaszenie tarasu w Głogowie to nowoczesna oraz lekka konstrukcja, pasująca do niejednej stylistyki.</p>
-
-    <h2>Taras, zadaszenie - Głogów</h2>
-
-    <p>Taras z zadaszeniem w Głogowie jest fantastyczną opcją, a w szczególności, gdy wykończono go posadzką z drewna. To pozwala na jej ochronę przed działaniem wilgoci oraz wody. To znakomite miejsce do hodowania roślin czy ustawienia mebli ogrodowych, a także wszelkich akcesoriów oraz sprzętów.</p>
-
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91659.88127925311!2d15.983026756942058!3d51.65675249092638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705f419786aeb81%3A0xdece0165881545a5!2zR8WCb2fDs3c!5e0!3m2!1spl!2spl!4v1758611535950!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     `,
   },
   {
     url: "zadaszenie-tarasu-gorzow-wlkp",
-    metaTitle: "Drewniane Zadaszenia Tarasów Gorzów Wlkp | Drewelt Piotr Wiśniewski",
-    h1: "Drewniane zadaszenia tarasów Gorzów Wlkp",
+    metaTitle: "Tarasy drewniane z zadaszeniem - drewelt.pl",
+    h1: "Zadaszenia tarasów w Gorzowie Wielkopolskim",
+    description: "Oferujemy budowę drewnianych tarasów z zadaszeniami na terenie Gorzowa Wielkopolskiego. W naszej ofercie znajdują się usługi dostosowane do Państwa potrzeb.",
     content: `
-    <div>
-      <h1>Zadaszenia tarasów, Gorzów Wielkopolski - Drewno BSH jako fundament konstrukcji</h1>
-      <p>
-        Specjalizując się w produkcji drewnianych zadaszeń tarasu w Gorzowie Wielkopolskim zawsze stawiamy na wysoką jakość. Wykorzystujemy najlepsze materiały, które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko trwałością, ale i estetycznym wykończeniem, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z dwuletnią gwarancją, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze.
-      </p>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h2 class="text-2xl">Zadaszenia tarasów w Gorzowie Wielkopolskim – gwarancja jakości</h2>
+  <p>
+    Specjalizując się w produkcji drewnianych i poliwęglanowych zadaszeń tarasu w Gorzowie Wielkopolskim, zawsze stawiamy na wysoką jakość. Wykorzystujemy najlepsze materiały, które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko trwałością, ale i estetycznym wykończeniem, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z dwuletnią gwarancją, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze.
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
 
-      <h2>Zadaszenia tarasów, Gorzów Wielkopolski - drewno BSH jako fundament konstrukcji</h2>
-      <p>
-        Kluczowym elementem drewnianych zadaszeń tarasu w Gorzowie Wielkopolskim jest zastosowanie drewna BSH, czyli suchego świerku klejonego warstwowo. Jego unikalna struktura powstaje poprzez łączenie pojedynczych desek – lameli, które są komorowo suszone i następnie łączone. Drewno BSH stosowane przy drewnianych zadaszeniach tarasu w Gorzowie Wielkopolskim wyróżnia się wysoką wytrzymałością mechaniczną oraz opornością na zmiany temperatury, co jest szczególnie ważne w zmiennej aurze. Taka wytrzymałość sprawia, że jest to materiał chętnie wybierany przez naszych klientów. Zastosowanie drewna BSH umożliwia również uzyskanie konstrukcji o dużych rozpiętościach bez konieczności stosowania dodatkowych wsporników, co jest istotne w estetycznym aspekcie realizowanych projektów. Dzięki takiej technologii jesteśmy w stanie przygotować konstrukcje o dużej estetyce wykonania, stabilności oraz stałości wymiarowej. Drewno BSH pozwala na uzyskanie dokładnie takiej długości i kształtu elementów konstrukcyjnych, jaka jest potrzebna, minimalizując przy tym straty materiału.
-      </p>
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
 
-      <h2>Drewniane zadaszenie tarasu, Gorzów Wielkopolski - najlepsze materiały</h2>
+      <h2 class="text-2xl">Budowa tarasu drewnianego z zadaszeniem w Gorzowie Wielkopolskim</h2>
       <p>
-        Wykorzystanie poliwęglanu komorowego w zadaszeniach tarasu w Gorzowie Wielkopolskim jest świadomym wyborem, który wynika z licznych zalet tego materiału. Poliwęglan komorowy jest niezwykle trwałym i twardym tworzywem sztucznym, co czyni go idealnym rozwiązaniem do zastosowania w zadaszeniach różnego typu. Jego niewielka waga w porównaniu z innymi materiałami ułatwia montaż oraz zmniejsza obciążenie konstrukcji. Jedną z głównych zalet poliwęglanu jest jego wyjątkowa odporność na uderzenia i warunki atmosferyczne, w tym ekstremalne temperatury, co jest kluczowe dla długotrwałej trwałości zadaszenia. Poliwęglan komorowy wykorzystywany w drewnianych zadaszeniach tarasu w Gorzowie Wielkopolskim jest również materiałem o dobrych właściwościach termoizolacyjnych, co przekłada się na utrzymanie stabilnej temperatury pod zadaszeniem.
+        Oferujemy usługę <strong>budowy tarasu drewnianego z zadaszeniem</strong>, która umożliwi Państwu stworzenie spójnej przestrzeni wypoczynkowej. Zawsze dbamy o to, by wykonywane przez nas projekty idealnie dopasowywały się do stylu i wymiarów tarasu. Może to być lekka pergola z poliwęglanu, oferująca ochronę i rozproszone światło, lub konstrukcja drewniana tworząca naturalny klimat. Dzięki naszym usługom mogą Państwo stworzyć wymarzony <strong>taras drewniany z zadaszeniem</strong>. <strong>Cena</strong> zależna jest od zastosowanych materiałów, wielkości tarasu czy stopnia skomplikowania projektu. Zapraszamy do kontaktu w sprawie wyceny.
       </p>
     </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Murowana%20Go%C5%9Blina(1).jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu.">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Dlaczego Drewelt do budowy tarasu z zadaszeniem w Gorzowie Wielkopolskim?</h2>
+  <p>
+    Zadaszenia wykonywane przez Drewelt cechują się wysoką wytrzymałością mechaniczną oraz opornością na zmiany temperatury, co jest szczególnie ważne w zmiennej aurze. Wykorzystywane przez nas materiały umożliwiają uzyskanie konstrukcji o dużych rozpiętościach bez konieczności stosowania dodatkowych wsporników. Dzięki takiej technologii jesteśmy w stanie przygotować projekty o dużej estetyce wykonania, stabilności oraz stałości wymiarowej. Stosowane przez nas rozwiązania umożliwiają otrzymanie dokładnie takiej długości i kształtu elementów konstrukcyjnych, jaka jest potrzebna, minimalizując przy tym straty materiału.
+  </p>
+  <h2 class="text-2xl">Poliwęglan na taras z zadaszeniem w Gorzowie Wielkopolskim</h2>
+  <p>
+    Wykorzystanie poliwęglanu komorowego w zadaszeniach tarasu w Gorzowie Wielkopolskim jest świadomym wyborem, który wynika z licznych zalet tego materiału. Dzięki niemu wykonywane przez <strong>tarasy z zadaszeniem</strong> gwarantują trwałość i ochronę przy małym obciążeniu konstrukcji. Nasze konstrukcje są wyjątkowo odporne na uderzenia i warunki atmosferyczne, w tym ekstremalne temperatury. Poliwęglan komorowy wykorzystywany w drewnianych zadaszeniach tarasu w Gorzowie Wielkopolskim jest również materiałem o dobrych właściwościach termoizolacyjnych, co przekłada się na utrzymanie stabilnej temperatury. Jeżeli marzą Państwo o stworzeniu komfortowego tarasu chroniącego przed deszczem i słońcem, zapraszamy do kontaktu.  
+  </p>
+
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d145069.4234276415!2d15.084387008287848!3d52.733390584318116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47071f0a5a4118b7%3A0x5dd10df3cb5799dd!2sGorz%C3%B3w%20Wielkopolski!5e0!3m2!1spl!2spl!4v1758611604878!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     `,
   },
   {
@@ -153,86 +226,125 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "zadaszenie-tarasu-wroclaw",
-    metaTitle: "Zadaszenie Tarasu z Drewna Wrocław. Trwałe Zadaszenia Tarasowe | Drewelt Piotr Wiśniewski",
-    h1: "Zadaszenie tarasu z drewna Wrocław - Trwałe i eleganckie zadaszenia tarasowe",
+    metaTitle: "Trwałe zadaszenia tarasowe we Wrocławiu - drewelt.pl",
+    h1: "Zadaszenie tarasu we Wrocławiu – komfort przez cały rok",
+    description: "Zadaszenia tarasowe z poliwęglanu lub drewna to nowoczesne, trwałe rozwiązania. Mieszkańców Wrocławia zapraszamy do zapoznania się z naszą ofertą.",
     content: `
-<div>
-  <h1>Zadaszenie tarasu we Wrocławiu – komfort przez cały rok</h1>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
-    W obecnych czasach taras jest jednym z kluczowych elementów w wielu domach jednorodzinnych czy szeregowcach. Umożliwia bowiem skuteczne zrelaksowanie się po ciężkim dniu przepełnionym obowiązkami. Dzięki odpowiednio dobranemu zadaszeniu tarasu we Wrocławiu, można korzystać z niego przez cały rok, niezależnie od pogody.
+    W obecnych czasach taras jest jednym z kluczowych elementów w wielu domach jednorodzinnych czy szeregowcach. Umożliwia bowiem skuteczne zrelaksowanie się po ciężkim dniu przepełnionym obowiązkami. Dzięki odpowiednio dobranemu <strong>zadaszeniu tarasu</strong> we <strong>Wrocławiu</strong> można korzystać z niego przez cały rok, niezależnie od pogody.
   </p>
   <p>
-    Decydując się na zadaszenie tarasu we Wrocławiu, mogą Państwo skutecznie zabezpieczyć przestrzeń, a także wydłużyć czas jej użytkowania. To efektywna ochrona przed działaniem niekorzystnych warunków atmosferycznych, co przekłada się na dłuższą żywotność powierzchni. Zadaszenie tarasowe we Wrocławiu to inwestycja, która daje komfort przez cały rok. Dzięki solidnym materiałom i odpowiedniemu wykonaniu, taras z zadaszeniem zyskuje na funkcjonalności i estetyce.
+    Decydując się na naszą ofertę, mogą Państwo skutecznie zabezpieczyć przestrzeń, a także wydłużyć czas jej użytkowania. To efektywna ochrona przed działaniem niekorzystnych warunków atmosferycznych, co przekłada się na dłuższą żywotność powierzchni. <strong>Zadaszenie tarasowe</strong> we <strong>Wrocławiu</strong> i okolicach to inwestycja, która daje komfort przez cały rok. Dzięki solidnym materiałom i odpowiedniemu wykonaniu taras z zadaszeniem zyskuje na funkcjonalności i estetyce.
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Zadaszenie tarasu we Wrocławiu – dlaczego warto?</h2>
+      <p>
+        Zadaszenie tarasowe we Wrocławiu to opcja, która spełni oczekiwania najbardziej wymagających osób, stawiających na połączenie solidności z atrakcyjnością wizualną. Proponujemy nowoczesne <strong>daszki tarasowe z poliwęglanu</strong> lub wysokiej jakości drewna BSH zapewniając staranną obróbkę, z dbałością o najdrobniejsze detale. Oferowane przez nas rozwiązanie cechuje się lekkością i nowoczesnym charakterem. Dzięki temu pasuje do każdego typu architektury. <strong>Zadaszenie tarasu z drewna</strong> lub poliwęglanu oferuje także odporność na zmienne warunki pogodowe, co czyni je idealnym rozwiązaniem na każdą porę roku. Dzięki wysokiej jakości materiałom mieszkańcy <strong>Wrocławia</strong> mogą liczyć, że <strong>dach tarasowy z poliwęglanu</strong> dopełni wygląd ich domu na długie lata.
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Bydgoszcz.jpg" alt="Zacieniony taras dzięki zadaszeniu z drewna i poliwęglanu.">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Zadaszenie tarasu we Wrocławiu – rozwiązanie na każdą pogodę</h2>
+  <p>
+    <strong>Zadaszenie tarasu z poliwęglanu</strong> jest niezbędne, gdy domownikom zależy na spędzaniu czasu na świeżym powietrzu bez względu na panujące warunki atmosferyczne. Oferujemy najlepsze rozwiązania, dopasowane do potrzeb oraz preferencji naszych klientów, dzięki czemu będą mogli cieszyć się komfortem użytkowania przez cały rok. Wykorzystujemy przede wszystkim materiały trwałe, wytrzymałe i odporne na wilgoć. Dzięki temu konstrukcja będzie wyróżniać się świeżym wyglądem nawet po upływie długiego czasu. Jeśli są Państwo z <strong>Wrocławia</strong> i szukają praktycznych rozwiązań, zapraszamy do kontaktu.
+  </p>
+  <h2 class="text-2xl">Zadaszenia z poliwęglanu – minimalizm i personalizacja</h2>
+  <p>
+    Wykorzystywany do stworzenia <strong>zadaszenia poliwęglan</strong> sprawia, że całość nabiera niepowtarzalnego charakteru i nadaje przytulny klimat o każdej porze roku. Nie tylko zapewnia on funkcjonalność, ale także jest eleganckim rozwiązaniem, które wpisuje się w naturalny charakter każdej przestrzeni. <strong>Zadaszenie poliwęglanowe</strong> dostępne w naszej ofercie doskonale komponuje się z różnorodnymi stylami architektonicznymi, zwiększając atrakcyjność każdego tarasu <strong>we Wrocławiu i okolicach</strong>.
+  </p>
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu dopasowane do nowoczesnego budynku.">
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Zadaszenie tarasu z drewna – ochrona przed czynnikami zewnętrznymi</h2>
+      <p>
+       Profesjonalne <strong>zadaszenie tarasu z poliwęglanu</strong> umożliwi mieszkańcom <strong>Wrocławia</strong> relaks na świeżym powietrzu zarówno w sezonie wiosenno-letnim, jak i po jego zakończeniu. Dzięki niemu nie trzeba obawiać się o zmienne warunki pogodowe czy opadanie liści, gałązek lub owoców z posadzonych obok drzew. Konstrukcje tego typu sprawdzają się również w ochronie roślin, zwłaszcza tych wrażliwych, na zbyt intensywne słońce lub zimne powiewy wiatru. Mieszkańcom <strong>Wrocławia</strong> ceniących sobie relaks na zewnątrz z pewnością przyda się <strong>skuteczne zadaszenie tarasu</strong>. <strong>Poliwęglan</strong> na dachu zapewni odpowiednie warunki dla roślin, jednocześnie chroniąc nas przed niekorzystnymi warunkami atmosferycznymi. Jest to rozwiązanie, które zmienia przestrzeń na tarasie, tworząc przytulne miejsce do odpoczynku w każdych warunkach.
+      </p>
+      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+    </div>
+  </div>
+
+  <h2 class="text-2xl">Zadaszenie tarasowe, Wrocław – dlaczego my?</h2>
+  <p>
+    Jesteśmy firmą z bogatym doświadczeniem, stawiającą na najlepszej klasy rozwiązania. Posiadamy własne, bezpieczne środki transportu, co pozwala na kompleksową obsługę zlecenia we Wrocławiu, ponieważ sprawujemy kontrolę nad każdym etapem współpracy.
+  </p>
+  <p>
+    Zależy nam na budowaniu korzystnych relacji z klientami, ponieważ są one dla nas kluczową kwestią udanej, opartej na zaufaniu realizacji zamówienia. Z chęcią dzielimy się swoją wiedzą i doświadczeniem, przekazując mnóstwo ciekawych oraz przydatnych porad. Zadaszenia tarasowe to rozwiązanie, które spełnia wszystkie potrzeby naszych klientów, gwarantując estetyczne i funkcjonalne konstrukcje, które przetrwają próbę czasu.
   </p>
 
-  <h2>Zadaszenie tarasu z drewna, Wrocław - dlaczego warto?</h2>
-  <p>
-    Zadaszenie tarasowe we Wrocławiu to opcja, która spełni oczekiwania najbardziej wymagających osób, stawiających na połączenie solidności z atrakcyjnością wizualną. Proponujemy nowoczesne rozwiązania z wysokiej jakości drewna BSH oraz poliwęglanu, zapewniając staranną obróbkę, z dbałością o najdrobniejsze detale. Oferowane przez nas zadaszenie tarasu we Wrocławiu cechuje się lekkością i nowoczesnym charakterem. Dzięki temu pasuje do każdego typu architektury. Zadaszenia tarasowe we Wrocławiu oferują także wysoką odporność na zmienne warunki pogodowe, co czyni je idealnym rozwiązaniem na każdą porę roku. Zadaszenie tarasu we Wrocławiu, z wysokiej jakości materiałów, to inwestycja na lata.
-  </p>
-
-  <p>
-    Co więcej, chęć korzystania z przestrzeni tarasowej, mimo niesprzyjających warunków atmosferycznych, wymaga inwestycji w zadaszenie chroniące zarówno przed deszczem, wiatrem, jak i intensywnymi promieniami słonecznymi. Zadaszenia tarasowe Wrocław to sposób na stworzenie przestrzeni, która nie tylko będzie funkcjonalna, ale także estetycznie dopełni wygląd Państwa domu.
-  </p>
-
-  <h2>Zadaszenie tarasu we Wrocławiu</h2>
-  <p>
-    Zadaszenie tarasu z drewna we Wrocławiu jest niezbędne, gdy domownikom zależy na spędzaniu czasu na świeżym powietrzu bez względu na panujące warunki atmosferyczne. Oferujemy najlepsze rozwiązania, dopasowane do potrzeb oraz preferencji naszych klientów, w postaci elementów z trwałych, wytrzymałych i odpornych na wilgoć materiałów. Dzięki temu konstrukcja będzie wyróżniać się estetycznym wyglądem nawet po upływie długiego czasu. Zadaszenie tarasowe we Wrocławiu odznacza się niesamowitymi walorami estetycznymi, stając się efektownym uzupełnieniem przestrzeni.
-  </p>
-
-  <p>
-    Wykorzystywane w procesie produkcji tworzywa, takie jak drewno BSH oraz poliwęglan, sprawiają, że całość nabiera niepowtarzalnego charakteru i nadaje przytulny klimat o każdej porze roku. Zadaszenie tarasu we Wrocławiu to również opcja, która skutecznie chroni przed zmiennymi warunkami pogodowymi, co zapewnia komfort użytkowania przez cały rok. Zadaszenie tarasu z drewna we Wrocławiu nie tylko zapewnia funkcjonalność, ale także jest eleganckim rozwiązaniem, które wpisuje się w naturalny charakter każdej przestrzeni. Zadaszenia tarasowe we Wrocławiu dostępne w naszej ofercie doskonale komponują się z różnorodnymi stylami architektonicznymi, zwiększając atrakcyjność każdego tarasu.
-  </p>
-
-  <h2>Zadaszenie tarasu z drewna, Wrocław - skuteczna ochrona przed szeregiem czynników zewnętrznych</h2>
-  <p>
-    Profesjonalne zadaszenie tarasu we Wrocławiu umożliwi relaks na świeżym powietrzu zarówno w sezonie wiosenno-letnim, jak i po jego zakończeniu. Dzięki niemu nie trzeba obawiać się o zmienne warunki pogodowe czy opadanie liści, gałązek lub owoców z posadzonych obok drzew.
-  </p>
-
-  <p>
-    Zadaszenia tarasowe (Wrocław) sprawdzają się również w ochronie roślin, zwłaszcza tych wrażliwych na zbyt intensywne słońce lub zimne powiewy wiatru. Warto zainwestować w zadaszenie tarasu Wrocław, które zapewni odpowiednie warunki dla roślin, jednocześnie chroniąc nas przed niekorzystnymi warunkami atmosferycznymi. Zadaszenia tarasowe we Wrocławiu to rozwiązanie, które zmienia przestrzeń na tarasie, tworząc przytulne miejsce do odpoczynku w każdych warunkach.
-  </p>
-
-  <h2>Zadaszenie tarasowe, Wrocław - dlaczego my?</h2>
-  <p>
-    Jesteśmy firmą z bogatym doświadczeniem, stawiającą na najlepszej klasy rozwiązania. Posiadamy własne, bezpieczne środki transportu, co pozwala na kompleksową obsługę zlecenia na zadaszenie tarasu z drewna we Wrocławiu, ponieważ sprawujemy kontrolę nad każdym etapem współpracy.
-  </p>
-
-  <p>
-    Zależy nam na budowaniu korzystnych relacji z klientami, ponieważ są one dla nas kluczową kwestią udanej, opartej na zaufaniu realizacji zamówienia. Z chęcią dzielimy się swoją wiedzą i doświadczeniem, przekazując mnóstwo ciekawych oraz przydatnych porad. Zadaszenia tarasowe Wrocław to rozwiązanie, które spełnia wszystkie potrzeby naszych klientów, gwarantując estetyczne i funkcjonalne zadaszenie, które przetrwa próbę czasu.
-  </p>
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320515.99625018873!2d16.662153354080715!3d51.12633214828668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1755587616575!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
     `,
   },
   {
     url: "zadaszenie-tarasu-zielona-gora",
-    metaTitle: "Zadaszenie Na Taras Zielona Góra | Drewelt Piotr Wiśniewski",
-    h1: "Zadaszenie na taras Zielona Góra",
+    metaTitle: "Zadaszenia na taras z poliwęglanu i drewna - drewelt.pl",
+    h1: "Zadaszenie tarasu w Zielonej Górze – komfort przez cały rok",
+    description: "Proponujemy liczne rozwiązania dotyczące zadaszeń tarasowych z poliwęglanu i drewna. Mieszkańców Zielonej Góry zapraszamy do zapoznania się z ofertą.",
     content: `
-<div>
-  <h1>Zadaszenie tarasu w Zielonej Górze – komfort przez cały rok</h1>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
-    Zadaszenie tarasu w Zielonej Górze umożliwia wykorzystanie przestrzeni tarasowej przez większą część roku, niezależnie od warunków atmosferycznych. Ochrona przed deszczem, słońcem czy wiatrem sprawia, że taras staje się miejscem do wypoczynku i spędzania czasu na świeżym powietrzu przez większą część roku. Zapraszamy do zapoznania się z naszą ofertą zadaszeń tarasowych.
+    <strong>Zadaszenie tarasu</strong> w <strong>Zielonej Górze</strong> gwarantuje wykorzystanie tej przestrzeni przez większą część roku, niezależnie od warunków atmosferycznych. Ochrona przed deszczem, słońcem czy wiatrem umożliwia nam spędzanie czasu na świeżym powietrzu niezależnie od pory roku. Mieszkańców <strong>Zielonej Góry</strong> zapraszamy do zapoznania się z naszą ofertą <strong>zadaszeń tarasowych</strong>.
   </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
 
-  <h2>Zadaszenie na taras – Zielona Góra – nasza oferta</h2>
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Jak montujemy zadaszenie tarasu w Zielonej Górze?</h2>
+      <p>
+        Nasza firma oferuje solidne, estetyczne i nowoczesne zadaszenia na taras w <strong>Zielonej Górze</strong> i okolicznych miejscowościach. Nasze usługi opierają się na profesjonalnym podejściu do projektowania kondygnacji, doboru odpowiednich materiałów konstrukcyjnych, a także na montażu zadaszeń, spełniających wysokie standardy jakościowe i estetyczne. W naszej ofercie znajdą Państwo zarówno <strong>zadaszenia tarasów</strong>, jak i usługę <strong>przymocowania pergoli do balkonu</strong>. Stawiamy na różnorodność rozwiązań, zapewniając klientom możliwość wyboru spośród różnych kształtów, kolorów i stylów, które doskonale współgrają z architekturą. Oprócz <strong>wykonania zadaszenia</strong> pomożemy Państwu w <strong>przygotowaniu podłoża pod taras kompozytowy</strong> oraz odpowiednim <strong>ułożeniu</strong> go. 
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/zadaszenie%20tarasu%20Trzaskowo.jpg" alt="Zadaszenie tarasu w nowoczesnym budynku.">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Ile kosztuje zadaszenie tarasu i robocizna oraz jak przebiega?</h2>
   <p>
-    Nasza firma oferuje solidne, estetyczne i nowoczesne zadaszenia na taras w Zielonej Górze i okolicznych miejscowościach. Nasze usługi opierają się na profesjonalnym podejściu do projektowania kondygnacji, doboru odpowiednich materiałów konstrukcyjnych, a także na montażu zadaszeń, spełniających wysokie standardy jakościowe i estetyczne. Stawiamy na różnorodność rozwiązań, zapewniając klientom możliwość wyboru spośród różnych kształtów, kolorów i stylów zadaszeń, które doskonale współgrają z architekturą tarasu.
+    Na etapie projektowania zadaszeń tarasu w Zielonej Górze i okolicach dokładnie analizujemy specyfikację budynku oraz wymagania estetyczne i funkcjonalne, co umożliwia dostosowanie propozycji do konkretnych potrzeb. Od tych wszystkich czynników będzie zależeć to, <strong>ile</strong> ostatecznie będzie <strong>kosztować zadaszenie tarasu</strong>. Następnie, w oparciu o profesjonalną wiedzę i doświadczenie, tworzymy projekt zadaszenia uwzględniający najnowsze rozwiązania technologiczne i materiałowe. Kolejnym krokiem jest terminowy montaż przez wykwalifikowany zespół specjalistów, dbających o precyzję i bezpieczeństwo <strong>wykonania</strong>. Bardzo częstym pytaniem przy doborze materiału jest to, <strong>ile kosztuje zadaszenie z poliwęglanu</strong> lub <strong>drewna</strong>. Pierwsze z nich cechuje się atrakcyjnym stosunkiem ceny do jakości, dzięki czemu jest to rozwiązanie przystępne dla każdego. Druga opcja może być konkurencyjne cenowo, w zależności od zastosowanych materiałów. Jego dużym atutem jest jednak naturalny wygląd, który świetnie dopełnia ogrodową przestrzeń przed domem.
   </p>
-
-  <h2>Zadaszenie tarasu – Zielona Góra – proces realizacji usługi</h2>
-  <p>
-    Na etapie projektowania zadaszeń tarasu w Zielonej Górze i okolicach dokładnie analizujemy specyfikację budynku oraz wymagania estetyczne i funkcjonalne, co umożliwia dostosowanie propozycji do konkretnych potrzeb. Następnie, w oparciu o profesjonalną wiedzę i doświadczenie, tworzymy projekt zadaszenia uwzględniający najnowsze rozwiązania technologiczne i materiałowe (poliwęglan). Kolejnym krokiem jest terminowy montaż zadaszenia przez wykwalifikowany zespół specjalistów, dbających o precyzję i bezpieczeństwo wykonania.
-  </p>
-
-  <h2>Zadaszenie na taras – Zielona Góra – poliwęglan</h2>
+  <h2 class="text-2xl">Zadaszenie na taras z poliwęglanu w Zielonej Górze</h2>
   <p>
     Wśród wielu materiałów stosowanych do zadaszenia tarasów, poliwęglan wykazuje się szczególnymi właściwościami. Jest on doskonałym wyborem w tego typu konstrukcjach, ponieważ charakteryzuje się wysoką wytrzymałością mechaniczną, doskonałą transparentnością oraz odpornością na warunki atmosferyczne. Zadaszenie na taras w Zielonej Górze z poliwęglanu umożliwia wprowadzenie naturalnego światła do przestrzeni tarasowej, zapewniając solidną i trwałą ochronę przed deszczem czy promieniowaniem UV.
   </p>
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasu.">
+    </div>
 
-  <h2>Profesjonalne zadaszenie tarasu – Zielona Góra – kontakt</h2>
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Jak zrobić drewniane zadaszenie tarasu dopasowane do domowej przestrzeni?</h2>
+      <p>
+       Drewniane zadaszenie tarasu to doskonały wybór dla właścicieli domów ceniących naturalne piękno, uniwersalność i trwałość. Szczególnie dobrze prezentuje się przy klasycznych domach z cegły czy otynkowanych elewacjach. Jest to idealne rozwiązanie zarówno dla małych, kameralnych tarasów, jak i dla dużych, przestronnych powierzchni. Charakteryzuje się solidną konstrukcją i wszechstronnością. Może przyjmować formę prostych wiat, ażurowych pergoli, nowoczesnych lameli czy tradycyjnych zadaszeń krytych, oferując różny stopień ochrony przed słońcem, deszczem czy wiatrem.
+      </p>
+      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+    </div>
+  </div>
+
+  <h2 class="text-2xl">Profesjonalne zadaszenie tarasu – Zielona Góra – kontakt</h2>
   <p>
-    Wysoką jakość naszych usług potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań lub wątpliwości co do opisywanej oferty montażu zadaszeń tarasu w Zielonej Górze i okolicach, serdecznie zapraszamy do kontaktu. Nasi specjaliści są gotowi udzielić szczegółowych informacji na temat naszych realizacji, doradzić w wyborze najlepszego rozwiązania oraz umówić się na indywidualną konsultację.
+    Wysoką jakość naszych usług potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań lub wątpliwości co do opisywanej oferty montażu zadaszeń tarasu w Zielonej Górze i okolicach serdecznie zapraszamy do kontaktu. Nasi specjaliści są gotowi udzielić szczegółowych informacji na temat naszych realizacji, doradzić w wyborze najlepszego rozwiązania oraz umówić się na indywidualną konsultację. <strong>Zbudujemy zadaszenia tarasu</strong> zgodnie z Państwa wizją i możliwościami.
   </p>
+
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239507.93793954165!2d15.275525679367389!3d51.93627239941639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613d95c7424c9%3A0xd459243a658363d!2sZielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1758611654577!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
     `,

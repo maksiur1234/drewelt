@@ -10,7 +10,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 
 import HomepageCanonical from "./glowna/HomeCanonical";
-import Home from "./page";
+import CookieBanner from "@/components/cookie";
 
 export const metadata: Metadata = {
   title: {
@@ -117,6 +117,7 @@ export default function RootLayout({
             <Navbar />
             <main className="w-full max-w-none flex-grow">{children}</main>
             <Footer />
+            <CookieBanner />
           </div>
         </Providers>
       </body>

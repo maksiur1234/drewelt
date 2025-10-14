@@ -45,7 +45,8 @@ export default function Page() {
       name: "Jasny szary",
       color: "#a2a2a2",
       image: "/kolory-desek/jasny-szary.jpg",
-    },{
+    },
+    {
       name: "Ciemny szary",
       color: "#4f4f4f",
       image: "/kolory-desek/ciemny-szary.jpg",
@@ -179,7 +180,7 @@ export default function Page() {
         <p className="text-gray-700 text-sm sm:text-base">
           Każdy projekt realizowany przez Drewelt obejmuje nie tylko dostawę <strong>desek tarasowych z kompozytu</strong>, ale także pełen zestaw akcesoriów montażowych. W skład systemu wchodzą klipsy plastikowe z wkrętami ze stali nierdzewnej, listy kątowe, zaślepki i inne elementy, które zapewniają stabilność i estetykę konstrukcji. Dzięki przemyślanemu systemowi montażu, <strong>deski kompozytowe</strong> można szybko, a także bezproblemowo zamontować<strong> na balkonach, tarasach</strong> ogrodowych czy przy basenach. Ich konstrukcja umożliwia późniejsze odwrócenie, co znacząco wydłuża żywotność całej powierzchni, a także pozwala zachować świeży wygląd przez lata.
         </p>
-        
+
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">
           Jak złożyć zamówienie na tarasowe deski kompozytowe?
         </h2>

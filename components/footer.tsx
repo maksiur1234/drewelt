@@ -181,6 +181,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="/tarasy/deska-tarasowa-kompozytowa-warszawa" className="hover:underline">
+                    Deska tarasowa, kompozytowa Warszawa
+                  </a>
+                </li>
+                <li>
                   <a href="/tarasy/deska-tarasowa-kompozytowa-wrzesnia" className="hover:underline">
                     Deska tarasowa, kompozytowa Września
                   </a>

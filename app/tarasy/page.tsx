@@ -77,7 +77,7 @@ export default function Page() {
         <p className="text-gray-700 text-sm sm:text-base">
           <a href="/o-nas">Drewelt</a> to doświadczony wykonawca tarasów ogrodowych, balkonowych i przydomowych stref wypoczynku, działający na rynku od 2014 roku. Realizujemy projekty na terenie całej Polski, ze szczególnym uwzględnieniem <a href="/tarasy/deska-tarasowa-kompozytowa-poznan">Poznania</a>, <a href="/tarasy/deska-tarasowa-kompozytowa-wroclaw">Wrocławia</a> i okolicznych miejscowości. <strong>Budowa tarasów ogrodowych</strong> obejmuje nie tylko montaż desek, ale także przygotowanie podłoża, dobór odpowiednich materiałów oraz estetyczne wykończenie. Tworzymy przestrzenie, które są trwałe, funkcjonalne i dopasowane do stylu życia Klienta. Chcesz dowiedzieć się więcej o naszych usługach? <a href="/kontakt">Skontaktuj się z nami!</a>
         </p>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">
+        <h2 className="text-2xl font-semibold text-gray-800 my-3">
           Czym jest tarasowa deska kompozytowa i gdzie się sprawdza?
         </h2>
         <p className="text-gray-700 text-sm sm:text-base">
@@ -95,15 +95,15 @@ export default function Page() {
         <p className="text-gray-700 text-sm sm:text-base">
           <strong>Tarasowa deska kompozytowa</strong> stanowi nowoczesną alternatywę dla tradycyjnego drewna. To produkt który:
         </p>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-disc list-inside">
-          <li>nie wymaga malowania ani impregnacji,</li>
-          <li>jej antypoślizgowa powierzchnia zapewnia bezpieczeństwo, nawet podczas deszczu,</li>
-          <li>jest odporna na wilgoć, temperaturę i promieniowanie UV,</li>
-          <li>podlega 100%-towej utylizacji,</li>
-          <li>wykazuje długą żywotność i wytrzymałość na obciążenia,</li>
-          <li>nie ma drzazg oraz zadarć.</li>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-disc list-inside items-center my-4">
+          <li className="rounded-lg shadow-lg py-4">nie wymaga malowania ani impregnacji,</li>
+          <li className="rounded-lg shadow-lg py-4">jej antypoślizgowa powierzchnia zapewnia bezpieczeństwo, nawet podczas deszczu,</li>
+          <li className="rounded-lg shadow-lg py-4">jest odporna na wilgoć, temperaturę i promieniowanie UV,</li>
+          <li className="rounded-lg shadow-lg py-4">podlega 100%-towej utylizacji,</li>
+          <li className="rounded-lg shadow-lg py-4">wykazuje długą żywotność i wytrzymałość na obciążenia,</li>
+          <li className="rounded-lg shadow-lg py-4">nie ma drzazg oraz zadarć.</li>
         </ul>
-        <p className="text-gray-700 text-sm sm:text-base">
+        <p className="text-gray-700 text-sm sm:text-base mt-3">
           <strong>Tarasowa deska kompozytowa </strong>jest więc świetnym rozwiązaniem dla osób ceniących wygodę i nowatorski design.
         </p>
       </section>
@@ -114,7 +114,7 @@ export default function Page() {
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
           Wymiary i kolory – dopasuj taras do swojej przestrzeni
         </h2>
-        <p className="text-gray-700 text-sm sm:text-base">
+        <p className="text-gray-700 text-sm sm:text-base mb-3">
           Drewelt oferuje <strong>deski tarasowe kompozytowe</strong> w dwóch długościach: <strong>3m</strong> i <strong>4m</strong>, co pozwala na elastyczne dopasowanie do różnych powierzchni. Deski są dwustronnie ryflowane – jedna strona ma drobne rowki, druga grubsze – dzięki czemu można je odwrócić i odświeżyć wygląd tarasu, bez konieczności wymiany. W palecie kolorów <strong>kompozytowych desek tarasowych</strong> znajdziesz:
         </p>
         <div className="flex flex-wrap justify-center gap-16">
@@ -181,13 +181,13 @@ export default function Page() {
           Każdy projekt realizowany przez Drewelt obejmuje nie tylko dostawę <strong>desek tarasowych z kompozytu</strong>, ale także pełen zestaw akcesoriów montażowych. W skład systemu wchodzą klipsy plastikowe z wkrętami ze stali nierdzewnej, listy kątowe, zaślepki i inne elementy, które zapewniają stabilność i estetykę konstrukcji. Dzięki przemyślanemu systemowi montażu, <strong>deski kompozytowe</strong> można szybko, a także bezproblemowo zamontować<strong> na balkonach, tarasach</strong> ogrodowych czy przy basenach. Ich konstrukcja umożliwia późniejsze odwrócenie, co znacząco wydłuża żywotność całej powierzchni, a także pozwala zachować świeży wygląd przez lata.
         </p>
 
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">
+        <h2 className="text-2xl font-semibold text-gray-800 my-3">
           Jak złożyć zamówienie na tarasowe deski kompozytowe?
         </h2>
         <p className="text-gray-700 text-sm sm:text-base">
           Zamówienie deski kompozytowe na taras można złożyć w prosty sposób. Wystarczy przesłać:
         </p>
-        <ul className="list-disc list-inside mt-3 text-gray-700 text-sm sm:text-base">
+        <ul className="list-disc list-inside my-3 text-gray-700 text-sm sm:text-base">
           <li>zdjęcia miejsca inwestycji, </li>
           <li>wymiary,</li>
           <li>dane kontaktowe,</li>
@@ -203,7 +203,7 @@ export default function Page() {
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
           Zainspiruj się i zapytaj o budowę tarasów ogrodowych
         </h2>
-        <p className="text-gray-700 text-sm sm:text-base">
+        <p className="text-gray-700 text-sm sm:text-base mb-4">
           Na naszej stronie internetowej znajdziesz <a href="/galeria">galerię realizacji</a>, która pokazuje różnorodność projektów i zastosowań <strong>desek tarasowych kompozytowych</strong>. Każdy projekt to dowód na to, że praktyczność może iść w parze z eleganckim designem. <a href="/kontakt">Zachęcamy do kontaktu </a>i przesłania zapytania – doradzimy, przygotujemy ofertę oraz pomożemy stworzyć przestrzeń, która będzie cieszyć przez lata.
         </p>
 

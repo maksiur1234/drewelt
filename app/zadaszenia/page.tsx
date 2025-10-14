@@ -33,10 +33,6 @@ export default function Page() {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-gray-800 text-center mb-6">
-        Nowoczesne zadaszenia
-      </h1>
-      <Divider className="mb-8" />
       <section
         className="relative h-[500px] md:h-[700px] flex items-center justify-center bg-cover bg-center rounded-lg shadow-xl"
         style={{
@@ -52,6 +48,29 @@ export default function Page() {
             Innowacyjne rozwiązania łączące tradycję z nowoczesnością
           </p>
         </div>
+      </section>
+
+      <section>
+          <h2 class="text-2xl mt-4">Deska kompozytowa zastosowanie – zastosowanie i estetyka</h2>
+          <p>
+            Z <a href="/o-nas">Drewelt</a> <strong>budowa zadaszenia tarasu z drewna</strong> to nie tylko praktyczne rozwiązanie, ale także sposób na podkreślenie charakteru Twojej przestrzeni wypoczynkowej. Nasze konstrukcje powstają z klejonego warstwowo drewna BSH, które cechuje się wyjątkową odpornością na wilgoć, zmienne temperatury i obciążenia mechaniczne. Dzięki temu <strong>zadaszenie ogrodowe z drewna</strong> zachowuje stabilność, estetykę i funkcjonalność przez wiele sezonów – bez konieczności częstych konserwacji. Zainspiruj się naszymi <a href="/galeria">realizacjami</a> i zamów projekt dopasowany do Twojego tarasu – <a href="/kontakt">skontaktuj się z nami</a>, a przygotujemy dla Ciebie indywidualną ofertę.
+          </p>
+          <h2 class="text-2xl mt-4">Drewniane zadaszenia tarasu – projekty na wymiar od Drewelt</h2>
+          <p>
+            Drewelt oferuje kompleksowe rozwiązania w zakresie <strong>konstrukcji</strong>, jakimi są <strong>zadaszenia tarasu drewna. </strong>Nasze projekty skierowane są do Klientów z całej Polski. Wyróżnia je lekka, nowoczesna forma, pozbawiona dodatkowych wsporników. Takie <strong>zabudowy tarasów drewniane </strong>to rozwiązanie, które zapewnia pełną przestrzeń użytkową pod zadaszeniem, bez kompromisów w zakresie wygody czy eleganckiego designu. Poza tym każdą koncepcję realizujemy na zamówienie. <strong>Drewniane zadaszenie tarasu na wymiar</strong> uwzględnia:
+          </p>
+          <ul class="list-disc list-inside my-4">
+            <li>układ budynku,</li>
+            <li>charakter ogrodu,</li>
+            <li>preferencje estetyczne Klienta.</li>
+          </ul>
+          <p>
+            Dzięki temu konstrukcja idealnie wpisuje się w przestrzeń, tworząc funkcjonalne i przytulne miejsce do wypoczynku. <a href="/kontakt">Skontaktuj się z nami,</a> aby zamówić indywidualny projekt <strong>zadaszenia drewnianego</strong> i otrzymać bezpłatną wycenę.
+          </p>
+          <h2 class="text-2xl mt-4">Zadaszenie altany ogrodowej Drewelt – więcej niż tylko daszek</h2>
+          <p>
+            Nasza oferta obejmuje również kompleksowe <strong><a href="/altany-ogrodowe">zadaszenia altany ogrodowej</a></strong>, które pozwalają stworzyć funkcjonalne strefy wypoczynku, niezależnie od warunków pogodowych. Wykonujemy je <strong>z drewna i poliwęglanu</strong>. Drewno klejone BSH, które stosujemy, zapewnia trwałość i elegancki wygląd, a poliwęglan komorowy o grubości 10 mm chroni przed deszczem, słońcem i promieniowaniem UV.  Ponadto jest on dostępny w naszej ofercie w wersji przezroczystej, mlecznej lub przydymionej. Z <a href="/o-nas">Drewelt </a>stworzysz przestrzeń, która łączy praktyczność z nowoczesnym designem – idealna do wypoczynku, spotkań i codziennego relaksu.
+          </p>
       </section>
 
       <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -126,6 +145,11 @@ export default function Page() {
       </div>
 
       <section className="mt-12 text-center">
+        <h2 class="text-2xl mt-4">Dlaczego warto wybrać zadaszenie drewniane Drewelt?</h2>
+        <p>
+          Drewelt to firma z ponad 10-letnim doświadczeniem w projektowaniu i montażu konstrukcji zewnętrznych. Specjalizujemy się w <strong>budowie zadaszenia tarasu z drewna</strong>, oferując rozwiązania dopasowane do indywidualnych potrzeb Klientów z całego kraju. Każdy projekt realizujemy kompleksowo – od pomiaru i wizualizacji, przez produkcję, aż po profesjonalny montaż. Nasze <strong>daszki na taras drewniane</strong> są dwukrotnie impregnowane i malowane, co zapewnia im trwałość oraz odporność na warunki atmosferyczne. Jeśli interesuje Cię szybka realizacja i montaż – bez ukrytych kosztów, z pełnym wsparciem technicznym – <a href="/kontakt">skontaktuj się z nami</a>.  Zaprojektuj z <a href="/o-nas">Drewelt</a> swoje wymarzone zadaszenie – funkcjonalne, trwałe, piękne.
+        </p>
+
         <Link
           className="inline-block bg-[#e9a749] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-colors"
           href="/kontakt"

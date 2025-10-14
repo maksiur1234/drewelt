@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Strona Główna | Drewelt Piotr Wiśniewski",
+    title: "Zadaszenie tarasu z drewna i poliwęglanu – Drewelt",
     description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
     alternates: {
       canonical: "https://www.drewelt.pl/zadaszenia",

@@ -411,6 +411,224 @@ export const seoContentList: SeoContent[] = [
     `,
   },
   {
+    url: "deska-tarasowa-kompozytowa-leszno",
+    metaTitle: "Deski tarasowe kompozytowe – Leszno i okolice – Drewelt",
+    h1: "Tarasy z desek kompozytowych w Lesznie – komfort na lata",
+    description: "Budowa tarasu z deski kompozytowej w Lesznie – trwałe, estetyczne konstrukcje z montażem. Sprawdź ofertę Drewelt i zamów indywidualną wycenę!",
+    content: `
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <p>
+    Taras to nie tylko przedłużenie domu, ale także przestrzeń relaksu, spotkań i odpoczynku na świeżym powietrzu. <strong>Budowa tarasu z deski kompozytowej</strong> to rozwiązanie, które łączy nowoczesny wygląd z wysoką praktycznością. Firma <a href="/o-nas">Drewelt</a> oferuje kompleksową realizację <strong><a href="/tarasy">tarasów z desek kompozytowych</a></strong> w Lesznie i okolicach – od projektu, po montaż. Dzięki naszym materiałom i doświadczeniu możesz stworzyć miejsce, które będzie służyć przez wiele sezonów, niezależnie od pogody.
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Dlaczego warto zbudować taras z desek kompozytowych Drewelt?</h2>
+      <p>
+        Deski kompozytowe WPC (Wood Plastic Composite) to innowacyjne połączenie naturalnych składników, takich jak mączka drzewna i włókna bambusowe, z polimerami termoplastycznymi oraz dodatkami stabilizującymi. Efekt? Materiał, który doskonale imituje drewno, a jednocześnie przewyższa je pod względem trwałości i odporności. <strong><a href="/tarasy">Tarasy z desek kompozytowych</a>:</strong>
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li>nie wymagają impregnacji,</li>
+        <li>nie butwieją,</li>
+        <li>są odporne na wilgoć, promieniowanie UV, skrajne temperatury,</li>
+        <li>nie podlegają działaniu grzybów i pleśni.</li>
+      </ul>
+      <p>
+        Dodatkowo ich antypoślizgowa powierzchnia zwiększa bezpieczeństwo użytkowania, nawet przy deszczowej pogodzie czy porannym przymrozku. Jeśli interesuje Cię <strong>budowa tarasu, deska kompozytowa </strong>to doskonały wybór.
+      </p>
+      
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/zadaszenie%20z%20poliw%C4%99glanu.jpg" alt="Taras z jasnej deski kompozytowej">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Kompleksowa obsługa w zakresie budowy tarasów z desek kompozytowych</h2>
+  <p>
+    W Drewelt stawiamy na jakość i dopasowanie do potrzeb Klienta. Oferujemy:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>indywidualną wycenę na podstawie zdjęć i wymiarów miejsca inwestycji – wystarczy przesłać nam zdjęcie tarasu lub planowany obszar;</li>
+    <li>szeroki wybór kolorów – pięć wersji kolorystycznych desek kompozytowych, które dopasujesz do stylu domu i ogrodu;</li>
+    <li>kompletny zestaw montażowy – legary kompozytowe, klipsy kątowe, deski cokołowe, zaślepki i inne elementy potrzebne do budowy;</li>
+    <li>profesjonalny montaż – nasz zespół może wykonać całość prac, zapewniając estetykę i trwałość konstrukcji;</li>
+    <li>2-letnią gwarancję na materiały oraz wykonanie – potwierdzenie jakości, którą oferujemy.</li>
+  </ul>
+  <p>
+    Chcesz zbudować<strong> taras z kompozytu</strong>, ale nie wiesz, jaka jest <strong>cena</strong> takiej inwestycji? Koszt zależy od powierzchni, wybranych komponentów i zakresu prac. <a href="/kontakt">Skontaktuj się z nami</a>, a przygotujemy dla Ciebie szczegółowy kosztorys.
+  </p>
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0030.jpg" alt="Zadaszenie tarasu z deski">
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Zainspiruj się – zobacz nasze realizacje</h2>
+      <p>
+        Zrealizowaliśmy dziesiątki projektów na terenie całej Polski – od klasycznych tarasów przydomowych, przez obudowy basenów, aż po ścieżki ogrodowe i <a href="/zadaszenia">zadaszenia</a>. Każdy projekt traktujemy indywidualnie, dbając o detale, funkcjonalność oraz estetykę. Zajrzyj do naszej <a href="/galeria">galerii,</a> by zobaczyć, jak może wyglądać Twój przyszły taras.
+      </p>
+      
+    </div>
+  </div>
+  <h2 class="text-2xl mt-4">Skontaktuj się z nami – doradzimy, wycenimy, zrealizujemy</h2>
+  <p>
+    Masz pytania? Chcesz poznać szczegóły oferty lub umówić się na wycenę? Zadzwoń lub napisz do nas. Zaufaj specjalistom, którzy od 2014 roku tworzą konstrukcje łączące tradycję z nowoczesnością. <strong><a href="/tarasy">Budowa tarasu z deski kompozytowej</a></strong> w Lesznie to nasza specjalność – sprawdź, jak możemy Ci pomóc!
+  </p>
+  <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312143.4863845742!2d16.5347944!3d51.8441068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f8!3m3!1m2!1s0x47059826914dc4d3%3A0x1b48d36e91c7a321!2sLeszno!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    `,
+  },
+  {
+    url: "deska-tarasowa-kompozytowa-warszawa",
+    metaTitle: "Tarasy drewniane i kompozytowe – Drewelt",
+    h1: "Tarasy ogrodowe Warszawa – trwałość, styl i praktyczność od Drewelt",
+    description: "Tarasy drewniane i kompozytowe od Drewelt. Projekt, montaż, wycena. Sprawdź ofertę i zamów taras dopasowany do Twojego ogrodu.",
+    content: `
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <p>
+    <a href="/o-nas">Drewelt</a> to doświadczony producent konstrukcji tarasowych, który od ponad dekady realizuje projekty na terenie całej Polski. Specjalizujemy się w kompleksowej <strong>budowie tarasu z deski tarasowej</strong> – zarówno w wersji naturalnej, jak i <a href="/tarasy">kompozytowej.</a> Nasze realizacje zdobią ogrody prywatne, strefy relaksu przy domach letniskowych oraz przestrzenie komercyjne w <strong>Warszawie</strong>, <a href="/tarasy/deska-tarasowa-kompozytowa-poznan">Poznaniu</a>, <a href="/tarasy/deska-tarasowa-kompozytowa-wrolcaw">Wrocławiu</a> czy <a href="/tarasy/deska-tarasowa-kompozytowa-konin">Koninie</a>. Każdy projekt jest dopasowany do indywidualnych potrzeb Klienta, z dbałością o estetykę, trwałość oraz komfort użytkowania. Po więcej informacji na temat naszej oferty <a href="/kontakt">zapraszamy do kontaktu</a>.
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Taras drewniany – naturalna elegancja i solidna konstrukcja</h2>
+      <p>
+        <strong>Taras drewniany</strong> to wybór dla miłośników klasyki i naturalnych materiałów. W Drewelt stosujemy <strong>konstrukcje</strong> z drewna klejonego warstwowo BSH – suchego świerku o wysokiej wytrzymałości, który doskonale sprawdza się w warunkach zewnętrznych. Wszystkie <strong>tarasy ogrodowe drewniane </strong>realizowane przez nas w Warszawie są:
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li>starannie projektowane, </li>
+        <li>impregnowane ciśnieniowo,</li>
+        <li>malowane dwukrotnie.</li>
+      </ul>
+      <p>
+        Zapewnia im to odporność na wilgoć, promieniowanie UV i zmienne warunki atmosferyczne. Takie konstrukcje świetnie komponują się z zadaszeniami z poliwęglanu, tworząc spójną oraz funkcjonalną przestrzeń wypoczynkową.
+      </p>
+      
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0030.jpg" alt="Taras drewniany">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Taras kompozytowy – nowoczesność bez kompromisów</h2>
+  <p>
+    Deski kompozytowe WPC dostępne w <a href="/o-nas">Drewelt</a> to idealne rozwiązanie dla osób ceniących nowoczesny wygląd, trwałość i minimalną konserwację. Oferujemy szeroką paletę kolorów: 
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>jasny szary, </li>
+    <li>ciemny brąz, </li>
+    <li>grafit,</li>
+    <li>jasny brąz.</li>
+  </ul>
+  <p>
+    Takie barwy pozwalają dopasować taras do stylu budynku i ogrodu. <strong>Deski </strong>przeznaczone <strong>na <a href="/tarasy">taras kompozytowy</a></strong> są dwustronnie ryflowane, odporne na wilgoć, promienie UV i nie wymagają impregnacji ani malowania. Dzięki temu konstrukcja zachowuje estetykę przez lata, bez konieczności czasochłonnej pielęgnacji. <a href="/kontakt">Zapytaj o aktualną ofertę</a> <strong>tarasu kompozytowego – cena</strong> inwestycji zależy od powierzchni i wybranego wykończenia.
+  </p>
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras.jpg" alt="Kompozytowy taras">
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Tarasy kompozytowe Warszawa — lokalna realizacja, ogólnopolska jakość</h2>
+      <p>
+        Nasze <strong><a href="/tarasy">tarasy kompozytowe</a></strong> cieszą się dużym zainteresowaniem w <strong>Warszawie </strong>i okolicach. Realizujemy projekty na terenie całego kraju, zapewniając pełne wsparcie – od pomiaru i doradztwa technicznego, przez projekt, aż po montaż. Każda koncepcja jest dopasowana do warunków lokalnych i oczekiwań Klienta, a nasz zespół dba o terminowość i najwyższą jakość wykonania. Jeśli szukasz sprawdzonego wykonawcy <strong>tarasu kompozytowego</strong> w <strong>Warszawie</strong> – jesteś we właściwym miejscu.
+      </p>
+      
+    </div>
+  </div>
+  <h2 class="text-2xl mt-4">Skontaktuj się z nami – zaprojektuj taras z Drewelt</h2>
+  <p>
+    Zainwestuj w <strong>taras drewniany</strong> lub <strong><a href="/tarasy">kompozytowy</a></strong>, który będzie funkcjonalny, trwały i dopasowany do Twojego stylu życia. <a href="/kontakt">Skontaktuj się z nami</a>, aby otrzymać indywidualny projekt, wycenę i fachowe doradztwo. 
+  </p>
+  <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1248573.9455382966!2d20.7496237!3d52.2328014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f7!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    `,
+  },
+  {
+    url: "deska-tarasowa-kompozytowa-wrzesnia",
+    metaTitle: "Deski tarasowe kompozytowe – Września i okolice – Drewelt",
+    h1: "Kompozyt czy drewno? Co wybrać na taras we Wrześni?",
+    description: "Deska kompozytowa czy drewniana na taras? Poznaj różnice w trwałości, wyglądzie i konserwacji – wybierz świadomie materiał od Drewelt. Sprawdź ofertę.",
+    content: `
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <p>
+    Zastanawiasz się, co będzie lepsze – <strong>deska kompozytowa czy drewniana na taras we Wrześni</strong>? Drewno ma swój urok, ale wymaga regularnej konserwacji, impregnacji i jest podatne na warunki atmosferyczne. Kompozyt to nowoczesna alternatywa, która łączy estetykę drewna z trwałością tworzyw sztucznych. Produkty <a href="/">Drewelt </a>powstają z mączki drzewnej, włókien bambusowych oraz polimerów termoplastycznych, wzbogaconych o pigmenty oraz stabilizatory. Dzięki temu są odporne na wilgoć, promieniowanie UV, skrajne temperatury, pleśń, grzyby czy uszkodzenia mechaniczne. Nie wymagają malowania ani impregnacji, a ich wygląd doskonale imituje naturalne drewno. Stanowi idealne rozwiązanie dla osób, które cenią sobie trwałość, estetykę, a także komfort użytkowania przez cały rok. <strong><a href="/tarasy">Deska kompozytowa</a> a drewniana </strong>to zatem wybór między innowacyjnością i tradycją. 
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Deska kompozytowa – ofertę jakiej firmy warto wybrać?</h2>
+      <p>
+        <strong>Deska kompozytowa</strong> należy obecnie do najbardziej cenionych rozwiązań na rynku. Ważne jest jednak,<strong> jakiej firmy</strong> jest to produkt. Aby spełniał swoje zadanie przez lata,  warto postawić na sprawdzonego producenta. <a href="/">Drewelt</a> to polska marka z wieloletnim doświadczeniem, która stawia na jakość, trwałość, a także zgodność z normami ekologicznymi. Nasze artykuły są odporne na zapalenie, łatwe w utylizacji oraz bezpieczne dla środowiska. Korzystamy wyłącznie z certyfikowanych komponentów, a każdy etap produkcji podlega kontroli jakości. Dzięki temu możesz mieć pewność, że wybierasz materiał, który spełni oczekiwania nawet najbardziej wymagających użytkowników – zarówno prywatnych, jak i biznesowych. 
+      </p>
+      
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/tarasy/taras-schody.jpg" alt="Deska kompozytowa na tarasie">
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Deska kompozytowa zastosowanie – zastosowanie i estetyka</h2>
+  <p>
+    <strong>Deska kompozytowa </strong>wyróżnia się szerokim <strong>zastosowaniem</strong>. Buduje się z niej nie tylko tarasy przydomowe. Świetnie sprawdza się ona również na balkonach, pomostach, strefach relaksu przy obiektach komercyjnych, hotelach czy restauracjach. Drewelt oferuje szeroki wybór kolorów i wykończeń, dzięki czemu łatwo dopasujesz produkt do stylu budynku, ogrodu lub elewacji. Nie wiesz, czy <strong><a href="/tarasy">deska tarasowa kompozytowa</a> </strong>to dobry wybór i<strong> jak </strong>ją dobrze<strong> układać? </strong>Wystarczy przesłać zdjęcie lub wymiary przestrzeni, a nasz zespół dobierze odpowiednie komponenty oraz doradzi najlepsze rozwiązania. Zapewniamy kompleksowe wsparcie – od projektu po realizację. <a href="/kontakt">Zadzwoń lub napisz</a> do nas!
+  </p>
+
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/tarasy/taras-2.jpg" alt="Deski kompozytowe na taras z montażem">
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Deski kompozytowe na taras – jak je montować?</h2>
+      <p>
+        Jeśli interesuje Cię, <strong>co ile legary pod taras kompozytowy</strong>, rekomendowany rozstaw to maksymalnie 35 cm. Taka odległość zapewnia stabilność konstrukcji i komfort użytkowania przez długie lata. Drewelt oferuje kompletne zestawy montażowe, które obejmują:
+      </p>
+
+      <ul class="list-disc list-inside my-4">
+        <li>legary kompozytowe,</li>
+        <li>klipsy montażowe,</li>
+        <li>kątowniki,</li>
+        <li>deski cokołowe.</li>
+      </ul>
+
+      <p>
+        <strong>Deska kompozytowa na taras</strong> wraz z akcesoriami Drewelt to odpowiedź na pytanie –  <strong>jak</strong> właściwie <strong>montować</strong> całą konstrukcję. Dzięki kompletnym zestawom proces ten jest prosty, czysty i nie wymaga specjalistycznych narzędzi. Dla wygody Klientów oferujemy również usługę profesjonalnego montażu na terenie <strong>Wrześni</strong> i okolic. Dzięki temu możesz mieć pewność, że Twój taras będzie wykonany zgodnie ze sztuką budowlaną i gotowy do użytku bez zbędnych opóźnień.
+      </p>
+    </div>
+  </div>
+  <h2 class="text-2xl mt-4">Drewelt – tu zaczyna się Twój nowy taras</h2>
+  <p>
+    Planujesz zmienić swoją przydomową przestrzeń, ale nie wiesz, co wybrać – <strong>deska drewniana czy <a href="/tarasy">kompozyt</a> na taras</strong>? Postaw na rozwiązania, które są odporne na warunki atmosferyczne i prezentują się elegancko w każdej przestrzeni. <a href="/kontakt">Skontaktuj się z Drewelt</a> – przygotujemy dla Ciebie indywidualną ofertę, dobierzemy materiały, a także pomożemy w montażu. Działamy we <strong>Wrześni</strong> i okolicach, realizując projekty szybko, profesjonalnie oraz terminowo. Zobacz <a href="/galeria">galerię realizacji</a> lub zadzwoń, by omówić szczegóły inwestycji.
+  </p>
+  <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156071.7431922871!2d17.5443938!3d52.3273635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f9!3m3!1m2!1s0x4704e97a51bfa0d7%3A0xb3abcad0610ffead!2sWrze%C5%9Bnia!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    `,
+  },
+  {
     url: "deska-tarasowa-kompozytowa-wroclaw",
     metaTitle: "Deski tarasowe kompozytowe – Wrocław i okolice – Drewelt",
     h1: "Deski tarasowe kompozytowe WPC – trwałość i styl we Wrocławiu",

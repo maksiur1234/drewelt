@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Strona Główna | Drewelt Piotr Wiśniewski",
+    title: "Budowa tarasów ogrodowych z kompozytu i drewna – Drewelt",
     description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
     alternates: {
       canonical: "https://www.drewelt.pl/tarasy",

@@ -18,7 +18,7 @@ export const seoContentList: SeoContent[] = [
     Wiosną i latem bardzo często korzystamy z tarasów. Mogą one pełnić funkcję strefy relaksu i wypoczynku. Doskonale sprawdzają się również podczas spotkań z rodziną i przyjaciółmi. Są one także istotnymi elementami architektury, które ozdabiają dom i ogród. Jednak zdarza się, że warunki atmosferyczne nie pozwalają nam w pełni wykorzystywać ich potencjału. Na szczęście istnieje możliwość wykonania <strong>zadaszenia z poliwęglanu w Poznaniu</strong>. Jeżeli zależy Państwu na najlepszym zadaszenie tarasu, Drewelt będzie odpowiednim wyborem – w naszej ofercie znajdą Państwo wysokiej jakości <strong>daszki z poliwęglanu</strong> i drewna.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -30,7 +30,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Zadaszenie tarasu z poliwęglanu.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Zadaszenie tarasu z poliwęglanu."/>
     </div>
 
   </div>
@@ -45,7 +45,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240327_141215.jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240327_141215.jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -85,7 +85,7 @@ export const seoContentList: SeoContent[] = [
     Taras stanowi jedno z coraz częściej wybieranych rozwiązań. Wpływ na to ma szereg związanych z nim korzyści. Często pełni on funkcję strefy relaksu, jadalni na świeżym powietrzu czy kącika dla dzieci. Jednak, aby spędzanie czasu na świeżym powietrzu stało się możliwe bez względu na zmieniające się warunki atmosferyczne, niezwykle istotne jest zadbanie o odpowiednie <strong>zadaszenie – pergola</strong> w pełni odpowie na Państwa potrzeby.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -97,7 +97,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu z drewnianą konstrukcją i poliwęglanowym daszkiem.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu z drewnianą konstrukcją i poliwęglanowym daszkiem."/>
     </div>
 
   </div>
@@ -115,7 +115,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" alt="Zadaszenie tarasu z dachem z poliwęglanu.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" alt="Zadaszenie tarasu z dachem z poliwęglanu."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -143,7 +143,7 @@ export const seoContentList: SeoContent[] = [
     Specjalizując się w produkcji drewnianych i poliwęglanowych zadaszeń tarasu w Gorzowie Wielkopolskim, zawsze stawiamy na wysoką jakość. Wykorzystujemy najlepsze materiały, które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko trwałością, ale i estetycznym wykończeniem, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z dwuletnią gwarancją, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -155,7 +155,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Murowana%20Go%C5%9Blina(1).jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Murowana%20Go%C5%9Blina(1).jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu."/>
     </div>
 
   </div>
@@ -238,7 +238,7 @@ export const seoContentList: SeoContent[] = [
     Decydując się na naszą ofertę, mogą Państwo skutecznie zabezpieczyć przestrzeń, a także wydłużyć czas jej użytkowania. To efektywna ochrona przed działaniem niekorzystnych warunków atmosferycznych, co przekłada się na dłuższą żywotność powierzchni. <strong>Zadaszenie tarasowe</strong> we <strong>Wrocławiu</strong> i okolicach to inwestycja, która daje komfort przez cały rok. Dzięki solidnym materiałom i odpowiedniemu wykonaniu taras z zadaszeniem zyskuje na funkcjonalności i estetyce.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -250,7 +250,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Bydgoszcz.jpg" alt="Zacieniony taras dzięki zadaszeniu z drewna i poliwęglanu.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Bydgoszcz.jpg" alt="Zacieniony taras dzięki zadaszeniu z drewna i poliwęglanu."/>
     </div>
 
   </div>
@@ -265,7 +265,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu dopasowane do nowoczesnego budynku.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu dopasowane do nowoczesnego budynku."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -300,7 +300,7 @@ export const seoContentList: SeoContent[] = [
     <strong>Zadaszenie tarasu</strong> w <strong>Zielonej Górze</strong> gwarantuje wykorzystanie tej przestrzeni przez większą część roku, niezależnie od warunków atmosferycznych. Ochrona przed deszczem, słońcem czy wiatrem umożliwia nam spędzanie czasu na świeżym powietrzu niezależnie od pory roku. Mieszkańców <strong>Zielonej Góry</strong> zapraszamy do zapoznania się z naszą ofertą <strong>zadaszeń tarasowych</strong>.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -312,7 +312,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/zadaszenie%20tarasu%20Trzaskowo.jpg" alt="Zadaszenie tarasu w nowoczesnym budynku.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/zadaszenie%20tarasu%20Trzaskowo.jpg" alt="Zadaszenie tarasu w nowoczesnym budynku."/>
     </div>
 
   </div>
@@ -327,7 +327,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasu.">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasu."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -360,7 +360,7 @@ export const seoContentList: SeoContent[] = [
     Drewelt, producent drewnianych konstrukcji ogrodowych, a także wiat z Rakowni, specjalizuje się w dystrybucji <strong>desek kompozytowych Poznania</strong> oraz całej Polski. Nasze produkty typu WPC (Wood Plastic Composite) łączą mączkę drzewną, włókna bambusowe oraz polimery termoplastyczne. Dzięki temu oferowane <strong>deski tarasowe kompozytowe</strong> są odporne na wilgoć, promieniowanie UV, skrajne temperatury i czynniki biologiczne, takie jak pleśń czy grzyby. Zainwestuj w rozwiązanie, które przetrwa lata – skontaktuj się z Drewelt i poznaj pełną ofertę <strong>desek tarasowych</strong>.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -382,7 +382,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/IMG-20230711-WA0002.jpg" alt="Deska kompozytowa o strukturze drewna zamontowana na tarasie.">
+      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/IMG-20230711-WA0002.jpg" alt="Deska kompozytowa o strukturze drewna zamontowana na tarasie."/>
     </div>
 
   </div>
@@ -393,7 +393,7 @@ export const seoContentList: SeoContent[] = [
   </p>
 <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/jasnybraz2015-2.800x600.jpg" alt="Deska kompozytowa ryglowana o jasnym, beżowym kolorze.">
+      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/jasnybraz2015-2.800x600.jpg" alt="Deska kompozytowa ryglowana o jasnym, beżowym kolorze."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -421,7 +421,7 @@ export const seoContentList: SeoContent[] = [
     Taras to nie tylko przedłużenie domu, ale także przestrzeń relaksu, spotkań i odpoczynku na świeżym powietrzu. <strong>Budowa tarasu z deski kompozytowej</strong> to rozwiązanie, które łączy nowoczesny wygląd z wysoką praktycznością. Firma <a href="/o-nas">Drewelt</a> oferuje kompleksową realizację <strong><a href="/tarasy">tarasów z desek kompozytowych</a></strong> w Lesznie i okolicach – od projektu, po montaż. Dzięki naszym materiałom i doświadczeniu możesz stworzyć miejsce, które będzie służyć przez wiele sezonów, niezależnie od pogody.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -443,7 +443,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/zadaszenie%20z%20poliw%C4%99glanu.jpg" alt="Taras z jasnej deski kompozytowej">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/zadaszenie%20z%20poliw%C4%99glanu.jpg" alt="Taras z jasnej deski kompozytowej"/>
     </div>
 
   </div>
@@ -464,7 +464,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0030.jpg" alt="Zadaszenie tarasu z deski">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0030.jpg" alt="Zadaszenie tarasu z deski"/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -497,7 +497,7 @@ export const seoContentList: SeoContent[] = [
     <a href="/o-nas">Drewelt</a> to doświadczony producent konstrukcji tarasowych, który od ponad dekady realizuje projekty na terenie całej Polski. Specjalizujemy się w kompleksowej <strong>budowie tarasu z deski tarasowej</strong> – zarówno w wersji naturalnej, jak i <a href="/tarasy">kompozytowej.</a> Nasze realizacje zdobią ogrody prywatne, strefy relaksu przy domach letniskowych oraz przestrzenie komercyjne w <strong>Warszawie</strong>, <a href="/tarasy/deska-tarasowa-kompozytowa-poznan">Poznaniu</a>, <a href="/tarasy/deska-tarasowa-kompozytowa-wrolcaw">Wrocławiu</a> czy <a href="/tarasy/deska-tarasowa-kompozytowa-konin">Koninie</a>. Każdy projekt jest dopasowany do indywidualnych potrzeb Klienta, z dbałością o estetykę, trwałość oraz komfort użytkowania. Po więcej informacji na temat naszej oferty <a href="/kontakt">zapraszamy do kontaktu</a>.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -518,7 +518,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0030.jpg" alt="Taras drewniany">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0030.jpg" alt="Taras drewniany"/>
     </div>
 
   </div>
@@ -538,7 +538,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras.jpg" alt="Kompozytowy taras">
+      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras.jpg" alt="Kompozytowy taras"/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -571,7 +571,7 @@ export const seoContentList: SeoContent[] = [
     Zastanawiasz się, co będzie lepsze – <strong>deska kompozytowa czy drewniana na taras we Wrześni</strong>? Drewno ma swój urok, ale wymaga regularnej konserwacji, impregnacji i jest podatne na warunki atmosferyczne. Kompozyt to nowoczesna alternatywa, która łączy estetykę drewna z trwałością tworzyw sztucznych. Produkty <a href="/">Drewelt </a>powstają z mączki drzewnej, włókien bambusowych oraz polimerów termoplastycznych, wzbogaconych o pigmenty oraz stabilizatory. Dzięki temu są odporne na wilgoć, promieniowanie UV, skrajne temperatury, pleśń, grzyby czy uszkodzenia mechaniczne. Nie wymagają malowania ani impregnacji, a ich wygląd doskonale imituje naturalne drewno. Stanowi idealne rozwiązanie dla osób, które cenią sobie trwałość, estetykę, a także komfort użytkowania przez cały rok. <strong><a href="/tarasy">Deska kompozytowa</a> a drewniana </strong>to zatem wybór między innowacyjnością i tradycją. 
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -584,7 +584,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/tarasy/taras-schody.jpg" alt="Deska kompozytowa na tarasie">
+      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/tarasy/taras-schody.jpg" alt="Deska kompozytowa na tarasie"/>
     </div>
 
   </div>
@@ -596,7 +596,7 @@ export const seoContentList: SeoContent[] = [
 
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/tarasy/taras-2.jpg" alt="Deski kompozytowe na taras z montażem">
+      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/tarasy/taras-2.jpg" alt="Deski kompozytowe na taras z montażem"/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -648,7 +648,7 @@ export const seoContentList: SeoContent[] = [
     Szeroki wybór rozwiązań pozwala na idealne dopasowanie do każdego projektu. Ponadto nasze <strong>deski tarasowe</strong> są dwustronnie ryflowane, co zwiększa ich funkcjonalność oraz estetykę, a ich długości (3 i 4 metry), a także  zastosowanie specjalnych klipsów ze stali nierdzewnej umożliwiają swobodny montaż. Zainwestuj w nowoczesne <strong>deski kompozytowe</strong> – <a href="/kontakt">skontaktuj się z nami</a> i zamów wycenę!
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
 
@@ -665,7 +665,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie.">
+      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie."/>
     </div>
 
   </div>
@@ -690,7 +690,7 @@ export const seoContentList: SeoContent[] = [
   <div class="w-full flex gap-4 flex-col md:flex-row">
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/deska-8.jpg" alt="Taras wykonany z ciemnej deski kompozytowej.">
+      <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/deska-8.jpg" alt="Taras wykonany z ciemnej deski kompozytowej."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -733,7 +733,7 @@ export const seoContentList: SeoContent[] = [
     Zaprojektuj swój wymarzoną przestrzeń ogrodową w <strong>Koninie</strong> – <a href="/kontakt">skontaktuj się z Drewelt</a>, aby poznać pełną ofertę i wybrać idealne <strong>deski tarasowe</strong> kompozytowe WPC dla siebie.
   </p>
   
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator">
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
@@ -755,7 +755,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/deska_kompozytowa/20240326_110308.png" alt="Profesjonalny montaż tarasów z desek kompozytowych WPC.">
+      <img class="object-cover rounded-lg shadow-md" src="https://www.drewelt.pl/deska_kompozytowa/20240326_110308.png" alt="Profesjonalny montaż tarasów z desek kompozytowych WPC."/>
     </div>
 
   </div>

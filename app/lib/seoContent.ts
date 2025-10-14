@@ -356,6 +356,7 @@ export const seoContentList: SeoContent[] = [
     description: "Deski kompozytowe na taras w Poznaniu. Indywidualne podejście, kompleksowa realizacja, satysfakcja z rezultatu. Sprawdź ofertę Drewelt!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h1 class="text-3xl font-bold text-gray-800">Deski kompozytowe dla Klientów z Poznania – Drewelt</h1>
   <p>
     Drewelt, producent drewnianych konstrukcji ogrodowych, a także wiat z Rakowni, specjalizuje się w dystrybucji <strong>desek kompozytowych Poznania</strong> oraz całej Polski. Nasze produkty typu WPC (Wood Plastic Composite) łączą mączkę drzewną, włókna bambusowe oraz polimery termoplastyczne. Dzięki temu oferowane <strong>deski tarasowe kompozytowe</strong> są odporne na wilgoć, promieniowanie UV, skrajne temperatury i czynniki biologiczne, takie jak pleśń czy grzyby. Zainwestuj w rozwiązanie, które przetrwa lata – skontaktuj się z Drewelt i poznaj pełną ofertę <strong>desek tarasowych</strong>.
   </p>
@@ -417,6 +418,7 @@ export const seoContentList: SeoContent[] = [
     description: "Budowa tarasu z deski kompozytowej w Lesznie – trwałe, estetyczne konstrukcje z montażem. Sprawdź ofertę Drewelt i zamów indywidualną wycenę!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h1 class="text-3xl font-bold text-gray-800">Tarasy z desek kompozytowych w Lesznie – komfort na lata</h1>
   <p>
     Taras to nie tylko przedłużenie domu, ale także przestrzeń relaksu, spotkań i odpoczynku na świeżym powietrzu. <strong>Budowa tarasu z deski kompozytowej</strong> to rozwiązanie, które łączy nowoczesny wygląd z wysoką praktycznością. Firma <a href="/o-nas">Drewelt</a> oferuje kompleksową realizację <strong><a href="/tarasy">tarasów z desek kompozytowych</a></strong> w Lesznie i okolicach – od projektu, po montaż. Dzięki naszym materiałom i doświadczeniu możesz stworzyć miejsce, które będzie służyć przez wiele sezonów, niezależnie od pogody.
   </p>
@@ -493,6 +495,7 @@ export const seoContentList: SeoContent[] = [
     description: "Tarasy drewniane i kompozytowe od Drewelt. Projekt, montaż, wycena. Sprawdź ofertę i zamów taras dopasowany do Twojego ogrodu.",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h1 class="text-3xl font-bold text-gray-800">Tarasy ogrodowe Warszawa – trwałość, styl i praktyczność od Drewelt</h1>
   <p>
     <a href="/o-nas">Drewelt</a> to doświadczony producent konstrukcji tarasowych, który od ponad dekady realizuje projekty na terenie całej Polski. Specjalizujemy się w kompleksowej <strong>budowie tarasu z deski tarasowej</strong> – zarówno w wersji naturalnej, jak i <a href="/tarasy">kompozytowej.</a> Nasze realizacje zdobią ogrody prywatne, strefy relaksu przy domach letniskowych oraz przestrzenie komercyjne w <strong>Warszawie</strong>, <a href="/tarasy/deska-tarasowa-kompozytowa-poznan">Poznaniu</a>, <a href="/tarasy/deska-tarasowa-kompozytowa-wrolcaw">Wrocławiu</a> czy <a href="/tarasy/deska-tarasowa-kompozytowa-konin">Koninie</a>. Każdy projekt jest dopasowany do indywidualnych potrzeb Klienta, z dbałością o estetykę, trwałość oraz komfort użytkowania. Po więcej informacji na temat naszej oferty <a href="/kontakt">zapraszamy do kontaktu</a>.
   </p>
@@ -567,6 +570,7 @@ export const seoContentList: SeoContent[] = [
     description: "Deska kompozytowa czy drewniana na taras? Poznaj różnice w trwałości, wyglądzie i konserwacji – wybierz świadomie materiał od Drewelt. Sprawdź ofertę.",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h1 class="text-3xl font-bold text-gray-800">Kompozyt czy drewno? Co wybrać na taras we Wrześni?</h1>
   <p>
     Zastanawiasz się, co będzie lepsze – <strong>deska kompozytowa czy drewniana na taras we Wrześni</strong>? Drewno ma swój urok, ale wymaga regularnej konserwacji, impregnacji i jest podatne na warunki atmosferyczne. Kompozyt to nowoczesna alternatywa, która łączy estetykę drewna z trwałością tworzyw sztucznych. Produkty <a href="/">Drewelt </a>powstają z mączki drzewnej, włókien bambusowych oraz polimerów termoplastycznych, wzbogaconych o pigmenty oraz stabilizatory. Dzięki temu są odporne na wilgoć, promieniowanie UV, skrajne temperatury, pleśń, grzyby czy uszkodzenia mechaniczne. Nie wymagają malowania ani impregnacji, a ich wygląd doskonale imituje naturalne drewno. Stanowi idealne rozwiązanie dla osób, które cenią sobie trwałość, estetykę, a także komfort użytkowania przez cały rok. <strong><a href="/tarasy">Deska kompozytowa</a> a drewniana </strong>to zatem wybór między innowacyjnością i tradycją. 
   </p>
@@ -635,6 +639,7 @@ export const seoContentList: SeoContent[] = [
     description: "Deski tarasowe kompozytowe WPC we Wrocławiu – trwałe, estetyczne i bezobsługowe rozwiązanie. Projekt, montaż i akcesoria w ofercie Drewelt.",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<h1 class="text-3xl font-bold text-gray-800">Deski tarasowe kompozytowe WPC – trwałość i styl we Wrocławiu</h1>
   <p>
     Drewelt oferuje Klientom z <strong>Wrocławia</strong> oraz okolic szeroką gamę wysokiej jakości <strong>desek tarasowych kompozytowych</strong> WPC. Dostępne są w 4 modnych kolorach, takich jak:
   </p>
@@ -719,6 +724,7 @@ export const seoContentList: SeoContent[] = [
     description: "Drewelt – sprzedaż i montaż desek tarasowych w Koninie. Ponad 10 lat doświadczenia. Najwyższa jakość, transparentne kosztorysy i indywidualne podejście. Zadzwoń!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h1 class="text-3xl font-bold text-gray-800">Deski tarasowe Konin – połączenie trwałości i estetyki</h1>
   <p>
     Drewelt dostarcza wysokiej jakości <strong>deski tarasowe</strong> kompozytowe WPC, które stanowią idealny fundament dla każdego tarasu w <strong>Koninie</strong> i okolicach. To doskonałe rozwiązanie dla tych, którzy cenią sobie nowoczesny wygląd, wyjątkową trwałość oraz minimalny nakład pracy przy konserwacji. Co wyróżnia nasze <a href="/tarasy"><strong>deski tarasowe</strong></a>?
   </p>

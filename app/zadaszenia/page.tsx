@@ -50,7 +50,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section>
+      <section className="bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
           <h2 className="text-2xl font-semibold text-gray-800">Deska kompozytowa zastosowanie – zastosowanie i estetyka</h2>
           <p className="text-base leading-7 text-gray-700">
             Z <a href="/o-nas">Drewelt</a> <strong>budowa zadaszenia tarasu z drewna</strong> to nie tylko praktyczne rozwiązanie, ale także sposób na podkreślenie charakteru Twojej przestrzeni wypoczynkowej. Nasze konstrukcje powstają z klejonego warstwowo drewna BSH, które cechuje się wyjątkową odpornością na wilgoć, zmienne temperatury i obciążenia mechaniczne. Dzięki temu <strong>zadaszenie ogrodowe z drewna</strong> zachowuje stabilność, estetykę i funkcjonalność przez wiele sezonów – bez konieczności częstych konserwacji. Zainspiruj się naszymi <a href="/galeria">realizacjami</a> i zamów projekt dopasowany do Twojego tarasu – <a href="/kontakt">skontaktuj się z nami</a>, a przygotujemy dla Ciebie indywidualną ofertę.
@@ -146,7 +146,7 @@ export default function Page() {
 
       <section className="mt-12 text-center">
         <h2 className="text-2xl font-semibold text-gray-800">Dlaczego warto wybrać zadaszenie drewniane Drewelt?</h2>
-        <p className="text-base leading-7 text-gray-700">
+        <p className="text-base leading-7 text-gray-700 mb-8">
           Drewelt to firma z ponad 10-letnim doświadczeniem w projektowaniu i montażu konstrukcji zewnętrznych. Specjalizujemy się w <strong>budowie zadaszenia tarasu z drewna</strong>, oferując rozwiązania dopasowane do indywidualnych potrzeb Klientów z całego kraju. Każdy projekt realizujemy kompleksowo – od pomiaru i wizualizacji, przez produkcję, aż po profesjonalny montaż. Nasze <strong>daszki na taras drewniane</strong> są dwukrotnie impregnowane i malowane, co zapewnia im trwałość oraz odporność na warunki atmosferyczne. Jeśli interesuje Cię szybka realizacja i montaż – bez ukrytych kosztów, z pełnym wsparciem technicznym – <a href="/kontakt">skontaktuj się z nami</a>.  Zaprojektuj z <a href="/o-nas">Drewelt</a> swoje wymarzone zadaszenie – funkcjonalne, trwałe, piękne.
         </p>
 

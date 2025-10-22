@@ -210,7 +210,7 @@ export const Footer = () => {
             Poznaj warunki gwarancji
           </Link>
           <div className="mt-2">
-          © {new Date().getFullYear()} Stworzone przez Maksymilian Robak.
+          © {new Date().getFullYear()}
           Wszystkie prawa zastrzeżone.
           </div>
         </div>

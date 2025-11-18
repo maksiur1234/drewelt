@@ -39,7 +39,13 @@ export const seoContentList: SeoContent[] = [
   <p>
     Zapraszamy do zapoznania się ze szczegółami naszej oferty. <strong>Zadaszenie tarasu z poliwęglanu</strong> to usługa realizowana w <strong>Poznaniu</strong> z uwzględnieniem indywidualnych oczekiwań klienta. W naszej ofercie znajduje się zarówno klasyczna, jednospadowa <strong>zabudowa tarasu</strong>, jak i <strong>łukowe zadaszenia z poliwęglanu</strong>. Materiał ten ma dużo zastosowań, dlatego zachęcamy do tworzenia własnych, indywidualnych aranżacji. <strong>Poliwęglan na taras</strong> może przybrać również formę klimatycznej pergoli czy zadaszenia wolnostojącego. Działamy zarówno na terenie <strong>Poznania</strong>, jak i okolicznych miejscowości.
   </p>
+  <div class="flex w-full justify-center mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] w-full max-w-[500px] text-xl px-8 py-8 rounded-lg uppercase transition-all font-medium" href="/galeria">Sprawdź nasze realizacje!</a></div>
   <h2 class="text-2xl">Zadaszenia tarasu Poznań – wysokie korzyści</h2>
+  <p>
+    Szukają Państwo sposobów na relaks w swoim ogrodzie w <strong>Poznaniu</strong>? <strong>Poliwęglan na zadaszenie</strong> to świetna opcja na przedłużenie sezonu tarasowego. Dzięki wysokiej jakości materiałom spędzanie czasu w swoim ulubionym miejscu jest możliwe bez względu na warunki atmosferyczne. <strong>Zadaszenia tarasów</strong> to przede wszystkim ochrona przed deszczem i promieniami UV. Stosowane przez nas materiały skutecznie blokują ostre słońce, dzięki czemu można cieszyć się ciepłem bez obaw. W naszej ofercie znajdą Państwo modele <strong>zadaszeń z poliwęglanu</strong>, które skutecznie chronią prywatność domowników. Dzięki temu mieszkańcy <strong>Poznania</strong> mogą zrelaksować się w domowym zaciszu.  
+  </p>
+
+  <h2 class="text-2xl">Cechy zadaszenia z poliwęglanu osadzonego na konstrukcji drewnianej</h2>
   <p>
     Szukają Państwo sposobów na relaks w swoim ogrodzie w <strong>Poznaniu</strong>? <strong>Poliwęglan na zadaszenie</strong> to świetna opcja na przedłużenie sezonu tarasowego. Dzięki wysokiej jakości materiałom spędzanie czasu w swoim ulubionym miejscu jest możliwe bez względu na warunki atmosferyczne. <strong>Zadaszenia tarasów</strong> to przede wszystkim ochrona przed deszczem i promieniami UV. Stosowane przez nas materiały skutecznie blokują ostre słońce, dzięki czemu można cieszyć się ciepłem bez obaw. W naszej ofercie znajdą Państwo modele <strong>zadaszeń z poliwęglanu</strong>, które skutecznie chronią prywatność domowników. Dzięki temu mieszkańcy <strong>Poznania</strong> mogą zrelaksować się w domowym zaciszu.  
   </p>
@@ -61,9 +67,32 @@ export const seoContentList: SeoContent[] = [
   <p>
     Dlaczego warto zainwestować w oferowane przez nas <strong>zadaszenia tarasowe z poliwęglanu</strong>? Są one wykonywane z wysokiej jakości materiału, dzięki czemu cechują się wyjątkową wytrzymałością i odpornością na zmiany temperatury, a także pęknięcia i uszkodzenia mechaniczne. Ponadto ta forma <strong>zabudowy tarasów</strong> może być z łatwością dostosowana do osobistych potrzeb przy niskich kosztach. <strong>Poliwęglan na zadaszenie</strong> ma odpowiednie właściwości termoizolacyjne i pozostaje odporny na niekorzystne warunki atmosferyczne. Oferowana przez nas usługa <strong>zadaszenia tarasowego</strong> z poliwęglanu w <strong>Poznaniu</strong> to gwarancja solidności i terminowości.  
   </p>
+
+    <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Poliwęglanowe zadaszenie tarasu – funkcjonalność i estetyka w jednym</h2>
+      <p>
+        Zastanawiasz się,<strong> jak zrobić zadaszenie tarasu z poliwęglanu,</strong> które będzie trwałe, estetyczne i dopasowane do stylu domu? W<a href="/o-nas"> Drewelt</a> stawiamy na rozwiązania, które łączą nowoczesny wygląd z praktycznym zastosowaniem. <strong><a href="/zadaszenia">Zabudowa tarasu z poliwęglanu</a></strong> to doskonały wybór dla osób ceniących sobie komfort użytkowania przez cały rok. Dzięki naszej wiedzy i doświadczeniu tworzymy konstrukcje, które nie tylko chronią przed deszczem i słońcem, ale także podnoszą walory wizualne posesji. <strong>Poliwęglanowe zadaszenie tarasu</strong> to:
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li>możliwość dopasowania konstrukcji do każdego typu budynku,</li>
+        <li>lekka, a jednocześnie wytrzymała forma zabudowy,</li>
+        <li>dostępność różnych kolorów i kształtów paneli,</li>
+        <li>szybki montaż oraz łatwa konserwacja,</li>
+        <li>atrakcyjna cena przy zachowaniu wysokiej jakości.</li>
+      </ul>
+      <p>
+        Zapraszamy do odwiedzenia naszej <a href="/galeria">galerii,</a> gdzie znajdziesz przykłady zrealizowanych projektów w <strong>Poznaniu</strong> i okolicach. Jeśli marzysz o funkcjonalnej, stylowej konstrukcji – <a href="/kontakt">skontaktu się z nami</a> i poznaj pełnię możliwości, <strong>jakie daje zabudowa tarasu z poliwęglanu.</strong>
+      </p>
+    </div>
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/Pozna%C5%841.jpg" alt="Białe zadaszenie tarasu"/>
+    </div>
+  </div>
+
   <h2 class="text-2xl">Zadaszenie tarasu z poliwęglanu – Poznań – kontakt</h2>
   <p>
-    Działamy na rynku niemal 10 lat i jesteśmy przekonani, że nasze <strong>zadaszenia tarasowe z poliwęglanu i drewna</strong> spełnią wszelkie oczekiwania! Najlepsza zabudowa w Poznaniu czeka właśnie na Państwa, a zespół naszych fachowców gwarantuje najwyższą jakość wykonania, co potwierdzają opinie setek zadowolonych klientów. <strong>Poliwęglan na zadaszenie</strong> to rozwiązanie dla każdego miłośnika relaksu na tarasie. W przypadku jakichkolwiek pytań co do usługi <strong>zadaszenia tarasu w Poznaniu</strong> serdecznie zapraszamy do kontaktu.  
+    Działamy na rynku niemal 10 lat i jesteśmy przekonani, że nasze<strong> zadaszenia tarasowe z poliwęglanu</strong> i drewna spełnią wszelkie oczekiwania! Najlepsza zabudowa w Poznaniu czeka właśnie na Państwa, a zespół naszych fachowców gwarantuje najwyższą jakość wykonania, co potwierdzają opinie setek zadowolonych klientów. <strong>Poliwęglan na zadaszenie</strong> to rozwiązanie dla każdego miłośnika relaksu na tarasie. W przypadku jakichkolwiek pytań co do usługi <strong>zadaszenia tarasu w Poznaniu</strong> serdecznie zapraszamy do kontaktu.
   </p>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -235,7 +264,7 @@ export const seoContentList: SeoContent[] = [
     W obecnych czasach taras jest jednym z kluczowych elementów w wielu domach jednorodzinnych czy szeregowcach. Umożliwia bowiem skuteczne zrelaksowanie się po ciężkim dniu przepełnionym obowiązkami. Dzięki odpowiednio dobranemu <strong>zadaszeniu tarasu</strong> we <strong>Wrocławiu</strong> można korzystać z niego przez cały rok, niezależnie od pogody.
   </p>
   <p>
-    Decydując się na naszą ofertę, mogą Państwo skutecznie zabezpieczyć przestrzeń, a także wydłużyć czas jej użytkowania. To efektywna ochrona przed działaniem niekorzystnych warunków atmosferycznych, co przekłada się na dłuższą żywotność powierzchni. <strong>Zadaszenie tarasowe</strong> we <strong>Wrocławiu</strong> i okolicach to inwestycja, która daje komfort przez cały rok. Dzięki solidnym materiałom i odpowiedniemu wykonaniu taras z zadaszeniem zyskuje na funkcjonalności i estetyce.
+    Decydując się na naszą ofertę, mozesz skutecznie zabezpieczyć przestrzeń, a także wydłużyć czas jej użytkowania. To efektywna ochrona przed działaniem niekorzystnych warunków atmosferycznych, co przekłada się na dłuższą żywotność powierzchni. <strong>Zadaszenie tarasowe we Wrocławiu i okolicach </strong>to inwestycja, która daje komfort przez cały rok. Dzięki solidnym materiałom oraz odpowiedniemu wykonaniu<strong> taras z zadaszeniem </strong>zyskuje na funkcjonalności, a także estetyce.
   </p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
@@ -279,10 +308,10 @@ export const seoContentList: SeoContent[] = [
 
   <h2 class="text-2xl">Zadaszenie tarasowe, Wrocław – dlaczego my?</h2>
   <p>
-    Jesteśmy firmą z bogatym doświadczeniem, stawiającą na najlepszej klasy rozwiązania. Posiadamy własne, bezpieczne środki transportu, co pozwala na kompleksową obsługę zlecenia we Wrocławiu, ponieważ sprawujemy kontrolę nad każdym etapem współpracy.
+    Jesteśmy firmą z bogatym doświadczeniem, stawiającą na najlepszej klasy rozwiązania, takie jak <strong>zadaszenia tarasowe</strong>. Posiadamy własne, bezpieczne środki transportu, co pozwala na kompleksową obsługę zlecenia we <strong>Wrocławiu</strong>, ponieważ sprawujemy kontrolę nad każdym etapem współpracy.
   </p>
-  <p>
-    Zależy nam na budowaniu korzystnych relacji z klientami, ponieważ są one dla nas kluczową kwestią udanej, opartej na zaufaniu realizacji zamówienia. Z chęcią dzielimy się swoją wiedzą i doświadczeniem, przekazując mnóstwo ciekawych oraz przydatnych porad. Zadaszenia tarasowe to rozwiązanie, które spełnia wszystkie potrzeby naszych klientów, gwarantując estetyczne i funkcjonalne konstrukcje, które przetrwają próbę czasu.
+  <p class="mt-2">
+    Zależy nam na budowaniu korzystnych relacji z klientami, ponieważ są one dla nas ważną kwestią udanej, opartej na zaufaniu realizacji zamówienia na <strong>zadaszenie tarasu z poliwęglanu</strong> lub drewna. Z chęcią dzielimy się swoją wiedzą i doświadczeniem, przekazując mnóstwo ciekawych oraz przydatnych porad. <strong>Zadaszenia tarasowe</strong> to rozwiązanie, które spełnia wszystkie potrzeby naszych klientów, gwarantując estetyczne i funkcjonalne konstrukcje, które przetrwają próbę czasu.
   </p>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320515.99625018873!2d16.662153354080715!3d51.12633214828668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1755587616575!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -319,7 +348,10 @@ export const seoContentList: SeoContent[] = [
 
   <h2 class="text-2xl mt-4">Ile kosztuje zadaszenie tarasu i robocizna oraz jak przebiega?</h2>
   <p>
-    Na etapie projektowania zadaszeń tarasu w Zielonej Górze i okolicach dokładnie analizujemy specyfikację budynku oraz wymagania estetyczne i funkcjonalne, co umożliwia dostosowanie propozycji do konkretnych potrzeb. Od tych wszystkich czynników będzie zależeć to, <strong>ile</strong> ostatecznie będzie <strong>kosztować zadaszenie tarasu</strong>. Następnie, w oparciu o profesjonalną wiedzę i doświadczenie, tworzymy projekt zadaszenia uwzględniający najnowsze rozwiązania technologiczne i materiałowe. Kolejnym krokiem jest terminowy montaż przez wykwalifikowany zespół specjalistów, dbających o precyzję i bezpieczeństwo <strong>wykonania</strong>. Bardzo częstym pytaniem przy doborze materiału jest to, <strong>ile kosztuje zadaszenie z poliwęglanu</strong> lub <strong>drewna</strong>. Pierwsze z nich cechuje się atrakcyjnym stosunkiem ceny do jakości, dzięki czemu jest to rozwiązanie przystępne dla każdego. Druga opcja może być konkurencyjne cenowo, w zależności od zastosowanych materiałów. Jego dużym atutem jest jednak naturalny wygląd, który świetnie dopełnia ogrodową przestrzeń przed domem.
+    Na etapie projektowania zadaszeń tarasu w Zielonej Górze i okolicach dokładnie analizujemy specyfikację budynku oraz wymagania estetyczne i funkcjonalne, co umożliwia dostosowanie propozycji do konkretnych potrzeb. Od tych wszystkich czynników będzie zależeć to, <strong>ile</strong> ostatecznie będzie <strong>kosztować zadaszenie tarasu</strong>. Następnie, w oparciu o profesjonalną wiedzę i doświadczenie, tworzymy projekt zadaszenia uwzględniający najnowsze rozwiązania technologiczne i materiałowe. Kolejnym krokiem jest terminowy montaż przez wykwalifikowany zespół specjalistów, dbających o precyzję i bezpieczeństwo <strong>wykonania</strong>. Bardzo częstym pytaniem przy doborze materiału jest to, <strong>ile kosztuje zadaszenie z poliwęglanu</strong> lub <strong>drewna</strong>.
+  </p>
+  <p>
+    Pierwsze z nich cechuje się atrakcyjnym stosunkiem ceny do jakości, dzięki czemu jest to rozwiązanie przystępne dla każdego. Druga opcja może być konkurencyjna cenowo, w zależności od zastosowanych materiałów. Jego dużym atutem jest jednak naturalny wygląd, który świetnie dopełnia ogrodową przestrzeń przed domem.
   </p>
   <h2 class="text-2xl">Zadaszenie na taras z poliwęglanu w Zielonej Górze</h2>
   <p>
@@ -333,7 +365,7 @@ export const seoContentList: SeoContent[] = [
     <div class="w-full md:w-3/5 mt-4">
       <h2 class="text-2xl">Jak zrobić drewniane zadaszenie tarasu dopasowane do domowej przestrzeni?</h2>
       <p>
-       Drewniane zadaszenie tarasu to doskonały wybór dla właścicieli domów ceniących naturalne piękno, uniwersalność i trwałość. Szczególnie dobrze prezentuje się przy klasycznych domach z cegły czy otynkowanych elewacjach. Jest to idealne rozwiązanie zarówno dla małych, kameralnych tarasów, jak i dla dużych, przestronnych powierzchni. Charakteryzuje się solidną konstrukcją i wszechstronnością. Może przyjmować formę prostych wiat, ażurowych pergoli, nowoczesnych lameli czy tradycyjnych zadaszeń krytych, oferując różny stopień ochrony przed słońcem, deszczem czy wiatrem.
+       <strong>Drewniane zadaszenie tarasu</strong> to doskonały wybór dla właścicieli domów ceniących naturalne piękno, uniwersalność i trwałość. Szczególnie dobrze prezentuje się przy klasycznych domach z cegły czy otynkowanych elewacjach. Jest to idealne rozwiązanie zarówno dla małych, kameralnych tarasów, jak i dla dużych, przestronnych powierzchni. Charakteryzuje się solidną konstrukcją i wszechstronnością. Może przyjmować formę prostych wiat, ażurowych pergoli, nowoczesnych lameli czy tradycyjnych zadaszeń krytych, oferując różny stopień ochrony przed słońcem, deszczem czy wiatrem. Jeśli nie wiesz, <strong>jak wykonać</strong> takie <strong>zadaszenie tarasu</strong>, zachęcamy do kontaktu z nami. Jako specjaliści w zakresie konstrukcji zewnętrznych, zaproponujemy, a następnie wykonamy projekt, zgodnie z wszelkimi założeniami.
       </p>
       <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
     </div>
@@ -343,6 +375,28 @@ export const seoContentList: SeoContent[] = [
   <p>
     Wysoką jakość naszych usług potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań lub wątpliwości co do opisywanej oferty montażu zadaszeń tarasu w Zielonej Górze i okolicach serdecznie zapraszamy do kontaktu. Nasi specjaliści są gotowi udzielić szczegółowych informacji na temat naszych realizacji, doradzić w wyborze najlepszego rozwiązania oraz umówić się na indywidualną konsultację. <strong>Zbudujemy zadaszenia tarasu</strong> zgodnie z Państwa wizją i możliwościami.
   </p>
+
+  <h2 class="text-2xl bg-[#e9a749] px-6 py-4 rounded-tl-xl rounded-xl mb-0 z-10 flex relative">FAQ – najczęściej zadawane pytania</h2>
+  <div class="border-2 border-[#262420] relative px-4 pb-4 pt-8 flex gap-2 flex-col rounded-b-xl top-[-20px] z-0" itemscope itemtype="https://schema.org/FAQPage">
+    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <p class="border-b border-[#262420] flex flex-col gap-1">
+      <span itemprop="name"><strong>Ile kosztuje zadaszenie tarasu z drewna?</strong></span>
+      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Cena zależy od rodzaju drewna i projektu. W Drewelt zaczyna się od <strong>700 zł/m²</strong>, a bardziej zaawansowane konstrukcje mogą kosztować więcej.</span></span>
+      </p>
+    </div>
+    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <p class="border-b border-[#262420] flex flex-col gap-1">
+      <span itemprop="name"><strong>Ile kosztuje zadaszenie z poliwęglanu?</strong></span>
+      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Zadaszenia z poliwęglanu komorowego lub litego kosztują od <strong>500 zł/m²</strong>, w zależności od specyfikacji technicznej i wybranych dodatków.</span></span>
+      </p>
+    </div>
+    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <p class="flex flex-col gap-1">
+      <span itemprop="name"><strong>Jak przygotować podłoże pod taras kompozytowy?</strong></span>
+      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Należy wyrównać teren, wykonać warstwę nośną z kruszywa i zamontować legary. Koszt przygotowania to <strong>150–300 zł/m²</strong>, w zależności od warunków gruntowych.</span></span>
+      </p>
+    </div>
+  </div>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239507.93793954165!2d15.275525679367389!3d51.93627239941639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613d95c7424c9%3A0xd459243a658363d!2sZielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1758611654577!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -358,7 +412,7 @@ export const seoContentList: SeoContent[] = [
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <h1 class="text-3xl font-bold text-gray-800">Deski kompozytowe dla Klientów z Poznania – Drewelt</h1>
   <p>
-    Drewelt, producent drewnianych konstrukcji ogrodowych, a także wiat z Rakowni, specjalizuje się w dystrybucji <strong>desek kompozytowych Poznania</strong> oraz całej Polski. Nasze produkty typu WPC (Wood Plastic Composite) łączą mączkę drzewną, włókna bambusowe oraz polimery termoplastyczne. Dzięki temu oferowane <strong>deski tarasowe kompozytowe</strong> są odporne na wilgoć, promieniowanie UV, skrajne temperatury i czynniki biologiczne, takie jak pleśń czy grzyby. Zainwestuj w rozwiązanie, które przetrwa lata – skontaktuj się z Drewelt i poznaj pełną ofertę <strong>desek tarasowych</strong>.
+    Drewelt, producent drewnianych konstrukcji ogrodowych, a także wiat z Rakowni, specjalizuje się w dystrybucji <strong>desek kompozytowych w Poznaniu</strong> oraz całej Polsce. Nasze produkty typu WPC (Wood Plastic Composite) łączą mączkę drzewną, włókna bambusowe oraz polimery termoplastyczne. Dzięki temu oferowane deski tarasowe kompozytowe są odporne na wilgoć, promieniowanie UV, skrajne temperatury i czynniki biologiczne, takie jak pleśń czy grzyby.
   </p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
@@ -390,7 +444,7 @@ export const seoContentList: SeoContent[] = [
 
   <h2 class="text-2xl mt-4">Deska tarasowa kompozytowa – funkcjonalność przez cały rok</h2>
   <p>
-    <strong>Deski tarasowe kompozytowe</strong> to idealne rozwiązanie, które sprawdza się o każdej porze roku, niezależnie od warunków pogodowych. Dzięki antypoślizgowej powierzchni zapewniają bezpieczeństwo użytkowania, nawet gdy są mokre lub pokryte szronem. Inną istotną zaletą tego materiału jest jego bezobsługowość. <strong>Deski kompozytowe</strong> nie wymagają malowania ani impregnacji, co oszczędza czas i pieniądze. Dodatkowo ich ekologiczny skład pozwala na pełny recykling, co czyni je przyjaznym wyborem dla środowiska. Wybierz taras, który nie wymaga konserwacji – /<a href="/kontakt">skontaktuj się z nami</a> i dowiedz się więcej o zaletach <strong>desek tarasowych</strong> z kompozytu WPC.
+    <strong>Deski tarasowe kompozytowe </strong>to idealne rozwiązanie, które sprawdza się o każdej porze roku, niezależnie od warunków pogodowych. Dzięki antypoślizgowej powierzchni zapewniają bezpieczeństwo użytkowania, nawet gdy są mokre lub pokryte szronem. Inną istotną zaletą tego materiału jest jego bezobsługowość.<strong> Deski kompozytowe</strong> nie wymagają malowania ani impregnacji, co oszczędza czas i pieniądze. Dodatkowo ich ekologiczny skład pozwala na pełny recykling, co czyni je przyjaznym wyborem dla środowiska. Wybierz taras, który nie wymaga konserwacji – skontaktuj się z nami i dowiedz się więcej o zaletach <strong>desek tarasowych z kompozytu </strong>WPC.
   </p>
 <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
@@ -405,6 +459,16 @@ export const seoContentList: SeoContent[] = [
       <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
     </div>
   </div>
+
+  <h2 class="text-2xl">Tarasy kompozytowe z montażem – wygoda i precyzja</h2>
+  <p>
+    Firma Drewelt przygotowała usługę montażu <strong>tarasów kompozytowych</strong> z pełnym wsparciem technicznym. Nasz zespół specjalistów realizuje inwestycje na terenie Poznania i okolic, zapewniając precyzyjne wykonanie oraz doradztwo w zakresie konstrukcji nośnej i rozmieszczenia legarów. <strong>Tarasy kompozytowe</strong> montowane przez Drewelt są objęte gwarancją, a ich <strong>cena</strong> zależy od metrażu, rodzaju podłoża oraz wybranych akcesoriów. Dzięki temu cała inwestycja jest zawsze dostosowana do indywidualnych potrzeb, a także możliwości inwestora. Zamów bezpłatną konsultację – skontaktuj się z nami i sprawdź, jak szybko możesz cieszyć się nowoczesnym rozwiązaniem z <strong>deski tarasowej kompozytowej </strong>w swoim ogrodzie.
+  </p>
+  
+  <h2 class="text-2xl">Realizacja tarasu z Drewelt – od pomiaru po montaż desek kompozytowych</h2>
+  <p>
+    W <a href="/o-nas">Drewelt</a> stawiamy na kompleksową obsługę – od pierwszego kontaktu aż po finalny montaż. Klienci z <strong>Wrocławia</strong> mogą liczyć na bezpłatne doradztwo techniczne, które obejmuje wizję lokalną, pomiar oraz dobór odpowiednich materiałów. Nasze <strong>deski kompozytowe</strong> w są dostępne nie tylko w różnych kolorach i długościach, ale także w wersjach o zróżnicowanej strukturze powierzchni – od klasycznego ryflowania po nowoczesne wykończenia szczotkowane. Dzięki temu każdy projekt zyskuje indywidualny charakter. Zamów swój taras z Drewelt – <strong>deska tarasowa kompozytowa</strong> to inwestycja w komfort, trwałość i styl. <a href="/kontakt">Skontaktuj się z nami</a>, a przygotujemy ofertę dopasowaną do Twoich potrzeb!
+  </p>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

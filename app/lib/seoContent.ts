@@ -380,7 +380,7 @@ export const seoContentList: SeoContent[] = [
   </p>
 
   <h2 class="text-2xl bg-[#e9a749] px-6 py-4 rounded-tl-xl rounded-xl mb-0 z-10 flex relative">FAQ – najczęściej zadawane pytania</h2>
-  <div class="mt-0 border-2 border-[#262420] relative px-4 pb-4 pt-8 flex gap-2 flex-col rounded-b-xl top-[-20px] z-0" itemscope itemtype="https://schema.org/FAQPage">
+  <div style="margin-top: 0 !important;" class="border-2 border-[#262420] relative px-4 pb-4 pt-8 flex gap-2 flex-col rounded-b-xl top-[-20px] z-0" itemscope itemtype="https://schema.org/FAQPage">
     <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <p class="border-b border-[#262420] flex flex-col gap-1">
       <span itemprop="name"><strong>Ile kosztuje zadaszenie tarasu z drewna?</strong></span>

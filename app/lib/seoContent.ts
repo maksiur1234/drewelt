@@ -275,7 +275,7 @@ export const seoContentList: SeoContent[] = [
 
     <h2 class="text-2xl mt-4">Zadaszenie tarasu we Wrocławiu – rozwiązanie na każdą pogodę</h2>
     <p>
-      <strong>Zadaszenia tarasowe </strong>z poliwęglanu osadzone na konstrukcji drewnianej harmonijnie komponuje się z ogrodem. Dzięki zastosowaniu odpowiedniej lakierobejcy, która nie wymaga ponownego malowania przez 7–10 lat, całość zachowuje estetyczny wygląd przez długi czas. Ponadto <strong>poliwęglan</strong>, a ściślej wykonane z niego <strong>zadaszenie,</strong> wyróżnia się nowoczesną formą i doskonałą przepuszczalnością światła, co sprawia, że taras staje się jasny. Dodatkowym atutem takiego rozwiązania jest jego praktyczne zastosowanie nie tylko na tarasie, ale także przy wiatach samochodowych. Dzięki niemu zimą można uniknąć uciążliwego odśnieżania czy skrobania szyb. To znacząco podnosi wygodę codziennego użytkowania. Wszystkie oferowane rozwiązania cechują się solidnością, a mieszkańcy <strong>Poznania</strong> mają możliwość wyboru wysokiej jakości <strong>zadaszeń tarasowych</strong> dostępnych od ręki.
+      <strong>Zadaszenie tarasu z poliwęglanu</strong> jest niezbędne, gdy domownikom zależy na spędzaniu czasu na świeżym powietrzu bez względu na panujące warunki atmosferyczne. Oferujemy najlepsze rozwiązania, dopasowane do potrzeb oraz preferencji naszych klientów, dzięki czemu będą mogli cieszyć się komfortem użytkowania przez cały rok. Wykorzystujemy przede wszystkim materiały trwałe, wytrzymałe i odporne na wilgoć. Dzięki temu konstrukcja będzie wyróżniać się świeżym wyglądem nawet po upływie długiego czasu. Jeśli jesteś z <strong>Wrocławia </strong>i szukasz praktycznych rozwiązań, zapraszamy do kontaktu.
     </p>
 
     </div>
@@ -466,11 +466,6 @@ export const seoContentList: SeoContent[] = [
   <h2 class="text-2xl">Tarasy kompozytowe z montażem – wygoda i precyzja</h2>
   <p>
     Firma Drewelt przygotowała usługę montażu <strong>tarasów kompozytowych</strong> z pełnym wsparciem technicznym. Nasz zespół specjalistów realizuje inwestycje na terenie Poznania i okolic, zapewniając precyzyjne wykonanie oraz doradztwo w zakresie konstrukcji nośnej i rozmieszczenia legarów. <strong>Tarasy kompozytowe</strong> montowane przez Drewelt są objęte gwarancją, a ich <strong>cena</strong> zależy od metrażu, rodzaju podłoża oraz wybranych akcesoriów. Dzięki temu cała inwestycja jest zawsze dostosowana do indywidualnych potrzeb, a także możliwości inwestora. Zamów bezpłatną konsultację – skontaktuj się z nami i sprawdź, jak szybko możesz cieszyć się nowoczesnym rozwiązaniem z <strong>deski tarasowej kompozytowej </strong>w swoim ogrodzie.
-  </p>
-  
-  <h2 class="text-2xl">Realizacja tarasu z Drewelt – od pomiaru po montaż desek kompozytowych</h2>
-  <p>
-    W <a href="/o-nas">Drewelt</a> stawiamy na kompleksową obsługę – od pierwszego kontaktu aż po finalny montaż. Klienci z <strong>Wrocławia</strong> mogą liczyć na bezpłatne doradztwo techniczne, które obejmuje wizję lokalną, pomiar oraz dobór odpowiednich materiałów. Nasze <strong>deski kompozytowe</strong> w są dostępne nie tylko w różnych kolorach i długościach, ale także w wersjach o zróżnicowanej strukturze powierzchni – od klasycznego ryflowania po nowoczesne wykończenia szczotkowane. Dzięki temu każdy projekt zyskuje indywidualny charakter. Zamów swój taras z Drewelt – <strong>deska tarasowa kompozytowa</strong> to inwestycja w komfort, trwałość i styl. <a href="/kontakt">Skontaktuj się z nami</a>, a przygotujemy ofertę dopasowaną do Twoich potrzeb!
   </p>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -730,9 +725,6 @@ export const seoContentList: SeoContent[] = [
       <p>
         <strong>Deska kompozytowa</strong> z naszej oferty nadaje się jako pokrycie tarasów ogrodowych. Sprawdzi się również do bardziej wymagających zastosowań, takich jak obudowy basenów, eleganckie ścieżki piesze czy trwałe mola. Wyjątkowa odporność <strong>deski tarasowej</strong> z kompozytu WPC na warunki atmosferyczne, takie jak deszcz, słońce i mróz, sprawia, że zachowują swój pierwotny wygląd przez wiele lat, minimalizując potrzebę konserwacji. Dodatkowo <strong>deska tarasowa kompozytowa</strong> nie wymaga malowania ani impregnacji. Jest też w pełni ekologiczna i podlega utylizacji, co wpisuje się w ideę zrównoważonego budownictwa. Wybierz trwałość i ekologię – <strong>deski tarasowe kompozytowe</strong> czekają na Twój projekt we <strong>Wrocławiu</strong>!
       </p>
-      <p class="mt-2">
-        Zainwestuj w <strong>zadaszenie tarasu poliwęglanowe</strong> lub drewniane z Drewelt we <strong>Wrocławiu</strong> – odmień swój taras i ciesz się nim przez cały rok!
-      </p>
       
     </div>
 
@@ -777,6 +769,11 @@ export const seoContentList: SeoContent[] = [
     </div>
 
   </div>
+
+  <h2 class="text-2xl">Realizacja tarasu z Drewelt – od pomiaru po montaż desek kompozytowych</h2>
+  <p>
+    W <a href="/o-nas">Drewelt</a> stawiamy na kompleksową obsługę – od pierwszego kontaktu aż po finalny montaż. Klienci z <strong>Wrocławia</strong> mogą liczyć na bezpłatne doradztwo techniczne, które obejmuje wizję lokalną, pomiar oraz dobór odpowiednich materiałów. Nasze <strong>deski kompozytowe</strong> w są dostępne nie tylko w różnych kolorach i długościach, ale także w wersjach o zróżnicowanej strukturze powierzchni – od klasycznego ryflowania po nowoczesne wykończenia szczotkowane. Dzięki temu każdy projekt zyskuje indywidualny charakter. Zamów swój taras z Drewelt – <strong>deska tarasowa kompozytowa</strong> to inwestycja w komfort, trwałość i styl. <a href="/kontakt">Skontaktuj się z nami</a>, a przygotujemy ofertę dopasowaną do Twoich potrzeb!
+  </p>
 
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320515.99625018873!2d16.662153354080715!3d51.12633214828668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1755587616575!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

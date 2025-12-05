@@ -560,7 +560,7 @@ export const seoContentList: SeoContent[] = [
       
     </div>
   </div>
-  <h2>Pielęgnacja tarasu z deski kompozytowej – proste zasady na lata</h2>
+  <h2 class="text-2xl">Pielęgnacja tarasu z deski kompozytowej – proste zasady na lata</h2>
   <p>
     Właściwie przeprowadzona <strong>budowa tarasu z kompozytu </strong>jest równie ważna, jak regularne czyszczenie całej konstrukcji. Jak to robić, by zachować jej estetykę i funkcjonalność przez wiele sezonów?<strong> Taras z deski kompozytowej</strong> nie wymaga skomplikowanej konserwacji. Wystarczy okresowe czyszczenie wodą z dodatkiem łagodnego detergentu – dzięki temu usuniesz kurz, pyłki czy drobne zabrudzenia. Dodatkowo <strong>taras z desek kompozytowych</strong> nie potrzebuje impregnacji ani olejowania, co znacząco obniża koszty utrzymania w porównaniu z tradycyjnym drewnem. Dbając o niego w prosty sposób, możesz cieszyć się jego wyglądem bez dodatkowych nakładów pracy. <a href="/kontakt">Skontaktuj się z nami</a> i dowiedz się, jak <a href="/o-nas">Drewelt</a> wspiera Klientów nie tylko na etapie montażu, ale także w codziennej pielęgnacji.
   </p>
@@ -708,7 +708,7 @@ export const seoContentList: SeoContent[] = [
       </p>
     </div>
   </div>
-  <h2 class="text-2xl mt-4">Drewelt – tu zaczyna się Twój nowy taras</h2>
+  <h2 class="text-2xl mt-4">Deska kompozytowa – jaka jest najlepsza i jak o nią dbać?</h2>
   <p>
     Nie wiesz, czym jest <strong>deska kompozytowa</strong>? <strong>Jaka </strong>wersja będzie<strong> najlepsza</strong> dla Twojego tarasu we <strong>Wrześni</strong>? W ofercie <a href="/">Drewelt</a> znajdziesz rozwiązania wykonane w technologii <strong>WPC</strong> (Wood Plastic Composite). <strong>Co to</strong> takiego? Materiał ten powstaje z połączenia mączki drzewnej z polimerami, które gwarantują trwałość i odporność na zmienne warunki atmosferyczne. <strong><a href="/tarasy">Deska kompozytowa</a></strong> łączy więc naturalny wygląd drewna z praktycznymi właściwościami tworzyw sztucznych.<strong> Jak ją czyścić, </strong>aby na długo utrzymała swoje właściwości? Pielęgnacja jest wyjątkowo prosta – wystarczy regularne mycie wodą z dodatkiem łagodnego detergentu, aby zachować estetykę przez lata. Nie musisz stosować olejowania ani impregnacji, co znacząco obniża koszty utrzymania. Dzięki temu Drewelt oferuje produkty, które są nie tylko trwałe, ale też wygodne w codziennym użytkowaniu. <a href="/kontakt">Skontaktuj się z nami</a> i sprawdź, które modele najlepiej sprawdzą się w Twojej przestrzeni – doradzimy, dobierzemy odpowiedni kolor oraz fakturę. 
   </p>

@@ -46,7 +46,8 @@ const Realizations = () => {
           </Accordion>
         </div>
       </div>
-      <div className="w-full flex flex-col mt-8 px-8 mb-4">
+      <Divider className="my-6" />
+      <div className="max-w-lvh mx-auto w-full flex flex-col mt-8 px-8 mb-10">
         <h2 className="text-2xl font-bold mb-4">
           Jakie drewno i belki są najlepsze na zadaszenie tarasu?
         </h2>
@@ -63,19 +64,51 @@ const Realizations = () => {
           Zaprojektuj z nami swoje wymarzone zadaszenie tarasu, które połączy w sobie solidność z pięknym wyglądem. Zadzwoń lub napisz do nas!
         </p>
 
-        <h2 className="text-2xl font-bold my-4">Jaka deska kompozytowa jest najlepsza dla tarasów?</h2>
+        <Divider className="my-6" />
+
+        <div className="w-full flex gap-4 mt-4 flex-col md:flex-row">
+          <div className="w-full md:w-2/5 mt-4">
+            <img className="object-cover rounded-lg shadow-md" src="/tarasy/taras.jpg" alt="Deski kompozytowe na taras z montażem">
+          </div>
+          
+          <div className="w-full md:w-3/5 mt-4">
+            <h2 className="text-2xl font-bold my-4">Jaka deska kompozytowa jest najlepsza dla tarasów?</h2>
+            <p className="text-gray-700">
+              W ofercie Drewelt, oprócz tradycyjnych rozwiązań, znajdziesz również <strong>deski</strong> tarasowe <strong>z tworzywa sztucznego</strong>, jakim jest kompozyt WPC. To idealny wybór dla osób, które stawiają na trwałość, łatwość pielęgnacji oraz nowoczesny design. Co je jeszcze wyróżnia?
+            </p>
+            <ul className="list-disc list-inside my-4">
+              <li>Odporność – <a href="/tarasy"><strong>deski z tworzywa sztucznego</strong></a> są niewrażliwe na wilgoć, pleśń oraz szkodliwe promieniowanie UV, co zapewnia długowieczność i piękny wygląd na lata.</li>
+              <li>Bezobsługowość – takie produkty nie wymagają regularnej impregnacji ani malowania, co znacznie ułatwia ich pielęgnację.</li>
+              <li>Estetyka – <strong>deski z tworzywa sztucznego</strong> WPC oferują naturalny wygląd drewna, ale są wolne od jego typowych wad, takich jak pękanie czy drzazgi.</li>
+              <li>Bogata paleta barw – w naszej ofercie znajdziesz deski tarasowe kompozytowe w kilku kolorach, takich jak ciemny szary, grafit, a także jasny lub ciemny brąz. Dzięki temu dopasujesz deskę do swoich preferencji oraz stylu otoczenia.</li>
+            </ul>
+            <p className="text-gray-700">
+              Zastanawiasz się, <strong>jaka deska kompozytowa będzie najlepsza</strong> dla Ciebie? <a href="/kontakt">Skontaktuj się z nami</a> – chętnie pomożemy Ci podjąć decyzję i wybrać idealne rozwiązanie, które spełni Twoje oczekiwania.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="text-2xl font-bold my-4">Jak zamówić projekt zadaszenia tarasu drewnianego?</h2>
         <p className="text-gray-700">
-          W ofercie Drewelt, oprócz tradycyjnych rozwiązań, znajdziesz również <strong>deski</strong> tarasowe <strong>z tworzywa sztucznego</strong>, jakim jest kompozyt WPC. To idealny wybór dla osób, które stawiają na trwałość, łatwość pielęgnacji oraz nowoczesny design. Co je jeszcze wyróżnia?
+          Jako doświadczony <strong><a href="/o-nas">producent zadaszeń tarasowych</a></strong> oferujemy pełne wsparcie w procesie zamówienia – od pierwszego kontaktu po finalny montaż. Każdy <strong>projekt zadaszenia tarasu drewnianego</strong> przygotowujemy indywidualnie, uwzględniając:
         </p>
         <ul className="list-disc list-inside my-4">
-          <li>Odporność – <a href="/tarasy"><strong>deski z tworzywa sztucznego</strong></a> są niewrażliwe na wilgoć, pleśń oraz szkodliwe promieniowanie UV, co zapewnia długowieczność i piękny wygląd na lata.</li>
-          <li>Bezobsługowość – takie produkty nie wymagają regularnej impregnacji ani malowania, co znacznie ułatwia ich pielęgnację.</li>
-          <li>Estetyka – <strong>deski z tworzywa sztucznego</strong> WPC oferują naturalny wygląd drewna, ale są wolne od jego typowych wad, takich jak pękanie czy drzazgi.</li>
-          <li>Bogata paleta barw – w naszej ofercie znajdziesz deski tarasowe kompozytowe w kilku kolorach, takich jak ciemny szary, grafit, a także jasny lub ciemny brąz. Dzięki temu dopasujesz deskę do swoich preferencji oraz stylu otoczenia.</li>
+          <li>układ budynku,</li>
+          <li>charakter ogrodu,</li>
+          <li>preferencje estetyczne Klienta.</li>
         </ul>
         <p className="text-gray-700">
-          Zastanawiasz się, <strong>jaka deska kompozytowa będzie najlepsza</strong> dla Ciebie? <a href="/kontakt">Skontaktuj się z nami</a> – chętnie pomożemy Ci podjąć decyzję i wybrać idealne rozwiązanie, które spełni Twoje oczekiwania.
+          Wystarczy <a href="/kontakt">skontaktować się z nami telefonicznie lub mailowo</a>, aby otrzymać bezpłatną wycenę i wizualizację dopasowaną do Twojej przestrzeni. W opracowaniu kosztorysu pomocne będą również:
         </p>
+        <ul className="list-disc list-inside my-4">
+          <li>zdjęcia miejsca inwestycji,</li>
+          <li>wymiary,</li>
+          <li>dane kontaktowe.</li>
+        </ul>
+        <p className="text-gray-700">
+          Nasze konstrukcje powstają z klejonego warstwowo drewna BSH i poliwęglanu komorowego o grubości 10 mm, dostępnego w trzech wariantach kolorystycznych. Zamów swój projekt już dziś – skontaktuj się z Drewelt i stwórz z nami <strong>projekt zadaszenia tarasu</strong>, który idealnie wpisze się w Twoją przestrzeń wypoczynkową.
+        </p>
+
       </div>
     </>
   );

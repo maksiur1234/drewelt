@@ -198,13 +198,39 @@ export default function Page() {
       </section>
 
       <Divider className="my-6" />
+      
+      <section>
+          <div class="w-full flex gap-4 flex-col md:flex-row">
+            <div class="w-full md:w-3/5 mt-4">
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                Realizacje z kompozytowych desek tarasowych – elastyczność i dopasowanie
+              </h2>
+              <p className="text-gray-700 text-sm sm:text-base mb-4">
+                <a href="/o-nas">Drewelt</a> oferuje nie tylko sprzedaż materiałów, ale także pełną obsługę inwestycji w zakresie <strong>budowy tarasów ogrodowych</strong> i balkonowych. W <strong>Poznaniu</strong>, <a href="/zadaszenia/zadaszenie-tarasu-konin">Koninie</a>, <a href="/zadaszenia/zadaszenie-tarasu-glogow">Głogowie</a> oraz okolicznych miejscowościach realizujemy projekty w oparciu o <strong>kompozytowe deski tarasowe</strong>, które dostępne są w długości <strong>3</strong> lub <strong>4 m</strong> – idealne rozwiązanie dla mniejszych przestrzeni, gdzie liczy się precyzyjne dopasowanie i minimalizacja odpadów. Dzięki doświadczeniu zespołu, każda inwestycja obejmuje:
+              </p>
+              <ul className="list-disc list-inside my-4">
+                <li>doradztwo techniczne,</li>
+                <li>przygotowanie konstrukcji podtarasowej,</li>
+                <li>estetyczne wykończenie,</li>
+              </ul>
+              <p className="text-gray-700 text-sm sm:text-base mb-4">
+                co gwarantuje trwałość oraz spójność całej realizacji. Nasze tarasy powstają z myślą o codziennym komforcie użytkowników, a także o harmonijnym wpisaniu się w otoczenie. <a href="/kontakt">Napisz lub zadzwoń</a> i zapytaj o <strong>budowę tarasów</strong> – przygotujemy indywidualną ofertę dopasowaną do Twojej przestrzeni!
+              </p>
+            </div>
+            <div class="w-full md:w-2/5 mt-4">
+              <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/zadaszenie%20z%20poliwęglanu.jpg" alt="Deska kompozytowa na tarasie"/>
+            </div>
+          </div>
+      </section>
+
+      <Divider className="my-6" />
 
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
           Zainspiruj się i zapytaj o budowę tarasów ogrodowych
         </h2>
         <p className="text-gray-700 text-sm sm:text-base mb-4">
-          Na naszej stronie internetowej znajdziesz <a href="/galeria">galerię realizacji</a>, która pokazuje różnorodność projektów i zastosowań <strong>desek tarasowych kompozytowych</strong>. Każdy projekt to dowód na to, że praktyczność może iść w parze z eleganckim designem. <a href="/kontakt">Zachęcamy do kontaktu </a>i przesłania zapytania – doradzimy, przygotujemy ofertę oraz pomożemy stworzyć przestrzeń, która będzie cieszyć przez lata.
+          Na naszej stronie internetowej znajdziesz galerię realizacji, która pokazuje różnorodność projektów i zastosowań <strong>desek tarasowych kompozytowych</strong>. Każdy projekt to dowód na to, że praktyczność może iść w parze z eleganckim designem. Zachęcamy do kontaktu i przesłania zapytania – doradzimy, przygotujemy ofertę oraz pomożemy stworzyć przestrzeń, która będzie cieszyć przez lata.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

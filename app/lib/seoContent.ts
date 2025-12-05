@@ -167,7 +167,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenia tarasów w Gorzowie Wielkopolskim",
     description: "Oferujemy budowę drewnianych tarasów z zadaszeniami na terenie Gorzowa Wielkopolskiego. W naszej ofercie znajdują się usługi dostosowane do Państwa potrzeb.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="mt-12 space-y-4">
   <h2 class="text-2xl">Zadaszenia tarasów w Gorzowie Wielkopolskim – gwarancja jakości</h2>
   <p>
     Specjalizując się w produkcji drewnianych i poliwęglanowych zadaszeń tarasu w Gorzowie Wielkopolskim, zawsze stawiamy na wysoką jakość. Wykorzystujemy najlepsze materiały, które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko trwałością, ale i estetycznym wykończeniem, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z dwuletnią gwarancją, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze.
@@ -194,9 +194,30 @@ export const seoContentList: SeoContent[] = [
   <p>
     Zadaszenia wykonywane przez Drewelt cechują się wysoką wytrzymałością mechaniczną oraz opornością na zmiany temperatury, co jest szczególnie ważne w zmiennej aurze. Wykorzystywane przez nas materiały umożliwiają uzyskanie konstrukcji o dużych rozpiętościach bez konieczności stosowania dodatkowych wsporników. Dzięki takiej technologii jesteśmy w stanie przygotować projekty o dużej estetyce wykonania, stabilności oraz stałości wymiarowej. Stosowane przez nas rozwiązania umożliwiają otrzymanie dokładnie takiej długości i kształtu elementów konstrukcyjnych, jaka jest potrzebna, minimalizując przy tym straty materiału.
   </p>
-  <h2 class="text-2xl">Poliwęglan na taras z zadaszeniem w Gorzowie Wielkopolskim</h2>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/20230628_193255.jpg" alt="Zadaszenie tarasu z drewnianą konstrukcją."/>
+    </div>
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Poliwęglan na taras z zadaszeniem w Gorzowie Wielkopolskim</h2>
+      <p>
+        Wykorzystanie poliwęglanu komorowego w zadaszeniach tarasu w Gorzowie Wielkopolskim jest świadomym wyborem, który wynika z licznych zalet tego materiału. Dzięki niemu wykonywane przez <strong>tarasy z zadaszeniem</strong> gwarantują trwałość i ochronę przy małym obciążeniu konstrukcji. Nasze konstrukcje są wyjątkowo odporne na uderzenia i warunki atmosferyczne, w tym ekstremalne temperatury. Poliwęglan komorowy wykorzystywany w drewnianych zadaszeniach tarasu w Gorzowie Wielkopolskim jest również materiałem o dobrych właściwościach termoizolacyjnych, co przekłada się na utrzymanie stabilnej temperatury. Jeżeli marzą Państwo o stworzeniu komfortowego tarasu chroniącego przed deszczem i słońcem, zapraszamy do kontaktu.  
+      </p>
+    </div>
+  </div>
+
+  <h2 class="text-2xl mt-4">Realizacje tarasów drewnianych z zadaszeniem – inspiracje dla każdego domu</h2>
   <p>
-    Wykorzystanie poliwęglanu komorowego w zadaszeniach tarasu w Gorzowie Wielkopolskim jest świadomym wyborem, który wynika z licznych zalet tego materiału. Dzięki niemu wykonywane przez <strong>tarasy z zadaszeniem</strong> gwarantują trwałość i ochronę przy małym obciążeniu konstrukcji. Nasze konstrukcje są wyjątkowo odporne na uderzenia i warunki atmosferyczne, w tym ekstremalne temperatury. Poliwęglan komorowy wykorzystywany w drewnianych zadaszeniach tarasu w Gorzowie Wielkopolskim jest również materiałem o dobrych właściwościach termoizolacyjnych, co przekłada się na utrzymanie stabilnej temperatury. Jeżeli marzą Państwo o stworzeniu komfortowego tarasu chroniącego przed deszczem i słońcem, zapraszamy do kontaktu.  
+    Każdy projekt który tworzymy, jest efektem indywidualnego podejścia i dopasowania do potrzeb klienta. W naszej <a href="/galeria">galerii</a> można zobaczyć przykłady <strong>tarasów drewnianych z zadaszeniem,</strong> gdzie <strong>cena</strong> zależy od:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>rodzaju drewna, </li>
+    <li>zastosowanych akcesoriów,</li>
+    <li>stopnia personalizacji projektu. </li>
+  </ul>
+  <p>
+  <strong>Budowa tarasu drewnianego z zadaszeniem</strong> to nie tylko funkcjonalność, ale także możliwość stworzenia przestrzeni, która podkreśla charakter domu – od minimalistycznych konstrukcji po rozbudowane konstrukcje z balustradami i oświetleniem. Nasze realizacje pokazują, że nawet niewielka powierzchnia może stać się wyjątkowym miejscem relaksu, jeśli zostanie odpowiednio zaprojektowana oraz wykończona. Zachęcamy do zainspirowania się naszymi realizacjami, a także do <a href="/kontakt">kontaktu</a>, aby stworzyć <strong>taras z zadaszeniem</strong>, który będzie idealnie odpowiadał Państwa oczekiwaniom.
   </p>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d145069.4234276415!2d15.084387008287848!3d52.733390584318116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47071f0a5a4118b7%3A0x5dd10df3cb5799dd!2sGorz%C3%B3w%20Wielkopolski!5e0!3m2!1spl!2spl!4v1758611604878!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -539,6 +560,10 @@ export const seoContentList: SeoContent[] = [
       
     </div>
   </div>
+  <h2>Pielęgnacja tarasu z deski kompozytowej – proste zasady na lata</h2>
+  <p>
+    Właściwie przeprowadzona <strong>budowa tarasu z kompozytu </strong>jest równie ważna, jak regularne czyszczenie całej konstrukcji. Jak to robić, by zachować jej estetykę i funkcjonalność przez wiele sezonów?<strong> Taras z deski kompozytowej</strong> nie wymaga skomplikowanej konserwacji. Wystarczy okresowe czyszczenie wodą z dodatkiem łagodnego detergentu – dzięki temu usuniesz kurz, pyłki czy drobne zabrudzenia. Dodatkowo <strong>taras z desek kompozytowych</strong> nie potrzebuje impregnacji ani olejowania, co znacząco obniża koszty utrzymania w porównaniu z tradycyjnym drewnem. Dbając o niego w prosty sposób, możesz cieszyć się jego wyglądem bez dodatkowych nakładów pracy. <a href="/kontakt">Skontaktuj się z nami</a> i dowiedz się, jak <a href="/o-nas">Drewelt</a> wspiera Klientów nie tylko na etapie montażu, ale także w codziennej pielęgnacji.
+  </p>
   <h2 class="text-2xl mt-4">Skontaktuj się z nami – doradzimy, wycenimy, zrealizujemy</h2>
   <p>
     Masz pytania? Chcesz poznać szczegóły oferty lub umówić się na wycenę? Zadzwoń lub napisz do nas. Zaufaj specjalistom, którzy od 2014 roku tworzą konstrukcje łączące tradycję z nowoczesnością. <strong><a href="/tarasy">Budowa tarasu z deski kompozytowej</a></strong> w Lesznie to nasza specjalność – sprawdź, jak możemy Ci pomóc!
@@ -655,9 +680,9 @@ export const seoContentList: SeoContent[] = [
 
   </div>
 
-  <h2 class="text-2xl mt-4">Deska kompozytowa zastosowanie – zastosowanie i estetyka</h2>
+  <h2 class="text-2xl mt-4">Deska kompozytowa – zastosowanie i estetyka</h2>
   <p>
-    <strong>Deska kompozytowa </strong>wyróżnia się szerokim <strong>zastosowaniem</strong>. Buduje się z niej nie tylko tarasy przydomowe. Świetnie sprawdza się ona również na balkonach, pomostach, strefach relaksu przy obiektach komercyjnych, hotelach czy restauracjach. Drewelt oferuje szeroki wybór kolorów i wykończeń, dzięki czemu łatwo dopasujesz produkt do stylu budynku, ogrodu lub elewacji. Nie wiesz, czy <strong><a href="/tarasy">deska tarasowa kompozytowa</a> </strong>to dobry wybór i<strong> jak </strong>ją dobrze<strong> układać? </strong>Wystarczy przesłać zdjęcie lub wymiary przestrzeni, a nasz zespół dobierze odpowiednie komponenty oraz doradzi najlepsze rozwiązania. Zapewniamy kompleksowe wsparcie – od projektu po realizację. <a href="/kontakt">Zadzwoń lub napisz</a> do nas!
+    <strong>Deska kompozytowa</strong> wyróżnia się szerokim zastosowaniem. Buduje się z niej nie tylko tarasy przydomowe. Świetnie sprawdza się ona również na balkonach, pomostach, strefach relaksu przy obiektach komercyjnych, hotelach czy restauracjach. Drewelt oferuje szeroki wybór kolorów i wykończeń, dzięki czemu łatwo dopasujesz produkt do stylu budynku, ogrodu lub elewacji. Nie wiesz, <strong>czy deska tarasowa kompozytowa</strong> to dobry wybór i <strong>jak ją </strong>dobrze<strong> układać</strong>? Wystarczy przesłać zdjęcie lub wymiary przestrzeni, a nasz zespół dobierze odpowiednie komponenty oraz doradzi najlepsze rozwiązania. Zapewniamy kompleksowe wsparcie – od projektu po realizację. Zadzwoń lub napisz do nas!
   </p>
 
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
@@ -685,7 +710,12 @@ export const seoContentList: SeoContent[] = [
   </div>
   <h2 class="text-2xl mt-4">Drewelt – tu zaczyna się Twój nowy taras</h2>
   <p>
-    Planujesz zmienić swoją przydomową przestrzeń, ale nie wiesz, co wybrać – <strong>deska drewniana czy <a href="/tarasy">kompozyt</a> na taras</strong>? Postaw na rozwiązania, które są odporne na warunki atmosferyczne i prezentują się elegancko w każdej przestrzeni. <a href="/kontakt">Skontaktuj się z Drewelt</a> – przygotujemy dla Ciebie indywidualną ofertę, dobierzemy materiały, a także pomożemy w montażu. Działamy we <strong>Wrześni</strong> i okolicach, realizując projekty szybko, profesjonalnie oraz terminowo. Zobacz <a href="/galeria">galerię realizacji</a> lub zadzwoń, by omówić szczegóły inwestycji.
+    Nie wiesz, czym jest <strong>deska kompozytowa</strong>? <strong>Jaka </strong>wersja będzie<strong> najlepsza</strong> dla Twojego tarasu we <strong>Wrześni</strong>? W ofercie <a href="/">Drewelt</a> znajdziesz rozwiązania wykonane w technologii <strong>WPC</strong> (Wood Plastic Composite). <strong>Co to</strong> takiego? Materiał ten powstaje z połączenia mączki drzewnej z polimerami, które gwarantują trwałość i odporność na zmienne warunki atmosferyczne. <strong><a href="/tarasy">Deska kompozytowa</a></strong> łączy więc naturalny wygląd drewna z praktycznymi właściwościami tworzyw sztucznych.<strong> Jak ją czyścić, </strong>aby na długo utrzymała swoje właściwości? Pielęgnacja jest wyjątkowo prosta – wystarczy regularne mycie wodą z dodatkiem łagodnego detergentu, aby zachować estetykę przez lata. Nie musisz stosować olejowania ani impregnacji, co znacząco obniża koszty utrzymania. Dzięki temu Drewelt oferuje produkty, które są nie tylko trwałe, ale też wygodne w codziennym użytkowaniu. <a href="/kontakt">Skontaktuj się z nami</a> i sprawdź, które modele najlepiej sprawdzą się w Twojej przestrzeni – doradzimy, dobierzemy odpowiedni kolor oraz fakturę. 
+  </p>
+
+  <h2 class="text-2xl mt-4">Drewelt – tu zaczyna się Twój nowy taras</h2>
+  <p>
+    Planujesz zmienić swoją przydomową przestrzeń, ale nie wiesz, co wybrać – <strong>deskę drewnianą czy kompozyt na taras</strong>? Postaw na rozwiązania, które są odporne na warunki atmosferyczne i prezentują się elegancko w każdej przestrzeni. Skontaktuj się z Drewelt – przygotujemy dla Ciebie indywidualną ofertę, dobierzemy materiały, a także pomożemy w montażu. Działamy we <strong>Wrześni</strong> i okolicach, realizując projekty szybko, profesjonalnie oraz terminowo. Zobacz galerię realizacji lub zadzwoń, by omówić szczegóły inwestycji.
   </p>
   <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
 

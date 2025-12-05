@@ -46,8 +46,10 @@ const Realizations = () => {
             </AccordionItem>
           </Accordion>
         </div>
-        <Divider className="my-6" />
-        <div className="max-w-lvh mx-auto w-full flex flex-col mt-8 px-8 mb-10">
+      </div>
+      <Divider className="my-6" />
+      <div className="flex flex-col md:flex-row items-center gap-8 p-8 mb-10">
+        <div className="max-w-lvh mx-auto w-full flex flex-col mt-8">
           <h2 className="text-2xl font-bold mb-4">
             Jakie drewno i belki są najlepsze na zadaszenie tarasu?
           </h2>

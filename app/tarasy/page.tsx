@@ -200,8 +200,8 @@ export default function Page() {
       <Divider className="my-6" />
       
       <section>
-          <div class="w-full flex gap-4 flex-col md:flex-row">
-            <div class="w-full md:w-3/5 mt-4">
+          <div className="w-full flex gap-4 flex-col md:flex-row">
+            <div className="w-full md:w-3/5 mt-4">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">
                 Realizacje z kompozytowych desek tarasowych – elastyczność i dopasowanie
               </h2>
@@ -217,8 +217,8 @@ export default function Page() {
                 co gwarantuje trwałość oraz spójność całej realizacji. Nasze tarasy powstają z myślą o codziennym komforcie użytkowników, a także o harmonijnym wpisaniu się w otoczenie. <a href="/kontakt">Napisz lub zadzwoń</a> i zapytaj o <strong>budowę tarasów</strong> – przygotujemy indywidualną ofertę dopasowaną do Twojej przestrzeni!
               </p>
             </div>
-            <div class="w-full md:w-2/5 mt-4">
-              <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/zadaszenie%20z%20poliwęglanu.jpg" alt="Deska kompozytowa na tarasie"/>
+            <div className="w-full md:w-2/5 mt-4">
+              <img className="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/zadaszenie%20z%20poliwęglanu.jpg" alt="Deska kompozytowa na tarasie"/>
             </div>
           </div>
       </section>

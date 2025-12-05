@@ -219,6 +219,7 @@ export const seoContentList: SeoContent[] = [
   <p>
   <strong>Budowa tarasu drewnianego z zadaszeniem</strong> to nie tylko funkcjonalność, ale także możliwość stworzenia przestrzeni, która podkreśla charakter domu – od minimalistycznych konstrukcji po rozbudowane konstrukcje z balustradami i oświetleniem. Nasze realizacje pokazują, że nawet niewielka powierzchnia może stać się wyjątkowym miejscem relaksu, jeśli zostanie odpowiednio zaprojektowana oraz wykończona. Zachęcamy do zainspirowania się naszymi realizacjami, a także do <a href="/kontakt">kontaktu</a>, aby stworzyć <strong>taras z zadaszeniem</strong>, który będzie idealnie odpowiadał Państwa oczekiwaniom.
   </p>
+  <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d145069.4234276415!2d15.084387008287848!3d52.733390584318116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47071f0a5a4118b7%3A0x5dd10df3cb5799dd!2sGorz%C3%B3w%20Wielkopolski!5e0!3m2!1spl!2spl!4v1758611604878!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

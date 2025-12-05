@@ -49,7 +49,7 @@ const Realizations = () => {
       </div>
       <Divider className="my-6" />
       <div className="flex flex-col md:flex-row items-center gap-8 p-8 mb-10">
-        <div className="max-w-lvh mx-auto flex flex-col mt-8">
+        <div className="max-w-6xl mx-auto flex flex-col mt-8">
           <h2 className="text-2xl font-bold mb-4">
             Jakie drewno i belki są najlepsze na zadaszenie tarasu?
           </h2>

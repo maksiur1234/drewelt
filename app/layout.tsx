@@ -7,9 +7,10 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
 
-import HomepageCanonical from "./glowna/HomeCanonical";
+import Footer from "@/components/Base/Footer/Footer";
+
+import HomepageCanonical from "../components/Homepage/HomeCanonical";
 import CookieBanner from "@/components/cookie";
 
 export const metadata: Metadata = {
@@ -119,7 +120,7 @@ export default function RootLayout({
           <div className="relative flex flex-col min-h-screen w-full">
             <Navbar />
             <main className="w-full max-w-none flex-grow">{children}</main>
-            <Footer />
+            <Footer/>
             <CookieBanner />
           </div>
         </Providers>

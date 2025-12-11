@@ -1,0 +1,98 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    h2 {
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        margin: 10px 0 30px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.formBox {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(95, 94, 94, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+
+    @media (width <= sV.$tablet) {
+        padding: 20px;
+    }
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    label {
+        font-weight: 500;
+    }
+
+    input,
+    textarea {
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        outline: none;
+        transition: 0.2s;
+
+        &:focus {
+            border-color: #000;
+        }
+    }
+}
+
+.rodo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    a {
+        text-decoration: underline;
+        color: sV.$primary;
+    }
+
+    span {
+        font-size: 14px;
+        color: #555;
+    }
+}
+
+.submitBtn {
+    padding: 14px 0;
+    width: 100%;
+    background: sV.$primary;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.85;
+    }
+}

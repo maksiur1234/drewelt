@@ -1,0 +1,92 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+
+    h2 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+    }
+}
+
+.imgWrapper {
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    border-radius: 15px;
+
+    @media (width <= sV.$tablet) {
+        display: none;
+        position: static;
+        transform: none;
+        margin-bottom: 20px;
+        left: 0;
+    }
+}
+
+.image {
+    width: 550px;
+    height: auto;
+
+    @media (width <= sV.$tablet) {
+        width: 180px;
+    }
+}
+
+.box {
+    background-color: sV.$primary;
+    width: 70%;
+    margin-left: auto;
+    padding: 40px 30px;
+    position: relative;
+    z-index: 1;
+    border-radius: 12px;
+    margin-top: 50px;
+
+    @media (width <= sV.$tablet) {
+        width: 100%;
+        margin-left: 0;
+        padding: 25px 20px;
+    }
+}
+
+.item {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 0;
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+}
+
+.itemInfo {
+    display: flex;
+    gap: 30px;
+
+    @media (width <= sV.$tablet) {
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+.icon {
+    margin-top: 20px;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 0;
+    }
+}

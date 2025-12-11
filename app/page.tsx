@@ -1,27 +1,43 @@
-import HomePage from "./glowna/HomePage";
+import Doswiadczenie from "@/components/Homepage/Doswiadczenie/Doswiadczenie";
+import Firma from "@/components/Homepage/Firma/Firma";
+import Head from "@/components/Homepage/Head/Head";
+import Opinie from "@/components/Homepage/Opinie/Opinie";
+import Rzemioslo from "@/components/Homepage/Rzemioslo/Rzemioslo";
+import { Metadata } from "next"
+import NaszeOferty from "@/components/Homepage/NaszeOferty/NaszeOferty";
+import Realizacje from "@/components/Homepage/Realizacje/Realizacje";
+import RozpocznijProjekt from "@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt";
 
-import { title, subtitle } from "@/components/primitives";
+export const generateMetadata = (): Metadata => {
+  return {
+    title: "Strona Główna | Drewelt Piotr Wiśniewski",
+    description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
+    alternates: {
+      canonical: "https://www.drewelt.pl",
+    },
+  };
+};
 
-export default function Page() {
+const page = () => {
   return (
-    <div className="bg-[#f8f8f8]">
-      <section className="flex flex-col items-center justify-center gap-4 py-8 bg-[#f8f8f8]">
-        <div className="inline-block text-center justify-center">
-          <span className={title()}>Wybierz&nbsp;</span>
-          <span className={title({ color: "green" })}>najlepsze&nbsp;</span>
-          <br />
-          <span className={title()}>nowoczesne, piękne oraz solidne</span>
-          <div className={subtitle({ class: "mt-4" })}>
-            Zadaszenia i Tarasy
-          </div>
-          <div className="mt-2 text-2xl font-bold text-black uppercase">
-            Dzwoń: <a href="tel:+48887400824" className="text-green-600">+48 887 400 824</a>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <HomePage />
-        </div>
-      </section>
-    </div>
-  );
+    <>
+      <Head />
+
+      <Doswiadczenie />
+
+      <Firma />
+
+      <Rzemioslo />
+
+      <NaszeOferty />
+
+      <Opinie />
+
+      <Realizacje />
+
+      <RozpocznijProjekt />
+    </>
+  )
 }
+
+export default page

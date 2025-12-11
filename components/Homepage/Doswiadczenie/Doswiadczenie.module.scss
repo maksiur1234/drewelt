@@ -1,0 +1,76 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 38px;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+        margin-top: 50px;
+    }
+}
+
+.wyroznione {
+    color: sV.$primary;
+}
+
+.dlaczego {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.statystyki {
+    margin-top: 35px;
+    display: flex;
+    justify-content: right;
+    margin-right: 160px;
+    gap: 50px;
+
+    span {
+        font-size: 50px;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 20px 0;
+        justify-content: center;
+    }
+}
+
+.statystyka {
+    text-align: center;
+}
+
+.imageWrapper {
+  margin: 50px auto 0;
+  position: relative;
+  max-width: sV.$container;
+  height: 680px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+
+  border: 4px solid rgba(30, 122, 31, 0.25);
+
+  @media (width <= sV.$tablet) {
+    width: 100%;
+    height: 205px;
+  }
+}
+
+.image {
+  object-fit: cover;
+  transition: 0.4s ease;
+  
+  &:hover {
+    transform: scale(1.06);
+  }
+}

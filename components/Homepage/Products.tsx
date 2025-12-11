@@ -7,7 +7,7 @@ import Image from "next/image";
 import FlipCard from "@/components/flipCard";
 
 import "./flipCard.css";
-import { useWindowWidth } from "../hooks/useWindowWidth";
+import { useWindowWidth } from "../../app/hooks/useWindowWidth";
 
 const Products = () => {
   const [activeIndex, setActiveIndex] = useState(1);

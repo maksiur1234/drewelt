@@ -1,0 +1,24 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    h2 {
+        font-size: 38px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+        margin-top: 60px;
+    }
+}
+
+.underline {
+    border-bottom: 7px solid sV.$primary;
+}

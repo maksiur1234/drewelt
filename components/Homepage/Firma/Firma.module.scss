@@ -1,0 +1,43 @@
+.imgWrapper {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 80px 0;
+}
+
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+    h2 {
+        font-size: 28px;
+        text-align: center;
+        font-weight: 600;
+        max-width: 330px;
+
+    }
+
+    p {
+        margin-top: 20px;
+        max-width: 380px;
+        font-size: 20px;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+        flex-direction: column;
+
+        h2 {
+            margin-top: 10px;
+        }
+    }
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

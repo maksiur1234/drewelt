@@ -7,7 +7,7 @@ import Image from "next/image";
 import { FaGem, FaRocket, FaGift, FaUserTie } from "react-icons/fa";
 import { Link } from "@heroui/link";
 
-import { useWindowWidth } from "../hooks/useWindowWidth";
+import { useWindowWidth } from "../../app/hooks/useWindowWidth";
 
 const LandingPageImage = () => {
   const [mounted, setMounted] = useState(false);

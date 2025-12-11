@@ -1,0 +1,15 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 38px;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+        margin-top: 40px;
+    }
+}

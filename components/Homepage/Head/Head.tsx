@@ -1,9 +1,25 @@
+'use client'
+
 import React from 'react'
 
 import styles from '@/components/Homepage/Head/Head.module.scss'
 import Image from 'next/image'
 
 const Head = () => {
+  const handleClick = () => {
+    const element = document.getElementById('nasze-oferty');
+
+    if (element) {
+      const isMobile = window.innerWidth <= 768;
+      const yOffset = isMobile ? -480 : -250;
+
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
+  
   return (
     <div className={styles.container}>
         <div className={styles.imageWrapper}>
@@ -21,7 +37,7 @@ const Head = () => {
             </div>
 
             <div className={styles.buttonWrapper}>
-              <button className={styles.outlineButton}>
+              <button className={styles.outlineButton} onClick={handleClick}>
                 Poznaj naszą ofertę
               </button>
             </div>

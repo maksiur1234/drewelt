@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const NaszeOferty = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='nasze-oferty'>
       <div className={styles.wrapper}>
         <div className={styles.imageWrapper}>
           <Image src="/homepage/zadaszenie-belka.jpg" width={550} height={550} alt="Obrazek" />
@@ -30,7 +30,7 @@ const NaszeOferty = () => {
           <div className={styles.textWrapper}>
             <h2 className={styles.title}>Wiaty garażowe</h2>
 
-            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure unde ipsam aut fugiat libero deleniti, temporibus tempora tempore accusamus quod itaque provident beatae velit, voluptate inventore natus corporis maiores?</p>
+            <p className={styles.description}>Bezpieczeństwo auto bez budowy garażu. Solidna alternatywa dla murowanych budynków. Chroni lakier przed UV, karoserię przed gradem, a szyby przed szronem. Estetyka, która podnosi wartość posesji.</p>
 
             <button className={styles.button}>Zobacz wiaty</button>
           </div>
@@ -45,7 +45,7 @@ const NaszeOferty = () => {
         <div className={styles.textWrapper}>
             <h2 className={styles.title}>Zadaszenia tarasów</h2>
 
-            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure unde ipsam aut fugiat libero deleniti, temporibus tempora tempore accusamus quod itaque provident beatae velit, voluptate inventore natus corporis maiores?</p>
+            <p className={styles.description}>Ciepło naturalnego drewna pod stopami. Zapomnij o zimnych płytkach i nagrzewającym się kompozycie. Projektujemy i układamy tarasy z drewna egzotycznego i modrzewia, które są sercem ogrodu.</p>
 
             <button className={styles.button__white}>Zobacz wiaty</button>
         </div>

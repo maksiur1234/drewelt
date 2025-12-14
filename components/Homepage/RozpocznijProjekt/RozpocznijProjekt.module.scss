@@ -19,6 +19,7 @@
 
     @media (width <= sV.$tablet) {
         margin: 0 10px;
+        margin-top: 40px;
 
         h2 {
             font-size: 28px;
@@ -28,7 +29,6 @@
 
 .formBox {
     background: #fff;
-    padding: 30px;
     border-radius: 16px;
     box-shadow: 0 1px 3px rgba(95, 94, 94, 0.08);
     display: flex;
@@ -36,9 +36,10 @@
     gap: 20px;
     max-width: 900px;
     margin: 0 auto;
+    padding-bottom: 40px;
 
     @media (width <= sV.$tablet) {
-        padding: 20px;
+        // padding: 20px;
     }
 }
 

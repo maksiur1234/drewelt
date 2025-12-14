@@ -35,31 +35,31 @@ const Realizacje = () => {
         </div>
 
         <div className={styles.item}>
-          <h3>02 Projekt i Ustalenia</h3>
+          <h3>02 Wizyta pomiarowa i Projekt</h3>  
           <div className={styles.itemInfo}>
             <Icon name="wizyta" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Po akceptacji przygotowujemy projekt konstrukcji i dopracowujemy szczegóły montażu.
+              Akceptujesz warunki? Przyjeżdzamy na precyzyjny pomiar. Omawiamy detale, deobieramy kolar drewna do elewacji i ustalamy ostateczny harmonogram prac.
             </p>
           </div>
         </div>
 
         <div className={styles.item}>
-          <h3>03 Produkcja na Wymiar</h3>
+          <h3>03 Prefabrykacja na warsztacie</h3>
           <div className={styles.itemInfo}>
             <Icon name="koloZebate" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Elementy konstrukcji są wykonywane na dokładny wymiar w naszej pracowni.
+              Nie robimy "tartaku" w Twoim ogrodzie. 90% elementów docinamy, szlifujemy i impregnujemy w naszej hali produkcyjnej. Do Ciebie przyjeżdzają gotowe, idealnie spasowane elementy.
             </p>
           </div>
         </div>
 
         <div className={styles.item}>
-          <h3>04 Montaż u Klienta</h3>
+          <h3>04 Czysty i Szybki Montaż</h3>
           <div className={styles.itemInfo}>
             <Icon name="stoper" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Umawiamy dogodny termin i montujemy konstrukcję w Twoim ogrodzie w 1–2 dni.
+              Nasi specjaliści składają konstrukcję u Ciebie w ekspresowym tempie (zazwyczaj 1-3 dni). Zostawimy po sobie porządek i gotową do użytku przesteń.
             </p>
           </div>
         </div>

@@ -46,6 +46,7 @@
 
         .textWrapper {
             margin: 0 10px;
+            padding-bottom: 15px;
         }
     }
 }
@@ -110,7 +111,6 @@
     &:hover {
         background-color: sV.$primary;
         color: #fff;
-        border: 1px solid sV.$primary;
     }
 
     &__white {
@@ -118,7 +118,7 @@
         padding: 10px;
         border-radius: 15px;
         color: #fff;
-        border: 1px solid sV.$primary;
+        border: 1px solid #fff;
 
         &:hover {
             background-color: #fff;

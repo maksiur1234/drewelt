@@ -34,7 +34,7 @@ export const Navbar = () => {
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                  "hover:text-[#e9a749] transition-colors duration-200",
+                  "hover:text-[#187A34] transition-colors duration-200",
                   "text-foreground text-lg font-semibold",
                   "data-[active=true]:text-[#e9a749] data-[active=true]:font-bold"
                 )}

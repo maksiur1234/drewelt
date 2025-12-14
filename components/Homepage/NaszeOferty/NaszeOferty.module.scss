@@ -6,6 +6,7 @@
     h2 {
         font-size: 38px;
         margin-bottom: 20px;
+        font-weight: 600;
     }
 
     p {
@@ -39,8 +40,10 @@
         padding: 0;
 
         .imageWrapper {
+            padding: 10px;
+
             img {
-                border-radius: 0px;
+                border-radius: 15px;
             }
         }
 
@@ -62,6 +65,8 @@
         margin: 20px auto;
 
         .imageWrapper {
+            padding: 10px;
+
             img {
                 border-radius: 15px;
             }
@@ -100,6 +105,18 @@
 .description {
     font-size: 20px;
     max-width: 500px;
+
+    &__white {
+        font-size: 20px;
+        max-width: 500px;
+        color: #fff;
+    }
+}
+
+.title__white {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 .button {
@@ -107,10 +124,23 @@
     border: 1px solid #000;
     padding: 10px;
     border-radius: 15px;
+    font-weight: 500;
 
     &:hover {
         background-color: sV.$primary;
         color: #fff;
+    }
+
+    @media (width <= sV.$tablet) {
+        margin-top: 20px;
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 15px;
+
+        &:hover {
+            background-color: sV.$primary;
+            color: #fff;
+        }
     }
 
     &__white {
@@ -119,11 +149,26 @@
         border-radius: 15px;
         color: #fff;
         border: 1px solid #fff;
+        font-weight: 500;
 
         &:hover {
             background-color: #fff;
             color: #000;
             border: 1px solid sV.$primary;
+        }
+
+        @media (width <= sV.$tablet) {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 15px;
+            color: #fff;
+            border: 1px solid #fff;
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid sV.$primary;
+            }
         }
     }
 }

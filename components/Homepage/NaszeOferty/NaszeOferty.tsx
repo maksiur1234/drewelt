@@ -10,9 +10,9 @@ const NaszeOferty = () => {
         </div>
 
         <div className={styles.textWrapper}>
-          <h2 className={styles.title}>Zadaszenia tarasów</h2>
+          <h2 className={styles.title__white}>Zadaszenia tarasów</h2>
 
-          <p className={styles.description}>
+          <p className={styles.description__white}>
             Twój salon na świeżym powietrzu.
             Konstrukcje (łukowe i proste), które chronią przed deszczem i śłońcem. Stwórz strefę relaksu, z której skorzystasz niezależnie od kaprysów pogody. 
           </p>
@@ -43,9 +43,9 @@ const NaszeOferty = () => {
         </div>
 
         <div className={styles.textWrapper}>
-            <h2 className={styles.title}>Zadaszenia tarasów</h2>
+            <h2 className={styles.title__white}>Zadaszenia tarasów</h2>
 
-            <p className={styles.description}>Ciepło naturalnego drewna pod stopami. Zapomnij o zimnych płytkach i nagrzewającym się kompozycie. Projektujemy i układamy tarasy z drewna egzotycznego i modrzewia, które są sercem ogrodu.</p>
+            <p className={styles.description__white}>Ciepło naturalnego drewna pod stopami. Zapomnij o zimnych płytkach i nagrzewającym się kompozycie. Projektujemy i układamy tarasy z drewna egzotycznego i modrzewia, które są sercem ogrodu.</p>
 
             <button className={styles.button__white}>Zobacz wiaty</button>
         </div>

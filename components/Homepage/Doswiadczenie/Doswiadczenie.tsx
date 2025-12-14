@@ -24,12 +24,12 @@ const Doswiadczenie = () => {
       
       <div ref={ref} className={styles.statystyki}>
         <div className={styles.statystyka}>
-          {hasCounted ? <CountUp duration={5} end={10} start={0} /> : 0}
+          {hasCounted ? <CountUp duration={5} end={12} start={0} /> : 0}
           <p className={styles.label}>lat doświadczenia</p>
         </div>
 
         <div className={styles.statystyka}>
-          {hasCounted ? <CountUp duration={3} end={800} start={0} /> : 0}
+          {hasCounted ? <CountUp duration={3} end={850} start={0} /> : 0}
           <p className={styles.label}>wszystkich projektów</p>
         </div>
       </div>

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://drewelt.vercel.app/
+Host: https://www.drewelt.pl/
 
 # Sitemaps
 Sitemap: https://www.drewelt.pl/sitemap.xml

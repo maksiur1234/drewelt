@@ -65,7 +65,6 @@ const RozpocznijProjekt = () => {
             </div>
 
             <div className={styles.rodo}>
-              <input type="checkbox" required />
 
             <span>
                 Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z <Link href={'/files/rodo.pdf'}>klauzulą RODO</Link>

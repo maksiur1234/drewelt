@@ -31,9 +31,10 @@ const Head = () => {
             />
 
             <div className={styles.imageText}>
-                <h2>Zadaszenia tarasów i wiaty, odmienią twój dom</h2>
-                <p className={styles.paragraf}>Deszcz czy słońce? To bez znaczenia.</p>
-                <p className={styles.paragraf3}>Stwórz całoroczną strefę relaksu, która powiększy Twój dom o dodatkowy salon</p>
+                <h2>Nie daj się wygonić z własnego tarasu</h2>
+                <p className={styles.paragraf}>Twój taras to latem "patelnia", a jesienią kałuża?</p>
+                <p className={styles.paragraf3}>Zmień to. Zadaszenie z drewna klejonego to Twoja tarcza przed upałem i ulewą.</p>
+                <p className={styles.paragraf3}>Odzyskaj przestrzeń, za którą zapłaciłeś.</p>
             </div>
 
             <div className={styles.buttonWrapper}>

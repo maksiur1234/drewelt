@@ -14,7 +14,6 @@
     }
 
     @media (width <= sV.$tablet) {
-        // margin: 0 10px;
         margin-top: 60px;
     }
 }
@@ -63,6 +62,7 @@
         display: flex;
         max-width: sV.$container;
         margin: 20px auto;
+
 
         .imageWrapper {
             padding: 10px;
@@ -121,7 +121,7 @@
 
 .button {
     margin-top: 80px;
-    border: 1px solid #000;
+    border: 1px solid sV.$primary;
     padding: 10px;
     border-radius: 15px;
     font-weight: 500;

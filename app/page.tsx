@@ -1,12 +1,11 @@
 import Doswiadczenie from "@/components/Homepage/Doswiadczenie/Doswiadczenie";
 import Firma from "@/components/Homepage/Firma/Firma";
 import Head from "@/components/Homepage/Head/Head";
-import Opinie from "@/components/Homepage/Opinie/Opinie";
-import Rzemioslo from "@/components/Homepage/Rzemioslo/Rzemioslo";
 import { Metadata } from "next"
 import NaszeOferty from "@/components/Homepage/NaszeOferty/NaszeOferty";
 import Realizacje from "@/components/Homepage/Realizacje/Realizacje";
 import RozpocznijProjekt from "@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt";
+import GoogleMaps from "@/components/Base/GoogleMaps/GoogleMaps";
 
 export const generateMetadata = (): Metadata => {
   return {
@@ -27,15 +26,13 @@ const page = () => {
 
       <Firma />
 
-      <Rzemioslo />
-
       <NaszeOferty />
-
-      <Opinie />
 
       <Realizacje />
 
       <RozpocznijProjekt />
+
+      <GoogleMaps />
     </>
   )
 }

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from '@/components/Homepage/Doswiadczenie/Doswiadczenie.module.scss'
 import CountUp from 'react-countup'
 import { useInViewInline } from '@/app/hooks/useInViewInline'
@@ -18,8 +18,8 @@ const Doswiadczenie = () => {
 
   return (
     <div className={styles.container}>
-      <h2>Nie jesteśmy Fabryką. <span className={styles.wyroznione}>Jesteśmy rzemieślnikami</span></h2>
-      <p className={styles.dlaczego}>Dlaczego warto wybrać Drewelt?</p>
+      <h2><span className={styles.wyroznione}>SOLIDNA STOLARKA</span>, NIE "WYDMUSZKA" Z MARKETU</h2>
+      <p className={styles.dlaczego}>Marketowe wiaty projektuje się tak, by weszły do paczki. Nasze - by przetrwały wichury. Łączymy europejskie drewno z polskim wykonastwem</p>
 
       
       <div ref={ref} className={styles.statystyki}>
@@ -29,8 +29,8 @@ const Doswiadczenie = () => {
         </div>
 
         <div className={styles.statystyka}>
-          {hasCounted ? <CountUp duration={3} end={850} start={0} /> : 0}
-          <p className={styles.label}>wszystkich projektów</p>
+          {hasCounted ? <CountUp duration={3} end={850} start={0} /> : 0} <span className={styles.plus}>+</span>
+          <p className={styles.label}>wykonanych projektów</p>
         </div>
       </div>
 

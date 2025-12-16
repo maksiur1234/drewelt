@@ -10,7 +10,7 @@
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     @media (width <= sV.$tablet) {
@@ -39,6 +39,7 @@
 .image {
     width: 550px;
     height: auto;
+    border-radius: 15px;
 
     @media (width <= sV.$tablet) {
         width: 180px;

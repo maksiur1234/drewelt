@@ -27,6 +27,11 @@
     }
 }
 
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 .formBox {
     background: #fff;
     border-radius: 16px;
@@ -34,12 +39,20 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding: 0 50px;
 
     @media (width <= sV.$tablet) {
-        // padding: 20px;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 1px 3px rgba(95, 94, 94, 0.08);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 0 5px;
     }
 }
 
@@ -95,5 +108,65 @@
 
     &:hover {
         opacity: 0.85;
+    }
+}
+
+.info {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    justify-content: space-between;
+    border-top: 1px solid sV.$gray-brighter-1;
+    padding-top: 10px;
+
+    @media (width <= sV.$tablet) {
+        flex-direction: column;
+    }
+}
+
+.infoItem {
+    text-align: center;
+
+    a {
+        &:hover {
+            color: sV.$primary;
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-weight: 600;
+    }
+
+    span {
+        color: rgb(97, 97, 97);
+    }
+}
+
+.infoItemCenter{
+    text-align: center;
+    // border-left: 1px solid sV.$gray-brighter-1;
+    // border-right: 1px solid sV.$gray-brighter-1;
+    width: 300px;
+
+    a {
+        &:hover {
+            color: sV.$primary;
+            text-decoration: underline;
+        }
+    }
+
+    @media (width <= sV.$tablet) {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    p {
+        font-weight: 600;
+    }
+
+    span {
+        color: rgb(97, 97, 97);
     }
 }

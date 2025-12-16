@@ -1,5 +1,6 @@
 import styles from '@/components/Homepage/NaszeOferty/NaszeOferty.module.scss'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const NaszeOferty = () => {
   return (
@@ -10,14 +11,13 @@ const NaszeOferty = () => {
         </div>
 
         <div className={styles.textWrapper}>
-          <h2 className={styles.title__white}>Zadaszenia tarasów</h2>
+          <h2 className={styles.title__white}>ZADASZENIA TARASÓW</h2>
 
           <p className={styles.description__white}>
-            Twój salon na świeżym powietrzu.
-            Konstrukcje (łukowe i proste), które chronią przed deszczem i śłońcem. Stwórz strefę relaksu, z której skorzystasz niezależnie od kaprysów pogody. 
+           Maksymalny relaks, minimalna zależność od pogody. Solidne konstrukcje z drewna klejonego BSH, które chronią przed palącym słońcem i deszczem. Stwórz zadaszoną strefę wypoczynku, która pasuje do bryły Twojego domu.
           </p>
 
-          <button className={styles.button__white}>Zobacz wiaty</button>
+          <button className={styles.button__white}><Link href={'/zadaszenia'}>Zobacz zadaszenia</Link></button>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ const NaszeOferty = () => {
           </div>
 
           <div className={styles.textWrapper}>
-            <h2 className={styles.title}>Wiaty garażowe</h2>
+            <h2 className={styles.title}>WIATY GARAŻOWE</h2>
 
-            <p className={styles.description}>Bezpieczeństwo auto bez budowy garażu. Solidna alternatywa dla murowanych budynków. Chroni lakier przed UV, karoserię przed gradem, a szyby przed szronem. Estetyka, która podnosi wartość posesji.</p>
+            <p className={styles.description}>Bezpieczeństwo auta bez budowy garażu. Solidna alternatywa dla murowanych budynków. Chroni lakier przed UV, karoserię przed gradem, a szyby przed szronem. Estetyka, która podnosi wartość posesji.</p>
 
-            <button className={styles.button}>Zobacz wiaty</button>
+            <button className={styles.button}><Link href='/altany-ogrodowe'>Zobacz wiaty</Link></button>
           </div>
         </div>
       </div>
@@ -43,11 +43,11 @@ const NaszeOferty = () => {
         </div>
 
         <div className={styles.textWrapper}>
-            <h2 className={styles.title__white}>Zadaszenia tarasów</h2>
+            <h2 className={styles.title__white}>TARASY KOMPOZYTOWE</h2>
 
-            <p className={styles.description__white}>Ciepło naturalnego drewna pod stopami. Zapomnij o zimnych płytkach i nagrzewającym się kompozycie. Projektujemy i układamy tarasy z drewna egzotycznego i modrzewia, które są sercem ogrodu.</p>
+            <p className={styles.description__white}>Ciepło drewna bez uciążliwej konserwacji. Zapomnij o olejowaniu, szlifowaniu i drzazgach. Oferujemy deski kompozytowe klasy Premium (Ultrashield), które są odporne na plamy, tłuszcz i blaknięcie. Twój taras pozostanie piękny przez lata – wystarczy go umyć wodą.</p>
 
-            <button className={styles.button__white}>Zobacz wiaty</button>
+            <button className={styles.button__white}><Link href={'/tarasy'}>Zobacz tarasy</Link></button>
         </div>
 
       </div>

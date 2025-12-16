@@ -27,9 +27,7 @@ const Realizacje = () => {
           <div className={styles.itemInfo}>
             <Icon name="wspolpraca" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Wszystko zaczyna się od rozmowy. Przesyłasz nam szacunkowe wymiary lub zdjęcia,
-              a my przygotowujemy wstępną ofertę i doradzamy najlepsze rozwiązanie techniczne.
-              Bez ukrytych kosztów.
+              Wszystko zaczyna się od rozmowy. Przesyłasz nam szacunkowe wymiary lub zdjęcia, a my przygotowujemy ofertę i doradzamy najlepsze rozwiązanie techniczne. Bez ukrytych kosztów.
             </p>
           </div>
         </div>
@@ -39,7 +37,7 @@ const Realizacje = () => {
           <div className={styles.itemInfo}>
             <Icon name="wizyta" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Akceptujesz warunki? Przyjeżdzamy na precyzyjny pomiar. Omawiamy detale, deobieramy kolar drewna do elewacji i ustalamy ostateczny harmonogram prac.
+              Akceptujesz wstępne warunki? Przyjeżdżamy na precyzyjny pomiar. Na miejscu wspólnie dobieramy kolor drewna i poliwęglanu, aby pasował do Twojej elewacji. Przed startem produkcji otrzymasz od nas rysunki techniczne do akceptacji. Masz pewność, co zamawiasz.
             </p>
           </div>
         </div>
@@ -49,7 +47,7 @@ const Realizacje = () => {
           <div className={styles.itemInfo}>
             <Icon name="koloZebate" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Nie robimy "tartaku" w Twoim ogrodzie. 90% elementów docinamy, szlifujemy i impregnujemy w naszej hali produkcyjnej. Do Ciebie przyjeżdzają gotowe, idealnie spasowane elementy.
+              Nie robimy "tartaku" w Twoim ogrodzie. 90% elementów docinamy, szlifujemy i impregnujemy w naszej hali produkcyjnej. Do Ciebie przyjeżdżają gotowe, idealnie spasowane elementy.
             </p>
           </div>
         </div>
@@ -59,7 +57,7 @@ const Realizacje = () => {
           <div className={styles.itemInfo}>
             <Icon name="stoper" width={50} height={50} className={styles.icon} />
             <p className={styles.itemDescription}>
-              Nasi specjaliści składają konstrukcję u Ciebie w ekspresowym tempie (zazwyczaj 1-3 dni). Zostawimy po sobie porządek i gotową do użytku przesteń.
+              Szanujemy Twój czas. Nasi specjaliści montują kompletną konstrukcję w zaledwie 8-10 godzin. Wchodzimy rano, a wieczorem Twój taras jest gotowy. Zostawiamy po sobie idealny porządek i gotową do użytku przestrzeń.
             </p>
           </div>
         </div>

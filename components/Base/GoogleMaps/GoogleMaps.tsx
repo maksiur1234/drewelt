@@ -1,4 +1,4 @@
-"use client";
+import styles from '@/components/Base/GoogleMaps/GoogleMaps.module.scss'
 
 export const GoogleMaps = () => {
   return (
@@ -11,8 +11,9 @@ export const GoogleMaps = () => {
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
       title="Mapa: Pliszki 18, Rakownia"
+      className={styles.mapa}
   />
-  );
-};
+  )
+}
 
-export default GoogleMaps;
+export default GoogleMaps

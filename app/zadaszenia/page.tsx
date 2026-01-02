@@ -1,11 +1,13 @@
 "use client";
 
 import { Divider } from "@heroui/divider";
-import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
 import { useEffect, useState } from "react";
 import BlurModal from "@/components/modal";
 import { seoContentList } from "../lib/seoContent";
+
+import styles from './Zadaszenia.module.scss'
+import Image from "next/image";
 
 export default function Page() {
   const cities = [
@@ -50,6 +52,51 @@ export default function Page() {
         </div>
       </section>
 
+      <div className={styles.galeriaSekcja}>
+        <h3>Zadaszenia na łukach</h3>
+        <div className={styles.galeria}>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/IMG_20200918_123653.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/IMG_20220110_125418.jpg" fill />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.galeriaSekcja}>
+        <h3>Zadaszenia z prostym spadkiem</h3>
+        <div className={styles.galeria}>
+         <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/zadaszenie z poliwęglanu.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/zadaszenie Szczecin.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20230628_193255.jpg" fill />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.galeriaSekcja}>
+        <h3>Zadaszenia na belce</h3>
+        <div className={styles.galeria}>
+         <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/Poznań1.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0021.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/20230602_143548.jpg" fill />
+          </div>
+        </div>
+      </div>
+
       <section className="bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
           <h2 className="text-2xl font-semibold text-gray-800">Deska kompozytowa zastosowanie – zastosowanie i estetyka</h2>
           <p className="text-base leading-7 text-gray-700">
@@ -79,6 +126,8 @@ export default function Page() {
             alt="Poliwęglanowe zadaszenie"
             className="rounded-lg shadow-xl object-cover w-full"
             src="/zadaszenia_przyscienne_na_lukach/lubon.jpg"
+            width={1200}
+            height={800}
           />
         </div>
         <div className="text-gray-700 dark:text-gray-300">

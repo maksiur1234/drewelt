@@ -1,6 +1,9 @@
 "use client";
 
 import { Divider } from "@heroui/divider";
+import Image from "next/image";
+
+import styles from './AltanyOgrodowe.module.scss'
 
 export default function Page() {
 
@@ -9,6 +12,52 @@ export default function Page() {
       <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-4">
         Altana ogrodowa drewniana – ponadczasowa elegancja i wytrzymałość na lata
       </h1>
+
+       {/* <div className={styles.galeriaSekcja}>
+        <h3>Zadaszenia na łukach</h3>
+        <div className={styles.galeria}>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/IMG_20200918_123653.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/IMG_20220110_125418.jpg" fill />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.galeriaSekcja}>
+        <h3>Zadaszenia z prostym spadkiem</h3>
+        <div className={styles.galeria}>
+         <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/zadaszenie z poliwęglanu.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/zadaszenie Szczecin.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20230628_193255.jpg" fill />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.galeriaSekcja}>
+        <h3>Zadaszenia na belce</h3>
+        <div className={styles.galeria}>
+         <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/Poznań1.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0021.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/20230602_143548.jpg" fill />
+          </div>
+        </div>
+      </div> */}
+
       <Divider className="mb-6" />
 
       <section className="p-4 sm:p-6 rounded-lg shadow-lg mb-6">

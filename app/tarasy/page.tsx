@@ -3,8 +3,9 @@
 import { Card, CardHeader, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
-
 import DoughnutChart from "@/components/chart";
+
+import styles from './Tarasy.module.scss'
 
 export default function Page() {
   const accessories = [
@@ -68,6 +69,21 @@ export default function Page() {
       <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-4">
         Tarasy z desek kompozytowych WPC
       </h1>
+
+      <div className={styles.galeriaSekcja}>
+        <div className={styles.galeria}>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/tarasy/taras-3.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/tarasy/taras-4.jpg" fill />
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image alt="Zadaszenie tarasu na łukach" src="/tarasy/taras-5.jpg" fill />
+          </div>
+        </div>
+      </div>
+
       <Divider className="mb-6" />
 
       <section className="p-4 sm:p-6 rounded-lg shadow-lg mb-6">

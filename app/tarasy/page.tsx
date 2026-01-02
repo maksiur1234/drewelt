@@ -144,6 +144,8 @@ export default function Page() {
                 {color.name}
               </p>
               <Image
+                width={1200}
+                height={800}
                 alt={`Deska kompozytowa ${color.name}`}
                 className="w-40 h-24 sm:w-48 sm:h-32 object-cover rounded-lg shadow-lg mt-2"
                 src={color.image}
@@ -172,7 +174,8 @@ export default function Page() {
           {accessories.map((product, index) => (
             <Card key={index} className="shadow-lg flex flex-col items-center">
               <Image
-                fill
+                height={800}
+                width={1200}
                 alt={product.name}
                 className="w-full h-32 sm:h-40 object-cover object-center rounded-t-lg"
                 src={product.image}
@@ -225,7 +228,7 @@ export default function Page() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="overflow-hidden rounded-lg shadow-lg">
+          <div className={styles.imageWrapper_second}>
             <Image
               alt="Taras z desek"
               src="/tarasy/belgravia.jpg"
@@ -234,7 +237,7 @@ export default function Page() {
               className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
-          <div className="overflow-hidden rounded-lg shadow-lg ">
+         <div className={styles.imageWrapper_second}>
             <Image
               alt="Taras z desek"
               src="/tarasy/taras.jpg"
@@ -243,7 +246,7 @@ export default function Page() {
               className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
+          <div className={styles.imageWrapper_second}>
             <Image
               alt="Taras z desek"
               src="/tarasy/taras-2.jpg"
@@ -252,7 +255,7 @@ export default function Page() {
               className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
+          <div className={styles.imageWrapper_second}>
             <Image
               alt="Taras z desek"
               src="/tarasy/taras-schody.jpg"

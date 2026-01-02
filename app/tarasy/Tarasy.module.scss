@@ -27,7 +27,27 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  height: 90%;
+  height: 420px;
+  overflow: hidden;
+  border-radius: 6px;
+  aspect-ratio: 16 / 9;
+
+  @media (width <= sV.$tablet) {
+    flex: 0 0 80%;
+    scroll-snap-align: start;
+    aspect-ratio: 4 / 5;
+    height: 100%;
+  }
+}
+
+.imageWrapper img {
+  object-fit: cover;
+}
+
+.imageWrapper_second {
+  position: relative;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   border-radius: 6px;
 
@@ -38,6 +58,7 @@
   }
 }
 
-.imageWrapper img {
+.imageWrapper_second img {
   object-fit: cover;
+  height: 450px;
 }

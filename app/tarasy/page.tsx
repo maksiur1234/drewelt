@@ -2,10 +2,10 @@
 
 import { Card, CardHeader, CardBody } from "@heroui/card";
 import { Divider } from "@heroui/divider";
-import { Image } from "@heroui/image";
 import DoughnutChart from "@/components/chart";
 
 import styles from './Tarasy.module.scss'
+import Image from "next/image";
 
 export default function Page() {
   const accessories = [
@@ -172,6 +172,7 @@ export default function Page() {
           {accessories.map((product, index) => (
             <Card key={index} className="shadow-lg flex flex-col items-center">
               <Image
+                fill
                 alt={product.name}
                 className="w-full h-32 sm:h-40 object-cover object-center rounded-t-lg"
                 src={product.image}

@@ -13,50 +13,50 @@ export default function Page() {
         Altana ogrodowa drewniana – ponadczasowa elegancja i wytrzymałość na lata
       </h1>
 
-       {/* <div className={styles.galeriaSekcja}>
-        <h3>Zadaszenia na łukach</h3>
+       <div className={styles.galeriaSekcja}>
+        <h3>Wiaty wolnostojące</h3>
         <div className={styles.galeria}>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany.jpg" fill />
           </div>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/IMG_20200918_123653.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany-4.jpeg" fill />
           </div>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/IMG_20220110_125418.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany-3.jpg" fill />
           </div>
         </div>
       </div>
 
       <div className={styles.galeriaSekcja}>
-        <h3>Zadaszenia z prostym spadkiem</h3>
+        <h3>Wiaty przyścienne na łukach</h3>
         <div className={styles.galeria}>
          <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/zadaszenie z poliwęglanu.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/zadaszenie-gorzow.jpg" fill />
           </div>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/zadaszenie Szczecin.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" fill />
           </div>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20230628_193255.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" fill />
           </div>
         </div>
       </div>
 
       <div className={styles.galeriaSekcja}>
-        <h3>Zadaszenia na belce</h3>
+        <h3>Wiaty przyścienne z prostym spadkiem</h3>
         <div className={styles.galeria}>
          <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/Poznań1.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/palisnder.jpg" fill />
           </div>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/IMG-20220213-WA0021.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20230413_161433.jpg" fill />
           </div>
           <div className={styles.imageWrapper}>
-            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek_na_belce/20230602_143548.jpg" fill />
+            <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20240926_130525.jpg" fill />
           </div>
         </div>
-      </div> */}
+      </div>
 
       <Divider className="mb-6" />
 

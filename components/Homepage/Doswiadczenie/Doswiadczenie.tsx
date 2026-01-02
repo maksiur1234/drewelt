@@ -41,10 +41,10 @@ const Doswiadczenie = () => {
           fill
           className={styles.image}
         />
+        <div className={styles.overlayText}>
+          <h3>TYLKO DREWNO KLEJONE WARSTWOWO</h3>
+        </div>
       </div>
-
-
-
     </div>
   )
 }

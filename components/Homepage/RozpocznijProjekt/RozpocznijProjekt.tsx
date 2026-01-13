@@ -5,7 +5,7 @@ import { sendContactForm } from '@/app/lib/api'
 import styles from '@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt.module.scss'
 import Link from 'next/link'
 
-const RozpocznijProjekt = () => {
+const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, hasDane: boolean }) => {
   const [loading, setLoading] = useState(false)
   const [status, setStatus] = useState<string | null>(null)
 
@@ -34,8 +34,8 @@ const RozpocznijProjekt = () => {
   }
 
   return (
-    <div className={styles.container}>
-        <h2>Zamów Bezpłatną Wycenę i Projekt</h2>
+    <div className={styles.container} id='form'>
+        {naglowek && <h2>{naglowek}</h2>}
         <p className={styles.description}>Wypełnij formularz poniżej. Aby wycena była rzetelna i możliwa do wykonania, koniecznie podaj lokalizację, wymiary oraz załącz zdjęcia miejsca montażu.</p>
 
         <form className={styles.formBox} onSubmit={handleSubmit}>
@@ -78,6 +78,7 @@ const RozpocznijProjekt = () => {
         {status && <p>{status}</p>}
       </form>
 
+      {hasDane ? (
         <div className={styles.info}>
             <div className={styles.infoItem}>
                 <p>Siedziba</p>
@@ -94,6 +95,10 @@ const RozpocznijProjekt = () => {
                 <span><a href="mailto:drewelt@drewelt.com" target="_blank">drewelt@drewelt.pl</a></span>
             </div>
         </div>
+      ) : (
+        null
+      )}
+        
     </div>
   )
 }

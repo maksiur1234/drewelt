@@ -1,0 +1,19 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+    }
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 500;
+    color: sV.$primary;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 30px;
+    }
+}

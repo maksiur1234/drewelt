@@ -17,7 +17,7 @@ export const generateMetadata = (): Metadata => {
   };
 };
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <Head />
@@ -30,11 +30,11 @@ const page = () => {
 
       <Realizacje />
 
-      <RozpocznijProjekt />
+      <RozpocznijProjekt naglowek="Zamów Bezpłatną Wycenę i Projekt"  hasDane />
 
       <GoogleMaps />
     </>
   )
 }
 
-export default page
+export default Page

@@ -1,0 +1,13 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+    }
+}
+
+.background {
+    background-color: sV.$primary;
+    height: 300px;
+}

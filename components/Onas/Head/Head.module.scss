@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+
+  @media (width <= sV.$tablet) {
+    height: 480px;
+  }
+}
+
+.image {
+  object-fit: cover;
+  filter: brightness(0.75);
+}
+
+.content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+
+  @media (width <= sV.$tablet) {
+    padding-top: 50px;
+  }
+}
+
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-weight: 600;
+
+  @media (width <= sV.$tablet) {
+   font-size: 40px;
+  }
+}
+
+.content p {
+  font-size: 24px;
+  font-weight: 500;
+  width: 750px;
+
+  @media (width <= sV.$tablet) {
+    width: 375px;
+    font-size: 22px;
+  }
+}

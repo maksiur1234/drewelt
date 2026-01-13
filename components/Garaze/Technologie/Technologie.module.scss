@@ -1,0 +1,93 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+    }
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 500;
+    color: sV.$primary;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 30px;
+    }
+}
+
+.subTitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 30px;
+    }
+}
+
+.card {
+    background-color: sV.$gray-brighter-1;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.cardTitle {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.cardTitle__drugi {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cardText {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.items {
+  max-width: sV.$container;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 30px;
+
+  @media (width <= sV.$tablet) {
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+}
+
+.itemTitle {
+    font-weight: 700;
+    font-size: 22px;
+    height: 85px;
+}
+
+.imageWrapper {
+    width: 180px;
+    height: 180px;
+    background-color: sV.$gray-brighter-3;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}

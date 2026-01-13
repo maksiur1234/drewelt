@@ -1,0 +1,39 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    @media (width <= sV.$tablet) {
+        margin: 40px 10px;
+    }
+}
+
+.title {
+    font-size: 38px;
+    max-width: 900px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.wyroznione {
+    color: sV.$primary;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: sV.$gray-brighter-1;
+    padding: 15px 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.cardText {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 20px;
+}

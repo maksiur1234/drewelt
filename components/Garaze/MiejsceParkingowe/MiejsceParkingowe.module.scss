@@ -1,0 +1,44 @@
+.container {
+    max-width: sV.$container;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    @media (width <= sV.$tablet) {
+        margin: 0 10px;
+    }
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 500;
+    color: sV.$primary;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 30px;
+    }
+}
+
+.card {
+    background-color: sV.$gray-brighter-1;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.cardTitle {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cardTitle__drugi {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cardText {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+}

@@ -5,7 +5,7 @@ import { sendContactForm } from '@/app/lib/api'
 import styles from '@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt.module.scss'
 import Link from 'next/link'
 
-const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, hasDane: boolean }) => {
+const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, hasDane?: boolean }) => {
   const [loading, setLoading] = useState(false)
   const [status, setStatus] = useState<string | null>(null)
 

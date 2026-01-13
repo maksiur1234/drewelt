@@ -30,6 +30,10 @@ export const tarasyLinks = [
     { href: "/tarasy/deska-tarasowa-kompozytowa-gniezno", label: "Deska tarasowa, kompozytowa Gniezno" },
 ]
 
+export const wiatyGarazowe = [
+    { href: "/wiaty", label: "Wiaty"}
+]
+
 export const altanyLinks = [
     { href: "/altany-ogrodowe", label: "Altany ogrodowe" },
 ]

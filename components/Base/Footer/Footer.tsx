@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import styles from "@/components/Base/Footer/Footer.module.scss"
-import { altanyLinks, kontaktLinks, menuLinks, tarasyLinks, zadaszeniaLinks } from "./FooterLinks"
+import { altanyLinks, kontaktLinks, menuLinks, tarasyLinks, wiatyGarazowe, zadaszeniaLinks } from "./FooterLinks"
 
 
 const Footer = () => {
@@ -11,6 +11,7 @@ const Footer = () => {
     { heading: "Kontakt", links: kontaktLinks },
     { heading: "Zadaszenia", links: zadaszeniaLinks },
     { heading: "Tarasy", links: tarasyLinks },
+    { heading: "Wiaty", links: wiatyGarazowe },
     { heading: "Altany ogrodowe", links: altanyLinks },
   ];
 

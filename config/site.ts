@@ -4,8 +4,8 @@ export const siteConfig = {
     "Zapraszamy do odwiedzenia strony internetowej firmy produkcyjno-usługowej Drewelt, która znajduje się w Murowanej Goślinie. Przyjmujemy zlecenia z całego kraju.",
   navItems: [
     {
-      label: "Wiaty Garażowe",
-      href: "/garaze",
+      label: "Wiaty",
+      href: "/wiaty",
     },
     {
       label: "Zadaszenia",

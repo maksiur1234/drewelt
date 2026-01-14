@@ -87,3 +87,36 @@
     font-size: 16px;
   }
 }
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slideUpText {
+  opacity: 0;
+  animation: slideUpFade 750ms ease-out forwards;
+  animation-delay: 500ms;
+}
+
+.slideUpButton {
+  opacity: 0;
+  animation: slideUpFade 750ms ease-out forwards;
+  animation-delay: 500ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slideUpText,
+  .slideUpButton {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+}
+

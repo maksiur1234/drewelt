@@ -8,13 +8,13 @@ const Head = () => {
     <div className={styles.container}>
       <Image
         src="/zadaszenia_prosty_spadek_na_belce/zadaszenie na belce.jpg"
-        alt="Siedziba"
+        alt="Wiata garażowa"
         fill
         priority
         className={styles.image}
       />
 
-      <div className={styles.content}>
+      <div className={`${styles.content} ${styles.slideUpText}`}>
         <h1>Wiata zastąpi garaż za ułamek jego ceny</h1>
         <p>
           Wiaty samochodowe z drewna klejonego BSH. Zapomnij o skrobaniu szyb,
@@ -24,7 +24,7 @@ const Head = () => {
 
       <div className={styles.buttonWrapper}>
         <button
-          className={styles.outlineButton}
+          className={`${styles.outlineButton} ${styles.slideUpButton}`}
           onClick={() =>
             document.getElementById("form")?.scrollIntoView({
               behavior: "smooth",

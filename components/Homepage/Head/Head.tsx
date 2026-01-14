@@ -1,7 +1,5 @@
 'use client'
 
-import React from 'react'
-
 import styles from '@/components/Homepage/Head/Head.module.scss'
 import Image from 'next/image'
 
@@ -30,14 +28,14 @@ const Head = () => {
               className={styles.image}
             />
 
-            <div className={styles.imageText}>
-                <h2>Nie daj się wygonić z własnego tarasu</h2>
-                <p className={styles.paragraf}>Twój taras to latem "patelnia", a jesienią kałuża?</p>
-                <p className={styles.paragraf3}>Zmień to. Zadaszenie z drewna klejonego to Twoja tarcza przed upałem i ulewą.</p>
-                <p className={styles.paragraf3}>Odzyskaj przestrzeń, za którą zapłaciłeś.</p>
+            <div className={`${styles.imageText} ${styles.slideUpText}`}>
+              <h2>Nie daj się wygonić z własnego tarasu</h2>
+              <p className={styles.paragraf}>Twój taras to latem "patelnia", a jesienią kałuża?</p>
+              <p className={styles.paragraf3}>Zmień to. Zadaszenie z drewna klejonego to Twoja tarcza przed upałem i ulewą.</p>
+              <p className={styles.paragraf3}>Odzyskaj przestrzeń, za którą zapłaciłeś.</p>
             </div>
 
-            <div className={styles.buttonWrapper}>
+            <div className={`${styles.buttonWrapper} ${styles.slideUpButton}`}>
               <button className={styles.outlineButton} onClick={handleClick}>
                 Poznaj naszą ofertę
               </button>

@@ -25,7 +25,6 @@ export default function Page() {
 
       <Konstrukcje />
 
-      <RozpocznijProjekt naglowek="Zamów Bezpłatną Wycenę i Projekt" />
     </>
   )
 

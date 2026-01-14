@@ -25,7 +25,7 @@ export default function Page() {
 
       <JakPostawic />
 
-      <RozpocznijProjekt naglowek="Ile warta jest Twoja wygoda każdego ranka?" />
+      {/* <RozpocznijProjekt naglowek="Ile warta jest Twoja wygoda każdego ranka?" /> */}
     </>
   )
 

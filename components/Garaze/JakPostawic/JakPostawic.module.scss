@@ -2,6 +2,7 @@
     max-width: sV.$container;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 80px;
 
     @media (width <= sV.$tablet) {
         margin: 0 10px;
@@ -38,9 +39,17 @@
 .cardTitle {
     font-size: 24px;
     font-weight: 500;
+
+    @media (width <= sV.$tablet) {
+        font-size: 22px;
+    }
 }
 
 .cardDescription {
     font-size: 20px;
     font-weight: 400;
+
+    @media (width <= sV.$tablet) {
+        font-size: 18px;
+    }
 }

@@ -38,7 +38,10 @@ const GaleriaContent = ({ title, description, obrazki = [], background = false }
 
         <div className={styles.galeria} ref={sliderRef}>
           {obrazki.map((img, i) => (
-            <img key={i} src={img} alt={`Galeria ${i}`} />
+            <div className={styles.item}>
+              <img key={i} src={img} alt={`Galeria ${i}`} />
+              <span className={styles.badge}>{i + 1}</span>
+            </div>
           ))}
         </div>
 

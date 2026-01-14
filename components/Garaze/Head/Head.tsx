@@ -15,7 +15,7 @@ const Head = () => {
       />
 
       <div className={styles.content}>
-        <h1>Ochrona garaży za ułamek jego ceny</h1>
+        <h1>Wiata zastąpi garaż za ułamek jego ceny</h1>
         <p>
           Wiaty samochodowe z drewna klejonego BSH. Zapomnij o skrobaniu szyb,
           nagrzanym wnętrzu i ptasich odchodach na lakierze.

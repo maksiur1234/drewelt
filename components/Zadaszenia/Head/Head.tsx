@@ -19,7 +19,7 @@ const Head = () => {
           Przedłużymy lato na Twoim tarasie o 5 miesięcy.
         </h1>
         <p>
-          Solidne konstrukcje z drewna klejonego i poliwęglanu. Odporne na polską pogodę, dopasowane do Twojego domu co do milimetra.
+          Solidne konstrukcje z drewna klejonego i poliwęglanu. Odporne na polską pogodę, idealnie dopasowane do Twojego domu.
         </p>
       </div>
 
@@ -33,7 +33,7 @@ const Head = () => {
             })
           }
         >
-          Umów bezpłatny pomiar
+          Otrzymaj bezpłatną wycenę
         </button>
       </div>
     </div>

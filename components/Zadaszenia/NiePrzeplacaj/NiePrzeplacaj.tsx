@@ -7,13 +7,15 @@ const NiePrzeplacaj = () => {
         <span className={styles.wyroznione}>STOP.</span> Nie przepłacaj za ,,ścinki”. Przeczytaj, zanim zaplanujesz wymiar.
       </h2>
 
-      <p className={styles.text}>
+      {/* <p className={styles.text}>
         Płyty poliwęglanowe mają standardowe wymiary produkcyjne. Projektując zadaszenie o szerokości np. 310 cm, płacisz za pełną płytę, a my musimy wyrzucić duży odpad.
       </p>
 
       <p className={styles.text}>
         Zaprojektujemy Twoje zadaszenie <strong>w oparciu o moduły ekonomiczne.</strong> Konstrukcja <strong>tańsza nawet o 2000 zł</strong> przy tej samej jakości.
-      </p>
+      </p> */}
+
+      <p className={styles.text}>Zaprojektujemy zadaszenie w oparciu o moduły ekonomiczne, aby zminimalizować ilość odpadów. To konstrukcja tańsza nawet o 2000 zł.</p>
 
       <p className={styles.text}>
         Najkorzystniejsze cenowo wymiary:
@@ -23,7 +25,7 @@ const NiePrzeplacaj = () => {
         <p className={styles.cardText}>
             📏 Długość (po ścianie): 422 / 530 / 634 / 740 / 846 cm
         </p>
-        <p className={styles.cardText}>
+        <p className={styles.cardText__drugi}>
             📏 Szerokość/głębokość: 290 / 340 / 450 / 500 / 600 cm
         </p>
       </div>

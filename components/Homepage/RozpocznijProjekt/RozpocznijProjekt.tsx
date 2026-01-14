@@ -51,12 +51,22 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
 
             <div className={styles.field}>
                 <label>Numer telefonu</label>
-                <input name="phone" type="tel" placeholder="999 999 999" required />
+                <input name="phone" type="tel" placeholder="583 290 654" required />
+            </div>
+
+            <div className={styles.field}>
+                <label>Miasto</label>
+                <input name="message" placeholder="Rakownia" />
+            </div>
+
+            <div className={styles.field}>
+                <label>Kod pocztowy</label>
+                <input name="message" placeholder="62-095" />
             </div>
 
             <div className={styles.field}>
                 <label>Wiadomość</label>
-                <textarea name="message" placeholder="Treść wiadomości" />
+                <textarea name="message" placeholder="Dzień dobry, chciałbym zadaszenie drewniane z prostym spadkiem..." />
             </div>
 
             <div className={styles.field}>

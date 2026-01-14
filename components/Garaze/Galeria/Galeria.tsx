@@ -39,8 +39,6 @@ const Galeria = () => {
             description='Wykorzystaj ścianę budynku lub garażu. To rozwiązanie ekonomiczne (mniej słupów) i idealne na węższe podjazdy.'
             obrazki={wiatyPrzyscienne}
             background />
-        <GaleriaContent title='Wiaty na łukach' obrazki={images1} />
-        <GaleriaContent title='Zadaszenia na belca' obrazki={images1} background />
     </div>
   )
 }

@@ -9,25 +9,25 @@ const JakWyglada = () => {
 
       <div className={styles.card}>
         <p className={styles.cardTitle}>
-            📞 Telefon (do 24h)
+          📞 Telefon (do 24h)
         </p>
-        <p className={styles.cardDescription}>
+        {/* <p className={styles.cardDescription}>
             Oddzwaniamy, dopytujemy o detale.
-        </p>
+        </p> */}
 
         <p className={styles.cardTitle}>
-            📏 Weryfikacja
+          📄 Oferta
         </p>
-        <p className={styles.cardDescription}>
+        {/* <p className={styles.cardDescription}>
             Umawiamy pomiar.
-        </p>
+        </p> */}
 
         <p className={styles.cardTitle}>
-            📄 Umowa
+          📏Pomiary (jeśli jest to konieczne)
         </p>
-        <p className={styles.cardDescription}>
+        {/* <p className={styles.cardDescription}>
             Dostajesz jasną wycenę i termin. Żadnych ukrytych kosztów.
-        </p>
+        </p> */}
       </div>
     </div>
   )

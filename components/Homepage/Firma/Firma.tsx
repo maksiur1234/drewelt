@@ -47,7 +47,7 @@ const Firma = () => {
                 </p>
             </div>
         </div>
-        <FirmaObraz />
+        {/* <FirmaObraz /> */}
     </>
   )
 }

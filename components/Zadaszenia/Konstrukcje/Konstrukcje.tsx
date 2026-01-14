@@ -25,7 +25,7 @@ const Konstrukcje = () => {
             <div className={styles.items}>
                 <div className={styles.item}>
                     <p className={styles.itemTitle}>
-                        Przezroczystej (max światła)
+                        Przezroczystej
                     </p>
                     <div className={styles.imageWrapper}>
                         <Image fill src={'/wersje-materialow/przezroczysty.png'} style={{ objectFit: 'cover' }} alt='Przezroczyste materiały' />
@@ -33,7 +33,7 @@ const Konstrukcje = () => {
                 </div>
                 <div className={styles.item}>
                     <p className={styles.itemTitle}>
-                        Mlecznej (przyjemny cień, rozproszone światło)
+                        Mlecznej
                     </p>
                     <div className={styles.imageWrapper}>
                         <Image fill src={'/wersje-materialow/mleczny.png'} style={{ objectFit: 'cover' }} alt='Mleczne materiały' />
@@ -41,7 +41,7 @@ const Konstrukcje = () => {
                 </div>
                 <div className={styles.item}>
                     <p className={styles.itemTitle}>
-                        Przydymionej (design)
+                        Przydymionej
                     </p>
                     <div className={styles.imageWrapper}>
                         <Image fill src={'/wersje-materialow/przydymiony.png'} style={{ objectFit: 'cover' }} alt='Przydymione materiały' />

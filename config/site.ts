@@ -21,16 +21,8 @@ export const siteConfig = {
       href: "/tarasy",
     },
     {
-      label: "Galeria",
-      href: "/galeria",
-    },
-    {
       label: "Kontakt",
       href: "/kontakt",
-    },
-    {
-      label: "O nas",
-      href: "/o-nas",
     },
   ],
   links: {

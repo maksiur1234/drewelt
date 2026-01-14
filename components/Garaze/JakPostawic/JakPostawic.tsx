@@ -18,7 +18,7 @@ const JakPostawic = () => {
 
             <div className={styles.card}>
                 <p className={styles.cardTitle}>03 Produkcja</p>
-                <p className={styles.cardDescription}>Przygotowujemy wszystko u nas w stolarni.</p>
+                <p className={styles.cardDescription}>Przygotowujemy wszystko u nas zgodnie z ustaleniami.</p>
             </div>
 
             <div className={styles.card}>

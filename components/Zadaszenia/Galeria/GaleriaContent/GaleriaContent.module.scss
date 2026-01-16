@@ -108,4 +108,8 @@
 .item {
   position: relative;
   flex: 0 0 auto;
+
+  @media (width <= sV.$tablet) {
+    bottom: 40px;
+  }
 }

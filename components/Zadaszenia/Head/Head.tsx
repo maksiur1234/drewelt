@@ -1,13 +1,21 @@
 'use client'
 
 import Image from "next/image"
+import { useRouter } from "next/navigation"
+
 import styles from '@/components/Zadaszenia/Head/Head.module.scss'
 
 const Head = () => {
+  const router = useRouter()
+
+  const handleClick = () => {
+    router.push('/kontakt')
+  }
+
   return (
     <div className={styles.container}>
       <Image
-        src="/zadaszenia_prosty_spadek_na_belce/zadaszenie na belce.jpg"
+        src="/zadaszenia-przyscienne/head.png"
         alt="Zadaszenie tarasu"
         fill
         priority
@@ -25,12 +33,7 @@ const Head = () => {
       <div className={styles.buttonWrapper}>
         <button
           className={`${styles.outlineButton} ${styles.slideUpButton}`}
-          onClick={() =>
-            document.getElementById("form")?.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-            })
-          }
+          onClick={handleClick}
         >
           Otrzymaj bezpłatną wycenę
         </button>

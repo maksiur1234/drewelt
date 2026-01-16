@@ -34,6 +34,10 @@ const Doswiadczenie = () => {
         </div>
       </div>
 
+      <div className={styles.text}>
+        <h3>Tylko dreweno klejone warstwowo</h3>
+      </div>
+
       <div className={styles.imageWrapper}>
         <Image
           src="/homepage/siedziba.jpg"
@@ -41,9 +45,7 @@ const Doswiadczenie = () => {
           fill
           className={styles.image}
         />
-        <div className={styles.overlayText}>
-          <h3>TYLKO DREWNO KLEJONE WARSTWOWO</h3>
-        </div>
+        
       </div>
     </div>
   )

@@ -10,15 +10,13 @@ const Konstrukcje = () => {
 
         <p className={styles.textTitle}>Konstrukcja z drewna klejonego BSH</p>
         <p className={styles.textDescription}>
-          Zapomnij o pęknięciach i skręcaniu się belek. Używamy wyłącznie certyfikowanego drewna klejonego warstwowo (BSH). Jest to materiał inżynieryjny o podwyższonej  wytrzymałości na obciążenia mechaniczne i zmienne temperatury.
-        </p>
-        <p className={styles.sub__textDescription}>
             Konstrukcja zachowuje stabilność i geometrię przez dekady, bez konieczności ciągłych napraw.
+          Zapomnij o pęknięciach i skręcaniu elementów. Używamy wyłącznie certyfikowanego drewna klejonego warstwowo BSH. Jest to materiał inżynieryjny o podwyższonej  wytrzymałości na obciążenia mechaniczne i zmienne temperatury - <strong>suchy świerk klejony warstwowo.</strong> 
         </p>
 
         <p className={styles.textTitle}>Zadaszenie z poliwęglanu komorowego 10mm</p>
         <p className={styles.textDescription}>
-          Stosujemy płyty o grubości 10mm, które stanowią bezpieczną barierę dla gradu i śniegu. Materiał posiada filtr UV – chroni Ciebie przed słońcem, a meble ogrodowe przed blaknięciem.
+          Stosujemy płyty o grubości 10mm, które stanowią bezpieczną barierę dla gradu i śniegu. Materiał posiada dwustronny filtr UV – chroni Ciebie przed słońcem, a meble ogrodowe przed blaknięciem. Wytrzymałość naszego poliwęglanu przy podparciu jakie stosujemy to 100 kg/m²
         </p>
 
         <p className={styles.textTitle}>Dostępny w wersji:</p>

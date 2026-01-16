@@ -82,7 +82,7 @@ const NaszeOferty = () => {
             </p>
 
             <button className={styles.button}>
-              <Link href="/altany-ogrodowe">Zobacz wiaty</Link>
+              <Link href="/wiaty">Zobacz wiaty</Link>
             </button>
           </div>
         </div>

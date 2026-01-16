@@ -3,40 +3,28 @@ import styles from '@/components/Zadaszenia/Galeria/Galeria.module.scss'
 import GaleriaContent from '@/components/Zadaszenia/Galeria/GaleriaContent/GaleriaContent'
 
 const Galeria = () => {
-  const images1 = [
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-    '/homepage/siedziba.jpg',
-  ]
-
   const wiatyWolnosojace = [
-    '/wiaty-wolnostojace/wiata-1.png',
-    '/wiaty-wolnostojace/wiata-2.png',
-    '/wiaty-wolnostojace/wiata-3.png',
-    '/wiaty-wolnostojace/wiata-4.png',
+    '/wiaty-wolnostojace/wiata-wolnostojaca-1.png',
+    '/wiaty-wolnostojace/wiata-wolnostojaca-3.png',
+    '/wiaty-wolnostojace/wiata-wolnostojaca-4.png',
+    '/wiaty-wolnostojace/wiata-wolnostojaca-2.png', 
   ]
 
   const wiatyPrzyscienne = [
-    '/zadaszenia-przyscienne/20221004_130009.jpg',
-    '/zadaszenia-przyscienne/samochod.jpg',
-    '/zadaszenia-przyscienne/Zadaszenie Murowana Goślina.jpg',
-    '/zadaszenia-przyscienne/lubon.jpg',
+    '/wiaty-przyscienne/wiata-przyscienna-1.png',
+    '/wiaty-przyscienne/wiata-przyscienna-2.png',
+    '/wiaty-przyscienne/wiata-przyscienna-3.png',
   ]
 
   return (
     <div className={styles.container}>
         <GaleriaContent
             title='Wiaty wolnostojące'
-            description="Masz miejsce na działce? Postaw wiatę tam, gdzie Ci wygodnie. Pełna swoboda manewrowania. Solidne mocowanie, które wytrzyma silne wiatry."
+            description="Masz miejsce na działce? Postaw wiatę tam, gdzie Ci wygodnie. Pełna swoboda manewrowania, wygoda wysiadania."
             obrazki={wiatyWolnosojace} />
         <GaleriaContent
             title='Wiaty Przyścienne'
-            description='Wykorzystaj ścianę budynku lub garażu. To rozwiązanie ekonomiczne (mniej słupów) i idealne na węższe podjazdy.'
+            description='Wykorzystaj ścianę budynku lub garażu. To ekonomiczne rozwiązanie idealnie wpasuje się w każda bryłe budynku.'
             obrazki={wiatyPrzyscienne}
             background />
     </div>

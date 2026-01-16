@@ -40,7 +40,6 @@ const GaleriaContent = ({ title, description, obrazki = [], background = false }
           {obrazki.map((img, i) => (
             <div className={styles.item}>
               <img key={i} src={img} alt={`Galeria ${i}`} />
-              <span className={styles.badge}>{i + 1}</span>
             </div>
           ))}
         </div>

@@ -8,7 +8,7 @@ const Zalety = () => {
             ❄ ZIMA BEZ SKROBANIA 
         </p>
         <p className={styles.itemDescription}>
-           Płyta poliwęglanowa chroni przed szronem i śniegiem. Wsiadasz i jedziesz.
+           Płyta poliwęglanowa chroni przed szronem i śniegiem. Nie skorbiesz szyb - wsiadasz i jedziesz.
         </p>
       </div>
       <div className={styles.item}>
@@ -24,7 +24,7 @@ const Zalety = () => {
             🍂 CZYSTA KAROSERIA
         </p>
         <p className={styles.itemDescription}>
-            Koniec z żywicą z drzew i ptasimi odchodami, które niszczą powłokę lakierniczą.
+            Chroni przed zanieczyszczeniami, które niszczą powłokę lakierniczą.
         </p>
       </div>
     </div>

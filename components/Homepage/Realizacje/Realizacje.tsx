@@ -7,7 +7,7 @@ const Realizacje = () => {
     <div className={styles.container}>
       <div className={styles.imgWrapper}>
         <Image
-          src="/homepage/kobieta.jpg"
+          src="/homepage/kobieta-telefon.png"
           width={260}
           height={260}
           alt="Kobieta"

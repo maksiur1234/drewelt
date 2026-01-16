@@ -11,14 +11,23 @@ const cityMapping: Record<string, string> = {
   konin: "Konin",
 };
 
-export async function generateMetadata({ params }: { params: any }) {
-  const miasto = params.miasto;
+export async function generateMetadata({ params }: { params: { miasto?: string } }) {
+  const miasto = params?.miasto;
+
+  if (!miasto) {
+    return {
+      title: "Deska tarasowa",
+      description: "",
+      alternates: { canonical: "https://www.drewelt.pl/tarasy" },
+    };
+  }
+
   const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
   const content = seoContentList.find((item) => item.url === miasto);
 
   return {
     title: content?.metaTitle || `Deska tarasowa ${decoded}`,
-    description: content?.description || ``,
+    description: content?.description || "",
     alternates: {
       canonical: content?.url
         ? `https://www.drewelt.pl/tarasy/${content.url}`

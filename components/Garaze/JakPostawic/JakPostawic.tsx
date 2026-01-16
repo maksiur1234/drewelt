@@ -13,7 +13,7 @@ const JakPostawic = () => {
 
             <div className={styles.card}>
                 <p className={styles.cardTitle}>2 Optymalizacja</p>
-                <p className={styles.cardDescription}>Mierzymy auto i podjazd. Proponujemy wymiar "Ekonomiczny".</p>
+                <p className={styles.cardDescription}>Przedstawiamy Ci odpowiedni projekt, który spełni Twoje wymagania pod względem komfortu, ekonomii i designu.</p>
             </div>
 
             <div className={styles.card}>
@@ -23,7 +23,7 @@ const JakPostawic = () => {
 
             <div className={styles.card}>
                 <p className={styles.cardTitle}>04 Montaż</p>
-                <p className={styles.cardDescription}>Przyjeżdżamy i składamy w 1-2 dni.</p>
+                <p className={styles.cardDescription}>Standardowe konstrukcje monutjemy w jeden dzień.</p>
             </div>
         </div>
     </div>

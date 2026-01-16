@@ -4,11 +4,11 @@ const MiejsceParkingowe = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>
-        💰 Płać za miejsce parkingowe, nie za odpady w śmietniku.
+        💰 Płać za miejsce parkingowe.
       </h2>
 
       <div className={styles.card}>
-        <p className={styles.cardTitle}>Nasze elementy kostrukcyjne mają sztywne wymiary produkcyjne.</p>
+        <p className={styles.cardTitle}>Pomożemy zaplanować Ci wymiar ekonomiczny.</p>
 
         {/* <p className={styles.cardText}>❌ Projektujesz wiatę na szerokość np. 330 cm? Płacisz za pełną płytę, z której my musimy odciąć i wyrzucić duży pas materiału</p>
 

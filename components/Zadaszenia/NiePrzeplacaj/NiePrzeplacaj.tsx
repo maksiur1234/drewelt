@@ -4,7 +4,7 @@ const NiePrzeplacaj = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>
-        <span className={styles.wyroznione}>STOP.</span> Nie przepłacaj za ,,ścinki”. Przeczytaj, zanim zaplanujesz wymiar.
+        <span className={styles.wyroznione}>STOP.</span> Nie przepłacaj za odpady. Przeczytaj, zanim zaplanujesz wymiar.
       </h2>
 
       {/* <p className={styles.text}>
@@ -31,7 +31,7 @@ const NiePrzeplacaj = () => {
       </div>
 
       <p className={styles.text}>
-        Dostosuj wymiar tarasu do materiału, nie odwrotnie. Zapytaj nas o <strong>"Wymiary Ekonomiczne"</strong> podczas pomiaru.
+        Zapytaj nas o <strong>"Wymiary Ekonomiczne"</strong> podczas pomiaru.
       </p>
     </div>
   )

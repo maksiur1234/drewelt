@@ -48,6 +48,8 @@
     img {
       width: 320px;
       height: 275px;
+      object-fit: contain;
+      object-position: right bottom;
     }
   }
 }
@@ -99,6 +101,7 @@
 
   @media (width <= sV.$tablet) {
     font-size: 18px;
+    margin-bottom: 0;
   }
 }
 

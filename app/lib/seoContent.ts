@@ -4,6 +4,7 @@ export type SeoContent = {
   description?: string;
   h1: string;
   content: string;
+  keywords?: string[];
 };
 
 export const seoContentList: SeoContent[] = [
@@ -106,6 +107,19 @@ export const seoContentList: SeoContent[] = [
     metaTitle: "Zadaszenia tarasu i pergoli Głogów - drewelt.pl",
     h1: "Zadaszenie tarasu – pergola w Głogowie na wyciągnięcie ręki",
     description: "Zadaszenia tarasu na terenie Głogowa i okolic. Oferujemy nowoczesne pergole z poliwęglanu. Zapraszamy do zapoznania się z naszą ofertą.",
+    keywords: [
+      "pergola nad tarasem",
+      "pergola tarasowa poliwęglan",
+      "pergola zadaszenie",
+      "pergole tarasowe jak zrobić",
+      "pergole zadaszenia",
+      "pergole zadaszenia tarasu",
+      "zadaszenia pergoli",
+      "zadaszenie pergola",
+      "zadaszenie tarasu jak zrobić",
+      "zadaszenie tarasu jaki materiał",
+      "zadaszenie tarasu pergola",
+    ],
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
@@ -158,6 +172,18 @@ export const seoContentList: SeoContent[] = [
   </div>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91659.88127925311!2d15.983026756942058!3d51.65675249092638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705f419786aeb81%3A0xdece0165881545a5!2zR8WCb2fDs3c!5e0!3m2!1spl!2spl!4v1758611535950!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <h2 class="text-2xl mt-6">Nowoczesne możliwości dopasowania pergoli do Państwa tarasu</h2>
+<p>
+  W naszej ofercie dostępna jest <strong>pergola tarasowa z poliwęglanu</strong>, którą możemy precyzyjnie dopasować do wymiarów i układu konkretnej przestrzeni. Każdą taką konstrukcję wykonujemy na indywidualne zamówienie, dzięki czemu konstrukcja harmonijnie współgra z bryłą budynku oraz istniejącą aranżacją ogrodu.
+</p>
+<p>
+  Oferujemy możliwość wyboru grubości i rodzaju poliwęglanu, co pozwala uzyskać optymalny poziom doświetlenia tarasu przy jednoczesnej ochronie przed promieniowaniem UV. <strong>Zadaszenie tarasu – pergola</strong> – to rozwiązanie szczególnie cenione przez mieszkańców <strong>Głogowa</strong>, którzy oczekują trwałej, estetycznej i funkcjonalnej zabudowy dopasowanej do codziennego użytkowania.
+</p>
+<p>
+  Zapraszamy do kontaktu – przygotujemy projekt idealnie odpowiadający Państwa potrzebom.
+</p>
+
 </div>
     `,
   },
@@ -326,6 +352,25 @@ export const seoContentList: SeoContent[] = [
     metaTitle: "Zadaszenia na taras z poliwęglanu i drewna - drewelt.pl",
     h1: "Zadaszenie tarasu w Zielonej Górze – komfort przez cały rok",
     description: "Proponujemy liczne rozwiązania dotyczące zadaszeń tarasowych z poliwęglanu i drewna. Mieszkańców Zielonej Góry zapraszamy do zapoznania się z ofertą.",
+    keywords: [
+      "ile kosztuje drewniane zadaszenie tarasu",
+      "ile kosztuje zadaszenie tarasu",
+      "ile kosztuje zadaszenie tarasu robocizna",
+      "ile kosztuje zadaszenie tarasu z drewna",
+      "ile kosztuje zadaszenie tarasu z poliwęglanu",
+      "ile kosztuje zadaszenie z poliwęglanu",
+      "jak przygotować podłoże pod taras kompozytowy",
+      "jak przymocować pergole do balkonu",
+      "jak ułożyć taras kompozytowy",
+      "jak wykonać zadaszenie tarasu",
+      "jak wykonać zadaszenie z poliwęglanu",
+      "jak zamontować zadaszenie tarasu",
+      "jak zbudować zadaszenie tarasu",
+      "jak zrobić drewniane zadaszenie tarasu",
+      "zadaszenia tarasowe zielona góra",
+      "zadaszenia tarasów zielona góra",
+      "zadaszenie tarasu zielona góra",
+    ],
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <p>
@@ -378,6 +423,17 @@ export const seoContentList: SeoContent[] = [
   <p>
     Wysoką jakość naszych usług potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań lub wątpliwości co do opisywanej oferty montażu zadaszeń tarasu w Zielonej Górze i okolicach serdecznie zapraszamy do kontaktu. Nasi specjaliści są gotowi udzielić szczegółowych informacji na temat naszych realizacji, doradzić w wyborze najlepszego rozwiązania oraz umówić się na indywidualną konsultację. <strong>Zbudujemy zadaszenia tarasu</strong> zgodnie z Państwa wizją i możliwościami.
   </p>
+<h2 class="text-2xl mt-6">Dodatkowe możliwości personalizacji zadaszeń tarasowych</h2>
+<p>
+  W naszej ofercie dostępne są również rozwiązania rozszerzające funkcjonalność konstrukcji, których nie opisano wcześniej – m.in. możliwość wyboru grubości i rodzaju poliwęglanu oraz doposażenia zadaszeń w elementy zwiększające komfort użytkowania.
+</p>
+<p>
+  Klienci mogą zdecydować, czy interesuje ich wariant komorowy lub lity, co wpływa zarówno na trwałość, jak i na to, <strong>ile kosztuje zadaszenie tarasu z poliwęglanu</strong>.
+  Podobnie w przypadku konstrukcji drewnianych – ostateczna cena zależy od gatunku drewna, przekroju belek oraz stopnia zabudowy, co pozwala precyzyjnie określić, <strong>ile kosztuje drewniane zadaszenie tarasu</strong>.
+</p>
+<p>
+  Oferujemy także możliwość dopasowania kolorystyki, dodatkowych osłon bądź systemów montażowych, aby konstrukcja idealnie współgrała z elewacją czy stylem ogrodu.
+</p>
 
   <h2 class="text-2xl bg-[#e9a749] px-6 py-4 rounded-tl-xl rounded-xl mb-0 z-10 flex relative">FAQ – najczęściej zadawane pytania</h2>
   <div style="margin-top: 0 !important;" class="border-2 border-[#262420] relative px-4 pb-4 pt-8 flex gap-2 flex-col rounded-b-xl top-[-20px] z-0" itemscope itemtype="https://schema.org/FAQPage">
@@ -852,4 +908,60 @@ export const seoContentList: SeoContent[] = [
 
     `,
   },
+  {
+    url: "zadaszenie-tarasu-kostrzyn",
+    metaTitle: "Zadaszenia tarasu Kostrzyn – konstrukcje BSH – Drewelt",
+    h1: "Zadaszenia tarasu Kostrzyn – solidne konstrukcje dopasowane do Twojego domu",
+    description: "Trwałe zadaszenia tarasów w Kostrzynie od Drewelt. Konstrukcje z drewna BSH i poliwęglanu. Projekt na wymiar oraz profesjonalny montaż. Skontaktuj się.",
+    keywords: [
+      'zadaszenia tarasu kostrzyn',
+      'zadaszenia tarasów kostrzyn'
+    ],
+   content: `
+  <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+    <p>
+      <strong><a href="/zadaszenia">Zadaszenia tarasu</a></strong> od
+      <strong> <a href="/o-nas">Drewelt</a></strong> to trwałe, eleganckie konstrukcje wykonywane z drewna
+      klejonego BSH oraz poliwęglanu komorowego. Tworzymy projekty na wymiar,
+      dopasowane do architektury budynku i stylu ogrodu, dbając o lekkość formy, stabilność
+      oraz odporność na warunki atmosferyczne. Oferta skierowana jest do mieszkańców
+      <strong>Kostrzyna</strong> oraz okolic.
+    </p>
+
+    <p>
+      Każde <strong><a href="/zadaszenia">zadaszenie tarasów</a></strong> powstaje na podstawie precyzyjnych
+      pomiarów, wizualizacji i profesjonalnego montażu, co gwarantuje komfort użytkowania
+      przez lata. Chcesz sprawdzić, jak może wyglądać Twoje zadaszenie? Skontaktuj się z
+      nami i zamów wycenę.
+    </p>
+
+    <div class="flex w-full justify-end">
+      <a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">
+        Skontaktuj się
+        <span class="text-white text-base normal-case font-light">Wycenimy Twoje zadaszenie!</span>
+      </a>
+    </div>
+
+    <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+    <h2 class="text-2xl font-semibold text-gray-800">
+      <a href="/zadaszenia">Zadaszenia tarasów</a> Kostrzyn – pełna obsługa zlecenia
+    </h2>
+
+    <p>
+      <a href="/o-nas"><strong>Drewelt</strong></a> działa od 2014 roku, łącząc rzemiosło z nowoczesnym podejściem do
+      projektowania konstrukcji ogrodowych. Oferujemy <strong><a href="/zadaszenia">zadaszenia tarasu</a></strong> oraz
+      <strong> <a href="/altany-ogrodowe">altany</a></strong>, które tworzą spójną, wygodną przestrzeń wypoczynkową.
+    </p>
+
+    <p>
+      Każdy projekt, realizowany dla Klientów z <strong>Kostrzyna</strong> lub okolicznych miejscowości, jest impregnowany i dwukrotnie
+      malowany. Proponujemy również ekonomiczne wymiary konstrukcji, pozwalające
+      zoptymalizować koszty bez utraty jakości. Zastanawiasz się, który wariant będzie
+      najlepszy? Napisz do nas, a doradzimy Ci idealne rozwiązanie.
+    </p>
+  </div>
+`,
+
+  }
 ];

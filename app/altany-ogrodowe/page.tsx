@@ -4,6 +4,7 @@ import { Divider } from "@heroui/divider";
 import Image from "next/image";
 
 import styles from './AltanyOgrodowe.module.scss'
+import Link from "next/link";
 
 export default function Page() {
 
@@ -232,6 +233,37 @@ export default function Page() {
         </p>
       </div>
       <div className="flex w-full justify-end"><a className="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span className="text-white text-base normal-case font-light">Wycenimy Twoją altanę!</span></a></div>
+
+      <div className="w-full">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          Jak zrobić idealne pergole drewniane?
+        </h2>
+
+        <p className="text-gray-700 text-sm sm:text-base text-justify">
+          Zastanawiasz się, <strong>jak zrobić pergole drewniane</strong>? Z nami budowa takiej konstrukcji jest prosta.
+          Co powinnaś zrobić?
+        </p>
+
+        <ol className="my-4 list-inside list-decimal text-gray-700 text-sm sm:text-base text-justify">
+          <li>
+            <strong>Wybierz lokalizację</strong> – zastanów się, gdzie najlepiej sprawdzi się <strong>pergola</strong> czyli{" "}
+            <strong>altana z drewna</strong> – może tuż przy tarasie, nad ścieżką w ogrodzie, a może jako wolnostojący element?
+          </li>
+          <li>
+            <strong>Określ wymiary oraz styl</strong> – zdecyduj, jakiej wielkości i w jakim stylu ma być Twoja{" "}
+            <strong>altana drewniana nowoczesna do ogrodu</strong>, tak aby idealnie pasowała do otoczenia.
+          </li>
+          <li>
+            <strong>Zamów projekt i montaż zabudowy altany</strong> – resztę zostaw nam! Nasi eksperci przygotują projekt,
+            wykonają, a następnie zamontują konstrukcję, abyś Ty mógł cieszyć się gotowym efektem.
+          </li>
+        </ol>
+
+        <p className="mb-2.5 text-gray-700 text-sm sm:text-base text-justify">
+          Chcesz odmienić swój taras lub altanę? <Link href="/kontakt">Skontaktuj się z nami</Link> i zamów{" "}
+          <strong>zabudowę altany</strong> od Drewelt. <strong>Budowa</strong> konstrukcji ogrodowych to nasza specjalność!
+        </p>
+      </div>
       </div>
   );
 }

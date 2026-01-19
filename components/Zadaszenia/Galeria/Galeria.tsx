@@ -4,11 +4,10 @@ import styles from '@/components/Zadaszenia/Galeria/Galeria.module.scss'
 
 const Galeria = () => {
   const zadaszeniaProstySpadek = [
-    '/zadaszenia-przyscienne/tarasowe-przyscienne-1.png',
-    '/zadaszenia-przyscienne/tarasowe-przyscienne-2.png',
-    '/zadaszenia-przyscienne/tarasowe-przyscienne-3.png',
+    '/zadaszenia-przyscienne/tarasowe-przyscienne-1.png', 
     '/zadaszenia-przyscienne/tarasowe-przyscienne-4.png',
-    '/zadaszenia-przyscienne/tarasowe-przyscienne-5.png',
+    '/zadaszenia_prosty_spadek_na_belce/tarasowe-przyscienne-belka-2.png',
+    '/zadaszenia_prosty_spadek_na_belce/tarasowe-przyscienne-belka-3.png',
   ]
 
   const zadaszeniaNaLukach = [
@@ -19,8 +18,9 @@ const Galeria = () => {
 
   const zadaszeniaNaBelce = [
     '/zadaszenia_prosty_spadek_na_belce/tarasowe-przyscienne-belka-1.png',
-    '/zadaszenia_prosty_spadek_na_belce/tarasowe-przyscienne-belka-2.png',
-    '/zadaszenia_prosty_spadek_na_belce/tarasowe-przyscienne-belka-3.png',
+    '/zadaszenia-przyscienne/tarasowe-przyscienne-5.png',
+    '/zadaszenia-przyscienne/tarasowe-przyscienne-3.png',
+    '/zadaszenia-przyscienne/tarasowe-przyscienne-2.png',
   ]
 
   return (

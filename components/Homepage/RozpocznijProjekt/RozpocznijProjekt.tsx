@@ -104,7 +104,7 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
 
             <div className={styles.infoItem}>
                 <p>Email</p>
-                <span><a href="mailto:drewelt@drewelt.com" target="_blank">drewelt@drewelt.pl</a></span>
+                <span><a href="mailto:drewelt@drewelt.com" rel='noopener noreferrer' target="_blank">drewelt@drewelt.pl</a></span>
             </div>
         </div>
       ) : (

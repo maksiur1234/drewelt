@@ -56,14 +56,14 @@ export const Navbar = () => {
           onClick={() => setMobileMenuOpen((prev) => !prev)}
         >
           {mobileMenuOpen ? (
-            <HiX className="w-8 h-8 text-foreground" />
+            <HiX className="w-8 h-8 text-black dark:text-white" />
           ) : (
-            <HiMenu className="w-8 h-8 text-foreground" />
+            <HiMenu className="w-8 h-8 text-black dark:text-white" />
           )}
         </button>
       </NavbarContent>
 
-      {mobileMenuOpen && (
+     {mobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-white dark:bg-[#262420] shadow-md z-10">
           <ul className="flex flex-col gap-4 p-4">
             {siteConfig.navItems.map((item) => (

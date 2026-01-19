@@ -14,10 +14,11 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-poznań", label: "Zadaszenie tarasu Poznań" },
     { href: "/zadaszenia/zadaszenie-tarasu-gorzow-wlkp", label: "Zadaszenie tarasu Gorzów Wielkopolski" },
     { href: "/zadaszenia/zadaszenie-tarasu-lubin", label: "Zadaszenie tarasu Lubin" },
-    { href: "/zadaszenia/zadaszenie-tarasu-glog ow", label: "Zadaszenie tarasu Głogów" },
+    { href: "/zadaszenia/zadaszenie-tarasu-glogow", label: "Zadaszenie tarasu Głogów" },
     { href: "/zadaszenia/zadaszenie-tarasu-zielona-gora", label: "Zadaszenie tarasu Zielona Góra" },
     { href: "/zadaszenia/zadaszenie-tarasu-konin", label: "Zadaszenie tarasu Konin" },
     { href: "/zadaszenia/zadaszenie-tarasu-wroclaw", label: "Zadaszenie tarasu Wrocław" },
+    { href: "/zadaszenia/zadaszenie-tarasu-kostrzyn", label: "Zadaszenie tarasu Kostrzyn" },
 ]
 
 export const tarasyLinks = [

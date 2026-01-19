@@ -150,6 +150,11 @@ export const Footer = () => {
                     Zadaszenie tarasu Wrocław
                   </a>
                 </li>
+                <li>
+                  <a href="/zadaszenia/zadaszenie-tarasu-kostrzyn" className="hover:underline">
+                    Zadaszenie tarasu Kostrzyn
+                  </a>
+                </li>
               </ul>
             </div>
 

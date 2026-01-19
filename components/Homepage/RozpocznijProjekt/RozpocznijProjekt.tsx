@@ -21,6 +21,8 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
         name: formData.get("name") as string,
         email: formData.get("email") as string,
         phone: formData.get("phone") as string,
+        city: formData.get("city") as string,
+        postal: formData.get("postal") as string,
         message: formData.get("message") as string,
         attachment: formData.getAll("attachment") as File[],
       })
@@ -56,12 +58,12 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
 
             <div className={styles.field}>
                 <label>Miasto</label>
-                <input name="message" placeholder="Rakownia" />
+                <input name="city" placeholder="Rakownia" />
             </div>
 
             <div className={styles.field}>
                 <label>Kod pocztowy</label>
-                <input name="message" placeholder="62-095" />
+                <input name="postal" placeholder="62-095" />
             </div>
 
             <div className={styles.field}>

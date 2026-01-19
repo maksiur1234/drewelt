@@ -5,6 +5,8 @@ export const sendContactForm = async (data) => {
   formData.append("email", data.email);
   formData.append("phone", data.phone);
   formData.append("message", data.message);
+  formData.append("city", data.city);
+  formData.append("postal", data.postal);
 
   if (data.attachment && data.attachment.length > 0) {
     data.attachment.forEach((file) => {

@@ -45,7 +45,7 @@ export async function POST(req) {
   try {
     const data = await parseForm(req);
 
-    const { name, email, phone, message } = data.fields;
+    const { name, email, phone, message, city, postal } = data.fields;
     const files = data.files.attachment || [];
 
     const ip =
@@ -80,6 +80,7 @@ export async function POST(req) {
             <p style="margin: 0 0 10px;"><strong>Imię i nazwisko:</strong> ${name}</p>
             <p style="margin: 0 0 10px;"><strong>Email:</strong> ${email}</p>
             <p style="margin: 0 0 10px;"><strong>Telefon:</strong> ${phone}</p>
+            <p style="margin: 0 0 10px;"><strong>Adres:</strong> ${city} - ${postal}</p>
             <p style="margin: 0 0 10px;"><strong>Adres IP nadawcy:</strong> ${ip}</p>
             <hr style="border: 0; border-top: 1px solid #eaeaea; margin: 20px 0;">
             <h2 style="margin: 0; font-size: 24px;">Treść wiadomości:</h2>

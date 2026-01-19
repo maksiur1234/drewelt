@@ -1,7 +1,16 @@
+'use client'
+
 import styles from '@/components/Zadaszenia/Konstrukcje/Konstrukcje.module.scss'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 const Konstrukcje = () => {
+    const router = useRouter()
+    
+    const handleClick = () => {
+      router.push('/kontakt')
+    }
+
   return (
     <div className={styles.container}>
         <h2 className={styles.title}>
@@ -45,6 +54,14 @@ const Konstrukcje = () => {
                         <Image fill src={'/wersje-materialow/przydymiony.png'} style={{ objectFit: 'cover' }} alt='Przydymione materiały' />
                     </div>
             </div>
+        </div>
+        <div className={styles.buttonWrapper}>
+            <button
+            className={`${styles.outlineButton} ${styles.slideUpButton}`}
+            onClick={handleClick}
+            >
+                Otrzymaj bezpłatną wycenę   
+            </button>
         </div>
     </div>
   )

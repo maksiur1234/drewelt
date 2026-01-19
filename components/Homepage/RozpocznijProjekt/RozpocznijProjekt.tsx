@@ -87,7 +87,7 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
           {loading ? "Wysyłanie..." : "Wyślij"}
         </button>
 
-        {status && <p>{status}</p>}
+        {/* {status && <p>{status}</p>} */}
       </form>
 
       {hasDane ? (

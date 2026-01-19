@@ -103,7 +103,7 @@ export default function RootLayout({
       </head>
       <body
         className={clsx(
-          "min-h-screen w-full bg-background font-sans antialiased",
+          "min-h-screen w-full font-sans antialiased",
           fontSans.variable,
         )}
       >
@@ -116,7 +116,7 @@ export default function RootLayout({
           ></iframe>
         </noscript>
 
-        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
+        <Providers>
           <div className="relative flex flex-col min-h-screen w-full">
             <Navbar />
             <main className="w-full max-w-none flex-grow">{children}</main>

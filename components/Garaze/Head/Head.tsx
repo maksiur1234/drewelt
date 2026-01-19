@@ -11,6 +11,7 @@ const Head = () => {
   const handleClick = () => {
     router.push('/kontakt')
   }
+  
   return (
     <div className={styles.container}>
       <Image

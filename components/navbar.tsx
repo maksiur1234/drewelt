@@ -69,7 +69,7 @@ export const Navbar = () => {
             {siteConfig.navItems.map((item) => (
               <li key={item.href}>
                 <NextLink
-                  className="block hover:text-[#e9a749] transition-colors duration-200 text-foreground text-lg font-semibold"
+                  className="block hover:text-[#e9a749] transition-colors duration-200 text-black text-lg font-semibold"
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
                 >

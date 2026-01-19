@@ -9,6 +9,10 @@
 
     p {
         font-size: 22px;
+
+        @media (width <= sV.$tablet) {
+            font-size: 18px;
+        }
     }
 
     a {

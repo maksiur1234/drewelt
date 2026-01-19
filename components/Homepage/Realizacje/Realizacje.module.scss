@@ -56,6 +56,10 @@
     border-radius: 12px;
     margin-top: 50px;
 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
     @media (width <= sV.$tablet) {
         width: 100%;
         margin-left: 0;
@@ -64,20 +68,30 @@
 }
 
 .item {
-    max-width: 600px;
+    max-width: 675px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+
+     &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+    }
 
     h3 {
         font-size: 24px;
-        margin-bottom: 15px;
-        font-weight: 500;
+        margin-bottom: 12px;
+        font-weight: 600;
     }
 }
 
 .itemInfo {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    align-items: flex-start;
 
     @media (width <= sV.$tablet) {
         gap: 10px;

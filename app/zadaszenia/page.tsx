@@ -2,7 +2,6 @@ import Galeria from "@/components/Zadaszenia/Galeria/Galeria"
 import Head from "@/components/Zadaszenia/Head/Head"
 import Konstrukcje from "@/components/Zadaszenia/Konstrukcje/Konstrukcje"
 import NiePrzeplacaj from "@/components/Zadaszenia/NiePrzeplacaj/NiePrzeplacaj"
-import Realizacje from "@/components/Zadaszenia/Realizacje/Realizacje"
 
 export default function Page() {
   return (
@@ -14,8 +13,6 @@ export default function Page() {
       <Galeria />
 
       <Konstrukcje />
-
-      <Realizacje />
     </>
   )
 }

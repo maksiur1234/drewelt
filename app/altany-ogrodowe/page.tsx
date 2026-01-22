@@ -86,7 +86,7 @@ export default function Page() {
             <li>Element architektury – <strong>altana drewniana</strong> to piękna i nowoczesna <strong>konstrukcja</strong>, która wzbogaca krajobraz ogrodu, dodając mu stylu oraz praktyczności.</li>
           </ul>
           <p className="text-gray-700 text-sm sm:text-base text-justify">
-            Stwórzmy razem <strong>altaną ogrodową drewnianą</strong>, która stanie się Twoją oazą spokoju. Skontaktuj się z nami i zamów projekt dopasowany do Ciebie.
+            Stwórzmy razem <strong>altaną ogrodową drewnianą</strong>, która stanie się Twoją oazą spokoju. <Link href={'/kontakt'}>Skontaktuj się z nami</Link> i zamów projekt dopasowany do Ciebie.
           </p>
         </div>
       </div>
@@ -208,30 +208,6 @@ export default function Page() {
         <img src="/altany_ogrodowe/drewelt-altany.jpg" decoding="async" className="object-cover rounded-lg shadow-md w-full h-96" alt="Nowoczesna altana pomalowana na kolor czarny." />
       </div>
 
-      <div className="w-full">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Jak zrobić idealne pergole drewniane?
-        </h2>
-        <p className="text-gray-700 text-sm sm:text-base text-justify">
-          Zastanawiasz się, <strong>jak zrobić pergole drewniane?</strong> Z nami budowa takiej konstrukcji.
-        </p>
-        <ol className="my-4 list-inside list-decimal text-gray-700 text-sm sm:text-base text-justify">
-          <li>Wybierz lokalizację – zastanów się, gdzie najlepiej sprawdzi się nowa konstrukcja – może tuż przy tarasie, nad ścieżką w ogrodzie, a może jako wolnostojący element?</li>
-          <li>Określ wymiary oraz styl – zdecyduj, jakiej wielkości i w jakim stylu ma być Twoja pergola, tak aby idealnie pasowała do otoczenia.</li>
-          <li>Zamów projekt i montaż zabudowy altany – resztę zostaw nam! Nasi eksperci przygotują projekt, wykonają, a następnie zamontują konstrukcję, abyś Ty mógł cieszyć się gotowym efektem.</li>
-        </ol>
-        <p className="mb-2.5 text-gray-700 text-sm sm:text-base text-justify">
-          Chcesz odmienić swój taras lub altanę? <a href="/kontakt">Skontaktuj się z nami</a> i zamów <strong>zabudowę altany</strong> od Drewelt.
-        </p>
-      </div>
-      <div className="w-full">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Dlaczego warto wybrać altanę do ogrodu drewnianą od Drewelt?
-        </h2>
-        <p className="mb-2.5 text-gray-700 text-sm sm:text-base text-justify">
-          <strong>Nowoczesne altany ogrodowe drewniane</strong> wysokiej jakości to nasz priorytet. Wiemy, że każdy ogród jest inny, dlatego do każdego projektu podchodzimy indywidualnie, dopasowując altanę do stylu Twojej przestrzeni oraz oczekiwań. Dodatkowo tworzona przez nas konstrukcja zawsze objęta jest 2-letnią gwarancją. Działamy na terenie całej Polski. Realizujemy zlecenia zarówno dla domów prywatnych, jak i przestrzeni komercyjnych. Zapewniamy szybką realizację zamówienia, a także przejrzystą wycenę, bez żadnych ukrytych kosztów. Zobacz galerię  naszych realizacji i zamów własną <strong>altanę do ogrodu drewnianą</strong> od Drewelt!
-        </p>
-      </div>
       <div className="flex w-full justify-end"><a className="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span className="text-white text-base normal-case font-light">Wycenimy Twoją altanę!</span></a></div>
 
       <div className="w-full">
@@ -240,8 +216,8 @@ export default function Page() {
         </h2>
 
         <p className="text-gray-700 text-sm sm:text-base text-justify">
-          Zastanawiasz się, <strong>jak zrobić pergole drewniane</strong>? Z nami budowa takiej konstrukcji jest prosta.
-          Co powinnaś zrobić?
+          Zastanawiasz się, <strong>jak zrobić pergole drewniane ?</strong> Z nami budowa takiej konstrukcji jest prosta.
+          Co powinieneś zrobić?
         </p>
 
         <ol className="my-4 list-inside list-decimal text-gray-700 text-sm sm:text-base text-justify">

@@ -10,7 +10,7 @@ export const generateMetadata = (): Metadata => {
   }
 }
 
-export default function TarasyLayout({
+export default function WiatyLayout({
   children,
 }: {
   children: React.ReactNode;

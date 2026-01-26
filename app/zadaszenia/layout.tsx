@@ -12,6 +12,6 @@ export const generateMetadata = (): Metadata => {
   }
 }
 
-export default function TarasyLayout({ children }: { children: React.ReactNode }) {
+export default function ZadaszeniaLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>
 }

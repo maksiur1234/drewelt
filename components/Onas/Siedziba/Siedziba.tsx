@@ -23,8 +23,8 @@ const Siedziba = () => {
         <p className={styles.itemTitle}>
             Email
         </p>
-        <a className={styles.itemDescriptionLink} href="mailto:drewelt@drewelt.com" target="_blank">
-            drewelt@drewelt.pl
+        <a className={styles.itemDescriptionLink} href="mailto:drewelt@drewelt.com" target="_blank" rel="noreferrer">
+            drewelt@drewelt.com
         </a>
       </div>
     </div>

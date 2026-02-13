@@ -3,23 +3,19 @@ import { Metadata } from "next";
 export const generateMetadata = (): Metadata => {
   return {
     title: "Strona Główna | Drewelt Piotr Wiśniewski",
-    description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
+    description: "Galeria obrazów z realizacji tarasów, altan ogrodowych i wiat samochodowych wykonanych przez Drewelt. Zobacz nasze projekty i zainspiruj się do stworzenia idealnej przestrzeni na swoim podwórku.",
     alternates: {
       canonical: "https://www.drewelt.pl/galeria",
     },
-  };
-};
+  }
+}
 
 export default function GaleriaLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-lvh text-center justify-center">
-        {children}
-      </div>
-    </section>
-  );
+    <>{children}</>
+  )
 }

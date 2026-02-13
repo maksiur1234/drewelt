@@ -5,13 +5,13 @@ import styles from '@/components/Tarasy/Deski/Deski.module.scss'
 
 const deski = [
   {
-    name: 'Jasny szary',
+    name: 'Ciemny szary',
     description: 'Deska kompozytowa Jasny szary',
     img: '/kolory-desek/jasny-szary.jpg',
     alt: 'Deska kompozytowa – jasny szary',
   },
   {
-    name: 'Ciemny szary',
+    name: 'Grafit',
     description: 'Deska kompozytowa Ciemny szary',
     img: '/kolory-desek/ciemny-szary.jpg',
     alt: 'Deska kompozytowa – ciemny szary',

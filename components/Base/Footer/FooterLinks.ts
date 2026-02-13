@@ -7,7 +7,7 @@ export const menuLinks = [
 
 export const kontaktLinks = [
     { href: "tel:+48887400824", label: "+48 887 400 824" },
-    { href: "mailto:drewelt@drewelt.pl", label: "drewelt@drewelt.pl" },
+    { href: "mailto:drewelt@drewelt.com", label: "drewelt@drewelt.com" },
 ]
 
 export const zadaszeniaLinks = [

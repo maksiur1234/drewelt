@@ -1,0 +1,228 @@
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.pageTitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pageSubtitle {
+  text-align: center;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.divider {
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+/* DESKTOP/TABLET: grid, MOBILE: slider */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+
+  @media (min-width: sV.$tablet) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  /* MOBILE slider */
+  @media (max-width: sV.$tablet) {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.75rem;
+
+    /* “slider feel” */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding-left: 0.25rem;
+    padding-bottom: 0.25rem;
+
+    /* ukrycie scrollbara */
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+/* równe kafelki */
+.thumbTile {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.12),
+    0 4px 6px -4px rgba(0, 0, 0, 0.12);
+
+  :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: translateZ(0);
+    transition: transform 160ms ease;
+  }
+
+  &:hover :global(img) {
+    transform: scale(1.05);
+  }
+
+  /* MOBILE: element w sliderze ma stałą szerokość i snap */
+  @media (max-width: sV.$tablet) {
+    flex: 0 0 auto;
+    width: clamp(140px, 42vw, 200px); /* 5 szt. w linii i można swipe */
+    scroll-snap-align: start;
+  }
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+}
+
+.centerActions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* modal */
+.modalHeader {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.modalBody {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 1 1 auto;
+  min-height: 0;
+
+  @media (max-width: sV.$tablet) {
+    flex-direction: column;
+    justify-content: center; /* środek w osi Y */
+    align-items: center;     /* środek w osi X */
+    gap: 0.75rem;
+  }
+}
+
+.imageWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.modalImage {
+  width: 100%;
+  max-width: 48rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.18),
+    0 4px 6px -4px rgba(0, 0, 0, 0.18);
+}
+
+/* overlay strzałki */
+.navWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+
+  @media (max-width: sV.$tablet) {
+    display: none;
+  }
+}
+
+.navLeft {
+  left: 1rem;
+
+  @media (min-width: sV.$tablet) {
+    left: 2.5rem;
+  }
+}
+
+.navRight {
+  right: 1rem;
+
+  @media (min-width: sV.$tablet) {
+    right: 2.5rem;
+  }
+}
+
+/* wspólne buttony */
+.navButton {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.25),
+    0 4px 6px -4px rgba(0, 0, 0, 0.25);
+  transition: background 160ms ease;
+
+  transform: none !important;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  &:active {
+    transform: none !important;
+  }
+
+  &[data-pressed="true"] {
+    transform: none !important;
+  }
+
+  @media (max-width: sV.$tablet) {
+    padding: 0.6rem;
+  }
+}
+
+/* MOBILE pasek pod obrazkiem */
+.mobileNav {
+  display: none;
+
+  @media (max-width: sV.$tablet) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem; /* blisko siebie */
+    margin-top: 0.25rem;
+  }
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: center;
+}

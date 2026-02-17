@@ -9,12 +9,12 @@ export type SeoContent = {
 
 export const seoContentList: SeoContent[] = [
   {
-    url: "zadaszenia-tarasu-poznan",
+    url: "zadaszenie-tarasu-poznan",
     metaTitle: "Eleganckie zadaszenie z poliwęglanu Poznań - drewelt.pl",
     h1: "Zadaszenie tarasu z poliwęglanu – Poznań",
     description: "Wysokiej jakości zadaszenia z poliwęglanu i drewna w Poznaniu. Zapraszamy do kontaktu w celu stworzenia eleganckiego zadaszenia tarasu.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     Wiosną i latem bardzo często korzystamy z tarasów. Mogą one pełnić funkcję strefy relaksu i wypoczynku. Doskonale sprawdzają się również podczas spotkań z rodziną i przyjaciółmi. Są one także istotnymi elementami architektury, które ozdabiają dom i ogród. Jednak zdarza się, że warunki atmosferyczne nie pozwalają nam w pełni wykorzystywać ich potencjału. Na szczęście istnieje możliwość wykonania <strong>zadaszenia z poliwęglanu w Poznaniu</strong>. Jeżeli zależy Państwu na najlepszym zadaszenie tarasu, Drewelt będzie odpowiednim wyborem – w naszej ofercie znajdą Państwo wysokiej jakości <strong>daszki z poliwęglanu</strong> i drewna.
   </p>
@@ -108,7 +108,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenie tarasu – pergola w Głogowie na wyciągnięcie ręki",
     description: "Zadaszenia tarasu na terenie Głogowa i okolic. Oferujemy nowoczesne pergole z poliwęglanu. Zapraszamy do zapoznania się z naszą ofertą.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     <strong>Pergola nad tarasem</strong> w Głogowie to rozwiązanie, dzięki któremu mogą Państwo stworzyć praktyczną i przytulną przestrzeń, w której przebywanie stanie się niebywałą przyjemnością. Sprawdzi się ono zarówno dla miłośników letnich obiadów w plenerze, jak i osób ceniących sobie relaks przy książce w atmosferze padającego deszczu.
   </p>
@@ -180,7 +180,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenie tarasu w Luboniu – Drewelt",
     description: "Zadaszenia tarasów w Luboniu od Drewelt. Trwałe konstrukcje z drewna BSH i poliwęglanu, tworzone na wymiar. Zamów projekt dopasowany do Twojego domu.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     <strong>Zadaszenie tarasu</strong> wykonane przez <a href="/">Drewelt</a> dla Klientów z <strong>Lubonia</strong> to połączenie precyzyjnego rzemiosła i solidnych materiałów. Konstrukcje powstają z drewna klejonego BSH, które jest stabilne, odporne na odkształcenia i świetnie sprawdza się w zmiennym klimacie. Dach z poliwęglanu chroni przed deszczem oraz słońcem, a jednocześnie przepuszcza naturalne światło, dzięki czemu taras pozostaje jasny i przyjemny w użytkowaniu. Każdy projekt jest przygotowywany indywidualnie, z uwzględnieniem tzw. „wymiarów ekonomicznych”, które pozwalają zoptymalizować koszt inwestycji bez utraty jakości. Umów konsultację i sprawdź, jak może wyglądać Twoje <a href="/zadaszenia">zadaszenie tarasu</a> w <strong>Luboniu</strong>.
   </p>
@@ -326,7 +326,7 @@ export const seoContentList: SeoContent[] = [
     description: "Szukasz trwałego zadaszenia tarasu w Szamotułach? Drewelt tworzy konstrukcje BSH na wymiar, z montażem i wyceną. Sprawdź szczegóły lub skontaktuj się.",
     content: `
 
-    <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     <a href="/">Drewelt</a> tworzy konstrukcje od podstaw – bez gotowych modułów, bez kompromisów i bez przypadkowych rozwiązań. Każdy element jest precyzyjnie wycinany, szlifowany, a także zabezpieczany ręcznie, co przekłada się na trwałość, której nie oferują lekkie systemy aluminiowe. Naturalne drewno BSH nadaje całości elegancji, a jednocześnie zapewnia odporność na obciążenia śniegiem czy zmienne warunki atmosferyczne. Jeśli jesteś z <strong>Szamotuł</strong> i planujesz zainwestować w <strong><a href="/zadaszenia">zadaszenia tarasów</a></strong>, które łączą rzemiosło z nowoczesną technologią, skontaktuj się z nami. Chętnie przedstawimy Ci pełną ofertę.
   </p>
@@ -476,7 +476,7 @@ export const seoContentList: SeoContent[] = [
     description: "Zadaszenia tarasów z drewna BSH i poliwęglanu. Trwałe, estetyczne konstrukcje od Drewelt. Zamów pomiar i dopasuj projekt do swojego domu w Skórzewie.",
     content: `
 
-    <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     <a href="/o-nas">Drewelt</a> to firma z wieloletnim doświadczeniem, specjalizująca się w konstrukcjach drewnianych i poliwęglanowych. Oferujemy indywidualne projekty, wysokiej jakości materiały oraz realizacje dopasowane do architektury domu. <strong><a href="/zadaszenia">Zadaszenia tarasów</a></strong> są trwałe, estetyczne, praktyczne, a proces współpracy – przejrzysty i nastawiony na potrzeby Klienta ze <strong>Skórzewa</strong>. To rozwiązanie, które nie tylko poprawia komfort, ale także podnosi wartość nieruchomości. <a href="/kontakt">Zamów bezpłatną konsultację</a> i poznaj możliwości zabudowy Twojego tarasu.
   </p>
@@ -631,7 +631,7 @@ export const seoContentList: SeoContent[] = [
     description: "Trwałe zadaszenia tarasów z poliwęglanu i drewna BSH, tworzone na wymiar w Suchym Lesie. Zamów projekt dopasowany do Ciebie oraz otoczenia budynku.",
     content: `
 
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     W przeciwieństwie do gotowych zestawów aluminiowych, Drewelt tworzy <strong><a href="/zadaszenia">zadaszenia tarasów </a></strong>dla Klientów z<strong> Suchego Lasu </strong>i okolic w pełni na wymiar – od pierwszego cięcia po finalne malowanie. Każdy element jest dopasowany do konkretnego tarasu, co pozwala uzyskać większą stabilność, lepszą estetykę, pełną spójność z architekturą domu. Ręczna impregnacja, a także trzykrotne malowanie dodatkowo podnoszą odporność drewna na wilgoć oraz promienie UV. <a href="/kontakt">Porozmawiaj z naszym doradcą</a> i poznaj różnice między systemami.
   </p>
@@ -789,7 +789,7 @@ export const seoContentList: SeoContent[] = [
     description: "Szukasz solidnych i estetycznych zadaszeń tarasów, tworzonych na wymiar w Skokach? Zgłoś się do Drewelt. Produkujemy konstrukcje z drewna BSH oraz poliwęglanu.",
     content: `
 
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     <strong><a href="/zadaszenia">Zadaszenia tarasów</a></strong> tworzone przez Drewelt powstają z precyzyjnie selekcjonowanego drewna klejonego BSH, które gwarantuje stabilność, odporność na warunki atmosferyczne i elegancki wygląd na lata. Działamy od 2014 roku, realizując projekty w całej Wielkopolsce, w tym <strong>Skokach</strong>. Każda konstrukcja powstaje na indywidualne zamówienie – bez gotowych modułów. Ręczna impregnacja, a także malowanie podkreślają naturalny charakter drewna, a dopasowanie do architektury domu sprawia, że zadaszenie staje się integralną częścią przestrzeni. <a href="/kontakt">Zamów wycenę</a> – gwarantujemy transparentne warunki współpracy.
   </p>
@@ -898,7 +898,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenia tarasów w Gorzowie Wielkopolskim",
     description: "Oferujemy budowę drewnianych tarasów z zadaszeniami na terenie Gorzowa Wielkopolskiego. W naszej ofercie znajdują się usługi dostosowane do Państwa potrzeb.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <h2 class="text-2xl">Zadaszenia tarasów w Gorzowie Wielkopolskim – gwarancja jakości</h2>
   <p>
     Specjalizując się w produkcji drewnianych i poliwęglanowych zadaszeń tarasu w Gorzowie Wielkopolskim, zawsze stawiamy na wysoką jakość. Wykorzystujemy najlepsze materiały, które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko trwałością, ale i estetycznym wykończeniem, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z dwuletnią gwarancją, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze.
@@ -991,7 +991,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenie tarasu we Wrocławiu – komfort przez cały rok",
     description: "Zadaszenia tarasowe z poliwęglanu lub drewna to nowoczesne, trwałe rozwiązania. Mieszkańców Wrocławia zapraszamy do zapoznania się z naszą ofertą.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     W obecnych czasach taras jest jednym z kluczowych elementów w wielu domach jednorodzinnych czy szeregowcach. Umożliwia bowiem skuteczne zrelaksowanie się po ciężkim dniu przepełnionym obowiązkami. Dzięki odpowiednio dobranemu <strong>zadaszeniu tarasu</strong> we <strong>Wrocławiu</strong> można korzystać z niego przez cały rok, niezależnie od pogody.
   </p>
@@ -1058,7 +1058,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenie tarasu w Zielonej Górze – komfort przez cały rok",
     description: "Proponujemy liczne rozwiązania dotyczące zadaszeń tarasowych z poliwęglanu i drewna. Mieszkańców Zielonej Góry zapraszamy do zapoznania się z ofertą.",
     content: `
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
     <strong>Zadaszenie tarasu</strong> w <strong>Zielonej Górze</strong> gwarantuje wykorzystanie tej przestrzeni przez większą część roku, niezależnie od warunków atmosferycznych. Ochrona przed deszczem, słońcem czy wiatrem umożliwia nam spędzanie czasu na świeżym powietrzu niezależnie od pory roku. Mieszkańców <strong>Zielonej Góry</strong> zapraszamy do zapoznania się z naszą ofertą <strong>zadaszeń tarasowych</strong>.
   </p>
@@ -1600,7 +1600,7 @@ export const seoContentList: SeoContent[] = [
     h1: "Zadaszenia tarasu Kostrzyn – solidne konstrukcje dopasowane do Twojego domu",
     description: "Trwałe zadaszenia tarasów w Kostrzynie od Drewelt. Konstrukcje z drewna BSH i poliwęglanu. Projekt na wymiar oraz profesjonalny montaż. Skontaktuj się.",
    content: `
-  <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
     <p>
       <strong><a href="/zadaszenia">Zadaszenia tarasu</a></strong> od
       <strong> <a href="/o-nas">Drewelt</a></strong> to trwałe, eleganckie konstrukcje wykonywane z drewna

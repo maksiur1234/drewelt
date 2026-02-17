@@ -1,3 +1,6 @@
+export const dynamic = "force-static";
+export const revalidate = 86400;
+
 import { seoContentList } from "@/app/lib/seoContent";
 import { notFound } from "next/navigation";
 

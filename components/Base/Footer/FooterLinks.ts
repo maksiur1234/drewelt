@@ -19,7 +19,6 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-konin", label: "Zadaszenie tarasu Konin" },
     { href: "/zadaszenia/zadaszenie-tarasu-wroclaw", label: "Zadaszenie tarasu Wrocław" },
     { href: "/zadaszenia/zadaszenie-tarasu-kostrzyn", label: "Zadaszenie tarasu Kostrzyn" },
-
     { href: "/zadaszenia/zadaszenie-tarasu-lubon", label: "Zadaszenie tarasu Luboń" },
     { href: "/zadaszenia/zadaszenie-tarasu-szamotuly", label: "Zadaszenie tarasu Szamotuły" },
     { href: "/zadaszenia/zadaszenie-tarasu-skorzewo", label: "Zadaszenie tarasu Skórzewo" },

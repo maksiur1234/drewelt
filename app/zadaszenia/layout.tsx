@@ -1,5 +1,5 @@
-import type { Metadata } from "next"
-import { keywords } from "@/app/zadaszenia/ZadaszeniaMetadata"
+import { Metadata } from "next"
+//import { keywords } from "@/app/zadaszenia/ZadaszeniaMetadata"
 
 export const generateMetadata = (): Metadata => {
   return {
@@ -8,7 +8,7 @@ export const generateMetadata = (): Metadata => {
     alternates: {
       canonical: "https://www.drewelt.pl/zadaszenia",
     },
-    keywords,
+    //keywords,
   }
 }
 

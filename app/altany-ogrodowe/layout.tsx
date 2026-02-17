@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { keywords } from "./AltanyOgrodoweMetadata";
+//import { keywords } from "./AltanyOgrodoweMetadata";
 
 export const generateMetadata = (): Metadata => {
   return {
@@ -8,7 +8,7 @@ export const generateMetadata = (): Metadata => {
     alternates: {
       canonical: "https://www.drewelt.pl/altany-ogrodowe",
     },
-    keywords
+    //keywords
   };
 };
 

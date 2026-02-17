@@ -5,7 +5,7 @@ export const generateMetadata = (): Metadata => {
     title: "Wiaty, carporty z drewna i poliwęglanu – Drewelt",
     description: "Nowoczesne carporty i garaże, wiaty samochodowe i altany ogrodowe.",
     alternates: {
-      canonical: "https://www.drewelt.pl/garaze",
+      canonical: "https://www.drewelt.pl/wiaty",
     },
   }
 }

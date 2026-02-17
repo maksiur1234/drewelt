@@ -11,8 +11,11 @@ const cityMapping: Record<string, string> = {
   konin: "Konin",
 };
 
-export async function generateMetadata({ params }: { params: { miasto?: string } }) {
-  const miasto = params?.miasto;
+export async function generateMetadata({ params }: { params: Promise<{ miasto?: string }> }) {
+  
+  const pMiasto = await params;
+
+  const miasto = pMiasto.miasto;
 
   if (!miasto) {
     return {

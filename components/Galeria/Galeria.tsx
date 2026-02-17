@@ -14,6 +14,8 @@ import {
 import { useDisclosure } from "@heroui/modal";
 
 import styles from "./styles.module.scss";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 interface GallerySection {
   title: string;
@@ -65,7 +67,6 @@ export default function Galeria() {
     });
   }, [selectedImages.length]);
 
-  // klawiatura: strzałki + ESC (działa też na mobile z klawiaturą)
   useEffect(() => {
     if (!isOpen) return;
 
@@ -80,12 +81,31 @@ export default function Galeria() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [isOpen, prevImage, nextImage, onClose]);
 
+  const router = useRouter()
+
+  const handleClick = () => {
+      router.push('/kontakt')
+    }
+
   return (
     <div className={styles.container}>
       <h1 className={styles.pageTitle}>Galeria naszych realizacji</h1>
       <p className={styles.pageSubtitle}>
         Zapraszamy do obejrzenia zdjęć wykonanych przez nas konstrukcji.
       </p>
+      <p className={styles.description}>Każde zdjęcie na naszej stronie ma swój unikalny numer. Jeśli spodobała Ci się dana realizacja, podaj ten numer w <Link href={'/kontakt'} className={styles.link}>formularzu kontaktowym</Link>, a odniesiemy się do wybranej przez Ciebie realizacji.</p>
+
+      <div>
+        <h2 className={styles.realizacje}>Podobaja ci się nasze realizację?</h2>
+        <div className={styles.buttonWrapper}>
+            <button
+            className={`${styles.outlineButton} ${styles.slideUpButton}`}
+            onClick={handleClick}
+            >
+                Otrzymaj bezpłatną wycenę   
+            </button>
+        </div>
+      </div>
 
       <Divider className={styles.divider} />
 
@@ -93,7 +113,6 @@ export default function Galeria() {
         <section key={sectionIndex} className={styles.section}>
           <h2 className={styles.sectionTitle}>{section.title}</h2>
 
-          {/* Na mobile to stanie się sliderem dzięki CSS */}
           <div className={styles.grid}>
             {section.images.slice(0, 5).map((image, index) => (
               <div
@@ -129,14 +148,12 @@ export default function Galeria() {
           <ModalHeader className={styles.modalHeader}>{currentTitle}</ModalHeader>
 
           <ModalBody className={styles.modalBody}>
-            {/* DESKTOP/TABLET: overlay po bokach */}
             <div className={`${styles.navWrap} ${styles.navLeft}`}>
               <Button className={styles.navButton} onPress={prevImage}>
                 ←
               </Button>
             </div>
 
-            {/* wrapper obrazu - centrowanie na mobile */}
             <div className={styles.imageWrap}>
               <Image
                 alt="Galeria"
@@ -151,7 +168,6 @@ export default function Galeria() {
               </Button>
             </div>
 
-            {/* MOBILE: strzałki pod obrazkiem */}
             <div className={styles.mobileNav}>
               <Button className={styles.navButton} onPress={prevImage}>
                 ←
@@ -170,5 +186,5 @@ export default function Galeria() {
         </ModalContent>
       </Modal>
     </div>
-  );
+  )
 }

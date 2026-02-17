@@ -18,6 +18,25 @@
   margin-bottom: 2rem;
 }
 
+.description {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.realizacje {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.link {
+  &:hover {
+    text-decoration: underline;
+    color: sV.$primary;
+  }
+}
+
 .divider {
   margin-bottom: 2rem;
 }
@@ -33,7 +52,6 @@
   margin-bottom: 1rem;
 }
 
-/* DESKTOP/TABLET: grid, MOBILE: slider */
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -47,20 +65,17 @@
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  /* MOBILE slider */
   @media (max-width: sV.$tablet) {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 0.75rem;
 
-    /* “slider feel” */
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scroll-padding-left: 0.25rem;
     padding-bottom: 0.25rem;
 
-    /* ukrycie scrollbara */
     scrollbar-width: none;
     &::-webkit-scrollbar {
       display: none;
@@ -70,15 +85,12 @@
   }
 }
 
-/* równe kafelki */
 .thumbTile {
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
   cursor: pointer;
   border-radius: 0.5rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.12),
-    0 4px 6px -4px rgba(0, 0, 0, 0.12);
 
   :global(img) {
     width: 100%;
@@ -93,10 +105,9 @@
     transform: scale(1.05);
   }
 
-  /* MOBILE: element w sliderze ma stałą szerokość i snap */
   @media (max-width: sV.$tablet) {
     flex: 0 0 auto;
-    width: clamp(140px, 42vw, 200px); /* 5 szt. w linii i można swipe */
+    width: clamp(140px, 42vw, 200px);
     scroll-snap-align: start;
   }
 }
@@ -111,7 +122,6 @@
   margin-top: 1rem;
 }
 
-/* modal */
 .modalHeader {
   display: flex;
   justify-content: center;
@@ -131,8 +141,8 @@
 
   @media (max-width: sV.$tablet) {
     flex-direction: column;
-    justify-content: center; /* środek w osi Y */
-    align-items: center;     /* środek w osi X */
+    justify-content: center;
+    align-items: center;
     gap: 0.75rem;
   }
 }
@@ -151,7 +161,6 @@
     0 4px 6px -4px rgba(0, 0, 0, 0.18);
 }
 
-/* overlay strzałki */
 .navWrap {
   position: absolute;
   top: 50%;
@@ -179,7 +188,6 @@
   }
 }
 
-/* wspólne buttony */
 .navButton {
   background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
@@ -208,7 +216,6 @@
   }
 }
 
-/* MOBILE pasek pod obrazkiem */
 .mobileNav {
   display: none;
 
@@ -217,7 +224,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 0.4rem; /* blisko siebie */
+    gap: 0.4rem;
     margin-top: 0.25rem;
   }
 }
@@ -225,4 +232,48 @@
 .modalFooter {
   display: flex;
   justify-content: center;
+}
+
+
+.buttonWrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  @media (width <= sV.$tablet) {
+    margin-bottom: 40px;
+  }
+}
+
+.outlineButton {
+  background: rgba(255, 255, 255, 0.05);
+  color: #000000;
+  padding: 14px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  backdrop-filter: blur(5px);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: sV.$primary;
+    transform: translateY(-3px);
+    color: sV.$primary;
+  }
+}
+
+@media (width <= sV.$tablet) {
+  .buttonWrapper {
+    bottom: 15px;
+  }
+
+  .outlineButton {
+    padding: 12px 26px;
+    font-size: 16px;
+  }
 }

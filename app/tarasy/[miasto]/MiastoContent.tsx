@@ -17,35 +17,25 @@ export default function MiastoContent({ params }: { params: any }) {
   const [content, setContent] = useState<any>(null);
 
   useEffect(() => {
-    const miastoSlug = params.miasto;
-
-    if (!miastoSlug) return;
-
-    const parts = miastoSlug.split("-");
-    const cityKey = parts[parts.length - 1];
-
-    const decoded =
-      cityMapping[cityKey] ||
-      cityKey.charAt(0).toUpperCase() + cityKey.slice(1);
-
-    setDecodedMiasto(decoded);
-
-    const tmpContent = seoContentList.find(
-      (item) => item.url === miastoSlug
-    );
-
-    setContent(tmpContent);
-
+    const getParams = async () => {
+      const resolvedParams = await params;
+      const miasto = resolvedParams.miasto;
+      const decoded = decodeURIComponent(cityMapping[miasto] || miasto.replace(/-/g, " "));
+      setDecodedMiasto(decoded);
+      const tmpContent = seoContentList.find((item) => item.url === miasto);
+      setContent(tmpContent);
+    }
+    
+    getParams();
   }, [params]);
-
 
   if (!decodedMiasto) {
     return <p className="text-center text-gray-600 py-10">Ładowanie...</p>;
   }
 
-  if (content?.content) {
+  if (decodedMiasto === "deska tarasowa kompozytowa poznan" || decodedMiasto === "deska tarasowa kompozytowa wroclaw" || decodedMiasto === "deska tarasowa kompozytowa konin" || decodedMiasto === "deska tarasowa kompozytowa leszno" || decodedMiasto === "deska tarasowa kompozytowa warszawa" || decodedMiasto === "deska tarasowa kompozytowa wrzesnia") {
     return (
-      <div dangerouslySetInnerHTML={{ __html: content.content }} />
+      <div dangerouslySetInnerHTML={{ __html: content?.content || "Nie znaleziono treści."}} />
     );
   }
   else {

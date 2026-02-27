@@ -1,0 +1,51 @@
+.container {
+  max-width: sV.$container;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  @media (width <= sV.$tablet) {
+    margin: 0 10px;
+    padding: 15px 0;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 0 0 14px;
+  }
+
+  ol,
+  ul {
+    margin: 0 0 18px;
+    padding-left: 22px;
+  }
+
+  li {
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  @media (width <= sV.$tablet) {
+    h1 {
+      font-size: 26px;
+      margin-bottom: 16px;
+    }
+
+    p,
+    li {
+      font-size: 18px;
+    }
+  }
+}

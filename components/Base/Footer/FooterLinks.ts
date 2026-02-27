@@ -3,6 +3,7 @@ export const menuLinks = [
     { href: "/o-nas", label: "O nas" },
     { href: "/galeria", label: "Galeria" },
     { href: "/kontakt", label: "Kontakt" },
+    { href: "/polityka-prywatnosci", label: "Polityka prywatności" },
 ]
 
 export const kontaktLinks = [

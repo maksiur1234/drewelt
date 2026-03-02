@@ -24,6 +24,10 @@ export const siteConfig = {
       label: "Kontakt",
       href: "/kontakt",
     },
+    {
+      label: "Galeria",
+      href: "/galeria",
+    }
   ],
   links: {
     twitter: "https://twitter.com/hero_ui",

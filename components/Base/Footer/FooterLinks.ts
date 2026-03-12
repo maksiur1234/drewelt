@@ -21,10 +21,13 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-wroclaw", label: "Zadaszenie tarasu Wrocław" },
     { href: "/zadaszenia/zadaszenie-tarasu-kostrzyn", label: "Zadaszenie tarasu Kostrzyn" },
     { href: "/zadaszenia/zadaszenie-tarasu-lubon", label: "Zadaszenie tarasu Luboń" },
+    { href: "/zadaszenia/zadaszenie-tarasu-mosina", label: "Zadaszenie tarasu Mosina" },
+    { href: "/zadaszenia/zadaszenie-tarasu-oborniki", label: "Zadaszenie tarasu Oborniki" },
     { href: "/zadaszenia/zadaszenie-tarasu-szamotuly", label: "Zadaszenie tarasu Szamotuły" },
     { href: "/zadaszenia/zadaszenie-tarasu-skorzewo", label: "Zadaszenie tarasu Skórzewo" },
     { href: "/zadaszenia/zadaszenie-tarasu-suchy-las", label: "Zadaszenie tarasu Suchy Las" },
     { href: "/zadaszenia/zadaszenie-tarasu-skoki", label: "Zadaszenie tarasu Skoki" },
+    { href: "/zadaszenia/zadaszenie-tarasu-wagrowiec", label: "Zadaszenie tarasu Wągrowiec" },
 ]
 
 export const tarasyLinks = [

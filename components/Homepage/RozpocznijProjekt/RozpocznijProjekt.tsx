@@ -26,10 +26,14 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
         message: formData.get("message") as string,
         attachment: formData.getAll("attachment") as File[],
       })
-      setStatus("✅ Formularz wysłany!")
+      setStatus("Dziękujemy za przesłanie formularza!")
       e.currentTarget.reset()
-    } catch {
-      setStatus("❌ Błąd wysyłania formularza")
+    } catch (error) {
+      if (error instanceof Error) {
+        setStatus(`${error.message}`)
+      } else {
+        setStatus("Błąd wysyłania formularza, uzupełnij wymagane pola.")
+      }
     } finally {
       setLoading(false)
     }
@@ -89,7 +93,16 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
           {loading ? "Wysyłanie..." : "Wyślij"}
         </button>
 
-        {/* {status && <p>{status}</p>} */}
+        {status && (
+          <div className={styles.popupOverlay}>
+            <div className={styles.popup}>
+              <p>{status}</p>
+              <button type="button" onClick={() => setStatus(null)} className={styles.popupButton}>
+                Zamknij
+              </button>
+            </div>
+          </div>
+        )}
       </form>
 
       {hasDane ? (

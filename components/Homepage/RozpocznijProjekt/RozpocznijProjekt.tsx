@@ -38,7 +38,7 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
   return (
     <div className={styles.container} id='form'>
         {naglowek && <h2>{naglowek}</h2>}
-        <p className={styles.description}>Wypełnij formularz poniżej. Aby wycena była rzetelna i możliwa do wykonania, koniecznie podaj lokalizację, wymiary oraz załącz zdjęcia miejsca montażu.</p>
+        <p className={styles.description}>Wypełnij formularz poniżej. Aby wycena była rzetelna i możliwa do wykonania, <strong>koniecznie podaj lokalizację, wymiary oraz załącz zdjęcia miejsca montażu.</strong></p>
         <p className={styles.description}>Każde zdjęcie na naszej stronie ma swój unikalny numer. Jeśli spodobała Ci się dana realizacja, podaj ten numer w formularzu kontaktowym, a odniesiemy się do wybranej przez Ciebie realizacji.</p>
 
 

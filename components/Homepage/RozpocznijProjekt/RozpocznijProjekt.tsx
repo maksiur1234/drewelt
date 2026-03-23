@@ -29,11 +29,7 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
       setStatus("Dziękujemy za przesłanie formularza!")
       e.currentTarget.reset()
     } catch (error) {
-      if (error instanceof Error) {
-        setStatus(`${error.message}`)
-      } else {
-        setStatus("Błąd wysyłania formularza, uzupełnij wymagane pola.")
-      }
+        setStatus(`Błąd wysyłania formularza, uzupełnij wymagane pola. ${error}`)
     } finally {
       setLoading(false)
     }

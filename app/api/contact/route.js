@@ -1,74 +1,46 @@
-import formidable from "formidable";
-import nodemailer from "nodemailer";
-import fs from "fs/promises";
-import { Readable } from "stream";
-
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
-
-async function parseForm(req) {
-  const form = formidable({ multiples: false });
-
-  const bufferChunks = [];
-
-  const reader = req.body.getReader();
-
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    bufferChunks.push(Buffer.from(value));
-  }
-
-  const buffer = Buffer.concat(bufferChunks);
-
-  const readable = new Readable();
-  readable._read = () => {};
-  readable.push(buffer);
-  readable.push(null);
-  readable.headers = {
-    "content-type": req.headers.get("content-type"),
-    "content-length": buffer.length.toString(),
-  };
-
-  return new Promise((resolve, reject) => {
-    form.parse(readable, (err, fields, files) => {
-      if (err) reject(err);
-      else resolve({ fields, files });
-    });
-  });
-}
+import nodemailer from 'nodemailer'
 
 export async function POST(req) {
   try {
-    const data = await parseForm(req);
+    const formData = await req.formData()
 
-    const { name, email, phone, message, city, postal } = data.fields;
-    const files = data.files.attachment || [];
+    const name = formData.get('name') || ''
+    const email = formData.get('email') || ''
+    const phone = formData.get('phone') || ''
+    const city = formData.get('city') || ''
+    const postal = formData.get('postal') || ''
+    const message = formData.get('message') || ''
+
+    const files = formData
+      .getAll('attachment')
+      .filter((file) => file && typeof file === 'object' && 'arrayBuffer' in file && file.size > 0)
 
     const ip =
-      req.headers.get("x-forwarded-for")?.split(",")[0] ||
-      req.headers.get("x-real-ip") ||
-      "IP unknown";
+      req.headers.get('x-forwarded-for')?.split(',')[0] ||
+      req.headers.get('x-real-ip') ||
+      'IP unknown'
 
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT) || 465,
-      secure: true,
+      secure: Number(process.env.SMTP_PORT) === 465,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
       },
-    });
+    })
 
     const attachments = await Promise.all(
-      files.map(async (file) => ({
-        filename: file.originalFilename || "plik",
-        content: await fs.readFile(file.filepath),
-      }))
-    );
+      files.map(async (file) => {
+        const bytes = await file.arrayBuffer()
+
+        return {
+          filename: file.name || 'plik',
+          content: Buffer.from(bytes),
+          contentType: file.type || 'application/octet-stream',
+        }
+      })
+    )
 
     const htmlTemplate = `
       <div style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
@@ -77,11 +49,11 @@ export async function POST(req) {
             <h2 style="margin: 0; color: #ffffff; font-size: 24px;">Nowa wiadomość z formularza</h2>
           </div>
           <div style="padding: 20px; color: #333333; line-height: 1.5;">
-            <p style="margin: 0 0 10px;"><strong>Imię i nazwisko:</strong> ${name}</p>
-            <p style="margin: 0 0 10px;"><strong>Email:</strong> ${email}</p>
-            <p style="margin: 0 0 10px;"><strong>Telefon:</strong> ${phone}</p>
-            <p style="margin: 0 0 10px;"><strong>Adres:</strong> ${city} - ${postal}</p>
-            <p style="margin: 0 0 10px;"><strong>Adres IP nadawcy:</strong> ${ip}</p>
+            <p><strong>Imię i nazwisko:</strong> ${name}</p>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Telefon:</strong> ${phone}</p>
+            <p><strong>Adres:</strong> ${city} - ${postal}</p>
+            <p><strong>Adres IP nadawcy:</strong> ${ip}</p>
             <hr style="border: 0; border-top: 1px solid #eaeaea; margin: 20px 0;">
             <h2 style="margin: 0; font-size: 24px;">Treść wiadomości:</h2>
             <p style="margin: 0; font-size: 16px;">${message}</p>
@@ -91,30 +63,27 @@ export async function POST(req) {
           </div>
         </div>
       </div>
-    `;
+    `
 
     await transporter.sendMail({
-      from: `"${name}" <${email}>`,
+      from: process.env.SMTP_USER,
       to: process.env.EMAIL_RECEIVER,
-      subject: "Nowa wiadomość z formularza kontaktowego",
+      subject: 'Nowa wiadomość z formularza kontaktowego',
       html: htmlTemplate,
       attachments,
       replyTo: email,
-    });
+    })
 
-    return new Response(
-      JSON.stringify({ success: true, message: "Wysłano" }),
-      {
-        status: 200,
-        headers: { "Content-Type": "application/json" },
-      }
-    );
+    return Response.json({ success: true, message: 'Wysłano' }, { status: 200 })
   } catch (error) {
-    console.error("Błąd w API kontakt:", error);
-    return new Response(
-      JSON.stringify({ success: false, message: "Błąd podczas wysyłania formularza" }),
-      { status: 500, headers: { "Content-Type": "application/json" } }
-    );
+    console.error('Błąd w API kontakt:', error)
+
+    return Response.json(
+      {
+        success: false,
+        message: error instanceof Error ? error.message : 'Błąd podczas wysyłania formularza',
+      },
+      { status: 500 }
+    )
   }
 }
-

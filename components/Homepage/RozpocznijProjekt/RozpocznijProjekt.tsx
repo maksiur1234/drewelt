@@ -14,7 +14,8 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
     setLoading(true)
     setStatus(null)
 
-    const formData = new FormData(e.currentTarget)
+    const form = e.currentTarget
+    const formData = new FormData(form)
 
     try {
       await sendContactForm({
@@ -26,10 +27,15 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false }: { naglowek?: string, h
         message: formData.get("message") as string,
         attachment: formData.getAll("attachment") as File[],
       })
+
+      form.reset()
       setStatus("Dziękujemy za przesłanie formularza!")
-      e.currentTarget.reset()
     } catch (error) {
-        setStatus(`Błąd wysyłania formularza, uzupełnij wymagane pola. ${error}`)
+      if (error instanceof Error) {
+        setStatus(error.message)
+      } else {
+        setStatus("Błąd wysyłania formularza, uzupełnij wymagane pola.")
+      }
     } finally {
       setLoading(false)
     }

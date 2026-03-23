@@ -21,6 +21,9 @@ module.exports = {
       "skorzewo",
       "suchy-las",
       "skoki",
+      "mosina",
+      "oborniki",
+      "wagrowiec",
     ];
 
     const deskiPages = [

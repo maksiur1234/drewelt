@@ -403,6 +403,11 @@ export const seoContentList: SeoContent[] = [
   To podejście, które pozwala stworzyć konstrukcję idealnie dopasowaną do Twojej przestrzeni. <a href="/kontakt">Wypełnij formularz </a>i odbierz bezpłatną wycenę<strong> <a href="/zadaszenia">zadaszenia tarasu</a></strong>.
   </p>
 
+  <h2 class="text-2xl">Jak zacząć współpracę i zamówić zadaszenie tarasu w Szamotułach?</h2>
+  <p>
+  Wybierając nasze <strong>zadaszenia tarasów, </strong>zyskujesz rozwiązanie, które powstaje z pełnym poszanowaniem dla estetyki posesji w <strong>Szamotułach</strong>. Nie zamieniamy Twojego ogrodu w plac budowy – aż 90% prac przygotowawczych, takich jak precyzyjne docinanie, szlifowanie oraz impregnacja drewna, wykonujemy w naszej hali produkcyjnej. Do Ciebie przyjeżdżamy z gotowymi, idealnie dopasowanymi elementami, co skraca montaż do zaledwie 8–10 godzin. Pokrycie wykonujemy z wysokiej jakości poliwęglanu komorowego o grubości 10 mm z dwustronnym filtrem UV, który jest dostępny w wersji bezbarwnej, mlecznej lub dymionej. Dzięki temu chronimy nie tylko Ciebie przed słońcem, ale także Twoje meble przed blaknięciem, zostawiając po sobie nienaganny porządek oraz gotową do użytku przestrzeń. <a href="/kontakt">Skontaktuj się z nami</a> i umów na bezpłatną wizytę pomiarową, podczas której dobierzemy kolor drewna wraz z wariantem poliwęglanu idealnym dla Twojego domu.
+  </p>
+
   <div class="flex items-center justify-center">
     <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
       <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
@@ -557,6 +562,61 @@ export const seoContentList: SeoContent[] = [
   </ul>
   <p>
   dzięki czemu całość prezentuje się estetycznie i jest gotowa do użytkowania od razu po montażu. <a href="/kontakt">Zarezerwuj pomiar</a> dla Twojej inwestycji w <strong>Skórzewie</strong>.
+  </p>
+
+  <h2 class="text-2xl">Dlaczego warto wybrać zadaszenia tarasów w Skórzewie od Drewelt?</h2>
+  <p>
+  Wybór odpowiedniej konstrukcji to inwestycja na lata, która ma nie tylko zdobić dom, ale przede wszystkim bezawaryjnie służyć domownikom. W <a href="/">Drewelt</a> łączymy tradycyjne ciesielstwo z nowoczesnymi technologiami osłonowymi. Poniższe zestawienie prezentuje argumenty, które sprawiają, że mieszkańcy <strong>Skórzewa </strong>i okolic tak chętnie powierzają nam zabudowę swoich tarasów:
+  </p>
+
+  <table>
+    <tr>
+    <td><strong>Cecha oferty</strong>
+    </td>
+    <td><strong>Korzyść dla Klienta</strong>
+    </td>
+    </tr>
+    <tr>
+    <td>Drewno klejone BSH
+    </td>
+    <td>Gwarancja braku pęknięć i odkształceń, znacznie wyższa trwałość niż w przypadku drewna litego
+    </td>
+    </tr>
+    <tr>
+    <td>Poliwęglan z filtrem UV
+    </td>
+    <td>Skuteczna ochrona przed nagrzewaniem tarasu oraz szkodliwym promieniowaniem przy zachowaniu naturalnego doświetlenia
+    </td>
+    </tr>
+    <tr>
+    <td>Kompleksowa usługa
+    </td>
+    <td>Od darmowych konsultacji i pomiarów, przez transport, aż po profesjonalny montaż na miejscu
+    </td>
+    </tr>
+    <tr>
+    <td>Trzykrotna impregnacja
+    </td>
+    <td>Maksymalna odporność na grzyby, wilgoć oraz zmienne warunki atmosferyczne bez konieczności szybkiej renowacji
+    </td>
+    </tr>
+    <tr>
+    <td>Aluminiowe profile łączące	
+    </td>
+    <td>Estetyczne i szczelne łączenie płyt poliwęglanowych, które eliminuje ryzyko przecieków
+    </td>
+    </tr>
+    <tr>
+    <td>Lokalne doświadczenie
+    </td>
+    <td>Znajomość specyfiki zabudowy w <strong>Skórzewie</strong> i okolicach, co ułatwia dopasowanie projektu do architektury
+    </td>
+    </tr>
+  </table>
+
+
+  <p>
+  Powyższe atuty to fundament naszej działalności, dzięki któremu każda realizacja w <strong>Skórzewie </strong>staje się wizytówką posesji. Decydując się na współpracę z Drewelt, wybierasz wysokiej klasy surowce, a także spokój i pewność, że konstrukcja wytrzyma próbę czasu oraz zmienną wielkopolską pogodę. Spraw, by Twój taras stał się ulubionym miejscem domowników – <a href="/kontakt">zapraszamy do kontaktu</a>!
   </p>
 
   <div class="flex items-center justify-center">
@@ -860,6 +920,320 @@ export const seoContentList: SeoContent[] = [
                 </svg>
               </div>
               <span style="color: #4a4a4a;">Ochrona przed słońcem, deszczem oraz wilgocią</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    
+    `,
+  },
+  {
+    url: "zadaszenie-tarasu-gniezno",
+    metaTitle: "Zadaszenia tarasów Gniezno – trwałe konstrukcje – Drewelt",
+    h1: "Dlaczego warto postawić na solidne zadaszenia firmy Drewelt?",
+    description: "Marzysz o funkcjonalnym tarasie w Gnieźnie? Oferujemy nowoczesne zadaszenia z drewna BSH. Szybki montaż w 1 dzień i darmowa wycena. Sprawdź nasze realizacje!",
+    content: `
+
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>
+    Wybierając <strong>zadaszenia tarasów </strong><a href="/">Drewelt</a>, inwestujesz w komfortowy wypoczynek bez względu na kaprysy aury. Oferujemy konstrukcje, które skutecznie chronią przed deszczem oraz intensywnym słońcem, wydłużając sezon ogrodowy nawet o kilka miesięcy. Nasze realizacje to nie gotowe, marketowe zestawy, lecz indywidualnie projektowane budowle, które idealnie komponują się z bryłą Twojego domu. <a href="/kontakt">Skontaktuj się z nami już dziś</a>, aby otrzymać bezpłatną wycenę swojego projektu!
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Co wyróżnia nasze zadaszenia tarasów na tle konkurencji w Gnieźnie?</h2>
+      <p>
+      Fundamentem naszych <strong><a href="/zadaszenia">zadaszeń</a> </strong>jest certyfikowane drewno klejone warstwowo BSH (suchy świerk), które charakteryzuje się najwyższą stabilnością. W przeciwieństwie do zwykłego drewna, materiał ten nie pęka i nie skręca się, co gwarantuje bezpieczeństwo na lata. Pokrycie<strong> zadaszeń</strong> wykonujemy z poliwęglanu komorowego o grubości 10 mm z obustronnym filtrem UV, który blokuje szkodliwe promieniowanie, zachowując przy tym dopływ naturalnego światła. Dodatkowo oferujemy również:
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li>zastosowanie wytrzymałych słupów o przekroju 12 × 12 cm,</li>
+        <li>trzykrotne malowanie i ręczna impregnacja elementów,</li>
+        <li>odporność na duże obciążenia śniegiem i uderzenia gradu.</li>
+      </ul>
+      <p>
+      <a href="/kontakt">Zapytaj o darmową konsultację</a> i sprawdź, jakie rozwiązanie najlepiej sprawdzi się w Twoim ogrodzie w <strong>Gnieźnie</strong>!
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/galeria/przyscienne-prosty-spadek/11.jpg" alt="Zadaszenie tarasowe z prostym spadem."/>
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Jak przebiega proces realizacji zadaszenia w Gnieźnie?</h2>
+
+  <p>
+  Stawiamy na transparentność i szacunek do czasu Klienta, dlatego aż 90% prac przygotowawczych wykonujemy w naszej hali produkcyjnej. Nasza współpraca rozpoczyna się od darmowej wyceny na podstawie zdjęć i przybliżonych wymiarów, po której następuje precyzyjna wizyta pomiarowa i dobór kolorystyki na miejscu. Dzięki takiemu przygotowaniu oraz prefabrykacji, zapewniamy szybki montaż<a href="/zadaszenia"> zadaszeń tarasów</a><strong>,</strong> który trwa zazwyczaj zaledwie 8-10 godzin. Rano przyjeżdżamy z gotowymi elementami, a wieczorem Twój taras jest gotowy do użytku, ponieważ zawsze dostarczamy rysunki techniczne do akceptacji przed rozpoczęciem produkcji. Zadzwoń do nas i umów się na pomiar w <strong>Gnieźnie</strong>, aby cieszyć się nowym zadaszeniem w kilka dni!
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
+  <h2 class="text-2xl">Jakie typy zadaszeń oferuje Drewelt?</h2>
+  <p>
+  Dopasowujemy formę <strong>zadaszenia</strong> do Twoich potrzeb oraz stylu elewacji, oferując różne warianty konstrukcyjne, które projektujemy z uwzględnieniem tzw. „wymiarów ekonomicznych”. Pozwala to zoptymalizować koszty inwestycji nawet o 2000 zł bez rezygnacji z jakości materiałów. W naszej ofercie znajdziesz:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li><strong>zadaszenia </strong>z prostym spadem – które są idealne do nowoczesnej architektury,</li>
+    <li>konstrukcje łukowe – nadające przestrzeni wyjątkowej lekkości i elegancji,</li>
+    <li><strong>zadaszenia</strong> na belce – zapewniające szeroki rozstaw słupów i pełną swobodę ruchu pod konstrukcją.</li>
+  </ul>
+  <p>
+  Obejrzyj naszą <a href="/galeria">galerię realizacji</a> i wybierz model, który najlepiej pasuje do Twojego domu!
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208139.60330905838!2d17.405384948399252!3d52.507551762096426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704911512d87b73%3A0xf68138bc94628172!2sGniezno!5e0!3m2!1spl!2spl!4v1775732889632!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Gniezno • Wielkopolska
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Gnieźnie</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Gniezno i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    
+    `,
+  },
+  {
+    url: "zadaszenie-tarasu-tarnowo-podgorne",
+    metaTitle: "Zadaszenia tarasów Tarnowo Podgórne – Drewelt",
+    h1: "Zadaszenia tarasów Tarnowo Podgórne – Twoja strefa relaksu bez względu na pogodę",
+    description: "Zyskaj komfort i ochronę przed deszczem. Budujemy trwałe zadaszenia tarasów w Tarnowie Podgórnym z drewna klejonego BSH. Sprawdź ofertę lub zadzwoń!",
+    content: `
+
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>
+  Inwestycja w profesjonalne<strong> zadaszenia tarasów</strong> to sposób na przedłużenie sezonu ogrodowego nawet o 5 miesięcy. W <a href="/">Drewelt</a> tworzymy konstrukcje dla mieszkańców <strong>Tarnowa Podgórnego</strong> i okolic, które stanowią skuteczną barierę dla deszczu, śniegu oraz gradu, pozwalając na niezakłócony wypoczynek. Wybierając nasze rozwiązania, zyskujesz:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>ochronę mebli ogrodowych przed blaknięciem dzięki filtrom UV,</li>
+    <li>komfort termiczny w upalne dni,</li>
+    <li>dodatkową przestrzeń do spotkań z bliskimi, niezależną od aury.</li>
+  </ul>
+  <p>
+  <a href="/kontakt">Skontaktuj się z nami</a> i odbierz bezpłatną wycenę swojego projektu!
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Jakie materiały gwarantują trwałość konstrukcji na lata?</h2>
+      <p>
+      Nasze <strong><a href="/zadaszenia">zadaszenia tarasów</a> </strong>w<strong> Tarnowie Podgórnym</strong> budujemy z certyfikowanego drewna klejonego BSH. Jest to materiał inżynieryjny, który w przeciwieństwie do drewna litego nie skręca się i nie pęka, zachowując idealną geometrię przez dekady. Jako pokrycie stosujemy poliwęglan komorowy o grubości 10 mm, który cechuje się:
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li>wysoką odpornością na uderzenia (wytrzymałość do 100 kg/m²),</li>
+        <li>obustronnym filtrem UV chroniącym domowników,</li>
+        <li>przejrzystością, która nie zaciemnia przyległych pomieszczeń.</li>
+      </ul>
+      <p>
+      Sprawdź <a href="/galeria">nasze realizacje</a> i wybierz jakość, która przetrwa pokolenia!
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/galeria/przyscienne-prosty-spadek/23.jpg" alt="Zadaszenie tarasowe z wysokiej jakości materiałów."/>
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Jaki typ zadaszenia tarasów najlepiej pasuje do Twojego domu?</h2>
+
+  <p>
+  Każdy projekt realizujemy indywidualnie, dopasowując styl zabudowy do bryły budynku i estetyki otoczenia w <strong>Tarnowie Podgórnym</strong>. Nie korzystamy z gotowych marketowych modułów – każda belka jest docinana z rzemieślniczą precyzją. Oferujemy trzy główne warianty <strong>zadaszeń tarasów</strong>:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>z prostym spadem – minimalistyczne, idealne do nowoczesnej architektury,</li>
+    <li>konstrukcje łukowe – lekkie wizualnie, nadające posesji subtelnej elegancji,</li>
+    <li>modele na belce – pozwalające na szeroki rozstaw słupów i dużą swobodę aranżacji.</li>
+  </ul>
+  <p>
+  <a href="/kontakt">Zadzwoń do nas </a>i umów się na bezpłatny pomiar na Twojej posesji!
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
+  <h2 class="text-2xl">Jak oszczędzić na budowie dzięki wymiarom ekonomicznym?</h2>
+  <p>
+  Już na etapie planowania proponujemy tzw. „wymiary ekonomiczne”. Dzięki optymalizacji zużycia materiału i minimalizacji odpadów, koszt inwestycji może być niższy nawet o 2000 zł, przy zachowaniu najwyższych standardów jakości. Dodatkowo nasze <strong><a href="https://www.drewelt.pl/zadaszenia">zadaszenia tarasów </a></strong>wyróżnia:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>precyzyjna impregnacja – każdy element malujemy ręcznie trzykrotnie.</li>
+    <li>szybki montaż – profesjonalna ekipa potrafi postawić konstrukcję nawet w 8 godzin.</li>
+    <li>kompleksowość – na życzenie łączymy budowę zadaszenia z montażem tarasu kompozytowego lub drewnianego.</li>
+  </ul>
+  <p>
+  Zamów wycenę online i przekonaj się, jak atrakcyjna może być cena Twojego wymarzonego zadaszenia w <strong>Tarnowie Podgórnym</strong>!
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158528.99773099102!2d16.546720641209316!3d52.4511525208417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470438b3ada2ccb3%3A0xef507847c3144bfe!2sTarnowo%20Podg%C3%B3rne!5e0!3m2!1spl!2spl!4v1775733353297!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Tarnowo Podgórne • Wielkopolska
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Tarnowie Podgórnym</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Tarnowo Podgórne i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
             </div>
             
             <div class="flex items-center gap-3">
@@ -1626,31 +2000,112 @@ export const seoContentList: SeoContent[] = [
       nami i zamów wycenę.</a>
     </p>
 
-    <div class="flex w-full justify-end">
-      <a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">
-        Skontaktuj się
-        <span class="text-white text-base normal-case font-light">Wycenimy Twoje zadaszenie!</span>
-      </a>
+    <div class="w-full flex gap-4 flex-col md:flex-row">
+      <div class="w-full md:w-3/5 mt-4">
+        <h2 class="text-2xl">
+          <a href="/zadaszenia">Zadaszenia tarasów</a> Kostrzyn – pełna obsługa zlecenia
+        </h2>
+
+        <p>
+          <a href="/o-nas"><strong>Drewelt</strong></a> działa od 2014 roku, łącząc rzemiosło z nowoczesnym podejściem do
+          projektowania konstrukcji ogrodowych. Oferujemy <strong><a href="/zadaszenia">zadaszenia tarasu</a></strong> oraz
+          <strong> <a href="/altany-ogrodowe">altany</a></strong>, które tworzą spójną, wygodną przestrzeń wypoczynkową.
+        </p>
+
+        <p>
+          Każdy projekt, realizowany dla Klientów z <strong>Kostrzyna</strong> lub okolicznych miejscowości, jest impregnowany i dwukrotnie
+          malowany. Proponujemy również ekonomiczne wymiary konstrukcji, pozwalające
+          zoptymalizować koszty bez utraty jakości. Zastanawiasz się, który wariant będzie
+          najlepszy? Napisz do nas, a doradzimy Ci idealne rozwiązanie.
+        </p>
+      </div>
+
+      <div class="w-full md:w-2/5 mt-4">
+        <img class="object-cover rounded-lg shadow-md" src="/galeria/przyscienne-na-lukach/7.jpg" alt="Zadaszenie tarasowe z drewnianą konstrukcją.">
+      </div>
+
     </div>
 
-    <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
-
-    <h2 class="text-2xl font-semibold text-gray-800">
-      <a href="/zadaszenia">Zadaszenia tarasów</a> Kostrzyn – pełna obsługa zlecenia
-    </h2>
-
+    <h2 class="text-2xl">Nowoczesne rozwiązania i sprawny montaż Twojej konstrukcji</h2>
     <p>
-      <a href="/o-nas"><strong>Drewelt</strong></a> działa od 2014 roku, łącząc rzemiosło z nowoczesnym podejściem do
-      projektowania konstrukcji ogrodowych. Oferujemy <strong><a href="/zadaszenia">zadaszenia tarasu</a></strong> oraz
-      <strong> <a href="/altany-ogrodowe">altany</a></strong>, które tworzą spójną, wygodną przestrzeń wypoczynkową.
+    W <a href="/">Drewelt </a>stawiamy na trwałość i praktyczność, stosując m.in. poliwęglan komorowy o grubości 10 mm z filtrem UV. Proces realizacji konstrukcji w <strong>Kostrzynie</strong> optymalizuje czas i koszty inwestycji. Dlaczego warto z nami współpracować?
+    </p>
+    <ul class="list-disc list-inside my-4">
+      <li>Montaż w 8 godzin – dzięki prefabrykacji elementów prace u Klienta przebiegają błyskawicznie.</li>
+      <li>Trzykrotne malowanie – drewno BSH zabezpieczamy aż trzema warstwami dla maksymalnej ochrony.</li>
+      <li>Różnorodne formy – oferujemy dachy jednospadowe, łukowe oraz konstrukcje na belce.</li>
+      <li>Prosta wycena – wystarczy, że wskażesz numer zdjęcia z <a href="/galeria">naszej galerii</a>, który Cię inspiruje.</li>
+    </ul>
+    <p>
+    Zyskaj funkcjonalną strefę relaksu na dodatkowe 5 miesięcy w roku. <a href="/kontakt">Skontaktuj się z nami </a>i zamów bezpłatny projekt dopasowany do Twojego domu!
     </p>
 
-    <p>
-      Każdy projekt, realizowany dla Klientów z <strong>Kostrzyna</strong> lub okolicznych miejscowości, jest impregnowany i dwukrotnie
-      malowany. Proponujemy również ekonomiczne wymiary konstrukcji, pozwalające
-      zoptymalizować koszty bez utraty jakości. Zastanawiasz się, który wariant będzie
-      najlepszy? Napisz do nas, a doradzimy Ci idealne rozwiązanie.
-    </p>
+    <div class="flex items-center justify-center">
+      <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+        <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+          <div class="relative h-full overflow-hidden">
+            <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+              <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104360.32023911817!2d17.13476667404593!3d52.38475376985236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704f5d20be27c9b%3A0x213b13bcf577c80f!2s62-025%20Kostrzyn!5e0!3m2!1spl!2spl!4v1775731865238!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+          </div>
+          <div class="p-8 md:p-12 flex flex-col justify-center">
+            <div class="mb-3">
+              <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+                Kostrzyn • Wielkopolska
+              </span>
+            </div>
+            <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+              Zadaszenie tarasu<br>
+              <span style="color: #2e7d32;">w Kostrzynie</span>
+            </h2>
+            <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+              Obsługujemy Kostrzyn i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+            </p>
+            <div class="mb-8 space-y-3">
+              <div class="flex items-center gap-3">
+                <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                  <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <span style="color: #4a4a4a;">Ochrona przed słońcem i deszczem</span>
+              </div>
+              
+              <div class="flex items-center gap-3">
+                <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                  <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+              </div>
+              
+              <div class="flex items-center gap-3">
+                <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                  <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+                Bezpłatna wycena
+              </a>
+            </div>
+            <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+              <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <span>Oddzwonimy w ciągu 24h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 `,
 

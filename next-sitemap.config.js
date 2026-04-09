@@ -24,6 +24,8 @@ module.exports = {
       "mosina",
       "oborniki",
       "wagrowiec",
+      "gniezno",
+      "tarnowo-podgorne",
     ];
 
     const deskiPages = [

@@ -28,6 +28,8 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-suchy-las", label: "Zadaszenie tarasu Suchy Las" },
     { href: "/zadaszenia/zadaszenie-tarasu-skoki", label: "Zadaszenie tarasu Skoki" },
     { href: "/zadaszenia/zadaszenie-tarasu-wagrowiec", label: "Zadaszenie tarasu Wągrowiec" },
+    { href: "/zadaszenia/zadaszenie-tarasu-gniezno", label: "Zadaszenie tarasu Gniezno" },
+    { href: "/zadaszenia/zadaszenie-tarasu-tarnowo-podgorne", label: "Zadaszenie tarasu Tarnowo Podgórne" },
 ]
 
 export const tarasyLinks = [

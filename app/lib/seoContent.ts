@@ -403,7 +403,7 @@ export const seoContentList: SeoContent[] = [
   To podejście, które pozwala stworzyć konstrukcję idealnie dopasowaną do Twojej przestrzeni. <a href="/kontakt">Wypełnij formularz </a>i odbierz bezpłatną wycenę<strong> <a href="/zadaszenia">zadaszenia tarasu</a></strong>.
   </p>
 
-  <h2 class="text-2xl">Jak zacząć współpracę i zamówić zadaszenie tarasu w Szamotułach?</h2>
+  <h2 class="text-2xl">Czego możesz spodziewać się podczas montażu zadaszeń tarasów od Drewelt?</h2>
   <p>
   Wybierając nasze <strong>zadaszenia tarasów, </strong>zyskujesz rozwiązanie, które powstaje z pełnym poszanowaniem dla estetyki posesji w <strong>Szamotułach</strong>. Nie zamieniamy Twojego ogrodu w plac budowy – aż 90% prac przygotowawczych, takich jak precyzyjne docinanie, szlifowanie oraz impregnacja drewna, wykonujemy w naszej hali produkcyjnej. Do Ciebie przyjeżdżamy z gotowymi, idealnie dopasowanymi elementami, co skraca montaż do zaledwie 8–10 godzin. Pokrycie wykonujemy z wysokiej jakości poliwęglanu komorowego o grubości 10 mm z dwustronnym filtrem UV, który jest dostępny w wersji bezbarwnej, mlecznej lub dymionej. Dzięki temu chronimy nie tylko Ciebie przed słońcem, ale także Twoje meble przed blaknięciem, zostawiając po sobie nienaganny porządek oraz gotową do użytku przestrzeń. <a href="/kontakt">Skontaktuj się z nami</a> i umów na bezpłatną wizytę pomiarową, podczas której dobierzemy kolor drewna wraz z wariantem poliwęglanu idealnym dla Twojego domu.
   </p>
@@ -564,55 +564,167 @@ export const seoContentList: SeoContent[] = [
   dzięki czemu całość prezentuje się estetycznie i jest gotowa do użytkowania od razu po montażu. <a href="/kontakt">Zarezerwuj pomiar</a> dla Twojej inwestycji w <strong>Skórzewie</strong>.
   </p>
 
-  <h2 class="text-2xl">Dlaczego warto wybrać zadaszenia tarasów w Skórzewie od Drewelt?</h2>
+  <h2 class="text-2xl">Co sprawia, że zadaszenia tarasowe w Skórzewie od Drewelt to dobry wybór?</h2>
   <p>
   Wybór odpowiedniej konstrukcji to inwestycja na lata, która ma nie tylko zdobić dom, ale przede wszystkim bezawaryjnie służyć domownikom. W <a href="/">Drewelt</a> łączymy tradycyjne ciesielstwo z nowoczesnymi technologiami osłonowymi. Poniższe zestawienie prezentuje argumenty, które sprawiają, że mieszkańcy <strong>Skórzewa </strong>i okolic tak chętnie powierzają nam zabudowę swoich tarasów:
   </p>
 
-  <table>
-    <tr>
-    <td><strong>Cecha oferty</strong>
-    </td>
-    <td><strong>Korzyść dla Klienta</strong>
-    </td>
-    </tr>
-    <tr>
-    <td>Drewno klejone BSH
-    </td>
-    <td>Gwarancja braku pęknięć i odkształceń, znacznie wyższa trwałość niż w przypadku drewna litego
-    </td>
-    </tr>
-    <tr>
-    <td>Poliwęglan z filtrem UV
-    </td>
-    <td>Skuteczna ochrona przed nagrzewaniem tarasu oraz szkodliwym promieniowaniem przy zachowaniu naturalnego doświetlenia
-    </td>
-    </tr>
-    <tr>
-    <td>Kompleksowa usługa
-    </td>
-    <td>Od darmowych konsultacji i pomiarów, przez transport, aż po profesjonalny montaż na miejscu
-    </td>
-    </tr>
-    <tr>
-    <td>Trzykrotna impregnacja
-    </td>
-    <td>Maksymalna odporność na grzyby, wilgoć oraz zmienne warunki atmosferyczne bez konieczności szybkiej renowacji
-    </td>
-    </tr>
-    <tr>
-    <td>Aluminiowe profile łączące	
-    </td>
-    <td>Estetyczne i szczelne łączenie płyt poliwęglanowych, które eliminuje ryzyko przecieków
-    </td>
-    </tr>
-    <tr>
-    <td>Lokalne doświadczenie
-    </td>
-    <td>Znajomość specyfiki zabudowy w <strong>Skórzewie</strong> i okolicach, co ułatwia dopasowanie projektu do architektury
-    </td>
-    </tr>
-  </table>
+  <div class="overflow-hidden rounded-lg border border-[#c7dec7] bg-white shadow-[0_10px_30px_rgba(30,122,31,0.08)]">
+    <table class="hidden w-full md:table">
+      <thead class="bg-[#2e7d32] text-white">
+        <tr>
+          <th class="px-6 py-4 text-left text-sm font-semibold uppercase tracking-wider">
+            Cecha oferty
+          </th>
+          <th class="px-6 py-4 text-left text-sm font-semibold uppercase tracking-wider">
+            Korzyść dla Klienta
+          </th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-[#c7dec7]">
+        <tr class="transition-colors hover:bg-[#1e7a1f40]">
+          <td class="px-6 py-5 font-semibold text-[#2e7d32]">
+            Drewno klejone BSH
+          </td>
+          <td class="px-6 py-5 text-gray-700">
+            Gwarancja braku pęknięć i odkształceń, znacznie wyższa trwałość niż w przypadku drewna litego
+          </td>
+        </tr>
+        <tr class="bg-[#c7dec7]/30 transition-colors hover:bg-[#1e7a1f40]">
+          <td class="px-6 py-5 font-semibold text-[#2e7d32]">
+            Poliwęglan z filtrem UV
+          </td>
+          <td class="px-6 py-5 text-gray-700">
+            Skuteczna ochrona przed nagrzewaniem tarasu oraz szkodliwym promieniowaniem przy zachowaniu naturalnego doświetlenia
+          </td>
+        </tr>
+        <tr class="transition-colors hover:bg-[#1e7a1f40]">
+          <td class="px-6 py-5 font-semibold text-[#2e7d32]">
+            Kompleksowa usługa
+          </td>
+          <td class="px-6 py-5 text-gray-700">
+            Od darmowych konsultacji i pomiarów, przez transport, aż po profesjonalny montaż na miejscu
+          </td>
+        </tr>
+        <tr class="bg-[#c7dec7]/30 transition-colors hover:bg-[#1e7a1f40]">
+          <td class="px-6 py-5 font-semibold text-[#2e7d32]">
+            Trzykrotna impregnacja
+          </td>
+          <td class="px-6 py-5 text-gray-700">
+            Maksymalna odporność na grzyby, wilgoć oraz zmienne warunki atmosferyczne bez konieczności szybkiej renowacji
+          </td>
+        </tr>
+        <tr class="transition-colors hover:bg-[#1e7a1f40]">
+          <td class="px-6 py-5 font-semibold text-[#2e7d32]">
+            Aluminiowe profile łączące
+          </td>
+          <td class="px-6 py-5 text-gray-700">
+            Estetyczne i szczelne łączenie płyt poliwęglanowych, które eliminuje ryzyko przecieków
+          </td>
+        </tr>
+        <tr class="bg-[#c7dec7]/30 transition-colors hover:bg-[#1e7a1f40]">
+          <td class="px-6 py-5 font-semibold text-[#2e7d32]">
+            Lokalne doświadczenie
+          </td>
+          <td class="px-6 py-5 text-gray-700">
+            Znajomość specyfiki zabudowy w <strong>Skórzewie</strong> i okolicach, co ułatwia dopasowanie projektu do architektury
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="grid gap-4 p-4 md:hidden">
+      <div class="rounded-2xl border border-[#c7dec7] bg-white p-4 shadow-sm">
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Cecha oferty
+        </div>
+        <div class="mb-4 text-base font-semibold text-gray-900">
+          Drewno klejone BSH
+        </div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Korzyść dla Klienta
+        </div>
+        <div class="text-sm leading-6 text-gray-700">
+          Gwarancja braku pęknięć i odkształceń, znacznie wyższa trwałość niż w przypadku drewna litego
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-[#c7dec7] bg-[#c7dec7]/30 p-4 shadow-sm">
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Cecha oferty
+        </div>
+        <div class="mb-4 text-base font-semibold text-gray-900">
+          Poliwęglan z filtrem UV
+        </div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Korzyść dla Klienta
+        </div>
+        <div class="text-sm leading-6 text-gray-700">
+          Skuteczna ochrona przed nagrzewaniem tarasu oraz szkodliwym promieniowaniem przy zachowaniu naturalnego doświetlenia
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-[#c7dec7] bg-white p-4 shadow-sm">
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Cecha oferty
+        </div>
+        <div class="mb-4 text-base font-semibold text-gray-900">
+          Kompleksowa usługa
+        </div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Korzyść dla Klienta
+        </div>
+        <div class="text-sm leading-6 text-gray-700">
+          Od darmowych konsultacji i pomiarów, przez transport, aż po profesjonalny montaż na miejscu
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-[#c7dec7] bg-[#c7dec7]/30 p-4 shadow-sm">
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Cecha oferty
+        </div>
+        <div class="mb-4 text-base font-semibold text-gray-900">
+          Trzykrotna impregnacja
+        </div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Korzyść dla Klienta
+        </div>
+        <div class="text-sm leading-6 text-gray-700">
+          Maksymalna odporność na grzyby, wilgoć oraz zmienne warunki atmosferyczne bez konieczności szybkiej renowacji
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-[#c7dec7] bg-white p-4 shadow-sm">
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Cecha oferty
+        </div>
+        <div class="mb-4 text-base font-semibold text-gray-900">
+          Aluminiowe profile łączące
+        </div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Korzyść dla Klienta
+        </div>
+        <div class="text-sm leading-6 text-gray-700">
+          Estetyczne i szczelne łączenie płyt poliwęglanowych, które eliminuje ryzyko przecieków
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-[#c7dec7] bg-[#c7dec7]/30 p-4 shadow-sm">
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Cecha oferty
+        </div>
+        <div class="mb-4 text-base font-semibold text-gray-900">
+          Lokalne doświadczenie
+        </div>
+        <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-[#2e7d32]">
+          Korzyść dla Klienta
+        </div>
+        <div class="text-sm leading-6 text-gray-700">
+          Znajomość specyfiki zabudowy w <strong>Skórzewie</strong> i okolicach, co ułatwia dopasowanie projektu do architektury
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <p>

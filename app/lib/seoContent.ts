@@ -1002,6 +1002,19 @@ export const seoContentList: SeoContent[] = [
 
   </div>
 
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek/20221104_100135.jpg" alt="Zadaszenie tarasu z poliwęglanem – realizacja Drewelt."/>
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Jak realizujemy budowę zadaszenia w Skokach?</h2>
+      <p>
+        Proces współpracy z Drewelt projektujemy tak, aby był dla Ciebie maksymalnie komfortowy oraz przewidywalny. Wszystko zaczyna się od bezpłatnej konsultacji i precyzyjnego pomiaru, podczas którego doradzamy m.in. wybór tzw. wymiarów ekonomicznych, pozwalających zoptymalizować koszty inwestycji nawet o 2000 zł. Nie zamieniamy Twojego ogrodu w plac budowy – aż 90% prac, w tym docięcia czy impregnację, wykonujemy w naszej hali produkcyjnej. Dzięki temu profesjonalny montaż na Twojej posesji w <strong>Skokach</strong> trwa zazwyczaj zaledwie jeden dzień. Stosujemy wysokiej klasy poliwęglan komorowy 10 mm z dwustronnym filtrem UV, który chroni meble ogrodowe przed blaknięciem, a domowników przed nagrzewaniem się przestrzeni. Wybierz rozwiązanie na dekady, a nie na kilka sezonów. <a href="/kontakt">Skorzystaj z darmowej wyceny</a> i odmień swój taras z Drewelt!
+      </p>
+    </div>
+  </div>
+
   <div class="flex items-center justify-center">
     <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
       <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
@@ -1619,19 +1632,19 @@ export const seoContentList: SeoContent[] = [
     <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <p class="border-b border-[#262420] flex flex-col gap-1">
       <span itemprop="name"><strong>Ile kosztuje zadaszenie tarasu z drewna?</strong></span>
-      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Cena zależy od rodzaju drewna i projektu. W Drewelt zaczyna się od <strong>700 zł/m²</strong>, a bardziej zaawansowane konstrukcje mogą kosztować więcej.</span></span>
+      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Cena zależy od rodzaju drewna i projektu. W Drewelt zaczyna się od 700 zł/m&sup2;, a bardziej zaawansowane konstrukcje mogą kosztować więcej. To, <strong>ile kosztuje zadaszenie tarasu z drewna</strong>, zależy od wielu czynnik&oacute;w, takich jak metraż konstrukcji, rodzaj wybranego pokrycia dachowego (np. poliwęglan, szkło czy dach&oacute;wka) czy stopień skomplikowania detali architektonicznych.</span></span>
       </p>
     </div>
     <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <p class="border-b border-[#262420] flex flex-col gap-1">
       <span itemprop="name"><strong>Ile kosztuje zadaszenie z poliwęglanu?</strong></span>
-      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Zadaszenia z poliwęglanu komorowego lub litego kosztują od <strong>500 zł/m²</strong>, w zależności od specyfikacji technicznej i wybranych dodatków.</span></span>
+      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Zadaszenia z poliwęglanu komorowego lub litego kosztują od 500 zł/m&sup2;. To, <strong>ile kosztuje zadaszenie z poliwęglanu</strong>, zależy od specyfikacji technicznej i wybranych dodatk&oacute;w.</span></span>
       </p>
     </div>
     <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <p class="flex flex-col gap-1">
       <span itemprop="name"><strong>Jak przygotować podłoże pod taras kompozytowy?</strong></span>
-      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Należy wyrównać teren, wykonać warstwę nośną z kruszywa i zamontować legary. Koszt przygotowania to <strong>150–300 zł/m²</strong>, w zależności od warunków gruntowych.</span></span>
+      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Należy wyr&oacute;wnać teren, wykonać warstwę nośną z kruszywa i zamontować legary. Koszt przygotowania to 150&ndash;300 zł/m&sup2;, w zależności od warunk&oacute;w gruntowych. Jeśli nie wiesz, <strong>jak przygotować podłoże pod taras kompozytowy</strong>, skontaktuj się z ekspertami Drewelt.</span></span>
       </p>
     </div>
   </div>
@@ -2649,6 +2662,275 @@ export const seoContentList: SeoContent[] = [
 
 </div>
 `,
+  },
+  {
+    url: "zadaszenie-tarasu-zlotniki",
+    metaTitle: "Zadaszenia tarasów na zamówienie – Złotniki – Drewelt",
+    h1: "Profesjonalne zadaszenia tarasów – Złotniki i okolice",
+    description: "Tworzymy eleganckie zadaszenia tarasów w Złotnikach. Konstrukcje z drewna klejonego BSH i poliwęglanu z filtrem UV. Ekspresowy montaż w 10h. Zamów wycenę!",
+    content: `
 
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>
+    Wybierając ofertę dla mieszkańców <strong>Złotników</strong>, stawiasz na konstrukcje wykonane z certyfikowanego drewna klejonego warstwowo BSH. Materiał ten, w przeciwieństwie do drewna litego, nie skręca się i nie pęka, zachowując idealną geometrię przez dekady. Nasze <a href="/zadaszenia"><strong>zadaszenia tarasów</strong></a> to inwestycja w trwałość, którą dodatkowo wzmacniamy poprzez trzykrotne malowanie i ręczną impregnację każdego elementu. Dzięki temu drewno jest w pełni odporne na wilgoć, grzyby oraz zmienne warunki atmosferyczne, typowe dla polskiego klimatu. Sprawdź <a href="/galeria">nasze realizacje</a> i wybierz model dla siebie.
+  </p>
+
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Jakie korzyści daje pokrycie z poliwęglanu komorowego?</h2>
+      <p>
+        Przy realizacji <strong>zadaszeń tarasów</strong> stosujemy płyty poliwęglanowe o grubości 10 mm, które są wyposażone w obustronny filtr UV. Takie rozwiązanie nie tylko chroni domowników przed palącym słońcem, ale także zabezpiecza meble ogrodowe przed płowieniem. Poliwęglan charakteryzuje się wysoką odpornością na gradobicie i obciążenie śniegiem (do 100 kg/m²), a jego transparentność zapewnia naturalne doświetlenie tarasu i przylegających do niego pomieszczeń. Całość łączymy estetycznymi profilami aluminiowymi, co gwarantuje 100% szczelności konstrukcji. <a href="/kontakt">Zamów bezpłatną wycenę</a> swojego zadaszenia w <strong>Złotnikach</strong>.
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasu z drewnianą konstrukcją i poliwęglanem."/>
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Jak dopasować projekt zadaszenia tarasu do architektury budynku?</h2>
+  <p>
+    Oferujemy trzy główne warianty konstrukcyjne:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>nowoczesne dachy z prostym spadem,</li>
+    <li>eleganckie formy łukowe,</li>
+    <li>stabilne konstrukcje na belce, które pozwalają na szeroki rozstaw słupów.</li>
+  </ul>
+  <p>
+    Każdy projekt przygotowujemy indywidualnie, uwzględniając tzw. „wymiary ekonomiczne", które pozwalają zoptymalizować koszty materiałowe nawet o 2000 zł bez straty na jakości. Przed rozpoczęciem produkcji <strong>zadaszeń tarasów</strong> zawsze dostarczamy rysunki techniczne do akceptacji, aby mieć pewność, że efekt końcowy będzie zgodny z oczekiwaniami. <a href="/kontakt">Skontaktuj się z nami</a> i zaprojektuj wymarzony taras.
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21818.49544489383!2d16.82517532358522!3d52.492978052063556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704422e6535c8b7%3A0x7ff3aa56e6127766!2s62-002%20Z%C5%82otniki!5e1!3m2!1spl!2spl!4v1779717008292!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Złotniki • Wielkopolska
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Złotnikach</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Złotniki i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 10 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    `,
+  },
+  {
+    url: "zadaszenie-tarasu-rokietnica",
+    metaTitle: "Zadaszenia tarasów – Rokietnica – dachy z drewna – Drewelt",
+    h1: "Dlaczego mieszkańcy Rokietnicy wybierają zadaszenia tarasów Drewelt?",
+    description: "Zamów solidne zadaszenia tarasów w Rokietnicy. Konstrukcje z drewna BSH i poliwęglanu UV. Bezpłatna wycena i montaż w 1 dzień. Sprawdź ofertę Drewelt!",
+    content: `
+
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>
+    Szukasz sposobu na wydłużenie sezonu ogrodowego nawet o 5 miesięcy? Nasze <strong>zadaszenia tarasów</strong> to nie gotowe zestawy z marketu, lecz indywidualnie projektowane budowle z drewna klejonego BSH. Materiał ten, w przeciwieństwie do drewna litego, nie skręca się i nie pęka, co gwarantuje stabilność geometryczną przez dekady. Wybierając <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszenia tarasów</strong></a>, inwestujesz w przestrzeń, trzykrotnie impregnowaną oraz malowaną ręcznie dla maksymalnej ochrony przed wilgocią. <a href="https://www.drewelt.pl/galeria">Sprawdź nasze dotychczasowe realizacje</a> i wybierz styl dla swojego domu w <strong>Rokietnicy</strong>!
+  </p>
+
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Jak wygląda proces realizacji zadaszeń tarasów w Drewelt?</h2>
+      <p>
+        Stawiamy na przejrzystą współpracę i Twój czas – montaż gotowych, prefabrykowanych w naszej stolarni elementów <strong>zadaszeń tarasów</strong> trwa zazwyczaj tylko jeden dzień. Proces zaczynamy od darmowej konsultacji i przygotowania rysunków technicznych do Twojej akceptacji, co wyklucza pomyłki i gwarantuje idealne dopasowanie do bryły budynku. Obsługujemy <strong>Rokietnicę</strong> oraz okoliczne miejscowości, zapewniając kompleksową usługę: od doradztwa czy transportu, po profesjonalne wykończenie.<a href="https://www.drewelt.pl/kontakt"> Zadzwoń do nas</a> i umów się na spotkanie, aby cieszyć się nowym tarasem w kilka dni!
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240327_141215.jpg" alt="Zadaszenie tarasu z drewnianą konstrukcją i poliwęglanem."/>
+    </div>
+
+  </div>
+
+  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/20230602_143649.jpg" alt="Zadaszenie tarasowe z konstrukcją na belce."/>
+    </div>
+
+    <div class="w-full md:w-3/5 mt-4">
+      <h2 class="text-2xl">Czym są „wymiary ekonomiczne" i jak pozwalają zaoszczędzić?</h2>
+      <p>
+        W <a href="https://www.drewelt.pl/">Drewelt</a> dbamy o Twój portfel już na etapie projektu, proponując autorskie rozwiązanie modułowe. Optymalizacja wymiarów konstrukcji pod konkretne arkusze poliwęglanu pozwala zminimalizować ilość odpadów materiałowych, co może obniżyć koszt inwestycji nawet o 2000 zł bez utraty jakości. Oferujemy różne warianty <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszeń tarasów</strong></a>: od nowoczesnych dachów z prostym spadem, przez eleganckie konstrukcje łukowe, aż po systemy na belce z szerokim rozstawem słupów (12 × 12 cm), które zapewniają pełną swobodę ruchu. <a href="https://www.drewelt.pl/kontakt">Zapytaj o wymiary ekonomiczne</a> podczas bezpłatnego pomiaru na Twojej posesji w <strong>Rokietnicy</strong>!
+      </p>
+      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23247.117583736068!2d16.73255733159772!3d52.50763328254836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47044042af0a7d31%3A0xd6deb3fae7bcf36b!2s62-090%20Rokietnica!5e1!3m2!1spl!2spl!4v1779716905721!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Rokietnica • Wielkopolska
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Rokietnicy</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Rokietnicę i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    `,
   }
+
 ];

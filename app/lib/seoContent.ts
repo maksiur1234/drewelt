@@ -1536,9 +1536,7 @@ export const seoContentList: SeoContent[] = [
   </div>
 
   <h2 class="text-2xl">Zadaszenie tarasowe Wrocław – dlaczego my?</h2>
-  <p>
-    Jesteśmy firmą z bogatym doświadczeniem, stawiającą na najlepszej klasy rozwiązania, takie jak <strong>zadaszenia tarasowe</strong>. Posiadamy własne, bezpieczne środki transportu, co pozwala na kompleksową obsługę zlecenia we <strong>Wrocławiu</strong>, ponieważ sprawujemy kontrolę nad każdym etapem współpracy.
-  </p>
+<p>Jesteśmy firmą z bogatym doświadczeniem, stawiającą na najlepszej klasy rozwiązania, takie jak <strong>zadaszenia tarasowe</strong>. Dzięki precyzyjnemu docinaniu materiał&oacute;w co do centymetra oraz projektowaniu konstrukcji z uwzględnieniem wymiar&oacute;w ekonomicznych, jesteśmy w stanie zredukować koszt inwestycji nawet o 2000 zł. Posiadamy własne, bezpieczne środki transportu, co pozwala na kompleksową obsługę zlecenia we <strong>Wrocławiu</strong>, ponieważ sprawujemy kontrolę nad każdym etapem wsp&oacute;łpracy &ndash; od bezpłatnej wizyty pomiarowej i przygotowania rysunku technicznego, aż po finalny montaż <strong>zadaszeń tarasowych</strong> u Klienta.</p>
   <p class="mt-2">
     Zależy nam na budowaniu korzystnych relacji z klientami, ponieważ są one dla nas ważną kwestią udanej, opartej na zaufaniu realizacji zamówienia na <strong>zadaszenie tarasu z poliwęglanu</strong> lub drewna. Z chęcią dzielimy się swoją wiedzą i doświadczeniem, przekazując mnóstwo ciekawych oraz przydatnych porad. <strong>Zadaszenia tarasowe</strong> to rozwiązanie, które spełnia wszystkie potrzeby naszych klientów, gwarantując estetyczne i funkcjonalne konstrukcje, które przetrwają próbę czasu.
   </p>

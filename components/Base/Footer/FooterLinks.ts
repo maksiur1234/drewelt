@@ -30,6 +30,8 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-wagrowiec", label: "Zadaszenie tarasu Wągrowiec" },
     { href: "/zadaszenia/zadaszenie-tarasu-gniezno", label: "Zadaszenie tarasu Gniezno" },
     { href: "/zadaszenia/zadaszenie-tarasu-tarnowo-podgorne", label: "Zadaszenie tarasu Tarnowo Podgórne" },
+    { href: "/zadaszenia/zadaszenie-tarasu-zlotniki", label: "Zadaszenie tarasu Złotniki" },
+    { href: "/zadaszenia/zadaszenie-tarasu-rokietnica", label: "Zadaszenie tarasu Rokietnica" },
 ]
 
 export const tarasyLinks = [

@@ -2836,7 +2836,6 @@ export const seoContentList: SeoContent[] = [
       <p>
         W <a href="https://www.drewelt.pl/">Drewelt</a> dbamy o Twój portfel już na etapie projektu, proponując autorskie rozwiązanie modułowe. Optymalizacja wymiarów konstrukcji pod konkretne arkusze poliwęglanu pozwala zminimalizować ilość odpadów materiałowych, co może obniżyć koszt inwestycji nawet o 2000 zł bez utraty jakości. Oferujemy różne warianty <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszeń tarasów</strong></a>: od nowoczesnych dachów z prostym spadem, przez eleganckie konstrukcje łukowe, aż po systemy na belce z szerokim rozstawem słupów (12 × 12 cm), które zapewniają pełną swobodę ruchu. <a href="https://www.drewelt.pl/kontakt">Zapytaj o wymiary ekonomiczne</a> podczas bezpłatnego pomiaru na Twojej posesji w <strong>Rokietnicy</strong>!
       </p>
-      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
     </div>
   </div>
 

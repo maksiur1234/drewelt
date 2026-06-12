@@ -32,6 +32,7 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-tarnowo-podgorne", label: "Zadaszenie tarasu Tarnowo Podgórne" },
     { href: "/zadaszenia/zadaszenie-tarasu-zlotniki", label: "Zadaszenie tarasu Złotniki" },
     { href: "/zadaszenia/zadaszenie-tarasu-rokietnica", label: "Zadaszenie tarasu Rokietnica" },
+    { href: "/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska", label: "Zadaszenie tarasu Środa Wielkopolska" },
 ]
 
 export const tarasyLinks = [

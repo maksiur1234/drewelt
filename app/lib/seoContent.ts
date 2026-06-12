@@ -164,7 +164,7 @@ export const seoContentList: SeoContent[] = [
         </p>
     </div>
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_prosty_spadek_na_belce/Pozna%C5%841.jpg" alt="Białe zadaszenie tarasu"/>
+      <img class="object-cover rounded-lg shadow-md md:aspect-[3/4]" src="/zadaszenia_prosty_spadek_na_belce/Pozna%C5%841.jpg" alt="Białe zadaszenie tarasu"/>
     </div>
   </div>
 
@@ -309,7 +309,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" alt="Zadaszenie tarasu z dachem z poliwęglanu."/>
+      <img class="object-cover rounded-lg shadow-md md:aspect-[1/1]" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" alt="Zadaszenie tarasu z dachem z poliwęglanu."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -1664,7 +1664,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Murowana%20Go%C5%9Blina(1).jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu."/>
+      <img class="object-cover rounded-lg shadow-md md:aspect-[3/4]" src="/zadaszenia_przyscienne_na_lukach/Zadaszenie%20Murowana%20Go%C5%9Blina(1).jpg" alt="Zadaszenie tarasu z drewna i poliwęglanu."/>
     </div>
 
   </div>
@@ -1926,7 +1926,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/zadaszenie%20tarasu%20Trzaskowo.jpg" alt="Zadaszenie tarasu w nowoczesnym budynku."/>
+      <img class="object-cover rounded-lg shadow-md md:aspect-[9/16]" src="/zadaszenia_przyscienne_na_lukach/zadaszenie%20tarasu%20Trzaskowo.jpg" alt="Zadaszenie tarasu w nowoczesnym budynku."/>
     </div>
 
   </div>
@@ -2154,7 +2154,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/galeria/przyscienne-prosty-spadek/22.jpg" alt="Zadaszenie tarasu z prostym spadkiem."/>
+      <img class="object-cover rounded-lg shadow-md md:aspect-[9/16]" src="/galeria/przyscienne-prosty-spadek/22.jpg" alt="Zadaszenie tarasu z prostym spadkiem."/>
     </div>
 
   </div>

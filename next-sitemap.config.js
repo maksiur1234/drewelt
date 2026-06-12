@@ -26,6 +26,7 @@ module.exports = {
       "wagrowiec",
       "gniezno",
       "tarnowo-podgorne",
+      "sroda-wielkopolska",
     ];
 
     const deskiPages = [

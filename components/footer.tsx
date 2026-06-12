@@ -165,6 +165,11 @@ export const Footer = () => {
                     Zadaszenie tarasu Rokietnica
                   </a>
                 </li>
+                <li>
+                  <a href="/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska" className="hover:underline">
+                    Zadaszenie tarasu Środa Wielkopolska
+                  </a>
+                </li>
               </ul>
             </div>
 

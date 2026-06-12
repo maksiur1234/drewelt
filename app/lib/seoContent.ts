@@ -21,34 +21,111 @@ export const seoContentList: SeoContent[] = [
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
-  <div class="w-full flex gap-4 flex-col md:flex-row">
-    <div class="w-full md:w-3/5 mt-4">
+  <h2 class="text-2xl">Jak zrobić zadaszenie tarasu – z drewna i poliwęglanu czy aluminium?</h2>
+  <p>
+    Wybór między konstrukcją drewnianą a aluminiową (oraz dobór odpowiedniego pokrycia) decyduje o wyglądzie, trwałości i jasności całego tarasu. Oto rzetelne zestawienie faktów:
+  </p>
 
-      <h2 class="text-2xl">Jak zrobić zadaszenie tarasu – z drewna, czy z poliwęglanu?</h2>
-      <p>
-        Zarówno drewniane, jak i <strong>poliwęglanowe zadaszenie tarasu</strong> mają swoje zalety. Pierwsze z nich wprowadza do ogrodu naturalny klimat i świetnie współgra z zielonym ogrodem. Dodatkowo ten typ <strong>zabudowy tarasu</strong> można dowolnie przemalowywać, dzięki czemu zachowuje świeży wygląd na długie lata. Z kolei <strong>poliwęglan</strong> to <strong>zadaszenie</strong> o minimalistycznym wyglądzie. Sprawdzi się dla miłośników nowoczesnego designu oraz doświetlonych przestrzeni. Wszystkie modele z naszej oferty charakteryzują się długą trwałością i solidnością konstrukcji. Mieszkańcy <strong>Poznania</strong> mogą mieć wysokiej jakości <strong>zadaszenia tarasowe</strong> na wyciągnięcie ręki.
-      </p>
+  <div class="max-w-5xl w-full overflow-hidden mx-auto rounded-2xl shadow-xl" style="border: 4px solid #1e7a1f40;">
+    <div class="overflow-x-auto">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr style="background-color: #2e7d32;">
+            <th class="p-4 text-left font-bold" style="color: #ffffff;">Cecha użytkowa</th>
+            <th class="p-4 text-left font-bold" style="color: #ffffff;">Konstrukcja drewniana (klejone BSH) + poliwęglan</th>
+            <th class="p-4 text-left font-bold" style="color: #ffffff;">Konstrukcja aluminiowa + poliwęglan / inne pokrycia</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #ffffff;">
+            <td class="p-4 align-top font-bold border-b border-[#1e7a1f40]" style="color: #1a1a1a;">Solidność i estetyka</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong style="color: #2e7d32;">Masywna i naturalna</strong>. Drewno klejone BSH ma duże, solidne przekroje, które wyglądają luksusowo. Materiał jest perfekcyjnie oszlifowany oraz stabilny</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong>Lekka, ale wizualnie słabsza.</strong> Profile aluminiowe mają znacznie mniejsze przekroje, przez co cała konstrukcja może wyglądać mniej solidnie na tle bryły domu</td>
+          </tr>
+          <tr style="background-color: #1e7a1f0d;">
+            <td class="p-4 align-top font-bold border-b border-[#1e7a1f40]" style="color: #1a1a1a;">Trwałość koloru</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong style="color: #2e7d32;">Bardzo wysoka.</strong> Profesjonalnie przygotowane i zabezpieczone drewno BSH zachowuje swój estetyczny wygląd oraz nie wymaga ponownego malowania przez 8–10 lat</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong>Niska</strong>. Wbrew obiegowym opiniom, kolor na aluminium wystawionym na słońce blaknie i płowieje już po 2–3 latach, tracąc pierwotny urok</td>
+          </tr>
+          <tr style="background-color: #ffffff;">
+            <td class="p-4 align-top font-bold border-b border-[#1e7a1f40]" style="color: #1a1a1a;">Przepuszczalność światła (wpływ pokrycia dachu)</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong style="color: #2e7d32;">Taras jest jasny.</strong> Zastosowanie płyt z poliwęglanu gwarantuje optymalne doświetlenie tarasu oraz przylegającego do niego pokoju</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;">Jeśli zamiast poliwęglanu użyje się blachy lub desek z papą, <strong>na tarasie zrobi się ciemno</strong>, a w przypadku blachy dodatkowo bardzo gorąco</td>
+          </tr>
+          <tr style="background-color: #1e7a1f0d;">
+            <td class="p-4 align-top font-bold border-b border-[#1e7a1f40]" style="color: #1a1a1a;">Możliwość modyfikacji</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong style="color: #2e7d32;">Wysoka</strong>. Naturalna konstrukcja pozwala na łatwy montaż oświetlenia, rolet, bocznych zabudów czy dokręcanie haczyków w dowolnym momencie użytkowania</td>
+            <td class="p-4 align-top leading-relaxed border-b border-[#1e7a1f40]" style="color: #4a4a4a;"><strong>Niska</strong>. Fabrycznie przygotowane profile utrudniają jakiekolwiek późniejsze ingerencje czy zmiany konstrukcyjne</td>
+          </tr>
+          <tr style="background-color: #ffffff;">
+            <td class="p-4 align-top font-bold" style="color: #1a1a1a;">Wytrzymałość konstrukcji</td>
+            <td class="p-4 align-top leading-relaxed" style="color: #4a4a4a;"><strong style="color: #2e7d32;">Ekstremalna</strong>. Drewno BSH (klejone warstwowo) jest uwolnione od wad drewna litego – nie skręca się, nie pęka i ma ogromną nośność (odporność na zalegający śnieg i wiatr)</td>
+            <td class="p-4 align-top leading-relaxed" style="color: #4a4a4a;"><strong>Średnia</strong>. Cienkie profile aluminiowe wymagają gęstszego rozstawu lub precyzyjnych obliczeń, by wytrzymać duże obciążenia zimowe</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 
+  <p>
+  Szukasz <strong>zadaszenia tarasu w Poznaniu</strong>? Postaw na konstrukcję z drewna klejonego BSH i płyt poliwęglanowych. To synonim wytrzymałości i luksusowego wyglądu. Co najlepsze – dzięki perfekcyjnemu przygotowaniu materiału zapomnisz o ponownym malowaniu na najbliższe 8-10 lat!. Zachęcamy do współpracy!
+  </p>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
       <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Zadaszenie tarasu z poliwęglanu."/>
     </div>
+  
+    <div class="w-full md:w-3/5 mt-4">
 
+      <h2 class="text-2xl mt-4">Jakie formy zadaszeń tarasu z poliwęglanu wykonujemy?</h2>
+      <p>
+        Zapraszamy do zapoznania się ze szczegółami naszej oferty. <strong>Zadaszenie tarasu z poliwęglanu</strong> to usługa realizowana w <strong>Poznaniu</strong> z uwzględnieniem indywidualnych oczekiwań klienta. W naszej ofercie znajduje się zarówno klasyczna, jednospadowa <strong>zabudowa tarasu</strong>, jak i <strong>łukowe zadaszenia z poliwęglanu</strong>. Materiał ten ma dużo zastosowań, dlatego zachęcamy do tworzenia własnych, indywidualnych aranżacji. <strong>Poliwęglan na taras</strong> może przybrać również formę klimatycznej pergoli czy zadaszenia wolnostojącego. Działamy zarówno na terenie <strong>Poznania</strong>, jak i okolicznych miejscowości.
+      </p>
+  
+    </div>
   </div>
 
-  <h2 class="text-2xl mt-4">Jak zrobić zadaszenie tarasu z poliwęglanu – dostępne formy</h2>
-  <p>
-    Zapraszamy do zapoznania się ze szczegółami naszej oferty. <strong>Zadaszenie tarasu z poliwęglanu</strong> to usługa realizowana w <strong>Poznaniu</strong> z uwzględnieniem indywidualnych oczekiwań klienta. W naszej ofercie znajduje się zarówno klasyczna, jednospadowa <strong>zabudowa tarasu</strong>, jak i <strong>łukowe zadaszenia z poliwęglanu</strong>. Materiał ten ma dużo zastosowań, dlatego zachęcamy do tworzenia własnych, indywidualnych aranżacji. <strong>Poliwęglan na taras</strong> może przybrać również formę klimatycznej pergoli czy zadaszenia wolnostojącego. Działamy zarówno na terenie <strong>Poznania</strong>, jak i okolicznych miejscowości.
-  </p>
-  <div class="flex w-full justify-center mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] w-full max-w-[500px] text-xl px-8 py-8 rounded-lg uppercase transition-all font-medium" href="/galeria">Sprawdź nasze realizacje!</a></div>
   <h2 class="text-2xl">Zadaszenia tarasu Poznań – wysokie korzyści</h2>
   <p>
     Szukają Państwo sposobów na relaks w swoim ogrodzie w <strong>Poznaniu</strong>? <strong>Poliwęglan na zadaszenie</strong> to świetna opcja na przedłużenie sezonu tarasowego. Dzięki wysokiej jakości materiałom spędzanie czasu w swoim ulubionym miejscu jest możliwe bez względu na warunki atmosferyczne. <strong>Zadaszenia tarasów</strong> to przede wszystkim ochrona przed deszczem i promieniami UV. Stosowane przez nas materiały skutecznie blokują ostre słońce, dzięki czemu można cieszyć się ciepłem bez obaw. W naszej ofercie znajdą Państwo modele <strong>zadaszeń z poliwęglanu</strong>, które skutecznie chronią prywatność domowników. Dzięki temu mieszkańcy <strong>Poznania</strong> mogą zrelaksować się w domowym zaciszu.  
   </p>
 
-  <h2 class="text-2xl">Cechy zadaszenia z poliwęglanu osadzonego na konstrukcji drewnianej</h2>
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
+  <h2 class="text-2xl">Cechy zadaszenia z poliwęglanu na konstrukcji drewnianej</h2>
   <p>
-    <strong>Zadaszenia tarasowe</strong> z poliwęglanu osadzone na konstrukcji drewnianej harmonijnie komponuje się z ogrodem. Dzięki zastosowaniu odpowiedniej lakierobejcy, która nie wymaga ponownego malowania przez 7–10 lat, całość zachowuje estetyczny wygląd przez długi czas. Ponadto <strong>poliwęglan</strong>, a ściślej wykonane z niego <strong>zadaszenie,</strong> wyróżnia się nowoczesną formą i doskonałą przepuszczalnością światła, co sprawia, że taras staje się jasny. Dodatkowym atutem takiego rozwiązania jest jego praktyczne zastosowanie nie tylko na tarasie, ale także przy wiatach samochodowych. Dzięki niemu zimą można uniknąć uciążliwego odśnieżania czy skrobania szyb. To znacząco podnosi wygodę codziennego użytkowania. Wszystkie oferowane rozwiązania cechują się solidnością, a mieszkańcy <strong>Poznania</strong> mają możliwość wyboru wysokiej jakości <strong>zadaszeń tarasowych</strong> dostępnych od ręki.
+  Zadaszenia tarasowe łączące poliwęglan z drewnianą konstrukcją to wyjątkowo funkcjonalne rozwiązanie, które wyróżnia się następującymi atutami:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li><strong>harmonijny design</strong> – konstrukcja idealnie komponuje się z zielenią ogrodu, łącząc naturalne piękno drewna z nowoczesną formą poliwęglanu;</li>
+    <li><strong>trwałość na lata bez wysiłku </strong>– zastosowanie odpowiedniej lakierobejcy sprawia, że drewno nie wymaga ponownego malowania przez nawet 7–10 lat;</li>
+    <li><strong>doskonałe doświetlenie </strong>– poliwęglan przepuszcza mnóstwo naturalnego światła, dzięki czemu Państwa taras pozostaje jasny i przytulny;</li>
+    <li><strong>wszechstronność (nie tylko na taras) </strong>– rozwiązanie to świetnie sprawdza się również jako <strong>zadaszenie<a href="/wiaty"> wiaty samochodowej,</a></strong> co zimą pozwoli Państwu zapomnieć o uciążliwym odśnieżaniu auta czy skrobaniu szyb;</li>
+    <li><strong>solidność i dostępność</strong> – wszystkie konstrukcje cechują się wyjątkową solidnością, a Klienci mają możliwość wyboru wysokiej jakości zadaszeń dostępnych od ręki.</li>
+  </ul>
+  <p>
+  Mieszkają Państwo w Poznaniu lub okolicach i chcą odmienić swój taras? Zapraszamy do kontaktu – z przyjemnością przygotujemy dla Was darmową wycenę!
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
@@ -60,7 +137,6 @@ export const seoContentList: SeoContent[] = [
       <p>
        Nasza firma wykonuje zadaszenia tarasów w Poznaniu. Dobieramy starannie odpowiednią wielkość przekrojową słupów i łuków, w zależności od szerokości obiektu. Do <strong>zadaszenia tarasów</strong> wykorzystujemy przede wszystkim poliwęglan komorowy, który cechuje się elastycznością i trwałością. Klienci mogą samodzielnie wybrać jego kolor. Dostępny jest on w odcieniu mlecznym, dymionym i bezbarwnym. Dzięki temu dobranie typu <strong>zabudowy tarasów</strong> w pełni zależy od indywidualnej wizji. Jeżeli mieszkają Państwo w <strong>Poznaniu</strong>, możesz liczyć na szeroką ofertę, która w pełni sprosta Twoim oczekiwaniom.
       </p>
-      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
     </div>
   </div>
 
@@ -92,12 +168,76 @@ export const seoContentList: SeoContent[] = [
     </div>
   </div>
 
-  <h2 class="text-2xl">Zadaszenie tarasu z poliwęglanu – Poznań – kontakt</h2>
+  <h2 class="text-2xl">Zadaszenia tarasowe z poliwęglanu w Poznaniu – zapraszamy do kontaktu</h2>
   <p>
     Działamy na rynku niemal 10 lat i jesteśmy przekonani, że nasze<strong> zadaszenia tarasowe z poliwęglanu</strong> i drewna spełnią wszelkie oczekiwania! Najlepsza zabudowa w Poznaniu czeka właśnie na Państwa, a zespół naszych fachowców gwarantuje najwyższą jakość wykonania, co potwierdzają opinie setek zadowolonych klientów. <strong>Poliwęglan na zadaszenie</strong> to rozwiązanie dla każdego miłośnika relaksu na tarasie. W przypadku jakichkolwiek pytań co do usługi <strong>zadaszenia tarasu w Poznaniu</strong> serdecznie <a href="/kontakt">zapraszamy do kontaktu.</a>
   </p>
 
-  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Poznań • Wielkopolska
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Poznaniu</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Poznań i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
     `,
@@ -140,6 +280,29 @@ export const seoContentList: SeoContent[] = [
   <p>
     Nasza oferta skierowana jest do wszystkich właścicieli domów jednorodzinnych lub szeregowców w <strong>Głogowie</strong>, którym zależy na zabezpieczeniu nieruchomości nie tylko przed nadmiernym nasłonecznieniem czy silnym wiatrem, ale również zabrudzeniem przez spadające z drzew liście, gałązki, a nawet owoce. Oferowana przez nas <strong>pergola</strong> to <strong>zadaszenie</strong>, które łączy klasyczny minimalizm z praktyczną ochroną.
   </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+  
   <h2 class="text-2xl">Zadaszenie tarasu – jaki materiał wykorzystujemy w Głogowie?</h2>
   <p>
     W swojej pracy wykorzystujemy trwałe, wytrzymałe i odporne na działanie wilgoci oraz niekorzystnych czynników zewnętrznych materiały, co przekłada się na wydłużenie żywotności zadaszenia tarasu. Zapewniamy kompleksową obsługę na najwyższym poziomie, dbając o najdrobniejsze detale i efektywność przeprowadzanych czynności. Stosujemy wytrzymałe materiały poddawane precyzyjnej obróbce, dlatego jesteśmy częstym wyborem wśród mieszkańców <strong>Głogowa</strong> szukających profesjonalnych, solidnych rozwiązań dla domu. 
@@ -154,22 +317,100 @@ export const seoContentList: SeoContent[] = [
       <p>
        Taras z zadaszeniem w Głogowie jest fantastyczną opcją, a w szczególności, gdy wykończono go posadzką z drewna. To pozwala na jej ochronę przed działaniem wilgoci oraz wody. To znakomite miejsce do hodowania roślin czy ustawienia mebli ogrodowych, a także wszelkich akcesoriów oraz sprzętów. Jeżeli marzą Państwo o stworzeniu przyjemnego miejsca z <strong>zadaszeniami pergoli tarasowej z poliwęglanu</strong> lub drewna – <a href="/kontakt">zapraszamy do kontaktu.</a>
       </p>
-      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
     </div>
   </div>
 
-  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91659.88127925311!2d15.983026756942058!3d51.65675249092638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705f419786aeb81%3A0xdece0165881545a5!2zR8WCb2fDs3c!5e0!3m2!1spl!2spl!4v1758611535950!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
   <h2 class="text-2xl mt-6">Nowoczesne możliwości dopasowania pergoli do Państwa tarasu</h2>
-<p>
-  W naszej ofercie dostępna jest <strong>pergola tarasowa z poliwęglanu</strong>, którą możemy precyzyjnie dopasować do wymiarów i układu konkretnej przestrzeni. Każdą taką konstrukcję wykonujemy na indywidualne zamówienie, dzięki czemu konstrukcja harmonijnie współgra z bryłą budynku oraz istniejącą aranżacją ogrodu.
-</p>
-<p>
-  Oferujemy możliwość wyboru grubości i rodzaju poliwęglanu, co pozwala uzyskać optymalny poziom doświetlenia tarasu przy jednoczesnej ochronie przed promieniowaniem UV. <strong>Zadaszenie tarasu – pergola</strong> – to rozwiązanie szczególnie cenione przez mieszkańców <strong>Głogowa</strong>, którzy oczekują trwałej, estetycznej i funkcjonalnej zabudowy dopasowanej do codziennego użytkowania.
-</p>
-<p>
-  Zapraszamy do kontaktu – przygotujemy projekt idealnie odpowiadający Państwa potrzebom.
-</p>
+  <p>
+    W naszej ofercie dostępna jest <strong>pergola tarasowa z poliwęglanu</strong>, którą możemy precyzyjnie dopasować do wymiarów i układu konkretnej przestrzeni. Każdą taką konstrukcję wykonujemy na indywidualne zamówienie, dzięki czemu konstrukcja harmonijnie współgra z bryłą budynku oraz istniejącą aranżacją ogrodu.
+  </p>
+  <p>
+    Oferujemy możliwość wyboru grubości i rodzaju poliwęglanu, co pozwala uzyskać optymalny poziom doświetlenia tarasu przy jednoczesnej ochronie przed promieniowaniem UV. <strong>Zadaszenie tarasu – pergola</strong> – to rozwiązanie szczególnie cenione przez mieszkańców <strong>Głogowa</strong>, którzy oczekują trwałej, estetycznej i funkcjonalnej zabudowy dopasowanej do codziennego użytkowania.
+  </p>
+  <p>
+    Zapraszamy do kontaktu – przygotujemy projekt idealnie odpowiadający Państwa potrzebom.
+  </p>
+
+  <h2 class="text-2xl mt-6">Dlaczego warto powierzyć nam realizację pergoli tarasowej w Głogowie?</h2>
+
+  <p>
+  Decydując się na zadaszenie z poliwęglanu i drewna, wielu inwestorów zastanawia się, <strong>jak zrobić pergole tarasowe,</strong> aby konstrukcja była stabilna, estetyczna oraz trwała przez lata. Samodzielna budowa bywa wyzwaniem, dlatego warto postawić na profesjonalne wsparcie Drewelt oparte na twardych faktach:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li><strong>niemal 10-letnie doświadczenie</strong> – przez dekadę obecności branży poznaliśmy specyfikację materiałów i wypracowaliśmy techniki precyzyjnej obróbki, co gwarantuje najwyższą jakość wykonania;</li>
+    <li><strong>indywidualne realizacje w Głogowie</strong> – każdą konstrukcję tworzymy na zamówienie, dopasowując jej wymiary, układ oraz grubość poliwęglanu bezpośrednio do bryły Państwa budynku;</li>
+    <li><strong>trwałe i odporne materiały</strong> – stosujemy wyłącznie surowce odporne na wilgoć, promieniowanie UV oraz czynniki zewnętrzne (takie jak opady, wiatr czy spadające liście), a to z kolei bezpośrednio wydłuża żywotność tarasu;</li>
+    <li><strong>kompleksowa obsługa</strong> – dbamy o najdrobniejsze detale na każdym etapie – od doradztwa i przygotowania projektu, aż po montaż, odciążając Państwa z pytań o to, jak prawidłowo wznieść konstrukcję.</li>
+  </ul>
+  <p>
+  Planują Państwo metamorfozę swojego ogrodu? <a href="/kontakt">Skontaktujcie się z nami już dziś</a> – bezpłatnie wycenimy projekt i stworzymy zadaszenie idealnie dopasowane do potrzeb!
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91659.88127925311!2d15.983026756942058!3d51.65675249092638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705f419786aeb81%3A0xdece0165881545a5!2zR8WCb2fDs3c!5e0!3m2!1spl!2spl!4v1758611535950!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Głogów • Dolnośląskie
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Głogowie</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Głogów i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
     `,
@@ -1403,13 +1644,12 @@ export const seoContentList: SeoContent[] = [
   {
     url: "zadaszenie-tarasu-gorzow-wlkp",
     metaTitle: "Tarasy drewniane z zadaszeniem - drewelt.pl",
-    h1: "Zadaszenia tarasów w Gorzowie Wielkopolskim",
+    h1: "Zadaszenia tarasów w Gorzowie Wielkopolskim – gwarancja jakości",
     description: "Oferujemy budowę drewnianych tarasów z zadaszeniami na terenie Gorzowa Wielkopolskiego. W naszej ofercie znajdują się usługi dostosowane do Państwa potrzeb.",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
-  <h2 class="text-2xl">Zadaszenia tarasów w Gorzowie Wielkopolskim – gwarancja jakości</h2>
   <p>
-    Specjalizując się w produkcji drewnianych i poliwęglanowych zadaszeń tarasu w Gorzowie Wielkopolskim, zawsze stawiamy na wysoką jakość. Wykorzystujemy najlepsze materiały, które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko trwałością, ale i estetycznym wykończeniem, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z dwuletnią gwarancją, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze.
+  Specjalizując się w produkcji drewnianych i poliwęglanowych zadaszeń tarasu w <strong>Gorzowie Wielkopolskim</strong>, zawsze stawiamy na wysoką jakość. Wykorzystujemy <strong>najlepsze materiały,</strong> które są dostosowane do specyfiki każdej konstrukcji. Nasze zadaszenia charakteryzują się nie tylko <strong>trwałością, ale także estetycznym wykończeniem</strong>, co przekłada się na rosnące grono zadowolonych klientów. Ponadto każdy projekt realizujemy z <strong>dwuletnią gwarancją</strong>, zapewniając konstrukcje impregnowane i malowane w wybranym kolorze. Zapraszamy do współpracy!
   </p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
@@ -1429,16 +1669,113 @@ export const seoContentList: SeoContent[] = [
 
   </div>
 
-  <h2 class="text-2xl mt-4">Dlaczego Drewelt do budowy tarasu z zadaszeniem w Gorzowie Wielkopolskim?</h2>
+  <h2 class="text-2xl mt-4">Dlaczego warto wybrać Drewelt do budowy tarasu z zadaszeniem w Gorzowie Wielkopolskim?</h2>
   <p>
-    Zadaszenia wykonywane przez Drewelt cechują się wysoką wytrzymałością mechaniczną oraz opornością na zmiany temperatury, co jest szczególnie ważne w zmiennej aurze. Wykorzystywane przez nas materiały umożliwiają uzyskanie konstrukcji o dużych rozpiętościach bez konieczności stosowania dodatkowych wsporników. Dzięki takiej technologii jesteśmy w stanie przygotować projekty o dużej estetyce wykonania, stabilności oraz stałości wymiarowej. Stosowane przez nas rozwiązania umożliwiają otrzymanie dokładnie takiej długości i kształtu elementów konstrukcyjnych, jaka jest potrzebna, minimalizując przy tym straty materiału.
+  Decydując się na <strong>budowę tarasu drewnianego z zadaszeniem </strong>z Drewelt, otrzymują Państwo:
   </p>
+  <ul class="list-disc list-inside my-4">
+    <li><strong>wyjątkową trwałość</strong> – nasze konstrukcje cechują się wysoką odpornością mechaniczną oraz niewrażliwością na wahania temperatur, co ma duże znaczenie w polskim, zmiennym klimacie;</li>
+    <li><strong>nowoczesną technologię</strong> – stosujemy zaawansowane materiały, które pozwalają na tworzenie zadaszeń o dużych rozpiętościach, bez potrzeby montowania dodatkowych, ograniczających przestrzeń wsporników;</li>
+    <li><strong>estetykę i stabilność</strong> – zyskują Państwo konstrukcję o najwyższym standardzie wykonania, która zachowuje idealną geometrię przez długie lata;</li>
+    <li><strong>rozwiązanie skrojone na miarę </strong>– każdy element docinamy dokładnie według Państwa potrzeb i specyfikacji projektu, co pozwala nam maksymalnie ograniczyć straty materiałowe.</li>
+  </ul>
+  <p>
+  <a href="/kontakt">Skontaktujcie się Państwo z nami już dziś</a>, aby omówić szczegóły projektu i otrzymać bezpłatną wycenę zadaszenia w <strong>Gorzowie Wielkopolskim.</strong>
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
   <h2 class="text-2xl">Poliwęglan na taras z zadaszeniem w Gorzowie Wielkopolskim</h2>
   <p>
     Wykorzystanie poliwęglanu komorowego w zadaszeniach tarasu w Gorzowie Wielkopolskim jest świadomym wyborem, który wynika z licznych zalet tego materiału. Dzięki niemu wykonywane przez <strong>tarasy z zadaszeniem</strong> gwarantują trwałość i ochronę przy małym obciążeniu konstrukcji. Nasze konstrukcje są wyjątkowo odporne na uderzenia i warunki atmosferyczne, w tym ekstremalne temperatury. Poliwęglan komorowy wykorzystywany w drewnianych zadaszeniach tarasu w Gorzowie Wielkopolskim jest również materiałem o dobrych właściwościach termoizolacyjnych, co przekłada się na utrzymanie stabilnej temperatury. Jeżeli marzą Państwo o stworzeniu komfortowego tarasu chroniącego przed deszczem i słońcem, <a href="/kontakt">zapraszamy do kontaktu.</a> 
   </p>
 
-  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d145069.4234276415!2d15.084387008287848!3d52.733390584318116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47071f0a5a4118b7%3A0x5dd10df3cb5799dd!2sGorz%C3%B3w%20Wielkopolski!5e0!3m2!1spl!2spl!4v1758611604878!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d145069.4234276415!2d15.084387008287848!3d52.733390584318116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47071f0a5a4118b7%3A0x5dd10df3cb5799dd!2sGorz%C3%B3w%20Wielkopolski!5e0!3m2!1spl!2spl!4v1758611604878!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Gorzów Wielkopolski
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Gorzowie Wielkopolskim</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Gorzów Wielkopolski i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed słońcem i deszczem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
     `,
   },
@@ -1562,7 +1899,7 @@ export const seoContentList: SeoContent[] = [
     url: "zadaszenie-tarasu-zielona-gora",
     metaTitle: "Zadaszenia na taras z poliwęglanu i drewna - drewelt.pl",
     h1: "Zadaszenie tarasu w Zielonej Górze – komfort przez cały rok",
-    description: "Proponujemy liczne rozwiązania dotyczące zadaszeń tarasowych z poliwęglanu i drewna. Mieszkańców Zielonej Góry zapraszamy do zapoznania się z ofertą.",
+    description: "Zadaszenia tarasu z poliwęglanu i drewna w Zielonej Górze. Montaż pergoli oraz przygotowanie podłoża pod taras kompozytowy. Poznaj ofertę i napisz do nas!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
   <p>
@@ -1576,7 +1913,15 @@ export const seoContentList: SeoContent[] = [
 
       <h2 class="text-2xl">Jak montujemy zadaszenie tarasu w Zielonej Górze?</h2>
       <p>
-        Nasza firma oferuje solidne, estetyczne i nowoczesne zadaszenia na taras w <strong>Zielonej Górze</strong> i okolicznych miejscowościach. Nasze usługi opierają się na profesjonalnym podejściu do projektowania kondygnacji, doboru odpowiednich materiałów konstrukcyjnych, a także na montażu zadaszeń, spełniających wysokie standardy jakościowe i estetyczne. W naszej ofercie znajdą Państwo zarówno <strong>zadaszenia tarasów</strong>, jak i usługę <strong>przymocowania pergoli do balkonu</strong>. Stawiamy na różnorodność rozwiązań, zapewniając klientom możliwość wyboru spośród różnych kształtów, kolorów i stylów, które doskonale współgrają z architekturą. Oprócz <strong>wykonania zadaszenia</strong> pomożemy Państwu w <strong>przygotowaniu podłoża pod taras kompozytowy</strong> oraz odpowiednim <strong>ułożeniu</strong> go. 
+      Nasza firma oferuje solidne, estetyczne i nowoczesne <strong>zadaszenia na taras w Zielonej Górze </strong>i okolicznych miejscowościach. Nasze usługi opierają się na:
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li>profesjonalnym podejściu do projektowania konstrukcji,</li>
+        <li>doborze odpowiednich materiałów konstrukcyjnych,</li>
+        <li>montażu zadaszeń, spełniających wysokie standardy jakościowe i estetyczne.</li>
+      </ul>
+      <p>
+      W naszej ofercie znajdą Państwo zarówno zadaszenia tarasów, jak i usługę <strong>przymocowania pergoli do balkonu</strong>. Stawiamy na różnorodność rozwiązań, zapewniając klientom możliwość wyboru spośród różnych kształtów, kolorów oraz stylów, które doskonale współgrają z architekturą. Oprócz wykonania zadaszenia pomożemy Państwu w <strong>przygotowaniu podłoża pod taras kompozytowy</strong> oraz odpowiednim <strong>ułożeniu</strong> go. Zachęcamy do współpracy! Stwórzmy razem przestrzeń idealną do odpoczynku.
       </p>
     </div>
 
@@ -1586,70 +1931,299 @@ export const seoContentList: SeoContent[] = [
 
   </div>
 
-  <h2 class="text-2xl mt-4">Ile kosztuje zadaszenie tarasu i robocizna oraz jak przebiega?</h2>
+  <h2 class="text-2xl mt-4">Ile kosztuje zadaszenie tarasu i robocizna oraz jak przebiega realizacja?</h2>
   <p>
     Na etapie projektowania zadaszeń tarasu w Zielonej Górze i okolicach dokładnie analizujemy specyfikację budynku oraz wymagania estetyczne i funkcjonalne, co umożliwia dostosowanie propozycji do konkretnych potrzeb. Od tych wszystkich czynników będzie zależeć to, <strong>ile</strong> ostatecznie będzie <strong>kosztować zadaszenie tarasu</strong>. Następnie, w oparciu o profesjonalną wiedzę i doświadczenie, tworzymy projekt zadaszenia uwzględniający najnowsze rozwiązania technologiczne i materiałowe. Kolejnym krokiem jest terminowy montaż przez wykwalifikowany zespół specjalistów, dbających o precyzję i bezpieczeństwo <strong>wykonania</strong>. Bardzo częstym pytaniem przy doborze materiału jest to, <strong>ile kosztuje zadaszenie z poliwęglanu</strong> lub <strong>drewna</strong>.
   </p>
   <p>
     Pierwsze z nich cechuje się atrakcyjnym stosunkiem ceny do jakości, dzięki czemu jest to rozwiązanie przystępne dla każdego. Druga opcja może być konkurencyjna cenowo, w zależności od zastosowanych materiałów. Jego dużym atutem jest jednak naturalny wygląd, który świetnie dopełnia ogrodową przestrzeń przed domem.
   </p>
+
+  <h3 class="text-xl mt-4">Od czego zależą koszty montażu zadaszenia w Zielonej Górze?</h3>
+  <p>
+  To,<strong> ile kosztuje zadaszenie tarasu i sama robocizna</strong>, zależy bezpośrednio od wymiarów konstrukcji oraz stopnia skomplikowania prac montażowych. W kosztach usługi mieści się u nas:
+  </p>
+  <ul class="list-disc list-inside my-4">
+    <li>osadzanie profili,</li>
+    <li>kotwienie słupów w gruncie,</li>
+    <li>montaż systemu rynnowego, który odprowadza wodę opadową.</li>
+  </ul>
+  <p>
+  Chcą Państwo poznać dokładną cenę inwestycji dopasowaną do wymiarów domu? Zapraszamy do kontaktu – przeanalizujemy Wasze potrzeby, doradzimy optymalne materiały i przygotujemy szczegółowy kosztorys inwestycji.
+  </p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+
   <h2 class="text-2xl">Zadaszenie na taras z poliwęglanu w Zielonej Górze</h2>
   <p>
     Wśród wielu materiałów stosowanych do zadaszenia tarasów, poliwęglan wykazuje się szczególnymi właściwościami. Jest on doskonałym wyborem w tego typu konstrukcjach, ponieważ charakteryzuje się wysoką wytrzymałością mechaniczną, doskonałą transparentnością oraz odpornością na warunki atmosferyczne. Zadaszenie na taras w Zielonej Górze z poliwęglanu umożliwia wprowadzenie naturalnego światła do przestrzeni tarasowej, zapewniając solidną i trwałą ochronę przed deszczem czy promieniowaniem UV.
   </p>
+
+  <h2 class="text-2xl">Jak zrobić drewniane zadaszenie tarasu dopasowane do domowej przestrzeni?</h2>
+  <p>
+  <strong>Drewniane zadaszenie tarasu</strong> to doskonały wybór dla właścicieli domów ceniących naturalne piękno, uniwersalność i trwałość. Szczególnie dobrze prezentuje się przy klasycznych domach z cegły czy otynkowanych elewacjach. Jest to idealne rozwiązanie zarówno dla małych, kameralnych tarasów, jak i dla dużych, przestronnych powierzchni. Charakteryzuje się solidną konstrukcją i wszechstronnością. Może przyjmować formę:
+  </p>
+    <ul class="list-disc list-inside my-4">
+    <li>prostych wiat,</li>
+    <li>ażurowych pergoli,</li>
+    <li>nowoczesnych lameli,</li>
+    <li>tradycyjnych zadaszeń krytych,</li>
+  </ul>
+  <p>
+  oferując różny stopień ochrony przed słońcem, deszczem czy wiatrem. Jeśli nie wiesz,<strong> jak wykonać takie zadaszenie tarasu</strong>, <a href="/kontakt">zachęcamy do kontaktu z nami.</a> Jako specjaliści w zakresie konstrukcji zewnętrznych, zaproponujemy, a następnie wykonamy projekt, zgodnie z wszelkimi założeniami.
+  </p>
+
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
       <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasu."/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
-      <h2 class="text-2xl">Jak zrobić drewniane zadaszenie tarasu dopasowane do domowej przestrzeni?</h2>
-      <p>
-       <strong>Drewniane zadaszenie tarasu</strong> to doskonały wybór dla właścicieli domów ceniących naturalne piękno, uniwersalność i trwałość. Szczególnie dobrze prezentuje się przy klasycznych domach z cegły czy otynkowanych elewacjach. Jest to idealne rozwiązanie zarówno dla małych, kameralnych tarasów, jak i dla dużych, przestronnych powierzchni. Charakteryzuje się solidną konstrukcją i wszechstronnością. Może przyjmować formę prostych wiat, ażurowych pergoli, nowoczesnych lameli czy tradycyjnych zadaszeń krytych, oferując różny stopień ochrony przed słońcem, deszczem czy wiatrem. Jeśli nie wiesz, <strong>jak wykonać</strong> takie <strong>zadaszenie tarasu</strong>, zachęcamy do kontaktu z nami. Jako specjaliści w zakresie konstrukcji zewnętrznych, zaproponujemy, a następnie wykonamy projekt, zgodnie z wszelkimi założeniami.
-      </p>
-      <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+        <h2 class="text-2xl">Profesjonalne zadaszenie tarasu – Zielona Góra – kontakt</h2>
+        <p>
+          Wysoką jakość naszych usług potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań lub wątpliwości co do opisywanej oferty montażu zadaszeń tarasu w Zielonej Górze i okolicach serdecznie <a href="/kontakt">zapraszamy do kontaktu.</a> Nasi specjaliści są gotowi udzielić szczegółowych informacji na temat naszych realizacji, doradzić w wyborze najlepszego rozwiązania oraz umówić się na indywidualną konsultację. <strong>Zbudujemy zadaszenia tarasu</strong> zgodnie z Państwa wizją i możliwościami.
+        </p>
     </div>
   </div>
 
-  <h2 class="text-2xl">Profesjonalne zadaszenie tarasu – Zielona Góra – kontakt</h2>
+
+  <h2 class="text-2xl mt-6">Dodatkowe możliwości personalizacji zadaszeń tarasowych</h2>
   <p>
-    Wysoką jakość naszych usług potwierdzają opinie setek zadowolonych klientów. W przypadku jakichkolwiek pytań lub wątpliwości co do opisywanej oferty montażu zadaszeń tarasu w Zielonej Górze i okolicach serdecznie <a href="/kontakt">zapraszamy do kontaktu.</a> Nasi specjaliści są gotowi udzielić szczegółowych informacji na temat naszych realizacji, doradzić w wyborze najlepszego rozwiązania oraz umówić się na indywidualną konsultację. <strong>Zbudujemy zadaszenia tarasu</strong> zgodnie z Państwa wizją i możliwościami.
+    W naszej ofercie dostępne są również rozwiązania rozszerzające funkcjonalność konstrukcji, których nie opisano wcześniej – m.in. możliwość wyboru grubości i rodzaju poliwęglanu oraz doposażenia zadaszeń w elementy zwiększające komfort użytkowania.
   </p>
-<h2 class="text-2xl mt-6">Dodatkowe możliwości personalizacji zadaszeń tarasowych</h2>
-<p>
-  W naszej ofercie dostępne są również rozwiązania rozszerzające funkcjonalność konstrukcji, których nie opisano wcześniej – m.in. możliwość wyboru grubości i rodzaju poliwęglanu oraz doposażenia zadaszeń w elementy zwiększające komfort użytkowania.
-</p>
-<p>
-  Klienci mogą zdecydować, czy interesuje ich wariant komorowy lub lity, co wpływa zarówno na trwałość, jak i na to, <strong>ile kosztuje zadaszenie tarasu z poliwęglanu</strong>.
-  Podobnie w przypadku konstrukcji drewnianych – ostateczna cena zależy od gatunku drewna, przekroju belek oraz stopnia zabudowy, co pozwala precyzyjnie określić, <strong>ile kosztuje drewniane zadaszenie tarasu</strong>.
-</p>
-<p>
-  Oferujemy także możliwość dopasowania kolorystyki, dodatkowych osłon bądź systemów montażowych, aby konstrukcja idealnie współgrała z elewacją czy stylem ogrodu.
-</p>
+  <p>
+    Klienci mogą zdecydować, czy interesuje ich wariant komorowy lub lity, co wpływa zarówno na trwałość, jak i na to, <strong>ile kosztuje zadaszenie tarasu z poliwęglanu</strong>.
+    Podobnie w przypadku konstrukcji drewnianych – ostateczna cena zależy od gatunku drewna, przekroju belek oraz stopnia zabudowy, co pozwala precyzyjnie określić, <strong>ile kosztuje drewniane zadaszenie tarasu</strong>.
+  </p>
+  <p>
+    Oferujemy także możliwość dopasowania kolorystyki, dodatkowych osłon bądź systemów montażowych, aby konstrukcja idealnie współgrała z elewacją czy stylem ogrodu.
+  </p>
 
-  <h2 class="text-2xl bg-[#e9a749] px-6 py-4 rounded-tl-xl rounded-xl mb-0 z-10 flex relative">FAQ – najczęściej zadawane pytania</h2>
-  <div style="margin-top: 0 !important;" class="border-2 border-[#262420] relative px-4 pb-4 pt-8 flex gap-2 flex-col rounded-b-xl top-[-20px] z-0" itemscope itemtype="https://schema.org/FAQPage">
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <p class="border-b border-[#262420] flex flex-col gap-1">
-      <span itemprop="name"><strong>Ile kosztuje zadaszenie tarasu z drewna?</strong></span>
-      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Cena zależy od rodzaju drewna i projektu. W Drewelt zaczyna się od 700 zł/m&sup2;, a bardziej zaawansowane konstrukcje mogą kosztować więcej. To, <strong>ile kosztuje zadaszenie tarasu z drewna</strong>, zależy od wielu czynnik&oacute;w, takich jak metraż konstrukcji, rodzaj wybranego pokrycia dachowego (np. poliwęglan, szkło czy dach&oacute;wka) czy stopień skomplikowania detali architektonicznych.</span></span>
-      </p>
-    </div>
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <p class="border-b border-[#262420] flex flex-col gap-1">
-      <span itemprop="name"><strong>Ile kosztuje zadaszenie z poliwęglanu?</strong></span>
-      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Zadaszenia z poliwęglanu komorowego lub litego kosztują od 500 zł/m&sup2;. To, <strong>ile kosztuje zadaszenie z poliwęglanu</strong>, zależy od specyfikacji technicznej i wybranych dodatk&oacute;w.</span></span>
-      </p>
-    </div>
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <p class="flex flex-col gap-1">
-      <span itemprop="name"><strong>Jak przygotować podłoże pod taras kompozytowy?</strong></span>
-      <span itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Należy wyr&oacute;wnać teren, wykonać warstwę nośną z kruszywa i zamontować legary. Koszt przygotowania to 150&ndash;300 zł/m&sup2;, w zależności od warunk&oacute;w gruntowych. Jeśli nie wiesz, <strong>jak przygotować podłoże pod taras kompozytowy</strong>, skontaktuj się z ekspertami Drewelt.</span></span>
-      </p>
+  <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl mx-auto" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+    <div class="p-8 md:p-12 flex flex-col justify-center">
+      <div class="mb-3">
+        <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+          FAQ • Najczęściej zadawane pytania
+        </span>
+      </div>
+      <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+        Zadaszenie tarasu<br>
+        <span style="color: #2e7d32;">– pytania i odpowiedzi</span>
+      </h2>
+
+      <div class="flex gap-2 flex-col mb-8" itemscope="" itemtype="https://schema.org/FAQPage">
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="border-b border-[#262420] pb-4 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Ile kosztuje zadaszenie tarasu z drewna?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Cena zależy od rodzaju drewna i projektu. W Drewelt zaczyna się od 700 zł/m², a bardziej zaawansowane konstrukcje mogą kosztować więcej. To, <strong>ile kosztuje zadaszenie tarasu z drewna</strong>, zależy od wielu czynników, takich jak metraż konstrukcji, rodzaj wybranego pokrycia dachowego (np. poliwęglan, szkło czy dachówka) czy stopień skomplikowania detali architektonicznych.</span></span>
+            </p>
+          </div>
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="border-b border-[#262420] pb-4 pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Ile kosztuje zadaszenie z poliwęglanu?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Zadaszenia z poliwęglanu komorowego lub litego kosztują od 500 zł/m². To, <strong>ile kosztuje zadaszenie z poliwęglanu</strong>, zależy od specyfikacji technicznej i wybranych dodatków.</span></span>
+            </p>
+          </div>
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Jak przygotować podłoże pod taras kompozytowy?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Należy wyrównać teren, wykonać warstwę nośną z kruszywa i zamontować legary. Koszt przygotowania to 150–300 zł/m², w zależności od warunków gruntowych. Jeśli nie wiesz, <strong>jak przygotować podłoże pod taras kompozytowy</strong>, skontaktuj się z ekspertami Drewelt.</span></span>
+            </p>
+          </div>
+        </div>
     </div>
   </div>
 
-  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239507.93793954165!2d15.275525679367389!3d51.93627239941639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613d95c7424c9%3A0xd459243a658363d!2sZielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1758611654577!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239507.93793954165!2d15.275525679367389!3d51.93627239941639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470613d95c7424c9%3A0xd459243a658363d!2sZielona%20G%C3%B3ra!5e0!3m2!1spl!2spl!4v1758611654577!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Zielona Góra • Lubuskie
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Zielonej Górze</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Zieloną Górę i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed słońcem i deszczem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    `,
+  },
+  {
+    url: "zadaszenie-tarasu-sroda-wielkopolska",
+    metaTitle: "Zadaszenia tarasów – Środa Wielkopolska – Drewelt",
+    h1: "Dlaczego warto wybrać zadaszenie tarasów Drewelt?",
+    description: "Nowoczesne zadaszenia tarasów w Środzie Wielkopolskiej. Konstrukcje z drewna BSH i poliwęglanu z filtrem UV. Zamów projekt oraz montaż w 1 dzień!",
+    content: `
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>
+    Szukają Państwo ochrony przed palącym słońcem, nagłym deszczem czy gradem? Tradycyjne wiaty z marketów często projektuje się tak, aby zmieściły się w paczce transportowej, co drastycznie obniża ich stabilność. Wybierając <strong><a href="/zadaszenia">zadaszenia tarasów od firmy Drewelt</a></strong>, inwestujecie w rzemiosło dopasowane do indywidualnych potrzeb. Otrzymujecie projekt wycinany co do centymetra, który idealnie zintegruje się z bryłą i stylem architektonicznym domu w <strong>Środzie Wielkopolskiej.</strong>
+  </p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Jakie materiały gwarantują trwałość konstrukcji na dekady?</h2>
+      <p>
+      <a href="/">Drewelt</a> nie uznaje kompromisów w kwestii jakości. Każda konstrukcja opiera się na:
+      </p>
+      <ul class="list-disc list-inside my-4">
+        <li><strong>drewnie klejonym warstwowo BSH</strong> – to suchy świerk o podwyższonej wytrzymałości mechanicznej. Mogą Państwo zapomnieć o pęknięciach, odkształceniach czy skręcaniu się belek pod wpływem zmian temperatury;</li>
+        <li><strong>poliwęglanie komorowym 10 mm</strong> – wytrzymuje obciążenie do 100 kg/m², stanowiąc bezpieczną barierę przed opadami śniegu czy gradobiciem;</li>
+        <li><strong>obustronnym filtrze UV</strong> – pokrycie poliwęglanem chroni przed szkodliwym promieniowaniem, a meble ogrodowe zabezpiecza przed blaknięciem. Płyty dostępne są w wersji <strong>przezroczystej, mlecznej oraz przydymionej</strong>.</li>
+      </ul>
+      <p>
+      Zbudujcie Państwo solidne zadaszenie tarasu w <strong>Środzie Wielkopolskie</strong>j – <a href="/kontakt">skontaktujcie się z nami </a>i wybierzcie materiały najwyższej jakości na lata!
+      </p>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/galeria/przyscienne-prosty-spadek/22.jpg" alt="Zadaszenie tarasu z prostym spadkiem."/>
+    </div>
+
+  </div>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159394.7110186958!2d17.149265010585456!3d52.210251526550685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704fb1403f25711%3A0x3da013a9d68c27b3!2s%C5%9Aroda%20Wielkopolska!5e0!3m2!1spl!2spl!4v1781269057361!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Środa Wielkopolska
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Środzie Wielkopolskiej</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Środę Wielkopolską i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed słońcem i deszczem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
     `,

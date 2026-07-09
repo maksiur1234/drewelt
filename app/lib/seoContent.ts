@@ -2290,6 +2290,22 @@ export const seoContentList: SeoContent[] = [
     Firma Drewelt przygotowała usługę montażu <strong>tarasów kompozytowych</strong> z pełnym wsparciem technicznym. Nasz zespół specjalistów realizuje inwestycje na terenie Poznania i okolic, zapewniając precyzyjne wykonanie oraz doradztwo w zakresie konstrukcji nośnej i rozmieszczenia legarów. <strong>Tarasy kompozytowe</strong> montowane przez Drewelt są objęte gwarancją, a ich <strong>cena</strong> zależy od metrażu, rodzaju podłoża oraz wybranych akcesoriów. Dzięki temu cała inwestycja jest zawsze dostosowana do indywidualnych potrzeb, a także możliwości inwestora. Zamów bezpłatną konsultację – <a href="/kontakt">skontaktuj się z nami</a> i sprawdź, jak szybko możesz cieszyć się nowoczesnym rozwiązaniem z <strong>deski tarasowej kompozytowej </strong>w swoim ogrodzie.
   </p>
 
+  <h2 class="text-2xl">Czy wiesz, że...?</h2>
+  <ul class="list-disc list-inside my-4">
+    <li>
+      <p>Decydując się na&nbsp;<strong>tarasy kompozytowe</strong>, wybierasz rozwiązanie, które nie wymaga corocznego cyklinowania, olejowania ani malowania. W przeciwieństwie do tradycyjnego drewna, powierzchnie te są w pełni odporne na butwienie, dlatego inwestorzy coraz chętniej wybierają nowoczesne&nbsp;<strong>tarasy z deski kompozytowej</strong>&nbsp;jako inwestycję na długie lata.</p>
+    </li>
+    <li>
+      <p>Wysoka odporność na grzyby, wilgoć oraz skrajne temperatury to zasługa unikalnego składu materiału WPC. Nowoczesne&nbsp;<strong>kompozytowe deski tarasowe</strong>&nbsp;zawdzięczają te właściwości precyzyjnemu połączeniu mączki drzewnej, włókien bambusowych oraz zaawansowanych polimerów.</p>
+    </li>
+    <li>
+      <p>Aby maksymalnie wydłużyć sezon korzystania z przydomowej strefy relaksu, warto połączyć konstrukcję z odpowiednią osłoną. Trwałe i przepuszczające światło&nbsp;<strong><a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan" target="_blank" rel="noopener">zadaszenie tarasu z poliwęglanu</a></strong>&nbsp;zabezpiecza powierzchnię przed opadami, a jednocześnie chroni domowników przed promieniami UV.</p>
+    </li>
+    <li>
+      <p>Idealne dopasowanie całej konstrukcji do kształtu bryły budynku i wielkości ogrodu zapewniają profesjonalne&nbsp;<strong><a href="https://www.drewelt.pl/zadaszenia" target="_blank" rel="noopener">zadaszenia tarasów na wymiar</a>,</strong>&nbsp;które projektujemy oraz montujemy kompleksowo, dopasowując każdy detal do indywidualnych potrzeb inwestora.</p>
+    </li>
+  </ul>
+
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311595.0021384672!2d16.57202212571877!3d52.400587236012406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470444d2ece10ab7%3A0xa4ea31980334bfd1!2zUG96bmHFhA!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
@@ -2436,6 +2452,24 @@ export const seoContentList: SeoContent[] = [
       
     </div>
   </div>
+  <h2 class="text-2xl mt-4">Dlaczego warto wybrać kompleksowe wykonanie tarasu w Drewelt?</h2>
+  <p>Wybierając nas, zyskujesz pewność, że&nbsp;<strong>budowa tarasu z deski tarasowej</strong>&nbsp;zostanie przeprowadzona od A do Z przez jeden zespół fachowców. Jako doświadczony&nbsp;<a href="https://www.drewelt.pl/" target="_blank" rel="noopener">producent zadaszeń&nbsp;</a>, gwarantujemy konkretne korzyści:</p>
+  <ul class="list-disc list-inside my-4">
+    <li>
+      <p><strong>ponad dekada doświadczenia&nbsp;</strong>&ndash; pewność i bezpieczeństwo inwestycji potwierdzone setkami gotowych projektów w całym kraju;</p>
+    </li>
+    <li>
+      <p><strong>kompleksowa obsługa&nbsp;</strong>&ndash; od precyzyjnego pomiaru oraz doradztwa, przez indywidualny projekt, aż po sprawny montaż;</p>
+    </li>
+    <li>
+      <p><strong>pełna synergia&nbsp;</strong>&ndash; tworzymy&nbsp;<strong>tarasy ogrodowe</strong>&nbsp;idealnie dopasowane do otoczenia oraz potrzeb Klienta;</p>
+    </li>
+    <li>
+      <p><strong>certyfikowana stabilność&nbsp;</strong>&ndash; podbudowa z selekcjonowanych materiałów zapewnia odporność na osiadanie, a także wieloletnią trwałość;</p>
+    </li>
+  </ul>
+  <p>Interesuje Cię profesjonalna&nbsp;<a href="https://www.drewelt.pl/tarasy" target="_blank" rel="noopener">budowa tarasów z desek kompozytowych w Warszawie?</a>&nbsp;Zgłoś się do ekspertów Drewelt.</p>
+
   <h2 class="text-2xl mt-4">Skontaktuj się z nami – zaprojektuj taras z Drewelt</h2>
   <p>
     Zainwestuj w <strong>taras drewniany</strong> lub <strong><a href="/tarasy">kompozytowy</a></strong>, który będzie funkcjonalny, trwały i dopasowany do Twojego stylu życia. <a href="/kontakt">Skontaktuj się z nami</a>, aby otrzymać indywidualny projekt, wycenę i fachowe doradztwo. 
@@ -2455,9 +2489,8 @@ export const seoContentList: SeoContent[] = [
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
   <h1 class="text-3xl font-bold text-gray-800">Kompozyt czy drewno? Co wybrać na taras we Wrześni?</h1>
-  <p>
-    Zastanawiasz się, co będzie lepsze – <strong>deska kompozytowa czy drewniana na taras we Wrześni</strong>? Drewno ma swój urok, ale wymaga regularnej konserwacji, impregnacji i jest podatne na warunki atmosferyczne. Kompozyt to nowoczesna alternatywa, która łączy estetykę drewna z trwałością tworzyw sztucznych. Produkty <a href="/">Drewelt </a>powstają z mączki drzewnej, włókien bambusowych oraz polimerów termoplastycznych, wzbogaconych o pigmenty oraz stabilizatory. Dzięki temu są odporne na wilgoć, promieniowanie UV, skrajne temperatury, pleśń, grzyby czy uszkodzenia mechaniczne. Nie wymagają malowania ani impregnacji, a ich wygląd doskonale imituje naturalne drewno. Stanowi idealne rozwiązanie dla osób, które cenią sobie trwałość, estetykę, a także komfort użytkowania przez cały rok. <strong><a href="/tarasy">Deska kompozytowa</a> a drewniana </strong>to zatem wybór między innowacyjnością i tradycją. 
-  </p>
+<p data-path-to-node="5">Zastanawiasz się, co będzie lepsze &ndash;&nbsp;<strong data-path-to-node="5" data-index-in-node="37">deska kompozytowa czy drewniana na taras we Wrześni</strong>? Drewno ma sw&oacute;j klasyczny urok, ale wymaga regularnej konserwacji i jest podatne na warunki atmosferyczne. Kompozyt to nowoczesna, bezobsługowa alternatywa. Produkty Drewelt powstają z mączki drzewnej, wł&oacute;kien bambusowych oraz polimer&oacute;w termoplastycznych, wzbogaconych o stabilizatory i pigmenty. Dzięki temu są w pełni odporne na wilgoć, promieniowanie UV, skrajne temperatury, pleśń oraz uszkodzenia mechaniczne. Nie wymagają malowania, zachowując estetykę naturalnego drewna.&nbsp;Warto pamiętać, że niezależnie od wybranego wykończenia, podbudowa konstrukcji jest zawsze z drewna, a pokrycie z poliwęglanu. Dylemat&nbsp;<strong data-path-to-node="5" data-index-in-node="703">deska kompozytowa a drewniana</strong>&nbsp;to zatem wyb&oacute;r między innowacyjnością i bezproblemowym komfortem a tradycją.</p>
+
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
@@ -2477,7 +2510,7 @@ export const seoContentList: SeoContent[] = [
 
   </div>
 
-  <h2 class="text-2xl mt-4">Deska kompozytowa zastosowanie – zastosowanie i estetyka</h2>
+  <h2 class="text-2xl mt-4">Deska kompozytowa – zastosowanie i estetyka</h2>
   <p>
     <strong>Deska kompozytowa </strong>wyróżnia się szerokim <strong>zastosowaniem</strong>. Buduje się z niej nie tylko tarasy przydomowe. Świetnie sprawdza się ona również na balkonach, pomostach, strefach relaksu przy obiektach komercyjnych, hotelach czy restauracjach. Drewelt oferuje szeroki wybór kolorów i wykończeń, dzięki czemu łatwo dopasujesz produkt do stylu budynku, ogrodu lub elewacji. Nie wiesz, czy <strong><a href="/tarasy">deska tarasowa kompozytowa</a> </strong>to dobry wybór i<strong> jak </strong>ją dobrze<strong> układać? </strong>Wystarczy przesłać zdjęcie lub wymiary przestrzeni, a nasz zespół dobierze odpowiednie komponenty oraz doradzi najlepsze rozwiązania. Zapewniamy kompleksowe wsparcie – od projektu po realizację. <a href="/kontakt">Zadzwoń lub napisz</a> do nas!
   </p>
@@ -2509,6 +2542,22 @@ export const seoContentList: SeoContent[] = [
   <p>
     Planujesz zmienić swoją przydomową przestrzeń, ale nie wiesz, co wybrać – <strong>deska drewniana czy <a href="/tarasy">kompozyt</a> na taras</strong>? Postaw na rozwiązania, które są odporne na warunki atmosferyczne i prezentują się elegancko w każdej przestrzeni. <a href="/kontakt">Skontaktuj się z Drewelt</a> – przygotujemy dla Ciebie indywidualną ofertę, dobierzemy materiały, a także pomożemy w montażu. Działamy we <strong>Wrześni</strong> i okolicach, realizując projekty szybko, profesjonalnie oraz terminowo. Zobacz <a href="/galeria">galerię realizacji</a> lub zadzwoń, by omówić szczegóły inwestycji.
   </p>
+
+  <div class="grid gap-4 md:grid-cols-2">
+    <div class="rounded-2xl overflow-hidden shadow-lg">
+      <img class="object-cover w-full h-64" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie." />
+    </div>
+    <div class="rounded-2xl overflow-hidden shadow-lg">
+      <img class="object-cover w-full h-64" src="/deska_kompozytowa/deska-8.jpg" alt="Taras wykonany z ciemnej deski kompozytowej." />
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <p>
+      Wybierając deskę kompozytową we Wrześni, zyskujesz trwałą powierzchnię, która nie wymaga malowania oraz jest odporna na wilgoć, śnieg i promieniowanie UV. To rozwiązanie, które łączy estetykę drewna z łatwością użytkowania i minimalnymi wymaganiami konserwacyjnymi.
+    </p>
+  </div>
+
   <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156071.7431922871!2d17.5443938!3d52.3273635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f9!3m3!1m2!1s0x4704e97a51bfa0d7%3A0xb3abcad0610ffead!2sWrze%C5%9Bnia!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -2593,10 +2642,10 @@ export const seoContentList: SeoContent[] = [
   </div>
 
   <h2 class="text-2xl">Realizacja tarasu z Drewelt – od pomiaru po montaż desek kompozytowych</h2>
-  <p>
-    W <a href="/o-nas">Drewelt</a> stawiamy na kompleksową obsługę – od pierwszego kontaktu aż po finalny montaż. Klienci z <strong>Wrocławia</strong> mogą liczyć na bezpłatne doradztwo techniczne, które obejmuje wizję lokalną, pomiar oraz dobór odpowiednich materiałów. Nasze <strong>deski kompozytowe</strong> w są dostępne nie tylko w różnych kolorach i długościach, ale także w wersjach o zróżnicowanej strukturze powierzchni – od klasycznego ryflowania po nowoczesne wykończenia szczotkowane. Dzięki temu każdy projekt zyskuje indywidualny charakter. Zamów swój taras z Drewelt – <strong>deska tarasowa kompozytowa</strong> to inwestycja w komfort, trwałość i styl. <a href="/kontakt">Skontaktuj się z nami</a>, a przygotujemy ofertę dopasowaną do Twoich potrzeb!
-  </p>
+ <p>W&nbsp;<a href="https://www.drewelt.pl/o-nas">Drewelt</a>&nbsp;stawiamy na kompleksową obsługę &ndash; od pierwszego kontaktu aż po finalny montaż. Klienci z&nbsp;<strong>Wrocławia</strong>&nbsp;mogą liczyć na bezpłatne doradztwo techniczne, kt&oacute;re obejmuje wizję lokalną, pomiar oraz dob&oacute;r odpowiednich materiał&oacute;w. Nasze&nbsp;<strong>deski&nbsp;kompozytowe</strong>&nbsp;są&nbsp;dostępne nie tylko w r&oacute;żnych kolorach i długościach, ale także w wersjach o zr&oacute;żnicowanej strukturze powierzchni &ndash; od klasycznego ryflowania po nowoczesne wykończenia szczotkowane. Dzięki temu każdy projekt zyskuje indywidualny charakter. Zam&oacute;w sw&oacute;j taras z Drewelt &ndash;&nbsp;<strong>deska tarasowa kompozytowa</strong>&nbsp;to inwestycja w komfort, trwałość i styl.&nbsp;<a href="https://www.drewelt.pl/kontakt">Skontaktuj się z nami</a>, a przygotujemy ofertę dopasowaną do Twoich potrzeb!</p>
 
+<h2 class="text-2xl">Czy warto połączyć montaż desek tarasowych z budową zadaszenia?</h2>
+<p>Wybierając trwałe podłoże, warto zadbać o jego kompleksową ochronę przed słońcem i opadami. Jako doświadczony&nbsp;<a href="https://www.drewelt.pl/" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQ4wQ">producent zadaszeń tarasowych</a>&nbsp;oferujemy nie tylko stabilną nawierzchnię, ale także dopasowane konstrukcyjnie&nbsp;<a href="https://www.drewelt.pl/zadaszenia" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQ5AQ">projekty na wymiar</a>. Wykonujemy je z certyfikowanego drewna klejonego warstwowo BSH oraz płyt z poliwęglanu komorowego o grubości 10 mm z filtrem UV. Zamawiając u nas kompletny system, zyskujesz pewność, że&nbsp;<strong data-path-to-node="1" data-index-in-node="579">deska tarasowa kompozytowa</strong>&nbsp;zachowa nienaganny wygląd, a precyzyjnie docięte zadaszenie wydłuży sezon ogrodowy o kilka miesięcy. Co ważne, 90% element&oacute;w przygotowujemy wcześniej w naszym warsztacie, dzięki czemu profesjonalny montaż konstrukcji i podłoża trwa zaledwie 8&ndash;10 godzin, bez generowania zbędnego bałaganu w Twoim ogrodzie we&nbsp;<strong>Wrocławiu</strong>.</p>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320515.99625018873!2d16.662153354080715!3d51.12633214828668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1755587616575!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -2610,62 +2659,45 @@ export const seoContentList: SeoContent[] = [
     description: "Drewelt – sprzedaż i montaż desek tarasowych w Koninie. Ponad 10 lat doświadczenia. Najwyższa jakość, transparentne kosztorysy i indywidualne podejście. Zadzwoń!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
-  <h1 class="text-3xl font-bold text-gray-800">Deski tarasowe Konin – połączenie trwałości i estetyki</h1>
-  <p>
-    Drewelt dostarcza wysokiej jakości <strong>deski tarasowe</strong> kompozytowe WPC, które stanowią idealny fundament dla każdego tarasu w <strong>Koninie</strong> i okolicach. To doskonałe rozwiązanie dla tych, którzy cenią sobie nowoczesny wygląd, wyjątkową trwałość oraz minimalny nakład pracy przy konserwacji. Co wyróżnia nasze <a href="/tarasy"><strong>deski tarasowe</strong></a>?
-  </p>
-  <ul class="list-disc list-inside my-4">
-    <li>Odporność i bezpieczeństwo: kompozyt WPC charakteryzuje się wysoką odpornością na zmienne warunki atmosferyczne oraz, zapewniając  trwałość oraz bezpieczeństwo użytkowania.</li>
-    <li>Ekologiczny wybór – produkty są przyjazne dla środowiska, co potwierdza ich ekologiczny charakter.</li>
-    <li>Bezproblemowa pielęgnacja – zapomnij o uciążliwym malowaniu czy impregnacji. Nasze deski nie wymagają dodatkowej konserwacji.</li>
-    <li>Szeroki wybór barw – dostępna gama kolorów i faktur pozwala na stworzenie unikalnej aranżacji, idealnie dopasowanej do Twoich preferencji.</li>
-    <li>Wszechstronne zastosowanie – deski kompozytowe z naszej oferty doskonale sprawdzają się nie tylko na tarasach, ale także jako obudowy basenów czy elementy ścieżek ogrodowych.</li>
+  <h1>Deski tarasowe Konin &ndash; połączenie trwałości i estetyki</h1>
+<p>Drewelt dostarcza wysokiej jakości&nbsp;<strong>deski tarasowe</strong>&nbsp;kompozytowe WPC, które stanowią idealny fundament dla każdego tarasu w&nbsp;<strong>Koninie</strong>&nbsp;i okolicach. To doskonałe rozwiązanie dla tych, którzy cenią sobie nowoczesny wygląd, wyjątkową trwałość oraz minimalny nakład pracy przy konserwacji.</p>
+<h2>Co wyróżnia nasze deski tarasowe?</h2>
+  <ul class="list-disc list-inside my-4 text-base leading-7 text-gray-700">
+    <li><strong>Odporność i&nbsp;</strong><strong>bezpieczeństwo</strong>&nbsp;&ndash; kompozyt&nbsp;WPC charakteryzuje się wysoką odpornością na zmienne warunki&nbsp;atmosferyczne, zapewniając&nbsp;trwałość oraz bezpieczeństwo użytkowania.</li>
+    <li><strong>Ekologiczny wybór</strong>&nbsp;&ndash; produkty są przyjazne dla środowiska, co potwierdza ich ekologiczny charakter.</li>
+    <li><strong>Bezproblemowa pielęgnacja</strong>&nbsp;&ndash; zapomnij o uciążliwym malowaniu czy impregnacji. Nasze deski nie wymagają dodatkowej konserwacji.</li>
+    <li><strong>Szeroki wybór barw</strong>&nbsp;&ndash; dostępna gama kolorów i faktur pozwala na stworzenie unikalnej aranżacji, idealnie dopasowanej do Twoich preferencji.</li>
+    <li><strong>Wszechstronne zastosowanie</strong>&nbsp;&ndash; deski kompozytowe z naszej oferty doskonale sprawdzają się nie tylko na tarasach, ale także jako obudowy basenów czy elementy ścieżek ogrodowych.</li>
   </ul>
-  <p>
-    Zaprojektuj swój wymarzoną przestrzeń ogrodową w <strong>Koninie</strong> – <a href="/kontakt">skontaktuj się z Drewelt</a>, aby poznać pełną ofertę i wybrać idealne <strong>deski tarasowe</strong> kompozytowe WPC dla siebie.
-  </p>
-  
-  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
-
+  <p class="text-base leading-7 text-gray-700">Zaprojektuj swój wymarzoną przestrzeń ogrodową w&nbsp;<strong>Koninie</strong>&nbsp;&ndash;&nbsp;<a href="https://www.drewelt.pl/kontakt">skontaktuj się z Drewelt</a>, aby poznać pełną ofertę i wybrać idealne&nbsp;<strong>deski tarasowe</strong>&nbsp;kompozytowe WPC dla siebie.</p>
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
-
-      <h2 class="text-2xl">Profesjonalny montaż tarasów – Konin i okolice</h2>
-      <p>
-        Drewelt to więcej niż dostawca wysokiej jakości materiałów. Jesteśmy Twoim partnerem w tworzeniu idealnej przestrzeni relaksu, oferując kompleksowe usługi wyboru odpowiedniej <a href="/tarasy"><strong>deski tarasowej</strong></a> oraz montażu całej struktury. Nasze wieloletnie doświadczenie i zaangażowanie w każdy projekt gwarantują precyzję oraz dbałość o najmniejszy detal. Dlaczego warto zdecydować się na montaż konstrukcji z <strong>desek tarasowych</strong> od Drewelt?
-      </p>
-      <ul class="list-disc list-inside my-4">
-        <li>Atestowane materiały kompozytowe WPC – używamy tylko sprawdzonych, certyfikowanych <strong>desek tarasowych</strong>, które zapewniają trwałość i estetykę na lata.</li>
-        <li>Indywidualne podejście do projektu – każdy taras jest unikalny. Tworzymy rozwiązania idealnie dopasowane do Twoich potrzeb, stylu życia i otoczenia.</li>
-        <li>Szybka realizacja oraz przejrzysta wycena – cenimy Twój czas. Zapewniamy sprawny proces budowy oraz jasne zasady finansowe, bez ukrytych kosztów.</li>
-        <li>2-letnia gwarancja na usługę – jesteśmy pewni jakości naszej pracy, dlatego udzielamy pełnej gwarancji, dając Ci spokój i poczucie bezpieczeństwa.</li>
+      <h3 class="text-2xl font-semibold text-gray-800">Profesjonalny montaż tarasów &ndash; Konin i okolice</h3>
+      <p class="text-base leading-7 text-gray-700">Drewelt to więcej niż dostawca wysokiej jakości materiałów. Jesteśmy Twoim partnerem w tworzeniu idealnej przestrzeni relaksu, oferując kompleksowe usługi wyboru odpowiedniej&nbsp;<a href="https://www.drewelt.pl/tarasy"><strong>deski tarasowej</strong></a>&nbsp;oraz montażu całej struktury. Nasze wieloletnie doświadczenie i zaangażowanie w każdy projekt gwarantują precyzję, a także dbałość o najmniejszy detal.</p>
+      <h3 class="text-2xl font-semibold text-gray-800">Dlaczego warto zdecydować się na montaż konstrukcji z&nbsp;<strong>desek tarasowych</strong>&nbsp;od Drewelt?</h3>
+      <ul class="list-disc list-inside my-4 text-base leading-7 text-gray-700">
+        <li><strong>Atestowane materiały kompozytowe WPC</strong>&nbsp;&ndash; używamy tylko sprawdzonych, certyfikowanych&nbsp;<strong>desek tarasowych</strong>, które zapewniają trwałość i estetykę na lata.</li>
+        <li><strong>Indywidualne podejście do projektu</strong>&nbsp;&ndash; każdy taras jest unikalny. Tworzymy rozwiązania idealnie dopasowane do Twoich potrzeb, stylu życia i otoczenia.</li>
+        <li><strong>Szybka realizacja oraz przejrzysta wycena&nbsp;</strong>&nbsp;&ndash; cenimy Twój czas. Zapewniamy sprawny proces budowy, a także&nbsp;jasne zasady finansowe, bez ukrytych kosztów.</li>
+        <li><strong>2-letnia gwarancja na usługę</strong>&nbsp;&ndash; jesteśmy pewni jakości naszej pracy, dlatego udzielamy pełnej gwarancji, dając Ci spokój i poczucie bezpieczeństwa.</li>
       </ul>
-      <p>
-        Zamów montaż tarasu w <strong>Koninie</strong> i okolicach. Od pomysłu, po finalną realizację – Drewelt zajmie się wszystkim, tworząc dla Ciebie wyjątkową strefę wypoczynku!
-      </p>
-      
+      <p class="text-base leading-7 text-gray-700">Zamów montaż tarasu w&nbsp;<strong>Koninie</strong>&nbsp;i okolicach. Od pomysłu, po finalną realizację &ndash; Drewelt zajmie się wszystkim, tworząc dla Ciebie wyjątkową strefę wypoczynku!</p>
     </div>
-
     <div class="w-full md:w-2/5 mt-4">
       <img class="object-cover rounded-lg shadow-md" src="/deska_kompozytowa/20240326_110308.png" alt="Profesjonalny montaż tarasów z desek kompozytowych WPC."/>
     </div>
-
   </div>
-
-  <h2 class="text-2xl mt-4">Dlaczego Drewelt to najlepszy wybór?</h2>
-  <p>
-    Drewelt to firma z ponad 10-letnim doświadczeniem w produkcji konstrukcji drewnianych. Z powodzeniem łączymy tradycyjne rzemiosło z nowoczesnym designem, aby dostarczyć produkty, które wyróżniają się nie tylko estetyką, ale także wyjątkową trwałością. Wybierając <strong>deskę tarasową</strong> lub usługę montażu konstrukcji ogrodowej, zyskujesz:
-  </p>
-  <ul class="list-disc list-inside my-4">
-    <li>najwyższą jakość materiałów,</li>
+  <h2 class="text-2xl font-semibold text-gray-800">Dlaczego Drewelt to najlepszy wybór?</h2>
+  <p class="text-base leading-7 text-gray-700">Drewelt to firma z ponad 10-letnim doświadczeniem w produkcji konstrukcji drewnianych.&nbsp;Jesteśmy uznanym&nbsp;<a href="https://www.drewelt.pl/">producentem zadaszeń tarasowych</a>. Działamy kompleksowo &ndash; zajmujmy się zar&oacute;wno doradztwem technicznym, jak i pełną realizacją&nbsp;<a href="https://www.drewelt.pl/tarasy">budowy taras&oacute;w z desek kompozytowych</a>.</p>
+  <p class="text-base leading-7 text-gray-700">Z powodzeniem łączymy tradycyjne rzemiosło z nowoczesnym designem, aby dostarczyć produkty, kt&oacute;re wyr&oacute;żniają się nie tylko estetyką, ale także wyjątkową trwałością. Wybierając&nbsp;<strong>deskę tarasową</strong>&nbsp;lub usługę montażu konstrukcji ogrodowej, zyskujesz:</p>
+  <ul class="list-disc list-inside my-4 text-base leading-7 text-gray-700">
+    <li>najwyższą jakość materiał&oacute;w,</li>
     <li>indywidualne podejście do Klienta,</li>
     <li>profesjonalną obsługę i doradztwo,</li>
     <li>przejrzyste kosztorysy bez ukrytych opłat,</li>
     <li>realizację zleceń na terenie całej Polski.</li>
   </ul>
-  <p>
-    <a href="/kontakt">Skontaktuj się z Drewelt</a> – zrealizuj swój wymarzoną konstrukcję z <strong>deski tarasowej</strong> kompozytowej WPC w <strong>Koninie</strong> lub jego okolicach!
-  </p>
+  <p class="text-base leading-7 text-gray-700"><a href="https://www.drewelt.pl/kontakt">Skontaktuj się z Drewelt</a>&nbsp;&ndash; zrealizuj sw&oacute;j wymarzoną konstrukcję z&nbsp;<strong>deski tarasowej</strong>&nbsp;kompozytowej WPC w&nbsp;<strong>Koninie</strong>&nbsp;lub jego okolicach!</p>
 
   <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
 

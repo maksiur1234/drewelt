@@ -2441,7 +2441,7 @@ export const seoContentList: SeoContent[] = [
   </p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras.jpg" alt="Kompozytowy taras"/>
+      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-1.png" alt="Kompozytowy taras"/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -2456,16 +2456,16 @@ export const seoContentList: SeoContent[] = [
   <p>Wybierając nas, zyskujesz pewność, że&nbsp;<strong>budowa tarasu z deski tarasowej</strong>&nbsp;zostanie przeprowadzona od A do Z przez jeden zespół fachowców. Jako doświadczony&nbsp;<a href="https://www.drewelt.pl/" target="_blank" rel="noopener">producent zadaszeń&nbsp;</a>, gwarantujemy konkretne korzyści:</p>
   <ul class="list-disc list-inside my-4">
     <li>
-      <p><strong>ponad dekada doświadczenia&nbsp;</strong>&ndash; pewność i bezpieczeństwo inwestycji potwierdzone setkami gotowych projektów w całym kraju;</p>
+      <strong>ponad dekada doświadczenia&nbsp;</strong>&ndash; pewność i bezpieczeństwo inwestycji potwierdzone setkami gotowych projektów w całym kraju;
     </li>
     <li>
-      <p><strong>kompleksowa obsługa&nbsp;</strong>&ndash; od precyzyjnego pomiaru oraz doradztwa, przez indywidualny projekt, aż po sprawny montaż;</p>
+      <strong>kompleksowa obsługa&nbsp;</strong>&ndash; od precyzyjnego pomiaru oraz doradztwa, przez indywidualny projekt, aż po sprawny montaż;
     </li>
     <li>
-      <p><strong>pełna synergia&nbsp;</strong>&ndash; tworzymy&nbsp;<strong>tarasy ogrodowe</strong>&nbsp;idealnie dopasowane do otoczenia oraz potrzeb Klienta;</p>
+      <strong>pełna synergia&nbsp;</strong>&ndash; tworzymy&nbsp;<strong>tarasy ogrodowe</strong>&nbsp;idealnie dopasowane do otoczenia oraz potrzeb Klienta;
     </li>
     <li>
-      <p><strong>certyfikowana stabilność&nbsp;</strong>&ndash; podbudowa z selekcjonowanych materiałów zapewnia odporność na osiadanie, a także wieloletnią trwałość;</p>
+      <strong>certyfikowana stabilność&nbsp;</strong>&ndash; podbudowa z selekcjonowanych materiałów zapewnia odporność na osiadanie, a także wieloletnią trwałość;
     </li>
   </ul>
   <p>Interesuje Cię profesjonalna&nbsp;<a href="https://www.drewelt.pl/tarasy" target="_blank" rel="noopener">budowa tarasów z desek kompozytowych w Warszawie?</a>&nbsp;Zgłoś się do ekspertów Drewelt.</p>
@@ -2505,7 +2505,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-schody.jpg" alt="Deska kompozytowa na tarasie"/>
+      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-4.png" alt="Deska kompozytowa na tarasie"/>
     </div>
 
   </div>
@@ -2517,7 +2517,7 @@ export const seoContentList: SeoContent[] = [
 
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-2.jpg" alt="Deski kompozytowe na taras z montażem"/>
+      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-2.png" alt="Deski kompozytowe na taras z montażem"/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
@@ -2552,10 +2552,24 @@ export const seoContentList: SeoContent[] = [
     </div>
   </div>
 
-  <div class="mt-4">
-    <p>
-      Wybierając deskę kompozytową we Wrześni, zyskujesz trwałą powierzchnię, która nie wymaga malowania oraz jest odporna na wilgoć, śnieg i promieniowanie UV. To rozwiązanie, które łączy estetykę drewna z łatwością użytkowania i minimalnymi wymaganiami konserwacyjnymi.
-    </p>
+  <div class="mt-6 rounded-xl border border-gray-100 bg-gray-50 p-4 md:p-5">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4" data-path-to-node="1">Deska tarasowa kompozytowa &ndash; jaką wybrać i gdzie realizujemy montaż?</h2>
+    <p class="text-base leading-7 text-gray-700" data-path-to-node="2">Jako polski producent z wieloletnim doświadczeniem dostarczamy certyfikowane systemy oraz realizujemy profesjonalny&nbsp;<strong>montaż deski kompozytowej na</strong>&nbsp;<strong>terenie całej Wielkopolski</strong>. Doradzamy,<strong>&nbsp;jaką wybrać</strong>, by idealnie pasowała do specyfiki danej działki, a nasze ekipy dbają o najwyższy standard wykonania w takim rejonie, jak:</p>
+    <ul class="list-disc list-inside my-4 space-y-2 text-base leading-7 text-gray-700" data-path-to-node="3">
+      <li>
+        <strong data-path-to-node="3,0,0" data-index-in-node="0">Września i okolice&nbsp;</strong>&ndash; projektujemy, a także kompleksowo montujemy nowoczesne, przydomowe strefy relaksu;
+      </li>
+      <li>
+        <strong data-path-to-node="3,1,0" data-index-in-node="0">Środa Wielkopolska&nbsp;</strong>&ndash; łączymy montaż trwałych podł&oacute;g z dodatkowymi konstrukcjami, wykonując m.in. nowoczesne&nbsp;<a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQtQY">zadaszenie tarasu w Środzie Wielkopolskiej</a><a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQ9gU">;</a>
+      </li>
+      <li>
+        <strong data-path-to-node="3,2,0" data-index-in-node="0">Kostrzyn&nbsp;</strong>&ndash; zapewniamy doradztwo techniczne oraz realizujemy solidne&nbsp;<a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-kostrzyn" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQ9wU">zadaszenie taras&oacute;w w Kostrzynie;</a>
+      </li>
+      <li>
+        <strong data-path-to-node="3,3,0" data-index-in-node="0">Gniezno&nbsp;</strong>&ndash; montujemy bezpieczne dla środowiska systemy oraz dbamy o ochronę przed słońcem, budując dopasowane&nbsp;<a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-gniezno" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQtwY">zadaszenie taras&oacute;w w Gnieźnie</a>.
+      </li>
+    </ul>
+    <p class="text-base leading-7 text-gray-700" data-path-to-node="4">Niezależnie od lokalizacji, wystarczy przesłać&nbsp;<strong>wymiary przestrzeni wraz ze zdjęciami</strong>, aby otrzymać darmową wycenę oraz indywidualny dob&oacute;r komponent&oacute;w.</p>
   </div>
 
   <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
@@ -2659,9 +2673,9 @@ export const seoContentList: SeoContent[] = [
     description: "Drewelt – sprzedaż i montaż desek tarasowych w Koninie. Ponad 10 lat doświadczenia. Najwyższa jakość, transparentne kosztorysy i indywidualne podejście. Zadzwoń!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
-  <h1>Deski tarasowe Konin &ndash; połączenie trwałości i estetyki</h1>
-<p>Drewelt dostarcza wysokiej jakości&nbsp;<strong>deski tarasowe</strong>&nbsp;kompozytowe WPC, które stanowią idealny fundament dla każdego tarasu w&nbsp;<strong>Koninie</strong>&nbsp;i okolicach. To doskonałe rozwiązanie dla tych, którzy cenią sobie nowoczesny wygląd, wyjątkową trwałość oraz minimalny nakład pracy przy konserwacji.</p>
-<h2>Co wyróżnia nasze deski tarasowe?</h2>
+  <h1 class="text-3xl font-bold text-gray-800">Deski tarasowe Konin &ndash; połączenie trwałości i estetyki</h1>
+<p class="text-base leading-7 text-gray-700">Drewelt dostarcza wysokiej jakości&nbsp;<strong>deski tarasowe</strong>&nbsp;kompozytowe WPC, które stanowią idealny fundament dla każdego tarasu w&nbsp;<strong>Koninie</strong>&nbsp;i okolicach. To doskonałe rozwiązanie dla tych, którzy cenią sobie nowoczesny wygląd, wyjątkową trwałość oraz minimalny nakład pracy przy konserwacji.</p>
+<h2 class="text-2xl font-semibold text-gray-800">Co wyróżnia nasze deski tarasowe?</h2>
   <ul class="list-disc list-inside my-4 text-base leading-7 text-gray-700">
     <li><strong>Odporność i&nbsp;</strong><strong>bezpieczeństwo</strong>&nbsp;&ndash; kompozyt&nbsp;WPC charakteryzuje się wysoką odpornością na zmienne warunki&nbsp;atmosferyczne, zapewniając&nbsp;trwałość oraz bezpieczeństwo użytkowania.</li>
     <li><strong>Ekologiczny wybór</strong>&nbsp;&ndash; produkty są przyjazne dla środowiska, co potwierdza ich ekologiczny charakter.</li>

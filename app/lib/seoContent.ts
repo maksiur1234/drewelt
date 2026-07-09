@@ -2293,16 +2293,16 @@ export const seoContentList: SeoContent[] = [
   <h2 class="text-2xl">Czy wiesz, że...?</h2>
   <ul class="list-disc list-inside my-4">
     <li>
-      <p>Decydując się na&nbsp;<strong>tarasy kompozytowe</strong>, wybierasz rozwiązanie, które nie wymaga corocznego cyklinowania, olejowania ani malowania. W przeciwieństwie do tradycyjnego drewna, powierzchnie te są w pełni odporne na butwienie, dlatego inwestorzy coraz chętniej wybierają nowoczesne&nbsp;<strong>tarasy z deski kompozytowej</strong>&nbsp;jako inwestycję na długie lata.</p>
+      Decydując się na&nbsp;<strong>tarasy kompozytowe</strong>, wybierasz rozwiązanie, które nie wymaga corocznego cyklinowania, olejowania ani malowania. W przeciwieństwie do tradycyjnego drewna, powierzchnie te są w pełni odporne na butwienie, dlatego inwestorzy coraz chętniej wybierają nowoczesne&nbsp;<strong>tarasy z deski kompozytowej</strong>&nbsp;jako inwestycję na długie lata.
     </li>
     <li>
-      <p>Wysoka odporność na grzyby, wilgoć oraz skrajne temperatury to zasługa unikalnego składu materiału WPC. Nowoczesne&nbsp;<strong>kompozytowe deski tarasowe</strong>&nbsp;zawdzięczają te właściwości precyzyjnemu połączeniu mączki drzewnej, włókien bambusowych oraz zaawansowanych polimerów.</p>
+      Wysoka odporność na grzyby, wilgoć oraz skrajne temperatury to zasługa unikalnego składu materiału WPC. Nowoczesne&nbsp;<strong>kompozytowe deski tarasowe</strong>&nbsp;zawdzięczają te właściwości precyzyjnemu połączeniu mączki drzewnej, włókien bambusowych oraz zaawansowanych polimerów.
     </li>
     <li>
-      <p>Aby maksymalnie wydłużyć sezon korzystania z przydomowej strefy relaksu, warto połączyć konstrukcję z odpowiednią osłoną. Trwałe i przepuszczające światło&nbsp;<strong><a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan" target="_blank" rel="noopener">zadaszenie tarasu z poliwęglanu</a></strong>&nbsp;zabezpiecza powierzchnię przed opadami, a jednocześnie chroni domowników przed promieniami UV.</p>
+      Aby maksymalnie wydłużyć sezon korzystania z przydomowej strefy relaksu, warto połączyć konstrukcję z odpowiednią osłoną. Trwałe i przepuszczające światło&nbsp;<strong><a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan" target="_blank" rel="noopener">zadaszenie tarasu z poliwęglanu</a></strong>&nbsp;zabezpiecza powierzchnię przed opadami, a jednocześnie chroni domowników przed promieniami UV.
     </li>
     <li>
-      <p>Idealne dopasowanie całej konstrukcji do kształtu bryły budynku i wielkości ogrodu zapewniają profesjonalne&nbsp;<strong><a href="https://www.drewelt.pl/zadaszenia" target="_blank" rel="noopener">zadaszenia tarasów na wymiar</a>,</strong>&nbsp;które projektujemy oraz montujemy kompleksowo, dopasowując każdy detal do indywidualnych potrzeb inwestora.</p>
+      Idealne dopasowanie całej konstrukcji do kształtu bryły budynku i wielkości ogrodu zapewniają profesjonalne&nbsp;<strong><a href="https://www.drewelt.pl/zadaszenia" target="_blank" rel="noopener">zadaszenia tarasów na wymiar</a>,</strong>&nbsp;które projektujemy oraz montujemy kompleksowo, dopasowując każdy detal do indywidualnych potrzeb inwestora.
     </li>
   </ul>
 

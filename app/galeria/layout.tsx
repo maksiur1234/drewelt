@@ -2,8 +2,8 @@ import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Strona Główna | Drewelt Piotr Wiśniewski",
-    description: "Galeria obrazów z realizacji tarasów, altan ogrodowych i wiat samochodowych wykonanych przez Drewelt. Zobacz nasze projekty i zainspiruj się do stworzenia idealnej przestrzeni na swoim podwórku.",
+    title: "Galeria realizacji - zadaszenia i wiaty drewniane - Drewelt",
+    description: "Szukasz inspiracji? Zobacz nasze drewniane zadaszenia tarasów i wiaty. Wybierz numer realizacji i skontaktuj się z nami po darmową wycenę!",
     alternates: {
       canonical: "https://www.drewelt.pl/galeria",
     },

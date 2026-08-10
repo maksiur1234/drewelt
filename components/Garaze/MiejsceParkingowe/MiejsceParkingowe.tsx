@@ -4,7 +4,7 @@ const MiejsceParkingowe = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>
-        💰 Płać za miejsce parkingowe.
+        Płać za miejsce parkingowe
       </h2>
 
       <div className={styles.card}>
@@ -17,7 +17,7 @@ const MiejsceParkingowe = () => {
         <p className={styles.cardText__drugi}>Często zwężenie lub poszerzenie wiaty o zaledwie 10-15 cm pozwala idealnie wpasować się w arkusz płyty. Zyskujesz tę samą swobodę otwierania drzwi, a oszczędzasz nawet 2000 zł. <strong>Zapytaj o to przy pomiarze.</strong></p>
       </div>
 
-      <p className={styles.cardTitle__drugi}>Najkorzystniejsze cenowo wymiary</p>
+      <p className={styles.cardTitle__drugi}>Najkorzystniejsze cenowo wymiary:</p>
 
       <div className={styles.card}>
             <p className={styles.cardText}>📏 Długość (po ścianie): 422 / 530 / 634 / 740 / 846 cm</p>

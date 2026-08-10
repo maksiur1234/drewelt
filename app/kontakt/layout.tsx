@@ -2,8 +2,8 @@ import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Strona Główna | Drewelt Piotr Wiśniewski",
-    description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
+    title: "Kontakt - producent zadaszeń - Drewelt",
+    description: "Szukasz wyceny zadaszenia lub desek kompozytowych? Skontaktuj się z Drewelt! Obsługujemy Poznań, Wrocław, Warszawę i okolice. Zadzwoń lub napisz!",
     alternates: {
       canonical: "https://www.drewelt.pl/kontakt",
     },

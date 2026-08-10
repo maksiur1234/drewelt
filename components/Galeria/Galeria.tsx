@@ -243,29 +243,16 @@ export default function Galeria() {
     <div className={styles.container}>
       <h1 className={styles.pageTitle}>Galeria naszych realizacji</h1>
       <p className={styles.pageSubtitle}>
-        Zapraszamy do obejrzenia zdjęć wykonanych przez nas konstrukcji
+        Zapraszamy do obejrzenia zdjęć wykonanych przez nas konstrukcji. Znajdziesz tu zdjęcia wykonanych przez nas <strong>zadaszeń tarasów</strong>, <strong>wiat samochodowych (carportów)</strong> oraz <strong>drewnianych zadaszeń ogrodowych</strong>, które łączą trwałość klejonego drewna z eleganckim designem. Każdy projekt dopasowujemy indywidualnie do architektury budynku i potrzeb domowników.
       </p>
 
       <p className={styles.description}>
-        Każde zdjęcie na naszej stronie ma swój unikalny numer. Jeśli spodobała Ci
-        się dana realizacja, podaj ten numer w{" "}
+        Jeśli spodobał Ci się konkretny model, podaj numer ze zdjęcia w{" "}
         <Link href="/kontakt" className={styles.link}>
           formularzu kontaktowym
         </Link>
-        , a odniesiemy się do wybranej przez Ciebie realizacji
+        , a odniesiemy się do wybranej przez Ciebie realizacji.
       </p>
-
-      <div>
-        <h2 className={styles.realizacje}>Podobają Ci się nasze realizacje?</h2>
-        <div className={styles.buttonWrapper}>
-          <button
-            className={`${styles.outlineButton} ${styles.slideUpButton}`}
-            onClick={handleClick}
-          >
-            Otrzymaj bezpłatną wycenę
-          </button>
-        </div>
-      </div>
 
       <Divider className={styles.divider} />
 
@@ -280,6 +267,7 @@ export default function Galeria() {
         return (
           <section key={sectionIndex} className={styles.section}>
             <h2 className={styles.sectionTitle}>{section.title}</h2>
+            <p className={styles.sectionDescription}>{section.description}</p>
 
             <div
               className={`${styles.grid} ${isExpanded ? styles.gridExpanded : ""}`}
@@ -313,6 +301,25 @@ export default function Galeria() {
           </section>
         )
       })}
+
+      <div>
+        <h2 className={styles.realizacje}>
+          Podobają Ci się nasze realizacje? Skontaktuj się z nami!
+        </h2>
+        <p className={styles.ctaText}>
+          Nie znalazłeś idealnego wymiaru lub chcesz połączyć rozwiązania z kilku
+          różnych zdjęć? Tworzymy zadaszenia drewniane na indywidualne zamówienie
+          na terenie całego kraju.
+        </p>
+        <div className={styles.buttonWrapper}>
+          <button
+            className={`${styles.outlineButton} ${styles.slideUpButton}`}
+            onClick={handleClick}
+          >
+            Otrzymaj bezpłatną wycenę
+          </button>
+        </div>
+      </div>
 
       <Modal isOpen={isOpen} size="full" onClose={clearModal}>
         <ModalContent>

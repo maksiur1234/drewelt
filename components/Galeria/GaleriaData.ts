@@ -1,11 +1,14 @@
 ﻿export interface GallerySection {
   title: string
+  description: string
   images: string[]
 }
 
 export const GaleriaObrazki: GallerySection[] = [
   {
-    title: "Wolnostojące na łukach",
+    title: "Wiaty i zadaszenia wolnostojące na łukach",
+    description:
+      "Drewniane konstrukcje wolnostojące z giętymi łukami to doskonałe połączenie lekkości wizualnej i wysokiej wytrzymałości. Na zdjęciach w tej sekcji zobaczysz eleganckie wiaty samochodowe oraz niezależne altany ogrodowe. Charakteryzują się one samonośną strukturą i obłym kształtem dachu, co ułatwia odprowadzanie śniegu i deszczu, stanowiąc jednocześnie efektowną ozdobę ogrodu.",
     images: [
       "/galeria/wolnostojace-na-lukach/1.jpg",
       "/galeria/wolnostojace-na-lukach/2.jpg",
@@ -15,7 +18,9 @@ export const GaleriaObrazki: GallerySection[] = [
     ],
   },
   {
-    title: "Przyścienne na łukach",
+    title: "Zadaszenia tarasów przyścienne na łukach",
+    description:
+      "Przyścienne zadaszenia tarasowe oparte na łukach stanowią harmonijne przedłużenie bryły domu. Zdjęcia przedstawiają realizacje, w których wygięta linia zadaszenia nadaje tarasowi przytulny, elegancki charakter. To idealne rozwiązanie dla osób szukających solidnej ochrony przed słońcem i opadami, przy jednoczesnym zachowaniu unikalnego stylu architektonicznego.",
     images: [
       "/galeria/przyscienne-na-lukach/5.jpg",
       "/galeria/przyscienne-na-lukach/6.jpg",
@@ -34,7 +39,9 @@ export const GaleriaObrazki: GallerySection[] = [
     ],
   },
   {
-    title: "Przyścienne prosty spadek",
+    title: "Zadaszenia przyścienne – prosty spadek",
+    description:
+      "Klasyczne i minimalistyczne zadaszenia przyścienne z prostym spadkiem dachu to uniwersalny wybór do nowoczesnego budownictwa. Prezentowane w galerii realizacje pokazują, jak prosta forma i czyste linie podkreślają estetykę elewacji. Jednospadowa konstrukcja zapewnia skuteczne odprowadzanie wody opadowej i umożliwia w przyszłości łatwy montaż osłon bocznych lub przeszkleń.",
     images: [
       "/galeria/przyscienne-prosty-spadek/10.jpg",
       "/galeria/przyscienne-prosty-spadek/11.jpg",
@@ -50,7 +57,9 @@ export const GaleriaObrazki: GallerySection[] = [
     ],
   },
   {
-    title: "Przyścienne na belce",
+    title: "Zadaszenia przyścienne montowane na belce",
+    description:
+      "Konstrukcje zadaszeń przyściennych mocowane na belce nośnej bezpośrednio do ściany budynku to rozwiązanie gwarantujące maksymalną przestrzeń na tarasie. Dzięki wyeliminowaniu zbędnych pionowych słupów przy samej elewacji zyskujesz swobodę aranżacji mebli ogrodowych. Oglądając zdjęcia, zwróć uwagę na precyzję łączeń i dyskretny montaż do ściany budynku.",
     images: [
       "/galeria/przyscienne-na-belce/15.jpg",
       "/galeria/przyscienne-na-belce/16.jpg",

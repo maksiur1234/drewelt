@@ -14,8 +14,9 @@ const Head = () => {
       />
 
       <div className={styles.content}>
-        <h1>Porozmawiaj z praktykami, nie z handlowcami.</h1>
-        <p>12 lat doświadczenia. Ponad 850 realizacji. Twoja konstrukcja jest w bezpiecznych rękach.</p>
+        <h1>Skontaktuj się z producentem zadaszeń tarasowych – Drewelt</h1>
+        <p>Planujesz budowę wymarzonego tarasu, wiaty samochodowej lub zadaszenia? Nasi doradcy handlowi i techniczni są do Twojej dyspozycji. Pomagamy na każdym etapie – od wyboru odpowiednich materiałów, przez bezpłatną wycenę, aż po ustalenie dogodnego terminu pomiaru i montażu.</p>
+        <p>Zadzwoń do nas, wyślij wiadomość e-mail lub skorzystaj z poniższego formularza kontaktowego.</p>
 
       </div>
     </div>

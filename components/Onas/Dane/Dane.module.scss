@@ -1,22 +1,65 @@
-.transfer {
+.contact {
   margin-top: 30px;
-  text-align: center;
   padding: 20px 15px;
   max-width: sV.$container;
   margin: 0 auto;
 }
 
-.transferTitle {
+.contactTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.3;
+  color: #262420;
+}
+
+.contactText {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #4a5568;
+}
+
+.contactSectionTitle {
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: #262420;
 }
 
-.transferLine {
-  font-size: 20px;
-  margin: 8px 0;
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.transferLine strong {
+.contactListItem {
+  margin-bottom: 16px;
+}
+
+.contactListItem p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4a5568;
+}
+
+.contactSubsectionTitle {
+  font-size: 24px;
   font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #262420;
+}
+
+.contactLink {
+  color: #e9a749;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contactLink:hover {
+  color: #262420;
+  text-decoration: underline;
 }

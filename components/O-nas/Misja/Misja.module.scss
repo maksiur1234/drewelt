@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: sV.$container;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px 15px;
+
+  @media (width <= sV.$tablet) {
+    margin: 0 10px;
+    padding: 20px 10px;
+  }
+}
+
+.heading {
+  font-size: 32px;
+  color: sV.$primary;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+  @media (width <= sV.$tablet) {
+    font-size: 28px;
+  }
+}
+
+.text {
+  font-size: 18px;
+  color: sV.$text;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}

@@ -44,12 +44,13 @@
 }
 
 .content p {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
-  width: 750px;
+  width: 800px;
+  line-height: 1.6;
 
   @media (width <= sV.$tablet) {
     width: 375px;
-    font-size: 22px;
+    font-size: 20px;
   }
 }

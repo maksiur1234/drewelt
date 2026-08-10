@@ -23,7 +23,7 @@ const Galeria = () => {
             description="Masz miejsce na działce? Postaw wiatę tam, gdzie Ci wygodnie. Pełna swoboda manewrowania, wygoda wysiadania."
             obrazki={wiatyWolnosojace} />
         <GaleriaContent
-            title='Wiaty Przyścienne'
+            title='Wiaty przyścienne'
             description='Wykorzystaj ścianę budynku lub garażu. To ekonomiczne rozwiązanie idealnie wpasuje się w każda bryłe budynku.'
             obrazki={wiatyPrzyscienne}
             background />

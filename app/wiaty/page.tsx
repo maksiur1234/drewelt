@@ -2,6 +2,7 @@ import Galeria from "@/components/Garaze/Galeria/Galeria";
 import Head from "@/components/Garaze/Head/Head";
 import JakPostawic from "@/components/Garaze/JakPostawic/JakPostawic";
 import MiejsceParkingowe from "@/components/Garaze/MiejsceParkingowe/MiejsceParkingowe";
+import PelnaOferta from "@/components/Garaze/PelnaOferta/PelnaOferta";
 import Technologie from "@/components/Garaze/Technologie/Technologie";
 import WybierzKonstrukcje from "@/components/Garaze/WybierzKonstrukcje/WybierzKonstrukcje";
 import Zalety from "@/components/Garaze/Zalety/Zalety";
@@ -25,7 +26,9 @@ export default function Page() {
 
       <JakPostawic />
 
-      {/* <RozpocznijProjekt naglowek="Ile warta jest Twoja wygoda każdego ranka?" /> */}
+      <PelnaOferta />
+
+      <RozpocznijProjekt hideDescription />
     </>
   )
 

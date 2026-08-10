@@ -5,7 +5,7 @@ import { sendContactForm } from '@/app/lib/api'
 import styles from '@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt.module.scss'
 import Link from 'next/link'
 
-const RozpocznijProjekt = ({ naglowek, hasDane = false, hideDescription = false }: { naglowek?: string, hasDane?: boolean, hideDescription?: boolean }) => {
+const RozpocznijProjekt = ({ naglowek, hasDane = false, hideDescription = false, centerNaglowek = false }: { naglowek?: string, hasDane?: boolean, hideDescription?: boolean, centerNaglowek?: boolean }) => {
   const [loading, setLoading] = useState(false)
   const [status, setStatus] = useState<string | null>(null)
 
@@ -43,7 +43,7 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false, hideDescription = false 
 
   return (
     <div className={styles.container} id='form'>
-        {naglowek && <h2>{naglowek}</h2>}
+        {naglowek && <h2 className={centerNaglowek ? styles.centerNaglowek : undefined}>{naglowek}</h2>}
         {!hideDescription && (
           <>
             <p className={styles.description}>Wypełnij formularz poniżej. Aby wycena była rzetelna i możliwa do wykonania, <strong>koniecznie podaj lokalizację, wymiary oraz załącz zdjęcia miejsca montażu.</strong></p>

@@ -18,7 +18,7 @@ export default function Page() {
 
       <Inspiracje />
 
-      <RozpocznijProjekt />
+      <RozpocznijProjekt hideDescription />
 
     </>
   )

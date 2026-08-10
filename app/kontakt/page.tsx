@@ -13,7 +13,7 @@ const page = () => {
 
       <JakWyglada />
 
-      <RozpocznijProjekt naglowek="Formularz kontaktowy – zapytaj o darmową wycenę" />
+      <RozpocznijProjekt naglowek="Formularz kontaktowy – zapytaj o darmową wycenę" hideDescription />
     </>
   )
 }

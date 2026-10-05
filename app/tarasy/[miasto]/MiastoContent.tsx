@@ -9,6 +9,7 @@ const cityMapping: Record<string, string> = {
   wrzesnia: "Września",
   wroclaw: "Wrocław",
   konin: "Konin",
+  gniezno: "Gniezno",
 };
 
 export default function MiastoContent({ params }: { params: any }) {
@@ -32,7 +33,7 @@ export default function MiastoContent({ params }: { params: any }) {
     return <p className="text-center text-gray-600 py-10">Ładowanie...</p>;
   }
 
-  if (decodedMiasto === "deska tarasowa kompozytowa poznan" || decodedMiasto === "deska tarasowa kompozytowa wroclaw" || decodedMiasto === "deska tarasowa kompozytowa konin" || decodedMiasto === "deska tarasowa kompozytowa leszno" || decodedMiasto === "deska tarasowa kompozytowa warszawa" || decodedMiasto === "deska tarasowa kompozytowa wrzesnia") {
+  if (decodedMiasto === "deska tarasowa kompozytowa poznan" || decodedMiasto === "deska tarasowa kompozytowa wroclaw" || decodedMiasto === "deska tarasowa kompozytowa konin" || decodedMiasto === "deska tarasowa kompozytowa leszno" || decodedMiasto === "deska tarasowa kompozytowa warszawa" || decodedMiasto === "deska tarasowa kompozytowa wrzesnia" || decodedMiasto === "deska tarasowa kompozytowa gniezno") {
     return (
       <div dangerouslySetInnerHTML={{ __html: content?.content || "Nie znaleziono treści."}} />
     );

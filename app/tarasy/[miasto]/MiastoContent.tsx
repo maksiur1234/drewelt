@@ -7,7 +7,6 @@ const cityMapping: Record<string, string> = {
   poznan: "Poznań",
   leszno: "Leszno",
   wrzesnia: "Września",
-  gniezno: "Gniezno",
   wroclaw: "Wrocław",
   konin: "Konin",
 };

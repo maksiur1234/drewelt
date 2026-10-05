@@ -1329,28 +1329,25 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "zadaszenie-tarasu-gniezno",
-    metaTitle: "Zadaszenia tarasów Gniezno – trwałe konstrukcje – Drewelt",
-    h1: "Dlaczego warto postawić na solidne zadaszenia firmy Drewelt?",
-    description: "Marzysz o funkcjonalnym tarasie w Gnieźnie? Oferujemy nowoczesne zadaszenia z drewna BSH. Szybki montaż w 1 dzień i darmowa wycena. Sprawdź nasze realizacje!",
+    metaTitle: "Zadaszenia tarasów w Gnieznie – trwałe konstrukcje – Drewelt",
+    h1: "Solidne zadaszenia od Drewelt dla klientów z Gniezna",
+    description: "Marzysz o solidnym tarasie w Gnieźnie? Oferujemy nowoczesne zadaszenia z drewna BSH. Szybki montaż w 1 dzień i darmowa wycena. Sprawdź nasze realizacje.",
     content: `
 
     <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
-  <p>
-    Wybierając <strong>zadaszenia tarasów </strong><a href="/">Drewelt</a>, inwestujesz w komfortowy wypoczynek bez względu na kaprysy aury. Oferujemy konstrukcje, które skutecznie chronią przed deszczem oraz intensywnym słońcem, wydłużając sezon ogrodowy nawet o kilka miesięcy. Nasze realizacje to nie gotowe, marketowe zestawy, lecz indywidualnie projektowane budowle, które idealnie komponują się z bryłą Twojego domu. <a href="/kontakt">Skontaktuj się z nami już dziś</a>, aby otrzymać bezpłatną wycenę swojego projektu!
-  </p>
+  <p>Drewelt to marka z ponad 10-letnim stażem na rynku stolarskim, która ma na koncie ponad 850 zrealizowanych projektów na <strong>zadaszenia </strong>na terenie całego kraju. Klienci z <strong>Gniezna </strong>i okolic cenią nas za bezkompromisowe zaangażowanie, terminowość oraz partnerskie podejście, w którym każdy etap współpracy przebiega w jasnej, przewidywalnej atmosferze. Wybierając nasze rozwiązania, inwestujesz w komfortowy wypoczynek bez względu na kaprysy aury. Oferujemy <strong>zadaszenia tarasów</strong>, które skutecznie chronią przed deszczem oraz intensywnym słońcem, wydłużając sezon ogrodowy o kilka miesięcy. Nasze realizacje to nie gotowe, marketowe zestawy, lecz indywidualnie projektowane budowle, które idealnie komponują się z bryłą Twojego domu.</p>
+  <p>Skontaktuj się z nami już dziś, aby otrzymać bezpłatną wycenę swojego projektu!</p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
 
-      <h2 class="text-2xl">Co wyróżnia nasze zadaszenia tarasów na tle konkurencji w Gnieźnie?</h2>
-      <p>
-      Fundamentem naszych <strong><a href="/zadaszenia">zadaszeń</a> </strong>jest certyfikowane drewno klejone warstwowo BSH (suchy świerk), które charakteryzuje się najwyższą stabilnością. W przeciwieństwie do zwykłego drewna, materiał ten nie pęka i nie skręca się, co gwarantuje bezpieczeństwo na lata. Pokrycie<strong> zadaszeń</strong> wykonujemy z poliwęglanu komorowego o grubości 10 mm z obustronnym filtrem UV, który blokuje szkodliwe promieniowanie, zachowując przy tym dopływ naturalnego światła. Dodatkowo oferujemy również:
-      </p>
+      <h2 class="text-2xl">Czym wyróżniają się nasze zadaszenia tarasów?</h2>
+      <p>Fundamentem naszych <strong><a href="https://www.drewelt.pl/zadaszenia">zadaszeń</a> </strong>jest certyfikowane drewno klejone warstwowo BSH (suchy świerk), które charakteryzuje się najwyższą stabilnością. W przeciwieństwie do zwykłego drewna materiał ten nie pęka i nie skręca się, co gwarantuje bezpieczeństwo na lata. Pokrycie<strong> zadaszeń</strong> wykonujemy z poliwęglanu komorowego o grubości 10 mm z obustronnym filtrem UV, który blokuje szkodliwe promieniowanie, zachowując przy tym dopływ naturalnego światła. Dodatkowo oferujemy również:</p>
       <ul class="list-disc list-inside my-4">
         <li>zastosowanie wytrzymałych słupów o przekroju 12 × 12 cm,</li>
-        <li>trzykrotne malowanie i ręczna impregnacja elementów,</li>
+        <li>trzykrotne malowanie i ręczną impregnację elementów,</li>
         <li>odporność na duże obciążenia śniegiem i uderzenia gradu.</li>
       </ul>
       <p>
@@ -1781,9 +1778,9 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "zadaszenie-tarasu-konin",
-    metaTitle: "Zadaszenia tarasów Konin – projekty na wymiar – Drewelt",
-    description: "Indywidualne projekty zadaszeń tarasów w Koninie. Drewno klejone BSH, poliwęglan komorowy i profesjonalny montaż od Drewelt.",
-    h1: "Unikalne projekty zadaszeń tarasów w Koninie",
+    metaTitle: "Zadaszenia tarasów dla klientów z Konina – Drewelt",
+    description: "Nowoczesne projekty tarasów i solidne zadaszenia w Koninie od Drewelt. Najlepsze materiały i wieloletnie doświadczenie. Sprawdź naszą ofertę!",
+    h1: "Nowoczesne projekty tarasów z zadaszeniami w Koninie z Drewelt",
     content: `
       <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
         <p>
@@ -1804,6 +1801,16 @@ export const seoContentList: SeoContent[] = [
         <p>
           Zyskujesz zadaszoną strefę relaksu, która zachowuje niezmienną odporność i nienaganny wygląd przez wiele dekad użytkowania. Prześlij nam wymiary swojej przestrzeni i <a href="/kontakt">skonsultuj swój projekt dachu na taras</a> z naszym zespołem już teraz!
         </p>
+
+        <div class="rounded-2xl p-8 text-center" style="background-color: #2e7d32;">
+          <h2 class="text-2xl md:text-3xl font-bold mb-3" style="color: #ffffff;">Zaplanuj swoje zadaszenie tarasu</h2>
+          <p class="mb-6 leading-relaxed" style="color: #ffffff;">
+            Masz pomysł na zadaszenie tarasu? Skontaktuj się z nami, a przygotujemy rozwiązanie dopasowane do Twojego domu i potrzeb.
+          </p>
+          <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #ffffff; color: #2e7d32;">
+            Bezpłatna wycena
+          </a>
+        </div>
       </div>
     `,
   },
@@ -2488,13 +2495,14 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "deska-tarasowa-kompozytowa-wrzesnia",
-    metaTitle: "Deski tarasowe kompozytowe – Września i okolice – Drewelt",
-    h1: "Kompozyt czy drewno? Co wybrać na taras we Wrześni?",
-    description: "Deska kompozytowa czy drewniana na taras? Poznaj różnice w trwałości, wyglądzie i konserwacji – wybierz świadomie materiał od Drewelt. Sprawdź ofertę.",
+    metaTitle: "Solidna deska kompozytowa – Drewelt",
+    h1: "Deski kompozytowe na taras – solidne modele w ofercie Drewelt",
+    description: "Deska kompozytowa na taras od Drewelt. Sprawdź, jaka jest najlepsza i jakie są różnice między drewnem a kompozytem. Zapraszamy klientów z Wrześni!",
     content: `
 <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
-  <h1 class="text-3xl font-bold text-gray-800">Kompozyt czy drewno? Co wybrać na taras we Wrześni?</h1>
-<p data-path-to-node="5">Zastanawiasz się, co będzie lepsze &ndash;&nbsp;<strong data-path-to-node="5" data-index-in-node="37">deska kompozytowa czy drewniana na taras we Wrześni</strong>? Drewno ma sw&oacute;j klasyczny urok, ale wymaga regularnej konserwacji i jest podatne na warunki atmosferyczne. Kompozyt to nowoczesna, bezobsługowa alternatywa. Produkty Drewelt powstają z mączki drzewnej, wł&oacute;kien bambusowych oraz polimer&oacute;w termoplastycznych, wzbogaconych o stabilizatory i pigmenty. Dzięki temu są w pełni odporne na wilgoć, promieniowanie UV, skrajne temperatury, pleśń oraz uszkodzenia mechaniczne. Nie wymagają malowania, zachowując estetykę naturalnego drewna.&nbsp;Warto pamiętać, że niezależnie od wybranego wykończenia, podbudowa konstrukcji jest zawsze z drewna, a pokrycie z poliwęglanu. Dylemat&nbsp;<strong data-path-to-node="5" data-index-in-node="703">deska kompozytowa a drewniana</strong>&nbsp;to zatem wyb&oacute;r między innowacyjnością i bezproblemowym komfortem a tradycją.</p>
+  <h1 class="text-3xl font-bold text-gray-800">Deski kompozytowe na taras – solidne modele w ofercie Drewelt</h1>
+<p>Nasz zespół tworzą fachowcy o wieloletnim doświadczeniu w branży stolarskiej i budowlanej, którzy codzienne działania opierają na bezwzględnej rzetelności, dbałości o każdy detal oraz partnerskim podejściu do inwestora. Jako profesjonaliści znamy się na <strong>desce kompozytowej</strong> – wiemy, <strong>jaką wybrać </strong>oraz w jaki sposób <strong>montować</strong>. Zależy nam na tym, by klienci z <strong>Wrześni </strong>i okolic mogli cieszyć się solidnym tarasem, dlatego zapewniamy fachowe wsparcie od A do Z. W swojej pracy wykorzystujemy wyłącznie certyfikowane, sprawdzone produkty klasy premium, które całkowicie eliminują uciążliwy problem olejowania czy czasochłonnej impregnacji drewna. Kontrolujemy każdy etap powstawania zamówienia, dostarczając rozwiązania o niezawodnej odporności na niszczące czynniki atmosferyczne.</p>
+<p>Planujesz budowę tarasu z <strong>deski kompozytowej</strong>, ale nie wiesz, <strong>jaką firmę</strong> wybrać? Zapraszamy do <a href="https://www.drewelt.pl/">Drewelt</a>! </p>
 
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
@@ -2502,9 +2510,9 @@ export const seoContentList: SeoContent[] = [
   <div class="w-full flex gap-4 flex-col md:flex-row">
     <div class="w-full md:w-3/5 mt-4">
 
-      <h2 class="text-2xl">Deska kompozytowa – ofertę jakiej firmy warto wybrać?</h2>
+      <h2 class="text-2xl">Deska kompozytowa a drewniana – różnice</h2>
       <p>
-        <strong>Deska kompozytowa</strong> należy obecnie do najbardziej cenionych rozwiązań na rynku. Ważne jest jednak,<strong> jakiej firmy</strong> jest to produkt. Aby spełniał swoje zadanie przez lata,  warto postawić na sprawdzonego producenta. <a href="/">Drewelt</a> to polska marka z wieloletnim doświadczeniem, która stawia na jakość, trwałość, a także zgodność z normami ekologicznymi. Nasze artykuły są odporne na zapalenie, łatwe w utylizacji oraz bezpieczne dla środowiska. Korzystamy wyłącznie z certyfikowanych komponentów, a każdy etap produkcji podlega kontroli jakości. Dzięki temu możesz mieć pewność, że wybierasz materiał, który spełni oczekiwania nawet najbardziej wymagających użytkowników – zarówno prywatnych, jak i biznesowych. 
+        Nowoczesna <strong>deska kompozytowa</strong> to zaawansowany materiał powstający z połączenia wyselekcjonowanej mączki drzewnej, włókien bambusowych oraz polimerów termoplastycznych, wzbogacony o stabilizatory i pigmenty. Zapewnia to pełną odporność na wilgoć, blaknięcie pod wpływem promieniowania UV oraz uszkodzenia mechaniczne. Tradycyjne drewno, choć urzeka klasycznym wyglądem, wymaga regularnych zabiegów konserwacyjnych i wykazuje większą podatność na zmienne warunki pogodowe.
       </p>
       
     </div>
@@ -2515,39 +2523,48 @@ export const seoContentList: SeoContent[] = [
 
   </div>
 
-  <h2 class="text-2xl mt-4">Deska kompozytowa – zastosowanie i estetyka</h2>
-  <p>
-    <strong>Deska kompozytowa </strong>wyróżnia się szerokim <strong>zastosowaniem</strong>. Buduje się z niej nie tylko tarasy przydomowe. Świetnie sprawdza się ona również na balkonach, pomostach, strefach relaksu przy obiektach komercyjnych, hotelach czy restauracjach. Drewelt oferuje szeroki wybór kolorów i wykończeń, dzięki czemu łatwo dopasujesz produkt do stylu budynku, ogrodu lub elewacji. Nie wiesz, czy <strong><a href="/tarasy">deska tarasowa kompozytowa</a> </strong>to dobry wybór i<strong> jak </strong>ją dobrze<strong> układać? </strong>Wystarczy przesłać zdjęcie lub wymiary przestrzeni, a nasz zespół dobierze odpowiednie komponenty oraz doradzi najlepsze rozwiązania. Zapewniamy kompleksowe wsparcie – od projektu po realizację. <a href="/kontakt">Zadzwoń lub napisz</a> do nas!
-  </p>
+  <p><strong>Deska kompozytowa czy drewniana na taras</strong>? Sprawdź, co warto wiedzieć!</p>
+  <div class="max-w-5xl w-full overflow-hidden mx-auto rounded-2xl shadow-xl" style="border: 4px solid #1e7a1f40;">
+    <div class="overflow-x-auto">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr style="background-color: #2e7d32;">
+            <th class="p-4 text-left font-bold" style="color: #ffffff;">Właściwość / Cecha</th>
+            <th class="p-4 text-left font-bold" style="color: #ffffff;">Deska kompozytowa</th>
+            <th class="p-4 text-left font-bold" style="color: #ffffff;">Deska drewniana</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #ffffff;"><td class="p-4 align-top font-bold border-b border-[#1e7a1f40]">Konserwacja</td><td class="p-4 align-top border-b border-[#1e7a1f40]">Bezoobsługowa (wystarczy mycie wodą)</td><td class="p-4 align-top border-b border-[#1e7a1f40]">Wymaga regularnego olejowania i impregnacji</td></tr>
+          <tr style="background-color: #1e7a1f0d;"><td class="p-4 align-top font-bold border-b border-[#1e7a1f40]">Odporność na wilgoć i pleśń</td><td class="p-4 align-top border-b border-[#1e7a1f40]">Całkowita odporność</td><td class="p-4 align-top border-b border-[#1e7a1f40]">Podatna na wilgoć, gnicie i rozwój grzybów</td></tr>
+          <tr style="background-color: #ffffff;"><td class="p-4 align-top font-bold border-b border-[#1e7a1f40]">Bezpieczeństwo użytkowania</td><td class="p-4 align-top border-b border-[#1e7a1f40]">Powierzchnia wolna od drzazg</td><td class="p-4 align-top border-b border-[#1e7a1f40]">Ryzyko pojawienia się drzazg z czasem</td></tr>
+          <tr style="background-color: #1e7a1f0d;"><td class="p-4 align-top font-bold">Trwałość koloru</td><td class="p-4 align-top">Wysoka stabilność barwy dzięki pigmentom i stabilizatorom</td><td class="p-4 align-top">Szarzeje i wymaga odnawiania powłoki malarskiej</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p>Masz pytania dotyczące swojej inwestycji we <strong>Wrześni</strong>? <a href="https://www.drewelt.pl/kontakt">Skontaktuj się z naszym zespołem</a> – pomożemy dobrać właściwe komponenty, rzetelnie wycenimy projekt i poprowadzimy Cię przez cały proces montażu.</p>
 
+  <h2>FAQ</h2>
+  <h3>Co wybrać na zadaszenie tarasu?</h3>
+  <p>Najlepszym wyborem na zadaszenie tarasu są solidne konstrukcje oparte na drewnie klejonym warstwowo (BSH) oraz pokryciu z poliwęglanu, które skutecznie chronią przed upałem i ulewami.</p>
+  <h3>Co to są pergole?</h3>
+  <p>Pergole to wolnostojące lub przyścienne konstrukcje ogrodowe zbudowane z pionowych słupków oraz górnych belek, które tworzą zacienioną strefę wypoczynku i stanowią eleganckie oparcie dla roślin lub zadaszenia.</p>
+  <h3>Co ile legary pod taras kompozytowy?</h3>
+  <p>Rekomendowany maksymalny rozstaw legarów pod deski kompozytowe wynosi 35 centymetrów, co zapewnia stabilność całej podbudowy oraz komfort użytkowania.</p>
+  <h3>Gdzie najlepiej sprawdza się deska kompozytowa i jakie ma zastosowanie?</h3>
+  <p>Deska kompozytowa znajduje zastosowanie nie tylko na przydomowych tarasach, ale również na balkonach, pomostach wokół domów oraz w strefach relaksacyjnych obiektów komercyjnych, takich jak hotele czy restauracje.</p>
+  <h3>Jak układać deskę tarasową kompozytową?</h3>
+  <p>Układanie desek polega na zamontowaniu ich na wcześniej wypoziomowanych legarach przy użyciu dedykowanych klipsów montażowych, co gwarantuje prawidłowe dylatacje oraz czysty montaż bez widocznych wkrętów.</p>
   <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
     <div class="w-full md:w-2/5 mt-4">
       <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-2.png" alt="Deski kompozytowe na taras z montażem"/>
     </div>
 
     <div class="w-full md:w-3/5 mt-4">
-      <h2 class="text-2xl">Deski kompozytowe na taras – jak je montować?</h2>
-      <p>
-        Jeśli interesuje Cię, <strong>co ile legary pod taras kompozytowy</strong>, rekomendowany rozstaw to maksymalnie 35 cm. Taka odległość zapewnia stabilność konstrukcji i komfort użytkowania przez długie lata. Drewelt oferuje kompletne zestawy montażowe, które obejmują:
-      </p>
-
-      <ul class="list-disc list-inside my-4">
-        <li>legary kompozytowe,</li>
-        <li>klipsy montażowe,</li>
-        <li>kątowniki,</li>
-        <li>deski cokołowe.</li>
-      </ul>
-
-      <p>
-        <strong>Deska kompozytowa na taras</strong> wraz z akcesoriami Drewelt to odpowiedź na pytanie –  <strong>jak</strong> właściwie <strong>montować</strong> całą konstrukcję. Dzięki kompletnym zestawom proces ten jest prosty, czysty i nie wymaga specjalistycznych narzędzi. Dla wygody Klientów oferujemy również usługę profesjonalnego montażu na terenie <strong>Wrześni</strong> i okolic. Dzięki temu możesz mieć pewność, że Twój taras będzie wykonany zgodnie ze sztuką budowlaną i gotowy do użytku bez zbędnych opóźnień.
-      </p>
+      
     </div>
   </div>
-  <h2 class="text-2xl mt-4">Drewelt – tu zaczyna się Twój nowy taras</h2>
-  <p>
-    Planujesz zmienić swoją przydomową przestrzeń, ale nie wiesz, co wybrać – <strong>deska drewniana czy <a href="/tarasy">kompozyt</a> na taras</strong>? Postaw na rozwiązania, które są odporne na warunki atmosferyczne i prezentują się elegancko w każdej przestrzeni. <a href="/kontakt">Skontaktuj się z Drewelt</a> – przygotujemy dla Ciebie indywidualną ofertę, dobierzemy materiały, a także pomożemy w montażu. Działamy we <strong>Wrześni</strong> i okolicach, realizując projekty szybko, profesjonalnie oraz terminowo. Zobacz <a href="/galeria">galerię realizacji</a> lub zadzwoń, by omówić szczegóły inwestycji.
-  </p>
-
   <div class="grid gap-4 md:grid-cols-2">
     <div class="rounded-2xl overflow-hidden shadow-lg">
       <img class="object-cover w-full h-64" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie." />
@@ -2555,26 +2572,6 @@ export const seoContentList: SeoContent[] = [
     <div class="rounded-2xl overflow-hidden shadow-lg">
       <img class="object-cover w-full h-64" src="/deska_kompozytowa/deska-8.jpg" alt="Taras wykonany z ciemnej deski kompozytowej." />
     </div>
-  </div>
-
-  <div class="mt-6 rounded-xl border border-gray-100 bg-gray-50 p-4 md:p-5">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4" data-path-to-node="1">Deska tarasowa kompozytowa &ndash; jaką wybrać i gdzie realizujemy montaż?</h2>
-    <p class="text-base leading-7 text-gray-700" data-path-to-node="2">Jako polski producent z wieloletnim doświadczeniem dostarczamy certyfikowane systemy oraz realizujemy profesjonalny&nbsp;<strong>montaż deski kompozytowej na</strong>&nbsp;<strong>terenie całej Wielkopolski</strong>. Doradzamy,<strong>&nbsp;jaką wybrać</strong>, by idealnie pasowała do specyfiki danej działki, a nasze ekipy dbają o najwyższy standard wykonania w takim rejonie, jak:</p>
-    <ul class="list-disc list-inside my-4 space-y-2 text-base leading-7 text-gray-700" data-path-to-node="3">
-      <li>
-        <strong data-path-to-node="3,0,0" data-index-in-node="0">Września i okolice&nbsp;</strong>&ndash; projektujemy, a także kompleksowo montujemy nowoczesne, przydomowe strefy relaksu;
-      </li>
-      <li>
-        <strong data-path-to-node="3,1,0" data-index-in-node="0">Środa Wielkopolska&nbsp;</strong>&ndash; łączymy montaż trwałych podł&oacute;g z dodatkowymi konstrukcjami, wykonując m.in. nowoczesne&nbsp;<a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQtQY">zadaszenie tarasu w Środzie Wielkopolskiej</a><a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQ9gU">;</a>
-      </li>
-      <li>
-        <strong data-path-to-node="3,2,0" data-index-in-node="0">Kostrzyn&nbsp;</strong>&ndash; zapewniamy doradztwo techniczne oraz realizujemy solidne&nbsp;<a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-kostrzyn" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQ9wU">zadaszenie taras&oacute;w w Kostrzynie;</a>
-      </li>
-      <li>
-        <strong data-path-to-node="3,3,0" data-index-in-node="0">Gniezno&nbsp;</strong>&ndash; montujemy bezpieczne dla środowiska systemy oraz dbamy o ochronę przed słońcem, budując dopasowane&nbsp;<a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-gniezno" target="_blank" rel="noopener" data-hveid="0" data-ved="0CAAQ_4QMahgKEwiKuLGB7LCVAxUAAAAAHQAAAAAQtwY">zadaszenie taras&oacute;w w Gnieźnie</a>.
-      </li>
-    </ul>
-    <p class="text-base leading-7 text-gray-700" data-path-to-node="4">Niezależnie od lokalizacji, wystarczy przesłać&nbsp;<strong>wymiary przestrzeni wraz ze zdjęciami</strong>, aby otrzymać darmową wycenę oraz indywidualny dob&oacute;r komponent&oacute;w.</p>
   </div>
 
   <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>

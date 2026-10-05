@@ -1781,23 +1781,28 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "zadaszenie-tarasu-konin",
-    metaTitle: "Zadaszenie Tarasu Konin | Drewelt Piotr Wiśniewski",
-    h1: "Zadaszenie Tarasu Konin",
+    metaTitle: "Zadaszenia tarasów Konin – projekty na wymiar – Drewelt",
+    description: "Indywidualne projekty zadaszeń tarasów w Koninie. Drewno klejone BSH, poliwęglan komorowy i profesjonalny montaż od Drewelt.",
+    h1: "Unikalne projekty zadaszeń tarasów w Koninie",
     content: `
-      <div>
-        <h1>Zadaszenia tarasu w Koninie - nowoczesne i funkcjonalne rozwiązanie</h1>
+      <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
         <p>
-          Zadaszenia tarasu w Koninie stanowią nie tylko praktyczne rozwiązanie chroniące przed warunkami atmosferycznymi, ale również istotny element architektoniczny, który wpływa na estetykę i charakter przestrzeni zewnętrznej. Są one kluczowym komponentem w projektowaniu nowoczesnych domów i ogrodów, oferując mieszkańcom komfort i ochronę, a jednocześnie podkreślając indywidualny styl danej nieruchomości. Wybór odpowiedniego zadaszenia tarasowego może całkowicie odmienić wygląd zewnętrzny domu, tworząc przytulne i funkcjonalne przestrzenie do relaksu, spotkań rodzinnych czy towarzyskich.
+          Inwestorom z <strong>Konina</strong> dostarczamy unikalne projekty tarasów, które bezbłędnie odpowiadają na indywidualne potrzeby domowników oraz architekturę budynku. Każde zlecenie traktujemy jako osobną opowieść, dbając o najdrobniejszy detal od pierwszego szkicu po finalne wykończenie. Współpraca z naszą marką to gwarancja terminowości, rzetelnego doradztwa technicznego oraz całkowitego zaangażowania zespołu na każdym etapie budowy. Projektujemy przestrzenie wypoczynkowe skrojone pod miarę Twoich oczekiwań, wolne od masowych schematów i marketowej powtarzalności.
         </p>
 
-        <h2>Zadaszenie tarasu, Konin - dlaczego warto w nie zainwestować?</h2>
-        <p>
-          Inwestycja w zadaszenie tarasu w Koninie przynosi szereg korzyści, które znacząco wpływają na komfort i funkcjonalność życia codziennego. Przede wszystkim, zadaszenie to skuteczna ochrona przed zmiennymi warunkami pogodowymi – zarówno intensywnym słońcem latem, jak i deszczem czy śniegiem w innych porach roku. Dzięki temu taras staje się przestrzenią, z której można korzystać niemal przez cały rok, niezależnie od kaprysów pogody. Dodatkowo zadaszenie tarasu w Koninie zwiększa wartość estetyczną nieruchomości, nadając jej nowoczesny i elegancki wygląd. Jest to również sposób na podniesienie wartości samej nieruchomości, co może być istotne w perspektywie długoterminowej. Zadaszenie zapewnia także dodatkową izolację termiczną i ochronę przed promieniowaniem UV, co przekłada się na zwiększenie komfortu użytkowania przestrzeni tarasu. Zadaszenie w Koninie jest również praktycznym rozwiązaniem dla osób ceniących sobie prywatność, gdyż zadaszenie może pełnić funkcję bariery chroniącej przed wzrokiem sąsiadów.
-        </p>
+        <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
-        <h2>Taras - zadaszenie w Koninie najwyższej jakości</h2>
+        <h2 class="text-2xl">Zadaszenie tarasu na lata – solidne rozwiązanie od Drewelt</h2>
         <p>
-          W przypadku tarasu zadaszenie w Koninie jest niezwykle ważnym elementem uzupełniającym wyposażenie posesji. Do realizacji z tym związanych używamy drewna BSH, czyli suchego świerku klejonego warstwowo, które jest znane ze swojej wytrzymałości, trwałości oraz odporności na warunki atmosferyczne. Ponadto nasze zadaszenia są pokrywane poliwęglanem komorowym, który zapewnia doskonałą ochronę przed promieniowaniem UV, jednocześnie zachowując lekkość konstrukcji. Każde zadaszenie tarasu w Koninie jest projektowane i wykonane z myślą o spełnieniu indywidualnych potrzeb i oczekiwań klienta, co obejmuje nie tylko wymiary i kształt, ale także wybór kolorystyki. Nasze produkty są dwukrotnie malowane i impregnowane, co dodatkowo zwiększa ich odporność na czynniki zewnętrzne oraz przedłuża żywotność. Dzięki temu realizacje związane z tarasem i zadaszeniem w Koninie nie tylko pięknie się prezentują, ale są również funkcjonalne i trwałe.
+          Planujesz montaż zadaszenia tarasu? Postaw na wsparcie Drewelt! Tworzymy konstrukcje zdolne opierać się upływowi czasu, gwałtownym wichurom oraz obciążeniom zalegającego śniegu. Sięgamy wyłącznie po najlepsze materiały dostępne na rynku, opierając każdą realizację na sprawdzonych filarach:
+        </p>
+        <ul class="list-disc list-inside my-4">
+          <li>certyfikowane drewno klejone warstwowo BSH o najwyższej stabilności;</li>
+          <li>poliwęglan komorowy blokujący promieniowanie UV i chroniący przed deszczem;</li>
+          <li>ręczna impregnacja oraz wieloetapowe zabezpieczenie chemiczne elementów.</li>
+        </ul>
+        <p>
+          Zyskujesz zadaszoną strefę relaksu, która zachowuje niezmienną odporność i nienaganny wygląd przez wiele dekad użytkowania. Prześlij nam wymiary swojej przestrzeni i <a href="/kontakt">skonsultuj swój projekt dachu na taras</a> z naszym zespołem już teraz!
         </p>
       </div>
     `,

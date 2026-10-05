@@ -2589,17 +2589,52 @@ export const seoContentList: SeoContent[] = [
   </div>
   <p>Masz pytania dotyczące swojej inwestycji we <strong>Wrześni</strong>? <a href="https://www.drewelt.pl/kontakt">Skontaktuj się z naszym zespołem</a> – pomożemy dobrać właściwe komponenty, rzetelnie wycenimy projekt i poprowadzimy Cię przez cały proces montażu.</p>
 
-  <h2>FAQ</h2>
-  <h3>Co wybrać na zadaszenie tarasu?</h3>
-  <p>Najlepszym wyborem na zadaszenie tarasu są solidne konstrukcje oparte na drewnie klejonym warstwowo (BSH) oraz pokryciu z poliwęglanu, które skutecznie chronią przed upałem i ulewami.</p>
-  <h3>Co to są pergole?</h3>
-  <p>Pergole to wolnostojące lub przyścienne konstrukcje ogrodowe zbudowane z pionowych słupków oraz górnych belek, które tworzą zacienioną strefę wypoczynku i stanowią eleganckie oparcie dla roślin lub zadaszenia.</p>
-  <h3>Co ile legary pod taras kompozytowy?</h3>
-  <p>Rekomendowany maksymalny rozstaw legarów pod deski kompozytowe wynosi 35 centymetrów, co zapewnia stabilność całej podbudowy oraz komfort użytkowania.</p>
-  <h3>Gdzie najlepiej sprawdza się deska kompozytowa i jakie ma zastosowanie?</h3>
-  <p>Deska kompozytowa znajduje zastosowanie nie tylko na przydomowych tarasach, ale również na balkonach, pomostach wokół domów oraz w strefach relaksacyjnych obiektów komercyjnych, takich jak hotele czy restauracje.</p>
-  <h3>Jak układać deskę tarasową kompozytową?</h3>
-  <p>Układanie desek polega na zamontowaniu ich na wcześniej wypoziomowanych legarach przy użyciu dedykowanych klipsów montażowych, co gwarantuje prawidłowe dylatacje oraz czysty montaż bez widocznych wkrętów.</p>
+  <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl mx-auto" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+    <div class="p-8 md:p-12 flex flex-col justify-center">
+      <div class="mb-3">
+        <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+          FAQ • Najczęściej zadawane pytania
+        </span>
+      </div>
+      <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+        Deski kompozytowe <br>
+        <span style="color: #2e7d32;">– pytania i odpowiedzi</span>
+      </h2>
+
+      <div class="flex gap-2 flex-col mb-8" itemscope="" itemtype="https://schema.org/FAQPage">
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="border-b border-[#262420] pb-4 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Co wybrać na zadaszenie tarasu?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Najlepszym wyborem na zadaszenie tarasu są solidne konstrukcje oparte na drewnie klejonym warstwowo (BSH) oraz pokryciu z poliwęglanu, które skutecznie chronią przed upałem i ulewami.</span></span>
+            </p>
+          </div>
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="border-b border-[#262420] pb-4 pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Co to są pergole?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Pergole to wolnostojące lub przyścienne konstrukcje ogrodowe zbudowane z pionowych słupków oraz górnych belek, które tworzą zacienioną strefę wypoczynku i stanowią eleganckie oparcie dla roślin lub zadaszenia.</span></span>
+            </p>
+          </div>
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Co ile legary pod taras kompozytowy?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Rekomendowany maksymalny rozstaw legarów pod deski kompozytowe wynosi 35 centymetrów, co zapewnia stabilność całej podbudowy oraz komfort użytkowania.</span></span>
+            </p>
+          </div>
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Gdzie najlepiej sprawdza się deska kompozytowa i jakie ma zastosowanie?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Deska kompozytowa znajduje zastosowanie nie tylko na przydomowych tarasach, ale również na balkonach, pomostach wokół domów oraz w strefach relaksacyjnych obiektów komercyjnych, takich jak hotele czy restauracje.</span></span>
+            </p>
+          </div>
+          <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <p class="pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <span itemprop="name"><strong>Jak układać deskę tarasową kompozytową?</strong></span>
+            <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Układanie desek polega na zamontowaniu ich na wcześniej wypoziomowanych legarach przy użyciu dedykowanych klipsów montażowych, co gwarantuje prawidłowe dylatacje oraz czysty montaż bez widocznych wkrętów.</span></span>
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
   <div class="grid gap-4 md:grid-cols-2">
     <div class="rounded-2xl overflow-hidden shadow-lg">
       <img class="object-cover w-full h-64" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie." />

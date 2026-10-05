@@ -33,6 +33,7 @@ export const zadaszeniaLinks = [
     { href: "/zadaszenia/zadaszenie-tarasu-zlotniki", label: "Zadaszenie tarasu Złotniki" },
     { href: "/zadaszenia/zadaszenie-tarasu-rokietnica", label: "Zadaszenie tarasu Rokietnica" },
     { href: "/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska", label: "Zadaszenie tarasu Środa Wielkopolska" },
+    { href: "/zadaszenia/projektowanie-zadaszen-na-wymiar", label: "Projektowanie zadaszeń na wymiar" },
 ]
 
 export const tarasyLinks = [

@@ -1328,6 +1328,50 @@ export const seoContentList: SeoContent[] = [
     `,
   },
   {
+    url: "projektowanie-zadaszen-na-wymiar",
+    metaTitle: "Indywidualny projekt zadaszenia – Drewelt",
+    h1: "Projekt zadaszenia tarasu na wymiar z Drewelt",
+    description: "Projekt zadaszenia tarasu na wymiar od Drewelt. 12 lat doświadczenia, ponad 850 realizacji i solidne drewno BSH. Sprawdź ofertę!",
+    content: `
+
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>Jako marka Drewelt wyrośliśmy w Wielkopolsce z pasji do obróbki surowca naturalnego, niosąc ze sobą 12 lat doświadczenia oraz ponad 850 zrealizowanych zleceń na terenie całej Polski. Jako profesjonalny wykonawca zadaszeń każde zadanie traktujemy indywidualnie, a fundamentem naszych relacji z inwestorami pozostaje bezwzględne zaangażowanie, ścisłe partnerstwo w działaniu oraz jasne zasady współpracy wolne od jakichkolwiek niespodzianek.</p>
+  <p>Poszukujesz firmy, która wykona dla Ciebie <strong>projekt zadaszenia tarasu</strong>? Dobrze trafiłeś! W Drewelt od pierwszego pomiaru po finalny montaż prowadzimy naszych klientów, dbając o to, by cała inwestycja przebiegała terminowo i bez zbędnych nerwów.</p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Projektowanie solidnych zadaszeń na lata</h2>
+
+      <p>Porzucamy masową produkcję marketową na rzecz bezkompromisowej wytrzymałości. Realizując <strong>projekt zadaszenia tarasu</strong>, sięgamy wyłącznie po wyselekcjonowane drewno klejone warstwowo BSH, które wykazuje ogromną odporność na pękanie, silne wichury oraz obciążenia wywołane przez zalegający śnieg. Wysoki standard naszych prac to zasługa połączenia tradycyjnego rzemiosła stolarskiego z rzetelnym przygotowaniem każdego elementu w kontrolowanych warunkach warsztatowych. Tworzymy architekturę ogrodową zdolną opierać się upływowi czasu przez wiele dekad, gwarantując pełne bezpieczeństwo i nienaganny wygląd bez konieczności uciążliwych zabiegów konserwacyjnych.</p>
+
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20240806_074120.jpg" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
+    </div>
+
+  </div>
+
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <h3 class="text-xl font-semibold text-gray-800">Dlaczego warto powierzyć nam swój taras?</h3>
+  <p>W Drewelt:</p>
+  <ul class="list-disc list-inside my-4">
+  <li>tworzymy autorskie projekty dopasowane do indywidualnej bryły budynku;</li>
+  <li>selekcjonujemy najlepsze surowce oraz sprawdzone pokrycia dachowe;</li>
+  <li>montujemy gotowe konstrukcje szybko i sprawnie w zaledwie jeden dzień.</li>
+  </ul>
+  <p>Masz pytania dotyczące projektowania zadaszeń? Zapraszamy!</p>
+
+</div>
+
+    
+    `,
+  },
+  {
     url: "zadaszenie-tarasu-gniezno",
     metaTitle: "Zadaszenia tarasów w Gnieznie – trwałe konstrukcje – Drewelt",
     h1: "Solidne zadaszenia od Drewelt dla klientów z Gniezna",
@@ -2556,15 +2600,6 @@ export const seoContentList: SeoContent[] = [
   <p>Deska kompozytowa znajduje zastosowanie nie tylko na przydomowych tarasach, ale również na balkonach, pomostach wokół domów oraz w strefach relaksacyjnych obiektów komercyjnych, takich jak hotele czy restauracje.</p>
   <h3>Jak układać deskę tarasową kompozytową?</h3>
   <p>Układanie desek polega na zamontowaniu ich na wcześniej wypoziomowanych legarach przy użyciu dedykowanych klipsów montażowych, co gwarantuje prawidłowe dylatacje oraz czysty montaż bez widocznych wkrętów.</p>
-  <div class="w-full flex gap-4 mt-4 flex-col md:flex-row">
-    <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-2.png" alt="Deski kompozytowe na taras z montażem"/>
-    </div>
-
-    <div class="w-full md:w-3/5 mt-4">
-      
-    </div>
-  </div>
   <div class="grid gap-4 md:grid-cols-2">
     <div class="rounded-2xl overflow-hidden shadow-lg">
       <img class="object-cover w-full h-64" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie." />
@@ -2577,6 +2612,63 @@ export const seoContentList: SeoContent[] = [
   <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
 
   <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156071.7431922871!2d17.5443938!3d52.3273635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f9!3m3!1m2!1s0x4704e97a51bfa0d7%3A0xb3abcad0610ffead!2sWrze%C5%9Bnia!5e0!3m2!1spl!2spl!4v1755524374232!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    `,
+  },
+  {
+    url: "deska-tarasowa-kompozytowa-gniezno",
+    metaTitle: "Tarasy kompozytowe w Gnieźnie – Drewelt",
+    h1: "Budowa i montaż tarasu z kompozytu dla klientów z Gniezna",
+    description: "Budowa i montaż tarasów kompozytowych w Gnieźnie od Drewelt. 12 lat doświadczenia i trwałe deski Premium. Skontaktuj się z nami!",
+    content: `
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg mt-12 space-y-8">
+  <h1 class="text-3xl font-bold text-gray-800">Budowa i montaż tarasu z kompozytu dla klientów z Gniezna</h1>
+<p>Nowoczesna strefa wypoczynkowa wokół domu wymaga bezkompromisowych rozwiązań, dlatego od lat dostarczamy inwestorom z Gniezna oraz okolic najwyższej klasy systemy tarasowe. Nasz zespół tworzą fachowcy o doskonałej znajomości branży stolarskiej i budowlanej, którzy codzienne działania opierają na solidnych materiałach oraz niezawodnych technologiach. Stawiamy na deski kompozytowe najwyższej jakości, które całkowicie eliminują problem corocznego olejowania czy uciążliwej konserwacji drewna.</p>
+<p>W ramach naszej oferty wykonujemy:</p>
+ <ul class="list-disc list-inside my-4">
+<li>kompleksowy montaż oraz budowę trwałych podestów z kompozytu;</li>
+<li>autorskie projektowanie przestrzeni wypoczynkowych dopasowanych do bryły budynku;</li>
+<li>profesjonalne realizacje solidnych <a href="https://www.drewelt.pl/wiaty">wiat</a>,</li>
+<li>dostosowane do Twoich potrzeb <a href="https://www.drewelt.pl/zadaszenia">zadaszenia</a>.</li>
+</ul>
+
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Czym wyróżnia się deska tarasowa kompozytowa?</h2>
+      <p>Nowoczesny kompozyt to technologiczne połączenie wyselekcjonowanych włókien drzewnych oraz polimerów, które gwarantuje wyjątkowe właściwości użytkowe:</p>
+      <ul class="list-disc list-inside my-4">
+      <li>całkowita odporność na plamy, tłuszcz oraz działanie wilgoci;</li>
+      <li>wysoka ochrona przed blaknięciem pod wpływem promieniowania słonecznego;</li>
+      <li>bezpieczeństwo domowników dzięki powierzchni wolnej od drzazg;</li>
+      <li>stabilność wymiarowa tarasów kompozytowych i brak odkształceń pod wpływem mrozu czy upałów.</li>
+      </ul>
+      <p>Masz pytania dotyczące swojej nowej przestrzeni wokół domu? <a href="https://www.drewelt.pl/kontakt">Skontaktuj się z zespołem Drewelt</a> – jako profesjonalny wykonawca tarasów chętnie rozwikłamy Twoje wątpliwości, doradzimy najlepsze rozwiązania techniczne i przygotujemy rzetelną wycenę dopasowaną do Twoich potrzeb. Zapraszamy mieszkańców Gniezna!</p>
+      
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/tarasy/taras-2.png" alt="Deski kompozytowe na taras z montażem"/>
+    </div>
+
+  </div>
+
+  <div class="grid gap-4 md:grid-cols-2">
+    <div class="rounded-2xl overflow-hidden shadow-lg">
+      <img class="object-cover w-full h-64" src="/deska_kompozytowa/20221012_132328.jpg" alt="Jasna deska kompozytowa zamontowana na tarasie." />
+    </div>
+    <div class="rounded-2xl overflow-hidden shadow-lg">
+      <img class="object-cover w-full h-64" src="/deska_kompozytowa/deska-8.jpg" alt="Taras wykonany z ciemnej deski kompozytowej." />
+    </div>
+  </div>
+
+  <div class="flex w-full justify-end mt-4"><a class="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span class="text-white text-base normal-case font-light">Wycenimy Twój projekt!</span></a></div>
+
+  <iframe class="w-full h-96 rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38839.518278628326!2d17.56208620864278!3d52.52493196934141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704911512d87b73%3A0xf68138bc94628172!2sGniezno!5e0!3m2!1spl!2spl!4v1791188017589!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
     `,

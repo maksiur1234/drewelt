@@ -2615,13 +2615,13 @@ export const seoContentList: SeoContent[] = [
             </p>
           </div>
           <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <p class="pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <p class="border-b border-[#262420] pb-4 pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
             <span itemprop="name"><strong>Co ile legary pod taras kompozytowy?</strong></span>
             <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Rekomendowany maksymalny rozstaw legarów pod deski kompozytowe wynosi 35 centymetrów, co zapewnia stabilność całej podbudowy oraz komfort użytkowania.</span></span>
             </p>
           </div>
           <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-            <p class="pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
+            <p class="border-b border-[#262420] pb-4 pt-2 flex flex-col gap-1" style="color: #4a4a4a;">
             <span itemprop="name"><strong>Gdzie najlepiej sprawdza się deska kompozytowa i jakie ma zastosowanie?</strong></span>
             <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">Deska kompozytowa znajduje zastosowanie nie tylko na przydomowych tarasach, ale również na balkonach, pomostach wokół domów oraz w strefach relaksacyjnych obiektów komercyjnych, takich jak hotele czy restauracje.</span></span>
             </p>

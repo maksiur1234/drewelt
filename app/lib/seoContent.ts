@@ -3633,6 +3633,7 @@ export const seoContentList: SeoContent[] = [
 
       <h2 class="text-2xl">Czym wyróżnia się zadaszenie tarasowe z poliwęglanu?</h2>
       <p>Wybór <strong>poliwęglanu na zadaszenie </strong>to sposób na skuteczne odzyskanie kontroli nad warunkami panującymi wokół domu, niezależnie od kaprysów aury. <strong>Materiał ten przepuszcza naturalne światło, jednocześnie tamując uciążliwe promieniowanie UV oraz chroniąc przed gwałtownymi opadami deszczu i gradu. </strong></p>
+      <p>Taka konstrukcja to:</p>
       <ul class="list-disc list-inside my-4">
       <li>wysoka odporność na uderzenia mechaniczne oraz trudne warunki atmosferyczne;</li>
       <li>doskonała przepuszczalność światła dziennego przy jednoczesnej redukcji ciepła;</li>

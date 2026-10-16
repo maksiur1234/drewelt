@@ -1883,7 +1883,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/wiaty-wolnostojace/wiata-2.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
+      <img class="object-cover rounded-lg shadow-md" src="/wiaty-wolnostojace/wiata-2.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
     </div>
 
   </div>
@@ -3083,7 +3083,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/wiaty-wolnostojace/wiata-3.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
+      <img class="object-cover rounded-lg shadow-md" src="/wiaty-wolnostojace/wiata-3.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
     </div>
 
   </div>
@@ -3643,7 +3643,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/galeria/przyscienne-na-lukach/9.jpg" alt="Zadaszenie z poliwęglanu"/>
+      <img class="object-cover rounded-lg shadow-md" src="/galeria/przyscienne-na-lukach/9.jpg" alt="Zadaszenie z poliwęglanu"/>
     </div>
 
   </div>

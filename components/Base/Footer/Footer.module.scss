@@ -53,6 +53,17 @@
     }
 }
 
+.column ul.compactList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0;
+}
+
+.compactList li:not(:last-child)::after {
+    content: ",";
+    margin-right: 5px;
+}
+
 .column ul li a {
     text-decoration: none;
     color: #333;

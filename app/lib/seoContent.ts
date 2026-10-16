@@ -1860,29 +1860,110 @@ export const seoContentList: SeoContent[] = [
   },
   {
     url: "zadaszenie-tarasu-lubin",
-    metaTitle: "Zadaszenie Tarasu Lubin | Drewelt Piotr Wiśniewski",
-    h1: "Zadaszenie tarasu Lubin",
-    content: `
-<div>
-  <h1>Zadaszone tarasy w Lubinie – Nowoczesne rozwiązania do Twojego domu</h1>
-  <p>
-    Zadaszone tarasy zdobywają współcześnie coraz większą popularność. Jest to doskonałe rozszerzenie przestrzeni mieszkalnej, pozwalające na stworzenie miejsca do relaksu, spotkań rodzinnych czy przyjęć na świeżym powietrzu. Funkcjonalność zadaszenia pozwala umieścić na tarasie meble ogrodowe, grilla czy nawet strefę wypoczynkową, czyniąc go miejscem przeznaczonym do wielu różnych aktywności. Zapraszamy do zapoznania się z naszą ofertą zadaszeń tarasu w Lubinie.
-  </p>
+    metaTitle: "Zadaszenia tarasu z poliwęglanu – Lubin – Drewelt",
+    h1: "Zadaszenie tarasu – Lubin",
+    description: "Szukasz solidnego zadaszenia tarasu z poliwęglanu w Lubinie? Sprawdź ofertę trwałych konstrukcji z drewna BSH. Zamów bezpłatny projekt!",
+   content: `
+  <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>Zadaszone tarasy stanowią doskonałe rozszerzenie przestrzeni mieszkalnej, pozwalając na stworzenie miejsca do relaksu, spotkań rodzinnych czy przyjęć na świeżym powietrzu. Dzięki obecności dachu można tu umieścić meble ogrodowe, grilla czy nawet strefę wypoczynkową, czyniąc <a href="https://www.drewelt.pl/tarasy">taras</a> miejscem przeznaczonym do wielu różnych aktywności. Zapraszamy do zapoznania się z naszą ofertą zadaszeń tarasu w Lubinie.</p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
-  <h2>Zadaszenie tarasu – Lubin – nasza oferta</h2>
-  <p>
-    Nasza firma oferuje kompleksowe rozwiązania związane z zadaszeniem tarasów w Lubinie i okolicach, uwzględniające najnowsze technologie oraz indywidualne potrzeby klientów. Nasza oferta obejmuje projektowanie zadaszeń tarasowych w oparciu o specyfikację techniczną budynku, wykorzystywanie wysokiej jakości materiałów oraz montaż poszczególnych elementów konstrukcyjnych. Dzięki wysokiej dostępności wzorów i kolorystyki, zapewniamy klientom możliwość wyboru takiego zadaszenia, które będzie w pełni dopasowane do ich oczekiwań estetycznych i funkcjonalnych.
-  </p>
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+        <h2 class="text-2xl">Oferta Drewelt dla klientów z Lubina</h2>
+        <p>Nasza firma zapewnia kompleksowe rozwiązania związane z zadaszeniem tarasów w Lubinie i okolicach, uwzględniające najnowsze technologie oraz indywidualne potrzeby klientów. Oferta obejmuje:</p>
+        <ul class="list-disc list-inside my-4">
+        <li><a href="https://www.drewelt.pl/zadaszenia/projektowanie-zadaszen-na-wymiar">projektowanie zadaszeń tarasowych</a> w oparciu o specyfikację techniczną budynku,</li>
+        <li>wysokiej jakości materiały,</li>
+        <li>różnorodność wzorów i kolorystyki,</li>
+        <li>montaż poszczególnych elementów konstrukcyjnych.</li>
+        </ul>
+        <p>Dzięki temu klienci mają możliwość wyboru takiego zadaszenia, które będzie w pełni dopasowane do ich oczekiwań. Poza tym oferujemy również <a href="https://www.drewelt.pl/wiaty">wiaty</a>.</p>
+    </div>
 
-  <h2>Dlaczego warto postawić na poliwęglanowe zadaszenie tarasu? – Lubin</h2>
-  <p>
-    Wykorzystywany przez nas materiał poliwęglanowy charakteryzuje się wyjątkową wytrzymałością mechaniczną oraz odpornością na warunki atmosferyczne, co sprawia, że jest doskonałym wyborem do zadaszenia tarasów. Jego transparentność umożliwia przepuszczanie naturalnego światła, tworząc przyjemną atmosferę pod zadaszeniem. Poliwęglanowe zadaszenie skutecznie chroni przed nadmiernym promieniowaniem UV.
-  </p>
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/wiaty-wolnostojace/wiata-2.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
+    </div>
 
-  <h2>Zadaszenie tarasu – Lubin – kontakt</h2>
-  <p>
-    Decydując się na współpracę z naszą firmą, klient otrzymuje gwarancję sprawnej i kompleksowej realizacji usługi. Dbamy o dobrą komunikację z usługobiorcami, dobór wysokiej jakości materiałów oraz precyzyjne wykonawstwo czynności montażowych. W przypadku jakichkolwiek pytań lub wątpliwości co do usługi zadaszenia tarasu w Lubinie, serdecznie <a href="/kontakt">zapraszamy do kontaktu</a> z jednym z naszych przedstawicieli.
-  </p>
+  </div>
+
+  <h2 class="text-2xl mt-4">Dlaczego warto postawić na poliwęglanowe zadaszenie tarasu?</h2>
+
+  <p>Wykorzystywany przez nas materiał poliwęglanowy do zadaszeń tarasu charakteryzuje się wyjątkową wytrzymałością mechaniczną oraz odpornością na warunki atmosferyczne, co sprawia, że jest doskonałym wyborem do zadaszenia tarasów. Jego transparentność umożliwia przepuszczanie naturalnego światła, tworząc przyjemną atmosferę pod zadaszeniem. Poliwęglanowe zadaszenie skutecznie chroni przed nadmiernym promieniowaniem UV.</p>
+
+  <h2 class="text-2xl mt-4">Zadaszenie tarasu w Lubinie – kontakt</h2>
+
+  <p>Interesuje Cię projekt dachu nad taras? A może potrzebujesz wiaty? Zachęcamy do kontaktu! Decydując się na współpracę z naszą firmą, klient otrzymuje gwarancję sprawnej i kompleksowej realizacji usługi. Dbamy o dobrą komunikację z usługobiorcami, dobór wysokiej jakości materiałów oraz precyzyjne wykonawstwo czynności montażowych. W przypadku jakichkolwiek pytań lub wątpliwości co do usługi zadaszenia tarasu w Lubinie serdecznie <a href="https://www.drewelt.pl/kontakt">zapraszamy do kontaktu</a> z jednym z naszych przedstawicieli.</p>
+  
+  <p>Realizujemy zlecenia również we <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-wroclaw">Wrocławiu</a> oraz w miastach województwa wielkopolskiego, takich jak <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan">Poznań</a> czy Mosina.</p>
+
+  <div class="flex items-center justify-center">
+    <div class="max-w-5xl w-full rounded-3xl overflow-hidden shadow-2xl" style="background-color: #ffffff; border: 4px solid #1e7a1f40;">
+      <div class="grid md:grid-cols-2 gap-0 min-h-[500px]">
+        <div class="relative h-full overflow-hidden">
+          <div class="absolute inset-0 flex items-center justify-center" style="background-color: #d3d3d3;">
+            <iframe class="w-full h-full rounded-lg my-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49125.20391839365!2d16.14781367470142!3d51.398226087485774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f6f5dec8c30e3%3A0xeb22ebd7aefefc83!2sLubin!5e0!3m2!1spl!2spl!4v1792132191756!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(30, 122, 31, 0.15) 0%, rgba(46, 125, 50, 0.4) 100%); pointer-events: none;"></div>
+        </div>
+        <div class="p-8 md:p-12 flex flex-col justify-center">
+          <div class="mb-3">
+            <span class="text-sm font-bold uppercase tracking-wider" style="color: #2e7d32;">
+              Lubin • Dolny Śląsk
+            </span>
+          </div>
+          <h2 class="text-3xl md:text-3xl font-bold mb-4 leading-tight" style="color: #1a1a1a;">
+            Zadaszenie tarasu<br>
+            <span style="color: #2e7d32;">w Lubinie</span>
+          </h2>
+          <p class="mb-6 leading-relaxed" style="color: #4a4a4a;">
+            Obsługujemy Lubin i okolice. Szybki dojazd, profesjonalny montaż i kompleksowa realizacja od projektu po wykonanie.
+          </p>
+          <div class="mb-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Ochrona przed deszczem i słońcem</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Projekt dopasowany do Twojego domu</span>
+            </div>
+            
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #1e7a1f40;">
+                <svg class="w-4 h-4" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span style="color: #4a4a4a;">Montaż nawet w 8 godzin</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/kontakt" class="inline-block px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-center" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);">
+              Bezpłatna wycena
+            </a>
+          </div>
+          <div class="mt-6 flex items-center gap-2 text-sm" style="color: #666;">
+            <svg class="w-5 h-5" style="color: #2e7d32;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Oddzwonimy w ciągu 24h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
     `,
   },
@@ -2985,13 +3066,11 @@ export const seoContentList: SeoContent[] = [
   {
     url: "zadaszenie-tarasu-oborniki",
     metaTitle: "Zadaszenia tarasów Oborniki – solidne konstrukcje – Drewelt",
-    h1: "Jak stworzyć idealną przestrzeń wypoczynkową przy domu w Obornikach?",
+    h1: "Zadaszenie tarasu – Oborniki",
     description: "Zamów trwałe zadaszenia tarasów w Obornikach. Konstrukcje z drewna BSH i poliwęglanu. Bezpłatna wycena, montaż i 2 lata gwarancji. Sprawdź ofertę Drewelt!",
    content: `
   <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
-  <p>
-    Solidne zadaszenie to droga do pełnego wykorzystania potencjału ogrodu, niezależnie od kaprysów pogody. Firma Drewelt specjalizuje się w projektowaniu i montażu konstrukcji z drewna BSH i poliwęglanu komorowego, które łączą naturalne piękno z nowoczesną funkcjonalnością. Wybierając nasze <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszenia tarasów</strong></a>, inwestujesz w rozwiązanie skrojone na miarę, które chroni przed deszczem i nadmiernym słońcem, jednocześnie podnosząc estetykę Twojej nieruchomości w <strong>Obornikach</strong>. Nasze wieloletnie doświadczenie w obróbce drewna pozwala nam tworzyć obiekty trwałe, bezpieczne oraz idealnie wpisane w architekturę budynku. Odkryj pełen potencjał swojego tarasu i <a href="https://www.drewelt.pl/kontakt">zamów bezpłatną konsultację z naszym ekspertem</a>!
-  </p>
+  <p>W Drewelt specjalizujemy się w projektowaniu i montażu konstrukcji z drewna BSH oraz poliwęglanu komorowego. Wybierając nasze <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszenia tarasów</strong></a>, inwestujesz w rozwiązanie skrojone na miarę, które chroni przed deszczem i nadmiernym słońcem, jednocześnie podnosząc estetykę Twojej nieruchomości w <strong>Obornikach</strong>. Wieloletnie doświadczenie w obróbce drewna pozwala nam tworzyć obiekty trwałe, bezpieczne oraz idealnie wpisane w architekturę budynku. Odkryj pełen potencjał swojego tarasu i <a href="https://www.drewelt.pl/kontakt">zamów bezpłatną konsultację z naszym ekspertem</a>! </p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
@@ -2999,22 +3078,19 @@ export const seoContentList: SeoContent[] = [
     <div class="w-full md:w-3/5 mt-4">
 
       <h2 class="text-2xl">Dlaczego warto postawić na zadaszenia tarasów z drewna klejonego BSH?</h2>
-      <p>
-        Decydując się na <strong>zadaszenia tarasów </strong>Drewelt zyskujesz gwarancję najwyższej stabilności konstrukcyjnej. W naszych projektach wykorzystujemy certyfikowane drewno klejone warstwowo (BSH), które w przeciwieństwie do tradycyjnej tarcicy, nie skręca się, nie pęka i zachowuje stałość wymiarową przez lata. Nasze szkielety opieramy na solidnych słupach o przekroju 12x12 cm oraz belkach 8x16 cm, co pozwala na tworzenie dużych rozpiętości bez konieczności gęstego rozstawiania podpór. Każdy element jest trzykrotnie malowany wysokiej klasy impregnatami i lakierobejcami, co zapewnia pełną odporność na zmienne polskie warunki atmosferyczne. Skontaktuj się z nami już dziś i zapytaj o bezpłatną wycenę <strong>zadaszenia tarasów </strong>w<strong> Obornikach</strong>!
-      </p>
+      <p>Decydując się na <strong>zadaszenia tarasów </strong>Drewelt, zyskujesz gwarancję najwyższej stabilności konstrukcyjnej. W projektach wykorzystujemy certyfikowane drewno klejone warstwowo (BSH), które w przeciwieństwie do tradycyjnej tarcicy, nie skręca się, nie pęka i zachowuje stałość wymiarową przez lata. Nasze szkielety opieramy na solidnych słupach o przekroju 12 × 12 cm oraz belkach 8 × 16 cm, co pozwala na tworzenie dużych rozpiętości dachu tarasowego bez konieczności gęstego rozstawiania podpór. Każdy element jest trzykrotnie malowany wysokiej klasy impregnatami i lakierobejcami, co zapewnia pełną odporność na zmienne polskie warunki atmosferyczne.</p>
+      <p><a href="https://www.drewelt.pl/kontakt">Skontaktuj się z nami</a> już dziś i zapytaj o bezpłatną wycenę <strong>zadaszenia tarasów </strong>w<strong> Obornikach</strong>! Zapraszamy również do zapoznania się z obszarem działań Drewelt. Swoje usługi świadczymy m.in. w Poznaniu, <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-szamotuly">Szamotułach</a> oraz <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-suchy-las">Suchym Lesie</a>.</p>
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/galeria/wiaty-wolnostojace/3.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
+      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/wiaty-wolnostojace/wiata-3.png" alt="Zadaszenie tarasowe z drewnianą konstrukcją."/>
     </div>
 
   </div>
 
   <h2 class="text-2xl mt-4">Czym wyróżnia się nasze pokrycie z poliwęglanu komorowego?</h2>
 
-  <p>
-  Stosujemy płyty o grubości 10 mm z obustronnym filtrem UV, które zapewniają idealny balans między doświetleniem a ochroną przed nagrzewaniem. Materiał ten skutecznie blokuje promieniowanie słoneczne, zabezpieczając meble przed blaknięciem, a jednocześnie pozostaje odporny na grad i obciążenie śniegiem do 100 kg/m². Dzięki wysokiej jakości poliwęglanu, nasze <strong>zadaszenia tarasów</strong> zachowują pełną przejrzystość przez lata, nie żółkną ani nie matowieją pod wpływem czynników atmosferycznych. Zabezpiecz swoją przestrzeń w <strong>Obornikach</strong> przed deszczem lub słońcem – sprawdź nasze warianty płyt i wybierz idealną dla siebie!
-  </p>  
+  <p>Stosujemy płyty o grubości 10 mm z obustronnym filtrem UV, które zapewniają idealny balans między doświetleniem a ochroną przed nagrzewaniem. Materiał ten skutecznie blokuje promieniowanie słoneczne, zabezpieczając meble przed blaknięciem, a jednocześnie pozostaje odporny na grad i obciążenie śniegiem do 100 kg/m². Dzięki wysokiej jakości poliwęglanu nasze <strong>zadaszenia tarasów</strong> zachowują pełną przejrzystość przez lata, nie żółkną ani nie matowieją pod wpływem czynników atmosferycznych. Zabezpiecz swoją przestrzeń w <strong>Obornikach</strong> przed deszczem lub słońcem – sprawdź nasze warianty płyt i wybierz idealną dla siebie lub zdecyduj się na <a href="https://www.drewelt.pl/zadaszenia/projektowanie-zadaszen-na-wymiar">projektowanie zadaszeń na wymiar</a>.</p>
   <div class="flex items-center justify-center">
     <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
       <div class="mb-3 inline-block">
@@ -3139,13 +3215,11 @@ export const seoContentList: SeoContent[] = [
   {
     url: "zadaszenie-tarasu-wagrowiec",
     metaTitle: "Zadaszenia tarasów Wągrowiec – kompleksowa obsługa – Drewelt",
-    h1: "Jak stworzyć idealną przestrzeń do wypoczynku z firmą Drewelt?",
+    h1: "Zadaszenia tarasów – Wągrowiec",
     description: "Szukasz solidnego zadaszenia tarasów w Wągrowcu? Drewelt oferuje unikalne konstrukcje z drewna klejonego. Sprawdź naszą ofertę i zamów bezpłatną wycenę.",
    content: `
   <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
-  <p>
-    <a href="https://www.drewelt.pl/">Firma Drewelt</a> to ekspert w obróbce drewna, który łączy tradycyjne rzemiosło z nowoczesnym designem, tworząc konstrukcje idealnie dopasowane do architektury Twojego domu. Specjalizujemy się w projektowaniu i montażu trwałych <strong>zadaszeń tarasów</strong>, które zmieniają przydomową przestrzeń w strefę całorocznego wypoczynku. Wykorzystujemy wyłącznie wyselekcjonowane materiały, takie jak certyfikowane drewno konstrukcyjne, a także poliwęglan komorowy, co gwarantuje stabilność i estetykę na lata. Poznaj naszą pełną ofertę i zainspiruj się do zmian w swoim ogrodzie!
-  </p>
+  <p>Jako <a href="https://www.drewelt.pl/">Drewelt</a> jesteśmy ekspertem w obróbce drewna. Od 2014 roku dokładamy starań, by tworzyć konstrukcje idealnie dopasowane do architektury Twojego domu. Specjalizujemy się w projektowaniu i montażu trwałych <strong>zadaszeń tarasów</strong>, tarasów, a także <a href="https://www.drewelt.pl/wiaty">wiat</a>, które zmieniają przydomową przestrzeń w strefę całorocznego wypoczynku. Wykorzystujemy wyłącznie wyselekcjonowane materiały, takie jak certyfikowane drewno konstrukcyjne, a także poliwęglan komorowy, co gwarantuje stabilność i estetykę na lata. Poznaj naszą pełną ofertę i zainspiruj się do zmian w swoim ogrodzie!</p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
@@ -3153,22 +3227,25 @@ export const seoContentList: SeoContent[] = [
     <div class="w-full md:w-3/5 mt-4">
 
       <h2 class="text-2xl">Dlaczego warto postawić na profesjonalne zadaszenia tarasów w Wągrowcu?</h2>
-      <p>
-        Inwestycja w <strong>zadaszenia tarasów</strong> Drewelt to sposób na uniezależnienie się od kaprysów pogody i przedłużenie sezonu ogrodowego. Nasze konstrukcje skutecznie chronią przed intensywnym słońcem, opadami oraz liśćmi, pozwalając na relaks na świeżym powietrzu bez względu na aurę. Każdy projekt realizujemy indywidualnie, dbając o to, by zadaszenie harmonizowało z elewacją i stylem ogrodu, podnosząc jednocześnie wartość nieruchomości. Dzięki zastosowaniu drewna klejonego i nowoczesnych pokryć, zyskujesz produkt odporny na pęknięcia oraz odkształcenia.<a href="https://www.drewelt.pl/kontakt">Skontaktuj się z nami już dziś</a>, aby otrzymać bezpłatną wycenę Twojego nowego zadaszenia w <strong>Wągrowcu</strong>!
-      </p>
+      <p>Inwestycja w nasze <strong>zadaszenia tarasów</strong> to sposób na uniezależnienie się od kaprysów pogody i przedłużenie sezonu ogrodowego. Tworzone w Drewelt konstrukcje skutecznie chronią przed:</p>
+      <ul class="list-disc list-inside my-4">
+      <li>intensywnym słońcem,</li>
+      <li>opadami, np. śniegiem lub deszczem,</li>
+      <li>liśćmi.</li>
+      </ul>
+      <p>Dzięki temu możesz cieszyć się relaksem na <a href="https://www.drewelt.pl/tarasy">tarasie</a> na świeżym powietrzu bez względu na aurę. Każdy projekt realizujemy indywidualnie, dbając o to, by zadaszenie harmonizowało z elewacją i stylem ogrodu, podnosząc jednocześnie wartość nieruchomości. Dzięki zastosowaniu drewna klejonego i nowoczesnych pokryć zyskujesz produkt odporny na pęknięcia oraz odkształcenia. <a href="https://www.drewelt.pl/kontakt">Skontaktuj się z nami już dziś</a>, aby otrzymać bezpłatną wycenę Twojego nowego zadaszenia w <strong>Wągrowcu</strong>!</p>
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/galeria/zadaszenia-przyscienne-na-lukach/22.png" alt="Białe zadaszenie tarasowe."/>
+      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasowe."/>
     </div>
 
   </div>
 
   <h2 class="text-2xl mt-4">Jakie materiały zapewniają trwałość naszych zadaszeń tarasów?</h2>
 
-  <p>
-  Fundamentem naszych <strong>zadaszeń tarasów</strong> jest wysokiej jakości drewno iglaste, poddawane precyzyjnej obróbce oraz impregnacji. Stosujemy drewno profilowane oraz klejone warstwowo (KVH i BSH), które charakteryzuje się najwyższą wytrzymałością mechaniczną, a także minimalną podatnością na pracę materiału. Jako pokrycie dachowe proponujemy nowoczesny poliwęglan komorowy, szkło bezpieczne lub dachówkę, zależnie od preferencji Klienta z <strong>Wągrowca </strong>czy specyfiki budynku. Wszystkie elementy łączone są za pomocą ukrytych systemów montażowych, co zapewnia czystą formę i elegancki wygląd detali. Sprawdź nasze dotychczasowe <a href="https://www.drewelt.pl/galeria">realizacje </a>i przekonaj się o jakości, którą oferujemy!
-  </p>  
+  <p>Fundamentem naszych <strong>zadaszeń tarasów</strong> jest wysokiej jakości drewno iglaste, poddawane precyzyjnej obróbce oraz impregnacji. Stosujemy drewno profilowane oraz klejone warstwowo (KVH i BSH), które charakteryzuje się najwyższą wytrzymałością mechaniczną, a także minimalną podatnością na pracę materiału. Jako pokrycie dachowe proponujemy nowoczesny poliwęglan komorowy, szkło bezpieczne lub dachówkę, zależnie od preferencji klienta z <strong>Wągrowca </strong>czy specyfiki budynku. Wszystkie elementy łączone są za pomocą ukrytych systemów montażowych, co zapewnia czystą formę i elegancki wygląd detali. Sprawdź nasze dotychczasowe <a href="https://www.drewelt.pl/galeria">realizacje</a> i przekonaj się o jakości, którą oferujemy!</p>
+  <p>Poza Wągrowcem działamy m.in. w: Szamocinie, <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan">Poznaniu</a> czy <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-gniezno">Gnieźnie</a>. Zapraszamy!</p>
   <div class="flex items-center justify-center">
     <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
       <div class="mb-3 inline-block">
@@ -3273,13 +3350,11 @@ export const seoContentList: SeoContent[] = [
   {
     url: "zadaszenie-tarasu-mosina",
     metaTitle: "Zadaszenia tarasów Mosina – z gwarancją – Drewelt",
-    h1: "Kim jesteśmy i jak tworzymy zadaszenia tarasów w Mosinie?",
-    description: "Stwórz strefę relaksu z Drewelt. Oferujemy zadaszenia tarasów dla Klientów z Mosiny. Trwałość na lata, montaż w 1 dzień, darmowa wycena. Zobacz nasze realizacje!",
+    h1: "Zadaszenia tarasów w Mosinie",
+    description: "Stwórz strefę relaksu z Drewelt. Oferujemy zadaszenia tarasów w Mosinie. Trwałość na lata, montaż w 1 dzień, darmowa wycena. Zobacz nasze realizacje!",
    content: `
   <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
-  <p>
-    Firma Drewelt od 2014 roku specjalizuje się w projektowaniu i budowie trwałych konstrukcji, które zmieniają przydomowe przestrzenie w całoroczne strefy relaksu. Nasze <strong>zadaszenia tarasów </strong>to połączenie tradycyjnego rzemiosła z nowoczesnymi technologiami, takimi jak certyfikowane drewno klejone BSH oraz wytrzymały poliwęglan komorowy. Działamy kompleksowo – od bezpłatnej konsultacji, przez precyzyjny projekt, aż po profesjonalny montaż na terenie miejscowości <strong>Mosina</strong>. Poznaj <a href="https://www.drewelt.pl/">pełną ofertę Drewelt</a> i odmień swój ogród!
-  </p>
+  <p>Od 2014 roku specjalizujemy się w projektowaniu i budowie trwałych konstrukcji, które zmieniają przydomowe przestrzenie w całoroczne strefy relaksu. Nasze <strong>zadaszenia tarasów </strong>to połączenie tradycyjnego rzemiosła z nowoczesnymi technologiami, takimi jak certyfikowane drewno klejone BSH oraz wytrzymały poliwęglan komorowy. W asortymencie mamy również solidne <a href="https://www.drewelt.pl/wiaty">wiaty</a>. Działamy kompleksowo – od bezpłatnej konsultacji, przez precyzyjny projekt, aż po profesjonalny montaż w <strong>Mosinie</strong>. Poznaj <a href="https://www.drewelt.pl/">pełną ofertę Drewelt</a> i odmień swój ogród!</p>
   
   <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
 
@@ -3287,21 +3362,17 @@ export const seoContentList: SeoContent[] = [
     <div class="w-full md:w-3/5 mt-4">
 
       <h2 class="text-2xl">Co sprawia, że zadaszenia tarasów od Drewelt to inwestycja na lata?</h2>
-      <p>
-        Konstrukcje Drewelt realnie wydłużają sezon ogrodowy o nawet 5 miesięcy, chroniąc użytkowników przed deszczem, śniegiem oraz szkodliwym promieniowaniem UV. Stosujemy wyłącznie wysokiej jakości drewno inżynieryjne BSH, które w przeciwieństwie do zwykłego drewna litego nie skręca się i nie pęka, zachowując nienaganną geometrię przez dekady. Wybierając nasze <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszenia tarasów</strong></a>, zyskujesz:
-      </p>
+      <p>Nasze konstrukcje skutecznie wydłużają sezon ogrodowy o nawet 5 miesięcy, chroniąc użytkowników przed deszczem, śniegiem oraz szkodliwym promieniowaniem UV. Stosujemy wyłącznie wysokiej jakości drewno inżynieryjne BSH, które w przeciwieństwie do zwykłego drewna litego nie skręca się i nie pęka, zachowując nienaganną geometrię przez dekady. Wybierając nasze <a href="https://www.drewelt.pl/zadaszenia"><strong>zadaszenia tarasów</strong></a>, zyskujesz:</p>
       <ul class="list-disc list-inside my-4">
-        <li>solidność – słupy o przekroju 12x12 cm oraz belki 8x16 cm zapewniają stabilność przy dużych rozpiętościach;</li>
+        <li>solidność – słupy o przekroju 12 × 12 cm oraz belki 8 × 16 cm zapewniają stabilność przy dużych rozpiętościach;</li>
         <li>trwałość – elementy są trzykrotnie malowane i impregnowane, co gwarantuje odporność na wilgoć;</li>
         <li>ochronę – poliwęglan komorowy 10 mm z dwustronnym filtrem UV chroni meble ogrodowe przed blaknięciem.</li>
       </ul>
-      <p>
-        <a href="https://www.drewelt.pl/kontakt">Zamów bezpłatną wycenę </a>swojego zadaszenia już dziś!
-      </p>
+      <p><a href="https://www.drewelt.pl/kontakt">Zamów bezpłatną wycenę</a> swojego zadaszenia już dziś! Zapraszamy również klientów z pobliskiego <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan">Poznania</a> czy <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-sroda-wielkopolska">Środy Wielkopolskiej</a>.</p>
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/galeria/zadaszenia-przyscienne-na-lukach/22.png" alt="Białe zadaszenie tarasowe."/>
+      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasowe."/>
     </div>
 
   </div>
@@ -3545,6 +3616,66 @@ export const seoContentList: SeoContent[] = [
 </div>
 
     `,
+  },
+  {
+    url: "zadaszenie-tarasu-poliweglan",
+    metaTitle: "Zabudowa tarasu z poliwęglanu – Drewelt",
+    h1: "Zadaszenie tarasu z poliwęglanu",
+    description: "Solidne zadaszenie tarasu z poliwęglanu od Drewelt. Chronimy przed upałem i deszczem, łącząc drewno BSH z polskim rzemiosłem. Zamów projekt!",
+   content: `
+  <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl mt-12 space-y-8">
+  <p>Twój przydomowy taras latem zamienia się w rozgrzaną patelnię, a jesienne ulewy skutecznie odcinają Cię od świeżego powietrza? Jako Drewelt tworzymy solidne <strong>zadaszenia tarasu z drewna i poliwęglanu</strong>, przekształcając nienaturalnie nagrzane lub stale zalewane przestrzenie w bezpieczne strefy wypoczynku. <strong>Oferujemy konstrukcje z drewna klejonego warstwowo BSH</strong>, rezygnując z marketowych półproduktów na rzecz ponadprzeciętnej trwałości. Nasze doświadczenie opiera się na setkach zrealizowanych <a href="https://www.drewelt.pl/zadaszenia/projektowanie-zadaszen-na-wymiar">projektów</a>, w których bazujemy na europejskim surowcu i polskim wykonawstwie. Każdy etap prac prowadzimy osobiście – od wstępnych pomiarów, przez prefabrykację w naszej hali, aż po ekspresowy montaż <strong>zabudowy tarasu z poliwęglanu</strong> na Twojej posesji.</p>
+  
+  <hr class="shrink-0 bg-divider border-none w-full h-divider mb-6" role="separator"/>
+
+  <div class="w-full flex gap-4 flex-col md:flex-row">
+    <div class="w-full md:w-3/5 mt-4">
+
+      <h2 class="text-2xl">Czym wyróżnia się zadaszenie tarasowe z poliwęglanu?</h2>
+      <p>Wybór <strong>poliwęglanu na zadaszenie </strong>to sposób na skuteczne odzyskanie kontroli nad warunkami panującymi wokół domu, niezależnie od kaprysów aury. <strong>Materiał ten przepuszcza naturalne światło, jednocześnie tamując uciążliwe promieniowanie UV oraz chroniąc przed gwałtownymi opadami deszczu i gradu. </strong></p>
+      <ul class="list-disc list-inside my-4">
+      <li>wysoka odporność na uderzenia mechaniczne oraz trudne warunki atmosferyczne;</li>
+      <li>doskonała przepuszczalność światła dziennego przy jednoczesnej redukcji ciepła;</li>
+      <li>unikalna żywotność idąca w parze z naturalnym, ciepłym wyglądem drewna klejonego;</li>
+      <li>brak obciążeń konserwacyjnych dzięki zastosowaniu profesjonalnych powłok ochronnych;</li>
+      <li>stuprocentowa odporność <strong>poliwęglanu </strong>na korozję <strong>zadaszenia </strong>i promieniowanie słoneczne.</li>
+      </ul>
+    </div>
+
+    <div class="w-full md:w-2/5 mt-4">
+      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/galeria/przyscienne-na-lukach/9.jpg" alt="Zadaszenie z poliwęglanu"/>
+    </div>
+
+  </div>
+
+  <h2 class="text-2xl mt-4">Dach tarasowy z poliwęglanu według projektu</h2>
+
+  <p>Wszystko zaczyna się od indywidualnego omówienia Twoich potrzeb. Następnie nasz zespół przyjeżdża na dokładny pomiar, aby dobrać odpowiedni odcień drewna i poliwęglanu, który idealnie zgra się z elewacją budynku. Przed rozpoczęciem jakichkolwiek prac stolarskich przekazujemy Ci czytelne rysunki techniczne do akceptacji, co eliminuje wszelkie ryzyko pomyłek przy tworzeniu <strong>dachu tarasowego z poliwęglanu</strong>. <strong>90% elementów docinamy i impregnujemy w naszej hali produkcyjnej, dzięki czemu na Twojej działce pojawiają się gotowe, idealnie spasowane komponenty.</strong> Montaż zajmuje nam tylko 8-10 godzin, po których zostawiamy porządek i gotową przestrzeń do użytku.</p>
+  <p>Skontaktuj się z nami już dziś, opisz swoje wymiary i lokalizację, a my przygotujemy dla Ciebie rzetelną wycenę <strong>zadaszenia tarasowego</strong> dopasowanego do Twojego domu. Nasza siedziba znajduje się w Rakowni, ale działamy też na terenie <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-poznan">Poznania</a> i okolicznych miejscowości, w tym Gniezna, Szamotuł, <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-mosina">Mosiny</a>, a nawet <a href="https://www.drewelt.pl/zadaszenia/zadaszenie-tarasu-wroclaw">Wrocławia</a>.</p>
+  <div class="flex items-center justify-center">
+    <div class="max-w-2xl w-full rounded-2xl p-8 shadow-xl text-center" style="background-color: #ffffff; border: 3px solid #1e7a1f40;">
+      <div class="mb-3 inline-block">
+        <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="color: #2e7d32; background-color: #1e7a1f40;">
+          Galeria Realizacji
+        </span>
+      </div>
+
+      <h3 class="text-3xl font-bold mb-3 leading-tight" style="color: #1a1a1a;">
+        Inspiracje dla <span style="color: #2e7d32;">Twojego tarasu</span>
+      </h3>
+
+      <p class="text-base mb-6 leading-relaxed max-w-lg mx-auto" style="color: #4a4a4a;">
+        Zapoznaj się z naszymi realizacjami. Od prostych po łukowe konstrukcje.
+      </p>
+
+      <a href="/galeria" class="inline-block px-8 py-3 rounded-lg font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-xl" style="background-color: #2e7d32; color: #ffffff; box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);">
+        Sprawdź!
+      </a>
+    </div>
+  </div>
+</div>
+`,
+
   },
   {
     url: "zadaszenie-tarasu-rokietnica",

@@ -9,8 +9,8 @@ const Footer = () => {
   const columns = [
     { heading: "Menu", links: menuLinks },
     { heading: "Kontakt", links: kontaktLinks },
-    { heading: "Zadaszenia", links: zadaszeniaLinks },
-    { heading: "Tarasy", links: tarasyLinks },
+    { heading: "Zadaszenia", links: zadaszeniaLinks, compact: true },
+    { heading: "Tarasy", links: tarasyLinks, compact: true },
     { heading: "Wiaty", links: wiatyGarazowe },
     { heading: "Altany ogrodowe", links: altanyLinks },
   ];
@@ -21,7 +21,7 @@ const Footer = () => {
         {columns.map((col, idx) => (
           <div key={idx} className={styles.column}>
             <h3 className={styles.heading}>{col.heading}</h3>
-            <ul>
+            <ul className={col.compact ? styles.compactList : undefined}>
               {col.links.map((link, i) => (
                 <li key={i}>
                   <Link href={link.href}>{link.label}</Link>

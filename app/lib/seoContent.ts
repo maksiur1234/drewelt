@@ -3237,7 +3237,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasowe."/>
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasowe."/>
     </div>
 
   </div>
@@ -3372,7 +3372,7 @@ export const seoContentList: SeoContent[] = [
     </div>
 
     <div class="w-full md:w-2/5 mt-4">
-      <img class="object-cover rounded-lg shadow-md" src="/drewelt/public/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasowe."/>
+      <img class="object-cover rounded-lg shadow-md" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" alt="Białe zadaszenie tarasowe."/>
     </div>
 
   </div>

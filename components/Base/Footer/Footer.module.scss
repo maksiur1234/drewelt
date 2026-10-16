@@ -11,8 +11,8 @@
 .footerColumns {
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 1.25fr 4fr 1.5fr 0.9fr 1.1fr;
-    gap: 24px;
+    grid-template-columns: 1.1fr 1.4fr 2.6fr 1.4fr 1.1fr 1.1fr;
+    gap: 32px;
     width: 90%;
     max-width: 1200px;
 
@@ -72,6 +72,7 @@
     text-decoration: none;
     color: #333;
     transition: color 0.2s;
+    overflow-wrap: anywhere;
 }
 
 .column ul li a:hover {

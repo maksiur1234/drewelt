@@ -2,7 +2,7 @@ import { Metadata } from "next"
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Wiaty samochodowe z drewna BSH - carporty garażowe - Drewelt",
+    title: "Wiaty drewniane – Drewelt",
     description: "Szukasz ochrony dla auta? Wybierz wiaty samochodowe z drewna BSH z dachem z poliwęglanu. Zapomnij o skrobaniu szyb i nagrzanym wnętrzu. Sprawdź ofertę!",
     alternates: {
       canonical: "https://www.drewelt.pl/wiaty",

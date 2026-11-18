@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const generateMetadata = (): Metadata => {
   return {
     title: "Budowa tarasów ogrodowych z kompozytu i drewna – Drewelt",
-    description: "Nowoczesne zadaszenia tarasowe, wiaty samochodowe i altany ogrodowe.",
+    description: "Deski tarasowe z kompozytu Drewelt. Budowa tarasów na wymiar, trwałość bez konserwacji i szybki montaż. Sprawdź ofertę oraz darmową wycenę!",
     alternates: {
       canonical: "https://www.drewelt.pl/tarasy",
     },

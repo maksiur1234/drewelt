@@ -11,7 +11,11 @@
 .title {
     font-size: 32px;
     font-weight: 500;
-    margin-top: 40px;
+    color: sV.$primary;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 30px;
+    }
 }
 
 .text {

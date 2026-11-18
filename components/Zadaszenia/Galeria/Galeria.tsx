@@ -27,18 +27,18 @@ const Galeria = () => {
     <div className={styles.container}>
         <GaleriaContent 
           title='Zadaszenia z prostym spadem'
-          description="Dopasują się do architektury tradycyjnej i nowoczesnej."
+          description="Stanowią uniwersalne rozwiązanie, które pasuje zarówno do tradycyjnych domów jednorodzinnych, jak i nowoczesnych brył. Prosty spadek<strong> dachu tarasu</strong> gwarantuje sprawny odpływ wody opadowej oraz samoistne zsuwanie się śniegu zimą. System ten pozwala na bezproblemowy montaż instalacji rynnowej wzdłuż dolnej krawędzi zadaszenia."
           obrazki={zadaszeniaProstySpadek}
           background
         />
         <GaleriaContent
           title='Zadaszenia na łukach'
-          description="Nadadzą blask Twojej posesji. Lekka wytrzymała konstrukcja o ponad czasowym wyglądzie"
+          description="Zaokrąglona linia <strong>dachu</strong> przełamuje proste kąty elewacji, nadając całej powierzchni wizualną lekkość przy zachowaniu najwyższej sztywności. Łukowata gięta konstrukcja z drewna BSH sprawnie rozkłada obciążenia wiatrowe i opadowe, dzięki czemu zadaszenie zachowuje stabilność. To wykończenie wybierają inwestorzy poszukujący oryginalnego akcentu architektonicznego wokół domu."
           obrazki={zadaszeniaNaLukach}
         />
         <GaleriaContent
           title='Zadaszenia na belce'
-          description="To oryginalne rozwiązanie, pozwala na szeroki rozstaw słupów i komponuje się z każdym projektem domu."
+          description="Wykorzystanie podłużnej belki nośnej pozwala znacząco zwiększyć rozstaw słupów fundamentowych bez ryzyka uginania się <strong>dachu</strong>. Wyeliminowanie gęsto rozstawionych podpór <strong>wiaty</strong> ułatwia swobodne poruszanie się po tarasie i zapewnia nieprzesłonięty widok na przestrzeń ogrodową. <strong>Zadaszenie </strong>to sprawdza się przy szerokich przeszkleniach tarasowych oraz dużych powierzchniach wypoczynkowych."
           obrazki={zadaszeniaNaBelce}
           background
         />

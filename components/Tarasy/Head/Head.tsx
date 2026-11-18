@@ -23,8 +23,8 @@ const Head = () => {
       />
 
       <div className={`${styles.content} ${styles.slideUpText}`}>
-        <h1>Tarasy z desek kompozytowych WPC</h1>
-        <p>Nowoczesne tarasy - odporne na pogodę, łatwe w utrzymaniu, piękne przez lata</p>
+        <h1>Tarasy z desek kompozytowych</h1>
+        <p>Nowoczesne tarasy – odporne na pogodę, łatwe w utrzymaniu, piękne przez lata!</p>
       </div>
 
       <div className={styles.buttonWrapper}>

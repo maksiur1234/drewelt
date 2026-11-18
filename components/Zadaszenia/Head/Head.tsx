@@ -23,7 +23,7 @@ const Head = () => {
       />
 
       <div className={`${styles.content} ${styles.slideUpText}`}>
-        <h1>Przedłużymy lato na Twoim tarasie o 5 miesięcy.</h1>
+        <h1>Zadaszenia tarasów z drewna – przedłużymy lato o 5 miesięcy</h1>
         <p>
           Solidne konstrukcje z drewna klejonego i poliwęglanu. Odporne na polską pogodę,
           idealnie dopasowane do Twojego domu.

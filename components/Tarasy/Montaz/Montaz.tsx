@@ -12,11 +12,11 @@ const Montaz = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>
-        Montaż desek tarasowych z kompozytu i akcesoria – trwałość bez kompromisów
+        Montaż desek tarasowych z kompozytu
       </h2>
       
       <p className={styles.text}>
-        Każdy projekt realizowany przez Drewelt obejmuje nie tylko dostawę <strong>desek tarasowych z kompozytu</strong>, ale także pełen zestaw akcesoriów montażowych. W skład systemu wchodzą klipsy plastikowe z wkrętami ze stali nierdzewnej, listy kątowe, zaślepki i inne elementy, które zapewniają stabilność i estetykę konstrukcji. Dzięki przemyślanemu systemowi montażu, deski kompozytowe można szybko, a także bezproblemowo zamontować <strong>na balkonach, tarasach ogrodowych czy przy basenach.</strong> Ich konstrukcja umożliwia późniejsze odwrócenie, co znacząco wydłuża żywotność całej powierzchni, a także pozwala zachować świeży wygląd przez lata.
+        Każdy projekt realizowany przez Drewelt obejmuje nie tylko dostawę <strong>desek tarasowych z kompozytu</strong>, ale także pełen zestaw akcesoriów montażowych. W skład systemu wchodzą klipsy plastikowe z wkrętami ze stali nierdzewnej, listy kątowe, zaślepki i inne elementy, które zapewniają stabilność i estetykę konstrukcji. Dzięki przemyślanemu systemowi montażu, deski kompozytowe można szybko, a także bezproblemowo zainstalować <strong>na balkonach, tarasach ogrodowych czy przy basenach.</strong> Ich konstrukcja umożliwia późniejsze odwrócenie, co znacząco wydłuża żywotność całej powierzchni, a także pozwala zachować świeży wygląd przez lata.
       </p>
 
       <h2 className={styles.title}>
@@ -24,7 +24,7 @@ const Montaz = () => {
       </h2>
 
       <p className={styles.text}>
-        Zamówienie deski kompozytowe na taras można złożyć w prosty sposób. Wystarczy przesłać: zdjęcia miejsca inwestycji, wymiary, dane kontaktowe, a zespół Drewelt przygotuje indywidualną wycenę i koncepcję. Działamy kompleksowo: od doradztwa technicznego, przez dobór materiałów, aż po montaż. Klient otrzymuje od  pełne wsparcie każdym etapie realizacji, a kontakt z doradcą jest szybki i rzeczowy. Cenimy sobie transparentność i jakość obsługi, dlatego każde zamówienie traktowane jest indywidualnie.
+        Zamówienie deski kompozytowe na taras można złożyć w prosty sposób. Wystarczy przesłać: zdjęcia miejsca inwestycji, wymiary, dane kontaktowe, a zespół Drewelt przygotuje indywidualną wycenę i koncepcję. Działamy kompleksowo: od doradztwa technicznego, przez dobór materiałów, aż po montaż. Klient otrzymuje od nas pełne wsparcie na każdym etapie realizacji, a kontakt z doradcą jest szybki i rzeczowy. Cenimy sobie transparentność oraz jakość obsługi, dlatego każde zamówienie traktowane jest indywidualnie.
       </p>
 
       <h2 className={styles.title}>

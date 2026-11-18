@@ -4,6 +4,7 @@ import Deski from "@/components/Tarasy/Deski/Deski";
 import Head from "@/components/Tarasy/Head/Head";
 import Montaz from "@/components/Tarasy/Montaz/Montaz";
 import Zalety from "@/components/Tarasy/Zalety/Zalety";
+import RozpocznijProjekt from "@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt";
 
 export default function Page() {
   return (
@@ -19,6 +20,8 @@ export default function Page() {
       <Akcesoria />
 
       <Montaz />
+
+      <RozpocznijProjekt hideDescription />
     </>
   )
 }

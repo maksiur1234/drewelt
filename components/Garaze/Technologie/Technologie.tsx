@@ -20,34 +20,7 @@ const Technologie = () => {
         <h3 className={styles.cardTitle}>Zadaszenie z poliwęglanu komorowego 10 mm</h3>
         <p className={styles.cardText}>Stosujemy płyty 10 mm z filtrem UV. To nie jest zwykły plastik. To materiał, który wytrzymuje gradobicie i chroni tapicerkę Twojego auta przed słońcem. Przy podparciu jakie stosujemy wytrzymuje nacisk 100 kg/m².</p>
 
-        <p className={styles.cardTitle}>Zadaszenie z poliwęglanu jest dostępne w wersji:</p>
-        <div className={styles.items}>
-            <div className={styles.item}>
-                 <p className={styles.itemTitle}>
-                     Przezroczystej
-                 </p>
-                <div className={styles.imageWrapper}>
-                    <Image fill src={'/wersje-materialow/przezroczysty.png'} style={{ objectFit: 'cover' }} alt='Przezroczyste materiały' />
 
-                </div>
-            </div>
-            <div className={styles.item}>
-                    <p className={styles.itemTitle}>
-                        Mlecznej
-                    </p>
-                <div className={styles.imageWrapper}>
-                    <Image fill src={'/wersje-materialow/mleczny.png'} style={{ objectFit: 'cover' }} alt='Mleczne materiały' />
-                </div>
-            </div>
-            <div className={styles.item}>
-                    <p className={styles.itemTitle}>
-                        Przydymionej
-                    </p>
-                <div className={styles.imageWrapper}>
-                    <Image fill src={'/wersje-materialow/przydymiony.png'} style={{ objectFit: 'cover' }} alt='Przydymione materiały' />
-                </div>
-            </div>
-        </div>
     </div>
   )
 }

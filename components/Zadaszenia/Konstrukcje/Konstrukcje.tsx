@@ -20,13 +20,12 @@ const Konstrukcje = () => {
 
         <p className={styles.textTitle}>Konstrukcja z drewna klejonego BSH</p>
         <p className={styles.textDescription}>
-            Konstrukcja zachowuje stabilność i geometrię przez dekady, bez konieczności ciągłych napraw.
-          Zapomnij o pęknięciach i skręcaniu elementów. Używamy wyłącznie certyfikowanego drewna klejonego warstwowo BSH. Jest to materiał inżynieryjny o podwyższonej  wytrzymałości na obciążenia mechaniczne i zmienne temperatury - <strong>suchy świerk klejony warstwowo.</strong> 
+            Konstrukcja zachowuje stabilność i geometrię przez dekady, bez konieczności ciągłych napraw. Zapomnij o pęknięciach i skręcaniu elementów. Do <strong>zabudowy tarasów </strong>używamy wyłącznie certyfikowanego drewna klejonego warstwowo BSH. Jest to materiał inżynieryjny o podwyższonej wytrzymałości na obciążenia mechaniczne i zmienne temperatury – <strong>suchy świerk klejony warstwowo.</strong>
         </p>
 
-        <p className={styles.textTitle}>Zadaszenie z poliwęglanu komorowego 10mm</p>
+        <p className={styles.textTitle}>Zadaszenie z poliwęglanu komorowego 10 mm</p>
         <p className={styles.textDescription}>
-          Stosujemy płyty o grubości 10mm, które stanowią bezpieczną barierę dla gradu i śniegu. Materiał posiada dwustronny filtr UV – chroni Ciebie przed słońcem, a meble ogrodowe przed blaknięciem. Wytrzymałość naszego poliwęglanu przy podparciu jakie stosujemy to 100 kg/m²
+          Stosujemy płyty o grubości 10 mm, które stanowią bezpieczną barierę dla gradu i śniegu. Materiał posiada dwustronny filtr UV – chroni Cię przed słońcem, a meble ogrodowe przed blaknięciem. Wytrzymałość naszego poliwęglanu przy podparciu jakie stosujemy to 100 kg/m².
         </p>
 
         <p className={styles.textTitle}>Dostępny w wersji:</p>
@@ -64,15 +63,19 @@ const Konstrukcje = () => {
                 Otrzymaj bezpłatną wycenę   
             </button>
         </div>
-            <p className={styles.textDescription}>
-                W <Link href={'/galeria'}>galerii Drewelt</Link> znajdziesz przykłady konstrukcji, które pokazują, jak <strong>budowa zadaszenia tarasu z drewna</strong> może odmienić przestrzeń wokół domu. Wśród wykonanych projektów znajdują się zarówno lekkie, minimalistyczne formy, jak i bardziej rozbudowane konstrukcje z szerokimi belkami, idealnie dopasowane do architektury budynku. 
-            </p>
-            <p className={styles.textDescription}>
-                Każdy <strong>dach tarasu z drewna</strong> powstaje na podstawie indywidualnych pomiarów, dzięki czemu proporcje, układ słupów oraz sposób mocowania harmonizują z elewacją i otoczeniem. W realizacjach widać również różnorodność zastosowanych rozwiązań – od zadaszeń montowanych przy nowoczesnych domach z dużymi przeszkleniami, po konstrukcje tworzone przy budynkach o bardziej tradycyjnym charakterze.
-            </p>
-            <p className={styles.textDescription}>
-                To potwierdza, że <strong>drewniane zadaszenie tarasu na wymiar</strong> pozwala uzyskać efekt spójny z każdym stylem architektonicznym. Jeśli chcesz, aby Twoja przydomowa przestrzeń wyglądała równie efektownie – <Link href={'/kontakt'}>skontaktuj się z nami</Link> i zamów projekt dopasowany do otoczenia.
-            </p>
+
+        <h2 className={styles.title}>Zadaszenia na wymiar – optymalne dopasowanie bez zbędnych kosztów</h2>
+        <p className={styles.textDescription}>Każdą konstrukcję projektujemy na podstawie indywidualnego pomiaru, uwzględniając wysunięcie okapu, wysokość montażu do elewacji oraz rozmieszczenie punktów podparcia. Aby ograniczyć wydatek, wykorzystujemy moduły ekonomiczne o długościach 422, 530, 634, 740 lub 846 cm i głębokościach od 290 do 600 cm. Taki schemat pozwala zredukować ilość odpadów materiałowych, obniżając ostateczny koszt inwestycji nawet o 2000 zł.</p>
+        <h2 className={styles.title}>Ile kosztuje zadaszenie tarasu z drewna?</h2>
+        <p className={styles.textDescription}>Cena wykonania <strong>drewnianego zadaszenia tarasu na wymiar </strong>nie jest stała i zależy od wyboru parametrów technicznych danej realizacji. Na ostateczny koszt wpływają wybrane warianty wykończenia:</p>
+        <ul className={`${styles.textDescription} list-disc list-inside`}>
+            <li>wymiary całej konstrukcji, w tym rozpiętość słupów oraz całkowita powierzchnia krycia dachu;</li>
+            <li>typ wybranej geometrii zadaszenia (spadek prosty, łuk lub konstrukcja na belce);</li>
+            <li>odmiana poliwęglanu komorowego 10 mm z podwójną filtracją UV (wariant przezroczysty, mleczny lub przydymiony);</li>
+            <li>specyfika montażu oraz stopień skomplikowania mocowania legarów do elewacji bądź ocieplenia.</li>
+        </ul>
+        <h2 className={styles.title}>Zadaszenia ogrodowe i zadaszenie altany</h2>
+        <p className={styles.textDescription}>Oprócz <strong>zadaszeń tarasowych</strong> przybudowanych do ściany obiektu realizujemy również wolnostojące zadaszenia ogrodowe oraz zadaszenia altan. Wymagają one niezależnego podparcia na słupach nośnych zamocowanych w gruncie za pomocą stóp fundamentowych. Szczegółowe specyfikacje i zdjęcia wolnostojących obiektów drewnianych znajdziesz na stronie <Link href="/altany-ogrodowe">altany ogrodowe</Link>.</p>
     </div>
   )
 }

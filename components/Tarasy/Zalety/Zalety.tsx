@@ -4,11 +4,11 @@ const Zalety = () => {
   return (
     <div className={styles.wrapper}>
         <h2 className={styles.title}>
-            Budowa tarasów ogrodowych – kompleksowa realizacja od Drewelt
+            Dlaczego warto wybrać deskę kompozytową?
         </h2>
 
         <p className={styles.text}>
-            <strong>Tarasowa deska kompozytowa</strong> stanowi nowoczesną alternatywę dla tradycyjnego drewna. To produkt który:
+            Inwestorzy coraz chętniej rezygnują z wymagających surowców na rzecz zaawansowanych technologicznie desek kompozytowych. To rozwiązania stanowiące doskonały balans między naturalnym wyglądem a trwałością, co pozwala cieszyć się pięknym wykończeniem bez konieczności corocznych, czasochłonnych prac pielęgnacyjnych.
         </p>
       
         <div className={styles.container}>

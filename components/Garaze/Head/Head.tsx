@@ -5,7 +5,12 @@ import { useRouter } from "next/navigation"
 
 import styles from '@/components/Garaze/Head/Head.module.scss'
 
-const Head = () => {
+interface HeadProps {
+  title: string;
+  description: string;
+}
+
+const Head = ({title, description}: HeadProps) => {
   const router = useRouter()
 
   const handleClick = () => {
@@ -23,10 +28,9 @@ const Head = () => {
       />
 
       <div className={`${styles.content} ${styles.slideUpText}`}>
-        <h1>Wiata zastąpi garaż za ułamek jego ceny</h1>
+        <h1>{title}</h1>
         <p>
-          Wiaty samochodowe z drewna klejonego BSH. Zapomnij o skrobaniu szyb,
-          nagrzanym wnętrzu i ptasich odchodach na lakierze.
+          {description}
         </p>
       </div>
 

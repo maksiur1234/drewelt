@@ -14,28 +14,28 @@ const Zalety = () => {
             </ul>
             <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Wiaty z drewna BSH i poliwęglanu</h2>
             <p className="text-xl sm:text-sm">Trwałość carportów opiera się na sprawdzonych materiałach budowlanych. Drewno klejone warstwowo BSH pozwala zachować duże rozpiętości między słupami, co gwarantuje bezproblemowe otwieranie drzwi samochodu bez ryzyka uderzenia w słup. Z kolei dach z poliwęglanu komorowego grubości 10 milimetrów z filtrem UV znosi obciążenie śniegiem i gradobicie, chroniąc wnętrze auta przed nadmiernym nagrzewaniem.</p>
-            <div className="max-w-5xl w-full overflow-hidden mx-auto rounded-2xl shadow-xl" style="border: 4px solid #1e7a1f40;">
+            <div className="max-w-5xl w-full overflow-hidden mx-auto rounded-2xl shadow-xl border-4 border-solid border-[#1e7a1f40]">
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm">
                   <thead>
-                    <tr style="background-color: #2e7d32;">
+                    <tr className="bg-[#2e7d32]">
                       <th className="p-4 text-left font-bold text-white"><strong>Parametr techniczny</strong></th>
                       <th className="p-4 text-left font-bold text-white"><strong>Drewno klejone BSH</strong></th>
                       <th className="p-4 text-left font-bold text-white"><strong>Poliwęglan komorowy 10 mm</strong></th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr style="background-color: #ffffff;">
+                    <tr className="bg-white">
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#1a1a1a]"><strong>Odporność na czynniki atmosferyczne</strong></td>
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#1a1a1a]">Brak podatności na paczenie dzięki technologii klejenia lamel</td>
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#1a1a1a]">Wytrzymałość na nacisk do 100 kg na metr kwadratowy</td>
                     </tr>
-                    <tr style="background-color: #1e7a1f0d;">
+                    <tr className="bg-[#1e7a1f0d]">
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#4a4a4a]"><strong>Właściwości użytkowe</strong></td>
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#4a4a4a]">Umożliwia duże rozpiętości bez podpór pośrednich</td>
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#4a4a4a]">Blokuje promieniowanie UV, zapobiega nagrzewaniu auta</td>
                     </tr>
-                    <tr style="background-color: #ffffff;">
+                    <tr className="bg-white">
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#1a1a1a]"><strong>Dostępne warianty</strong></td>
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#1a1a1a]">Naturalne usłojenie drewna zabezpieczone impregnatem</td>
                       <td className="p-4 align-top font-bold border-b border-[#1e7a1f40] text-[#1a1a1a]">Wersje wykończenia: przezroczysta, mleczna, przydymiona</td>

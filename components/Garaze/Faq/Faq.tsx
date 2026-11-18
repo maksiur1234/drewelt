@@ -21,16 +21,34 @@ const Faq = ({title, items}: FaqProps) => {
                 {title}
             </h3>
 
-            <div className="flex gap-2 flex-col mb-8" itemscope="" itemtype="https://schema.org/FAQPage">
+            <div className="flex gap-2 flex-col mb-8">
                 {items.map((item, index) => (
-                    <div key={index} itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <div key={index}>
                         <p className="border-b border-[#262420] pb-4 flex flex-col gap-1 text-[#4a4a4a;]">
-                        <span itemprop="name"><strong>{item.question}</strong></span>
-                        <span itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><span itemprop="text">{item.answer}</span></span>
+                        <span><strong>{item.question}</strong></span>
+                        <span>{item.answer}</span>
                         </p>
                     </div>
                 ))}
             </div>
+
+            <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": items.map((item) => ({
+                    "@type": "Question",
+                    "name": item.question,
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.answer
+                    }
+                }))
+                })
+            }}
+            />
         </div>
     </div>
   )

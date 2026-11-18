@@ -33,7 +33,7 @@ export default function Page() {
 
             <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white mb-8">
               <h3 className="text-lg sm:text-2xl">Altany wolnostojące</h3>
-              <p className="text-sm sm:text-xl">Te solidne propozycje stanowią niezależne punkty centralne w ogrodzie, zapewniając zacienioną strefę wypoczynku z dala od budynku. Wolnostojącą <strong>altanę z drewna </strong>można swobodnie usytuować w dowolnym zakątku posesji, na przykład obok oczka wodnego. Masywne słupy nośne gwarantują odporność na porywy wiatru oraz obciążenie śniegiem.</p>
+              <p className="text-sm sm:text-xl my-4">Te solidne propozycje stanowią niezależne punkty centralne w ogrodzie, zapewniając zacienioną strefę wypoczynku z dala od budynku. Wolnostojącą <strong>altanę z drewna </strong>można swobodnie usytuować w dowolnym zakątku posesji, na przykład obok oczka wodnego. Masywne słupy nośne gwarantują odporność na porywy wiatru oraz obciążenie śniegiem.</p>
               <div className={styles.galeria}>
                 <div className={styles.imageWrapper}>
                   <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany.jpg" fill />
@@ -63,7 +63,7 @@ export default function Page() {
 
             <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white mt-8">
               <h3 className="text-lg sm:text-2xl">Altany przy domu z prostym spadkiem</h3>
-              <p className="text-sm sm:text-xl">Zadaszenia z jednospadowym dachem idealnie komponują się z budynkami o oszczędnej geometrii. Prosty spadek ułatwia sprawny odpływ wody deszczowej oraz montaż dyskretnych rynien. Tego typu <strong>altanki ogrodowe </strong>tworzą osłonięte patio tuż przy wyjściu z salonu.</p>
+              <p className="text-sm sm:text-xl my-4">Zadaszenia z jednospadowym dachem idealnie komponują się z budynkami o oszczędnej geometrii. Prosty spadek ułatwia sprawny odpływ wody deszczowej oraz montaż dyskretnych rynien. Tego typu <strong>altanki ogrodowe </strong>tworzą osłonięte patio tuż przy wyjściu z salonu.</p>
               <div className={styles.galeria}>
               <div className={styles.imageWrapper}>
                   <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/palisnder.jpg" fill />

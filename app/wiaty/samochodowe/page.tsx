@@ -19,12 +19,12 @@ export default function Page() {
 
   return (
     <>
-        <Head title="Wiata samochodowa" description="Drewelt to stolarka bez kompromisów, tworzona przez rzemieślników z wieloletnim doświadczeniem w obróbce drewna. Zamiast marketowych gotowców z cienkich desek dostarczamy solidne konstrukcje z drewna klejonego BSH, które wytrzymują silne wichury i chronią pojazd przez cały rok." bgimage="/galeria/wolnostojace-na-lukach/4.jpg"/>
+        <Head title="Wiata samochodowa" description="Drewelt to stolarka bez kompromisów, tworzona przez rzemieślników z wieloletnim doświadczeniem w obróbce drewna." bgimage="/galeria/wolnostojace-na-lukach/4.jpg"/>
         
         <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
             <div className="inline-block justify-center">
                 <div className="max-w-[1300px] mx-auto p-4 sm:p-6 flex flex-col gap-4">
-                    <p className="text-sm sm:text-xl">Każdy projekt <Link href="/wiaty">wiaty</Link> przygotowujemy indywidualnie, docinając elementy na wymiar w naszym warsztacie i zabezpieczając je przed wilgocią oraz promieniowaniem UV, dzięki czemu inwestycja służy bezawaryjnie przez dekady.</p>
+                    <p className="text-sm sm:text-xl">Zamiast marketowych gotowców z cienkich desek dostarczamy solidne konstrukcje z drewna klejonego BSH, które wytrzymują silne wichury i chronią pojazd przez cały rok. Każdy projekt <Link href="/wiaty">wiaty</Link> przygotowujemy indywidualnie, docinając elementy na wymiar w naszym warsztacie i zabezpieczając je przed wilgocią oraz promieniowaniem UV, dzięki czemu inwestycja służy bezawaryjnie przez dekady.</p>
 
                     <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Nowoczesne wiaty samochodowe w ofercie Drewelt</h2>
                     <p className="text-sm sm:text-xl">Projektowane przez nas zadaszenia odpowiadają na zróżnicowane potrzeby inwestorów oraz specyfikę układu terenu na działce. Łączymy rzemieślniczą pracę z materiałami odpornymi na czynniki atmosferyczne, tworząc następujące warianty konstrukcji:</p>

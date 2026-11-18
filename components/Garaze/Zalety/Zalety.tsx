@@ -7,6 +7,7 @@ const Zalety = () => {
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block justify-center">
           <div className="max-w-[1300px] mx-auto p-4 sm:p-6 flex flex-col gap-4">
+            <p className="text-sm sm:text-xl">Zakład stolarski z Wielkopolski stawia na sprawdzone surowce i dopracowane projekty montowane u inwestora w jeden dzień.</p>
             <p className="text-sm sm:text-xl">W katalogu producenta znajdują się dwa główne warianty konstrukcyjne:</p>
             <ul className="list-disc list-inside text-sm sm:text-xl">
             <li>wiaty wolnostojące ustawiane w dowolnym punkcie działki, gwarantujące pełną swobodę manewrowania oraz wygodne wysiadanie z pojazdu;</li>

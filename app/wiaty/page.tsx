@@ -12,7 +12,7 @@ export default function Page() {
 
   return (
     <>
-      <Head title="Wiaty drewniane w ofercie Drewelt" description="Drewelt specjalizuje się w wytwarzaniu trwałych konstrukcji z drewna, które skutecznie zastępują tradycyjne garaże murarskie za ułamek ich kosztów. Zakład stolarski z Wielkopolski stawia na sprawdzone surowce i dopracowane projekty montowane u inwestora w jeden dzień." bgimage="/wiaty-wolnostojace/head.png"/>
+      <Head title="Wiaty drewniane w ofercie Drewelt" description="Drewelt specjalizuje się w wytwarzaniu trwałych konstrukcji z drewna, które skutecznie zastępują tradycyjne garaże murarskie za ułamek ich kosztów." bgimage="/wiaty-wolnostojace/head.png"/>
 
       <Zalety />
 

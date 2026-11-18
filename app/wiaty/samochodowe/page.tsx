@@ -15,16 +15,16 @@ export default function Page() {
                     <p>Każdy projekt <Link href="/wiaty">wiaty</Link> przygotowujemy indywidualnie, docinając elementy na wymiar w naszym warsztacie i zabezpieczając je przed wilgocią oraz promieniowaniem UV, dzięki czemu inwestycja służy bezawaryjnie przez dekady.</p>
 
                     <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Nowoczesne wiaty samochodowe w ofercie Drewelt</h2>
-                    <p className="text-xl sm:text-sm">Projektowane przez nas zadaszenia odpowiadają na zróżnicowane potrzeby inwestorów oraz specyfikę układu terenu na działce. Łączymy rzemieślniczą pracę z materiałami odpornymi na czynniki atmosferyczne, tworząc następujące warianty konstrukcji:</p>
-                    <ul className="list-disc list-inside text-xl sm:text-sm">
+                    <p className="text-sm sm:text-xl">Projektowane przez nas zadaszenia odpowiadają na zróżnicowane potrzeby inwestorów oraz specyfikę układu terenu na działce. Łączymy rzemieślniczą pracę z materiałami odpornymi na czynniki atmosferyczne, tworząc następujące warianty konstrukcji:</p>
+                    <ul className="list-disc list-inside text-sm sm:text-xl">
                         <li>wolnostojące jedno- i dwustanowiskowe zadaszenia idealne na każdy podjazd;</li>
                         <li>przyścienne modele hybrydowe, które płynnie przechodzą w linię dachu budynku;</li>
                         <li>zabudowy z integralnym pomieszczeniem gospodarczym na narzędzia i opony;</li>
                         <li>konstrukcje z dachem jednospadowym lub dwuspadowym pokrytym trwałą płytą poliwęglanową albo blachodachówką.</li>
                     </ul>
                     <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Dlaczego warto zakupić wiatę na samochód?</h2>
-                    <p className="text-xl sm:text-sm">Otwarta zadaszona <strong>przestrzeń to skuteczna ochrona karoserii przed gradem, żywicą, ptasimi odchodami i letnim upałem bez dusznej atmosfery zamkniętego garażu. Ciągła cyrkulacja powietrza przyspiesza odparowywanie wody, co znacznie ogranicza korozję podwozia po zimowych rozjazdach na solonych drogach. </strong>Dodatkowo solidna drewniana konstrukcja wiaty samochodowej podnosi wartość całej posesji i doskonale komponuje się z architekturą nowoczesnego domu.</p>
-                    <p className="text-xl sm:text-sm">Zapraszamy do kontaktu – skontaktuj się z nami telefonicznie lub przez formularz na stronie, aby omówić szczegóły swojej inwestycji i otrzymać darmową wycenę.</p>
+                    <p className="text-sm sm:text-xl">Otwarta zadaszona <strong>przestrzeń to skuteczna ochrona karoserii przed gradem, żywicą, ptasimi odchodami i letnim upałem bez dusznej atmosfery zamkniętego garażu. Ciągła cyrkulacja powietrza przyspiesza odparowywanie wody, co znacznie ogranicza korozję podwozia po zimowych rozjazdach na solonych drogach. </strong>Dodatkowo solidna drewniana konstrukcja wiaty samochodowej podnosi wartość całej posesji i doskonale komponuje się z architekturą nowoczesnego domu.</p>
+                    <p className="text-sm sm:text-xl">Zapraszamy do kontaktu – skontaktuj się z nami telefonicznie lub przez formularz na stronie, aby omówić szczegóły swojej inwestycji i otrzymać darmową wycenę.</p>
                 </div>
             </div>
         </section>

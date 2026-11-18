@@ -19,7 +19,7 @@ const MiejsceParkingowe = () => {
       <p className={styles.cardTitle__drugi}>Najkorzystniejsze cenowo wymiary:</p>
 
       <div className={styles.card}>
-        <ol className="my-4 list-inside list-decimal text-xl sm:text-sm">
+        <ol className="my-4 list-inside list-decimal text-sm sm:text-xl">
           <li>📏 Długość (po ścianie): 422 / 530 / 634 / 740 / 846 cm</li>
           <li>📏 Szerokość/głębokość: 290 / 340 / 450 / 500 / 600 cm</li>
         </ol>
@@ -27,7 +27,7 @@ const MiejsceParkingowe = () => {
 
       <h2 className={styles.title}>Dlaczego warto postawić na nasze wiaty?</h2>
       <p className={styles.cardTitle}>Inwestycja w wiaty Drewelt przynosi wymierne korzyści na co dzień, ponieważ:</p>
-      <ul className="list-disc list-inside text-xl sm:text-sm">
+      <ul className="list-disc list-inside text-sm sm:text-xl">
         <li>solidna konstrukcja oparta na potężnych słupach i belkach zapewnia stabilność przy porywistych wiatrach;</li>
         <li>zadaszenie zatrzymuje zanieczyszczenia organiczne, takie jak żywica drzew, pyłki kwiatowe czy ptasie odchody, które niszczą powłokę lakierniczą pojazdu;</li>
         <li>zimowa aura przestaje być uciążliwa, ponieważ poliwęglan skutecznie chroni przed szronem, zwalniając kierowcę z porannego skrobania szyb.</li>

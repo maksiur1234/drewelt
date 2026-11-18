@@ -7,13 +7,13 @@ const Zalety = () => {
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block justify-center">
           <div className="max-w-[1300px] mx-auto p-4 sm:p-6">
-            <p className="text-xl sm:text-sm">W katalogu producenta znajdują się dwa główne warianty konstrukcyjne:</p>
-            <ul className="list-disc list-inside text-xl sm:text-sm">
+            <p className="text-sm sm:text-xl">W katalogu producenta znajdują się dwa główne warianty konstrukcyjne:</p>
+            <ul className="list-disc list-inside text-sm sm:text-xl">
             <li>wiaty wolnostojące ustawiane w dowolnym punkcie działki, gwarantujące pełną swobodę manewrowania oraz wygodne wysiadanie z pojazdu;</li>
             <li>wiaty przyścienne montowane bezpośrednio do ściany budynku mieszkalnego lub gospodarczego, co pozwala optymalnie zagospodarować dostępną przestrzeń przy zachowaniu spójności z bryłą domu.</li>
             </ul>
             <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Wiaty z drewna BSH i poliwęglanu</h2>
-            <p className="text-xl sm:text-sm">Trwałość carportów opiera się na sprawdzonych materiałach budowlanych. Drewno klejone warstwowo BSH pozwala zachować duże rozpiętości między słupami, co gwarantuje bezproblemowe otwieranie drzwi samochodu bez ryzyka uderzenia w słup. Z kolei dach z poliwęglanu komorowego grubości 10 milimetrów z filtrem UV znosi obciążenie śniegiem i gradobicie, chroniąc wnętrze auta przed nadmiernym nagrzewaniem.</p>
+            <p className="text-sm sm:text-xl">Trwałość carportów opiera się na sprawdzonych materiałach budowlanych. Drewno klejone warstwowo BSH pozwala zachować duże rozpiętości między słupami, co gwarantuje bezproblemowe otwieranie drzwi samochodu bez ryzyka uderzenia w słup. Z kolei dach z poliwęglanu komorowego grubości 10 milimetrów z filtrem UV znosi obciążenie śniegiem i gradobicie, chroniąc wnętrze auta przed nadmiernym nagrzewaniem.</p>
             <div className="max-w-5xl w-full overflow-hidden mx-auto rounded-2xl shadow-xl border-4 border-solid border-[#1e7a1f40]">
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm">

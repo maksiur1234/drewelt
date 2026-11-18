@@ -33,10 +33,15 @@ const deski = [
 const Deski = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>System montażowy i akcesoria</h2>
+      <h2 className={styles.title}>Wymiary i kolory – dopasuj taras do swojej przestrzeni</h2>
 
-      <p className={styles.text}>Instalacja tarasu kompozytowego wymaga zastosowania dedykowanych podzespołów, które zapewniają stabilność całej podbudowy oraz prawidłowe odprowadzanie wody. System bezwidocznego montażu zapobiega uszkodzeniu powierzchni desek, a odpowiednio dobrane legary i klipsy dystansowe gwarantują zachowanie dylatacji, chroniąc materiał przed odkształceniami pod wpływem zmian temperatury.</p>
-      <p className={styles.text}>Zamiast przypadkowych zamienników, warto postawić na kompletny zestaw akcesoriów obejmujący niezbędne elementy:</p>
+      <p className={styles.text}>
+        Drewelt oferuje <strong>deski tarasowe kompozytowe</strong> w dwóch długościach:{' '}
+        <strong>3m i 4m</strong>, co pozwala na elastyczne dopasowanie do różnych powierzchni. Deski są
+        dwustronnie ryflowane – jedna strona ma drobne rowki, druga grubsze – dzięki czemu można je
+        odwrócić i odświeżyć wygląd tarasu, bez konieczności wymiany. W palecie kolorów{' '}
+        <strong>kompozytowych desek tarasowych</strong> znajdziesz:
+      </p>
 
       <div className={styles.deski}>
         {deski.map((d) => (
@@ -55,6 +60,9 @@ const Deski = () => {
           </article>
         ))}
       </div>
+      <p className={styles.text}>
+        Są to barwy, które harmonizują z nowoczesną architekturą i naturalnym otoczeniem. W sprzedaży dostępne są również plastikowe deski na taras. Stanowią one alternatywę dla osób poszukujących ekonomicznych oraz łatwych w utrzymaniu rozwiązań.
+      </p>
     </div>
   )
 }

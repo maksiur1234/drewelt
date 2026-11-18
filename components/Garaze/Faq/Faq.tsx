@@ -25,8 +25,8 @@ const Faq = ({title, items}: FaqProps) => {
                 {items.map((item, index) => (
                     <div key={index}>
                         <p className="border-b border-[#262420] pb-4 flex flex-col gap-1 text-[#4a4a4a;]">
-                        <span><strong>{item.question}</strong></span>
-                        <span>{item.answer}</span>
+                        <span><strong dangerouslySetInnerHTML={{ __html: item.question }} /></span>
+                        <span dangerouslySetInnerHTML={{ __html: item.answer }} />
                         </p>
                     </div>
                 ))}

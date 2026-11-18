@@ -10,7 +10,7 @@ const Montaz = () => {
     ]
 
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} flex flex-col gap-4`}>
       <h2 className={styles.title}>
         Montaż desek tarasowych z kompozytu
       </h2>

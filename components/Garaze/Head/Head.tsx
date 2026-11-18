@@ -8,9 +8,10 @@ import styles from '@/components/Garaze/Head/Head.module.scss'
 interface HeadProps {
   title: string;
   description: string;
+  bgimage: string;
 }
 
-const Head = ({title, description}: HeadProps) => {
+const Head = ({title, description, bgimage}: HeadProps) => {
   const router = useRouter()
 
   const handleClick = () => {
@@ -20,7 +21,7 @@ const Head = ({title, description}: HeadProps) => {
   return (
     <div className={styles.container}>
       <Image
-        src="/wiaty-wolnostojace/head.png"
+        src={bgimage}
         alt="Wiata garażowa"
         fill
         priority

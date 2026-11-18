@@ -10,9 +10,12 @@
 
 .title {
     font-size: 32px;
-    max-width: 900px;
-    margin-bottom: 10px;
     font-weight: 500;
+    color: sV.$primary;
+
+    @media (width <= sV.$tablet) {
+        margin-top: 30px;
+    }
 }
 
 .wyroznione {

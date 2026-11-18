@@ -7,7 +7,7 @@ export default function Page() {
 
   return (
     <>
-        <Head title="Wiata samochodowa" description="DDrewelt to stolarka bez kompromisów, tworzona przez rzemieślników z wieloletnim doświadczeniem w obróbce drewna. Zamiast marketowych gotowców z cienkich desek dostarczamy solidne konstrukcje z drewna klejonego BSH, które wytrzymują silne wichury i chronią pojazd przez cały rok"/>
+        <Head title="Wiata samochodowa" description="DDrewelt to stolarka bez kompromisów, tworzona przez rzemieślników z wieloletnim doświadczeniem w obróbce drewna. Zamiast marketowych gotowców z cienkich desek dostarczamy solidne konstrukcje z drewna klejonego BSH, które wytrzymują silne wichury i chronią pojazd przez cały rok" bgimage="/galeria/wolnostojace-na-lukach/4.jpg"/>
         
         <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
             <div className="inline-block justify-center">
@@ -48,7 +48,7 @@ export default function Page() {
             },
         ]}/>
 
-        <RozpocznijProjekt hideDescription />
+        <RozpocznijProjekt naglowek="Zamów Bezpłatną Wycenę i Projekt"  hasDane />
     </>
   )
 

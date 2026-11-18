@@ -31,7 +31,7 @@ const GaleriaContent = ({ title, description, obrazki = [], background = false }
     <div className={`${styles.galeriaSekcja} ${background ? styles.background : ''}`}>
       {title && <h3>{title}</h3>}
 
-      {description && <p className={styles.opis}>{description}</p>}
+      {description && <p className={styles.opis} dangerouslySetInnerHTML={{ __html: description }} />}
 
       <div className={styles.sliderContainer}>
         <button className={styles.nav} onClick={scrollLeft}>&lt;</button>

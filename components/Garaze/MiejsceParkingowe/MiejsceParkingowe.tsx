@@ -2,7 +2,7 @@ import styles from '@/components/Garaze/MiejsceParkingowe/MiejsceParkingowe.modu
 
 const MiejsceParkingowe = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} flex flex-col gap-4`}>
       <h2 className={styles.title}>
         Wiaty na wymiar – zaplanuj swoją przestrzeń z Drewelt
       </h2>

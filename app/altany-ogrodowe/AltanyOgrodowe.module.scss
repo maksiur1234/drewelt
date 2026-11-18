@@ -48,3 +48,72 @@
 .imageWrapper img {
   object-fit: cover;
 }
+
+.buttonWrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.outlineButton {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  padding: 14px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  backdrop-filter: blur(5px);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: sV.$primary;
+    transform: translateY(-3px);
+  }
+}
+
+@media (width <= sV.$tablet) {
+  .buttonWrapper {
+    bottom: 15px;
+  }
+
+  .outlineButton {
+    padding: 12px 26px;
+    font-size: 16px;
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slideUpText {
+  opacity: 0;
+  animation: slideUpFade 750ms ease-out forwards;
+  animation-delay: 500ms;
+}
+
+.slideUpButton {
+  opacity: 0;
+  animation: slideUpFade 750ms ease-out forwards;
+  animation-delay: 500ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slideUpText,
+  .slideUpButton {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+}

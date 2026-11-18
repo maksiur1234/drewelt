@@ -21,7 +21,7 @@ export default function Page() {
 
       <Montaz />
 
-      <RozpocznijProjekt hideDescription />
+      <RozpocznijProjekt naglowek="Zamów Bezpłatną Wycenę i Projekt"  hasDane />
     </>
   )
 }

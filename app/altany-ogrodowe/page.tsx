@@ -23,6 +23,8 @@ export default function Page() {
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block justify-center">
           <div className="max-w-[1300px] mx-auto p-4 sm:p-6">
+            <p className="text-sm sm:text-xl">Doświadczenie zespołu pozwala realizować zarówno klasyczne projekty, jak i nietypowe zamówienia dopasowane do indywidualnej architektury terenu zielonego wokół domu. Każdy projekt traktowany jest indywidualnie, co gwarantuje pełne dopasowanie <strong>altany </strong>do otoczenia i oczekiwań użytkowników.</p>
+
             <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">
               Jakie drewniane altany ogrodowe mamy w ofercie?
             </h2>
@@ -30,36 +32,32 @@ export default function Page() {
             <p className="text-sm sm:text-xl">Kolekcja obejmuje zróżnicowane modele stworzone z myślą o odmiennych stylach aranżacji przestrzeni oraz specyficznych wymaganiach technicznych.</p>
 
             <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white">
-              <div className={styles.galeriaSekcja}>
-                <h3>Altany wolnostojące</h3>
-                <p className="text-sm sm:text-xl">Te solidne propozycje stanowią niezależne punkty centralne w ogrodzie, zapewniając zacienioną strefę wypoczynku z dala od budynku. Wolnostojącą <strong>altanę z drewna </strong>można swobodnie usytuować w dowolnym zakątku posesji, na przykład obok oczka wodnego. Masywne słupy nośne gwarantują odporność na porywy wiatru oraz obciążenie śniegiem.</p>
-                <div className={styles.galeria}>
-                  <div className={styles.imageWrapper}>
-                    <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany.jpg" fill />
-                  </div>
-                  <div className={styles.imageWrapper}>
-                    <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany-4.jpeg" fill />
-                  </div>
-                  <div className={styles.imageWrapper}>
-                    <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany-3.jpg" fill />
-                  </div>
+              <h3>Altany wolnostojące</h3>
+              <p className="text-sm sm:text-xl">Te solidne propozycje stanowią niezależne punkty centralne w ogrodzie, zapewniając zacienioną strefę wypoczynku z dala od budynku. Wolnostojącą <strong>altanę z drewna </strong>można swobodnie usytuować w dowolnym zakątku posesji, na przykład obok oczka wodnego. Masywne słupy nośne gwarantują odporność na porywy wiatru oraz obciążenie śniegiem.</p>
+              <div className={styles.galeria}>
+                <div className={styles.imageWrapper}>
+                  <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany.jpg" fill />
+                </div>
+                <div className={styles.imageWrapper}>
+                  <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany-4.jpeg" fill />
+                </div>
+                <div className={styles.imageWrapper}>
+                  <Image alt="Zadaszenie tarasu na łukach" src="/altany_ogrodowe/drewelt-altany-3.jpg" fill />
                 </div>
               </div>
             </div>
 
-            <div className={styles.galeriaSekcja}>
-              <h3>Altany przyścienne na łukach</h3>
-              <p className="text-sm sm:text-xl">Konstrukcje oparte na łukach łączą tradycyjne rzemiosło ciesielskie z nowocześniejszą linią architektoniczną. Mocowanie bezpośrednio do ściany budynku tworzy wygodne przedłużenie przestrzeni mieszkalnej. Wygięte elementy dodają całej <strong>altanie nowoczesnej</strong> lekkości, świetnie sprawdzając się na mniejszych tarasach.</p>
-              <div className={styles.galeria}>
+            <h3>Altany przyścienne na łukach</h3>
+            <p className="text-sm sm:text-xl">Konstrukcje oparte na łukach łączą tradycyjne rzemiosło ciesielskie z nowocześniejszą linią architektoniczną. Mocowanie bezpośrednio do ściany budynku tworzy wygodne przedłużenie przestrzeni mieszkalnej. Wygięte elementy dodają całej <strong>altanie nowoczesnej</strong> lekkości, świetnie sprawdzając się na mniejszych tarasach.</p>
+            <div className={styles.galeria}>
+            <div className={styles.imageWrapper}>
+                <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/zadaszenie-gorzow.jpg" fill />
+              </div>
               <div className={styles.imageWrapper}>
-                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/zadaszenie-gorzow.jpg" fill />
-                </div>
-                <div className={styles.imageWrapper}>
-                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" fill />
-                </div>
-                <div className={styles.imageWrapper}>
-                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" fill />
-                </div>
+                <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" fill />
+              </div>
+              <div className={styles.imageWrapper}>
+                <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" fill />
               </div>
             </div>
 
@@ -73,21 +71,19 @@ export default function Page() {
             </div>
 
             <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white">
-              <div className={styles.galeriaSekcja}>
-                <h3>Altany przy domu z prostym spadkiem</h3>
-                <p className="text-sm sm:text-xl">Zadaszenia z jednospadowym dachem idealnie komponują się z budynkami o oszczędnej geometrii. Prosty spadek ułatwia sprawny odpływ wody deszczowej oraz montaż dyskretnych rynien. Tego typu <strong>altanki ogrodowe </strong>tworzą osłonięte patio tuż przy wyjściu z salonu.</p>
-                <div className={styles.galeria}>
-                <div className={styles.imageWrapper}>
-                    <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/palisnder.jpg" fill />
-                  </div>
-                  <div className={styles.imageWrapper}>
-                    <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20230413_161433.jpg" fill />
-                  </div>
-                  <div className={styles.imageWrapper}>
-                    <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20240926_130525.jpg" fill />
-                  </div>
+              <h3>Altany przy domu z prostym spadkiem</h3>
+              <p className="text-sm sm:text-xl">Zadaszenia z jednospadowym dachem idealnie komponują się z budynkami o oszczędnej geometrii. Prosty spadek ułatwia sprawny odpływ wody deszczowej oraz montaż dyskretnych rynien. Tego typu <strong>altanki ogrodowe </strong>tworzą osłonięte patio tuż przy wyjściu z salonu.</p>
+              <div className={styles.galeria}>
+              <div className={styles.imageWrapper}>
+                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/palisnder.jpg" fill />
                 </div>
-              </div>              
+                <div className={styles.imageWrapper}>
+                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20230413_161433.jpg" fill />
+                </div>
+                <div className={styles.imageWrapper}>
+                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_prosty_spadek/20240926_130525.jpg" fill />
+                </div>
+              </div>            
             </div>
 
             <Divider className="mb-6" />
@@ -107,7 +103,7 @@ export default function Page() {
               </ul>
             </div>
             
-            <div className="w-full flex gap-3 mt-6 flex-col md:flex-row before:bg-[#2e7d32] text-white items-center justify-center py-10 relative before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-screen before:-z-1">
+            <div className="w-full flex gap-3 mt-6 flex-col md:flex-row before:bg-[#2e7d32] text-white items-center justify-center py-10 relative before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-screen before:-z-10">
               <div className="w-full md:w-3/5">
                 <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">
                   Altana ogrodowa – kompleksowa budowa z Drewelt
@@ -180,8 +176,6 @@ export default function Page() {
             <div className="w-full">
               <img src="/altany_ogrodowe/drewelt-altany.jpg" decoding="async" className="object-cover rounded-lg shadow-md w-full h-96" alt="Nowoczesna altana pomalowana na kolor czarny." />
             </div>
-
-            <div className="flex w-full justify-end"><Link className="flex flex-col text-center justify-center bg-[#262420] hover:bg-[#e9a749] hover:text-[#262420] text-[#e9a749] gap-1 text-xl px-8 py-2 rounded-lg uppercase transition-all font-medium" href="/kontakt">Skontaktuj się<span className="text-white text-base normal-case font-light">Wycenimy Twoją altanę!</span></Link></div>
 
             <div className="w-full">
               <h2 className="text-sm sm:text-xl mb-2.5 text-justify">

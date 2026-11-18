@@ -103,9 +103,9 @@ export default function Page() {
               </ul>
             </div>
             
-            <div className="w-full flex gap-3 mt-6 flex-col md:flex-row before:bg-[#2e7d32] text-white items-center justify-center py-10 relative before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-screen before:-z-10">
+            <div className="w-full flex gap-3 mt-6 flex-col md:flex-row before:bg-[#2e7d32] text-white items-center justify-center py-10 relative before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-screen z-[1] before:-z-[1]">
               <div className="w-full md:w-3/5">
-                <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">
+                <h2 className="text-3xl font-medium text-white mb-4">
                   Altana ogrodowa – kompleksowa budowa z Drewelt
                 </h2>
                 <p className="text-sm sm:text-xl mb-2.5">Chcesz mieć w ogrodzie <strong>altanę ogrodową</strong>, ale nie wiesz, od czego zacząć? Z Drewelt proces <strong>budowy</strong> takiej przestrzeni jest prosty i kompleksowy – od stworzenia projektu, aż po profesjonalny montaż gotowej konstrukcji.</p>
@@ -178,7 +178,7 @@ export default function Page() {
             </div>
 
             <div className="w-full">
-              <h2 className="text-sm sm:text-xl mb-2.5 text-justify">
+              <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">
                 Jak zrobić idealne pergole drewniane?
               </h2>
 

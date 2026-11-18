@@ -16,7 +16,7 @@ const Zalety = () => {
             <p className="text-sm sm:text-xl">Trwałość carportów opiera się na sprawdzonych materiałach budowlanych. Drewno klejone warstwowo BSH pozwala zachować duże rozpiętości między słupami, co gwarantuje bezproblemowe otwieranie drzwi samochodu bez ryzyka uderzenia w słup. Z kolei dach z poliwęglanu komorowego grubości 10 milimetrów z filtrem UV znosi obciążenie śniegiem i gradobicie, chroniąc wnętrze auta przed nadmiernym nagrzewaniem.</p>
             <div className="max-w-5xl w-full overflow-hidden mx-auto rounded-2xl shadow-xl border-4 border-solid border-[#1e7a1f40]">
               <div className="overflow-x-auto">
-                <table className="w-full border-collapse text-sm">
+                <table className="w-full border-collapse text-sm sm:text-xl">
                   <thead>
                     <tr className="bg-[#2e7d32]">
                       <th className="p-4 text-left font-bold text-white"><strong>Parametr techniczny</strong></th>
@@ -73,8 +73,8 @@ const Zalety = () => {
           </p>
         </div>
       </div>
-      <div className={styles.container}>
-        <p className={styles.cardTitle}>Zadaszenie z poliwęglanu jest dostępne w wersji:</p>
+      <div className={`${styles.container} flex-col`}>
+        <p className={`${styles.cardTitle} text-center`}>Zadaszenie z poliwęglanu jest dostępne w wersji:</p>
         <div className={styles.items}>
             <div className={styles.item}>
                  <p className={styles.itemTitle}>

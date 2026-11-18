@@ -52,8 +52,6 @@ export default function Page() {
                 </table>
               </div>
             </div>
-            <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Rodzaje zadaszenia tarasów</h2>
-            <p className="text-sm sm:text-xl">Dopasowanie<strong> dachu tarasowego</strong> do architektury budynku wymaga wyboru właściwej geometrii dachu i układu nośnego. W ofercie Drewelt znajdują się trzy sprawdzone formy. </p>
           </div>
         </div>
       </section>

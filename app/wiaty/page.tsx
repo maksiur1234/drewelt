@@ -28,7 +28,7 @@ export default function Page() {
 
       <PelnaOferta />
 
-      <RozpocznijProjekt naglowek="Zamów Bezpłatną Wycenę i Projekt"  hasDane />
+      <RozpocznijProjekt hideDescription />
     </>
   )
 

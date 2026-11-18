@@ -6,6 +6,8 @@ interface FaqProps {
     }[];
 }
 
+const stripHtml = (html) => html.replace(/<[^>]*>/g, "").trim();
+
 const Faq = ({title, items}: FaqProps) => {
 
 
@@ -40,10 +42,10 @@ const Faq = ({title, items}: FaqProps) => {
                 "@type": "FAQPage",
                 "mainEntity": items.map((item) => ({
                     "@type": "Question",
-                    "name": item.question,
+                    "name": stripHtml(item.question),
                     "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": item.answer
+                    "text": stripHtml(item.answer)
                     }
                 }))
                 })

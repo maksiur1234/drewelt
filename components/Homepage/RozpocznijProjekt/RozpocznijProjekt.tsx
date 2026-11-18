@@ -52,7 +52,7 @@ const RozpocznijProjekt = ({ naglowek, hasDane = false, hideDescription = false,
         )}
 
 
-        <form className={`${styles.formBox} mt-10`} onSubmit={handleSubmit}>
+        <form className={`${styles.formBox} !mt-10`} onSubmit={handleSubmit}>
             <div className={styles.field}>
                 <label>Imię i nazwisko</label>
                 <input name="name" placeholder="Imię i nazwisko" required />

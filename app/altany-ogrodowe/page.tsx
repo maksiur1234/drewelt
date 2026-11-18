@@ -31,8 +31,8 @@ export default function Page() {
 
             <p className="text-sm sm:text-xl">Kolekcja obejmuje zróżnicowane modele stworzone z myślą o odmiennych stylach aranżacji przestrzeni oraz specyficznych wymaganiach technicznych.</p>
 
-            <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white galeriaDrewelt">
-              <h3>Altany wolnostojące</h3>
+            <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white">
+              <h3 className="galeria-h3">Altany wolnostojące</h3>
               <p className="text-sm sm:text-xl">Te solidne propozycje stanowią niezależne punkty centralne w ogrodzie, zapewniając zacienioną strefę wypoczynku z dala od budynku. Wolnostojącą <strong>altanę z drewna </strong>można swobodnie usytuować w dowolnym zakątku posesji, na przykład obok oczka wodnego. Masywne słupy nośne gwarantują odporność na porywy wiatru oraz obciążenie śniegiem.</p>
               <div className={styles.galeria}>
                 <div className={styles.imageWrapper}>
@@ -47,19 +47,17 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="galeriaDrewelt">
-              <h3>Altany przyścienne na łukach</h3>
-              <p className="text-sm sm:text-xl">Konstrukcje oparte na łukach łączą tradycyjne rzemiosło ciesielskie z nowocześniejszą linią architektoniczną. Mocowanie bezpośrednio do ściany budynku tworzy wygodne przedłużenie przestrzeni mieszkalnej. Wygięte elementy dodają całej <strong>altanie nowoczesnej</strong> lekkości, świetnie sprawdzając się na mniejszych tarasach.</p>
-              <div className={styles.galeria}>
+            <h3 className="galeria-h3">Altany przyścienne na łukach</h3>
+            <p className="text-sm sm:text-xl">Konstrukcje oparte na łukach łączą tradycyjne rzemiosło ciesielskie z nowocześniejszą linią architektoniczną. Mocowanie bezpośrednio do ściany budynku tworzy wygodne przedłużenie przestrzeni mieszkalnej. Wygięte elementy dodają całej <strong>altanie nowoczesnej</strong> lekkości, świetnie sprawdzając się na mniejszych tarasach.</p>
+            <div className={styles.galeria}>
+            <div className={styles.imageWrapper}>
+                <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/zadaszenie-gorzow.jpg" fill />
+              </div>
               <div className={styles.imageWrapper}>
-                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/zadaszenie-gorzow.jpg" fill />
-                </div>
-                <div className={styles.imageWrapper}>
-                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" fill />
-                </div>
-                <div className={styles.imageWrapper}>
-                  <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" fill />
-                </div>
+                <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/lubon.jpg" fill />
+              </div>
+              <div className={styles.imageWrapper}>
+                <Image alt="Zadaszenie tarasu na łukach" src="/zadaszenia_przyscienne_na_lukach/20221004_130009.jpg" fill />
               </div>
             </div>
 
@@ -72,8 +70,8 @@ export default function Page() {
               </button>
             </div>
 
-            <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white galeriaDrewelt">
-              <h3>Altany przy domu z prostym spadkiem</h3>
+            <div className="p-4 bg-[#2e7d32] rounded-[15px] text-white">
+              <h3 className="galeria-h3">Altany przy domu z prostym spadkiem</h3>
               <p className="text-sm sm:text-xl">Zadaszenia z jednospadowym dachem idealnie komponują się z budynkami o oszczędnej geometrii. Prosty spadek ułatwia sprawny odpływ wody deszczowej oraz montaż dyskretnych rynien. Tego typu <strong>altanki ogrodowe </strong>tworzą osłonięte patio tuż przy wyjściu z salonu.</p>
               <div className={styles.galeria}>
               <div className={styles.imageWrapper}>

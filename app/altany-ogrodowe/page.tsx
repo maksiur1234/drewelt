@@ -23,7 +23,7 @@ export default function Page() {
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block justify-center">
           <div className="max-w-[1300px] mx-auto p-4 sm:p-6 flex flex-col gap-4">
-            <p className="text-sm sm:text-xl">Doświadczenie zespołu pozwala realizować zarówno klasyczne projekty, jak i nietypowe zamówienia dopasowane do indywidualnej architektury terenu zielonego wokół domu. Każdy projekt traktowany jest indywidualnie, co gwarantuje pełne dopasowanie <strong>altany </strong>do otoczenia i oczekiwań użytkowników.</p>
+            <p className="text-sm sm:text-xl">Marka budowała swoją pozycję na rynku latami, stawiając na bezkompromisową jakość surowca, zaawansowane techniki obróbki oraz rzetelny montaż u klienta. Doświadczenie zespołu pozwala realizować zarówno klasyczne projekty, jak i nietypowe zamówienia dopasowane do indywidualnej architektury terenu zielonego wokół domu. Każdy projekt traktowany jest indywidualnie, co gwarantuje pełne dopasowanie <strong>altany </strong>do otoczenia i oczekiwań użytkowników.</p>
 
             <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">
               Jakie drewniane altany ogrodowe mamy w ofercie?

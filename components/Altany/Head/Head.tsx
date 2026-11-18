@@ -24,7 +24,7 @@ const Head = () => {
 
       <div className={`${styles.content} ${styles.slideUpText}`}>
         <h1>Altana ogrodowa drewniana w Drewelt</h1>
-        <p>Firma Drewelt dostarcza solidne <strong>altanki ogrodowe</strong>, które powstają z pasji do rzemiosła oraz zamiłowania do naturalnych materiałów. Marka budowała swoją pozycję na rynku latami, stawiając na bezkompromisową jakość surowca, zaawansowane techniki obróbki oraz rzetelny montaż u klienta.</p>
+        <p>Firma Drewelt dostarcza solidne <strong>altanki ogrodowe</strong>, które powstają z pasji do rzemiosła oraz zamiłowania do naturalnych materiałów.</p>
       </div>
 
       <div className={styles.buttonWrapper}>

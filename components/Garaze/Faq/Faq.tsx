@@ -6,7 +6,7 @@ interface FaqProps {
     }[];
 }
 
-const stripHtml = (html) => html.replace(/<[^>]*>/g, "").trim();
+const stripHtml = (html: string) => html.replace(/<[^>]*>/g, "").trim();
 
 const Faq = ({title, items}: FaqProps) => {
 

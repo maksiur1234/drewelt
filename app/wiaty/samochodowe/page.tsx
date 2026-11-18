@@ -3,6 +3,18 @@ import Faq from "@/components/Garaze/Faq/Faq";
 import RozpocznijProjekt from "@/components/Homepage/RozpocznijProjekt/RozpocznijProjekt";
 import Link from "next/link";
 
+import { Metadata } from "next"
+
+export const generateMetadata = (): Metadata => {
+  return {
+    title: "Wiata samochodowa drewniana – Drewelt",
+    description: "Szukasz trwałej wiaty na samochód? Drewelt tworzy zadaszenia z drewna klejonego BSH na wymiar. Sprawdź nowoczesne carporty i zamów bezpłatną wycenę!",
+    alternates: {
+      canonical: "https://www.drewelt.pl/wiaty/samochodowe",
+    },
+  }
+}
+
 export default function Page() {
 
   return (
@@ -12,7 +24,7 @@ export default function Page() {
         <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
             <div className="inline-block justify-center">
                 <div className="max-w-[1300px] mx-auto p-4 sm:p-6 flex flex-col gap-4">
-                    <p>Każdy projekt <Link href="/wiaty">wiaty</Link> przygotowujemy indywidualnie, docinając elementy na wymiar w naszym warsztacie i zabezpieczając je przed wilgocią oraz promieniowaniem UV, dzięki czemu inwestycja służy bezawaryjnie przez dekady.</p>
+                    <p className="text-sm sm:text-xl">Każdy projekt <Link href="/wiaty">wiaty</Link> przygotowujemy indywidualnie, docinając elementy na wymiar w naszym warsztacie i zabezpieczając je przed wilgocią oraz promieniowaniem UV, dzięki czemu inwestycja służy bezawaryjnie przez dekady.</p>
 
                     <h2 className="text-3xl font-medium text-[#2e7d32] mb-4">Nowoczesne wiaty samochodowe w ofercie Drewelt</h2>
                     <p className="text-sm sm:text-xl">Projektowane przez nas zadaszenia odpowiadają na zróżnicowane potrzeby inwestorów oraz specyfikę układu terenu na działce. Łączymy rzemieślniczą pracę z materiałami odpornymi na czynniki atmosferyczne, tworząc następujące warianty konstrukcji:</p>

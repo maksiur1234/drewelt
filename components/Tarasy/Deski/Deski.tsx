@@ -55,9 +55,6 @@ const Deski = () => {
           </article>
         ))}
       </div>
-      <p className={styles.text}>
-        Są to barwy, które harmonizują z nowoczesną architekturą i naturalnym otoczeniem. W sprzedaży dostępne są również plastikowe deski na taras. Stanowią one alternatywę dla osób poszukujących ekonomicznych oraz łatwych w utrzymaniu rozwiązań.
-      </p>
     </div>
   )
 }

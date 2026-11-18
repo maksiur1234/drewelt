@@ -48,7 +48,8 @@ export const tarasyLinks = [
 ]
 
 export const wiatyGarazowe = [
-    { href: "/wiaty", label: "Wiaty"}
+    { href: "/wiaty", label: "Wiaty"},
+    { href: "/wiaty/samochodowe", label: "Wiaty samochodowe"},
 ]
 
 export const altanyLinks = [

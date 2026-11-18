@@ -36,7 +36,7 @@ export const siteConfig = {
   metadata: {
     title: {
       default: "Producent konstrukcji drewnianych w Murowanej Goślinie",
-      template: "%s - Producent konstrukcji drewnianych w Murowanej Goślinie",
+      template: "%s",
     },
     description: "Zapraszamy do odwiedzenia strony internetowej firmy produkcyjno-usługowej Drewelt.",
     icons: {

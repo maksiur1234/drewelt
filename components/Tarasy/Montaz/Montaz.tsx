@@ -35,7 +35,7 @@ const Montaz = () => {
         Na naszej stronie internetowej znajdziesz galerię realizacji, która pokazuje różnorodność projektów i zastosowań <strong>desek tarasowych kompozytowych.</strong> Każdy projekt to dowód na to, że praktyczność może iść w parze z eleganckim designem. Zachęcamy do kontaktu i przesłania zapytania – doradzimy, przygotujemy ofertę oraz pomożemy stworzyć przestrzeń, która będzie cieszyć przez lata.
       </p>
 
-      <div className={styles.galeria}>
+      <div className={`${styles.galeria} rounded-[15px]`}>
         <GaleriaContent
             title='Tarasy z deski kompozytowej'
             obrazki={zadaszeniaNaLukach}

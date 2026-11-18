@@ -2,7 +2,7 @@ import styles from '@/components/Tarasy/Budowa/Budowa.module.scss'
 
 const Budowa = () => {
   return (
-    <div className={`${styles.container} flex flex-col gap-4 mt-4`}>
+    <div className={`${styles.container} flex flex-col gap-4 !mt-4`}>
       <h2 className={styles.title}>
         Budowa tarasów ogrodowych – kompleksowa realizacja od Drewelt
       </h2>

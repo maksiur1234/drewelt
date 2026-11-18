@@ -49,7 +49,7 @@ const Zalety = () => {
             </div>
         </div>
 
-        <p className={styles.text}>
+        <p className={`${styles.text} text-center mt-2`}>
             <strong>Tarasowa deska kompozytowa</strong> jest więc świetnym rozwiązaniem dla osób ceniących wygodę i nowatorski design.
         </p>
     </div>
